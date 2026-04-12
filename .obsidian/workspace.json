@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cron-examples/README.md",
+                "file": "graphify-out/GRAPH_REPORT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "GRAPH_REPORT"
             }
           }
         ]
@@ -183,13 +183,28 @@
       "bases:新建数据库": false
     }
   },
-  "active": "a8237e4b53bffbe9",
+  "active": "ebf66b653537925f",
   "lastOpenFiles": [
+    "graphify-out/graph.html",
+    "05-PROJECTS/README.md",
+    "graphify-out/GRAPH_REPORT.md",
+    "docs/personal-context-guide.md",
+    "vault-template/00-INBOX/todo-backlog.md",
+    "vault-template/00-INBOX/README.md",
+    "vault-template/00-INBOX/example-todo-backlog.md",
+    "tools/conversation-mining/SKILL.md",
+    "tools/conversation-mining/README_CN.md",
+    "tools/conversation-mining/README.md",
+    "tools/conversation-mining/AI_INSTALL.md",
+    "prompts/conversation-mining.prompt.md",
+    "prompts/article-integration.prompt.md",
+    "vault-template/05-PROJECTS/README.md",
+    "cron-examples/README.md",
+    "prompts/cron/graphify-nightly-0600.md",
     "01-PERSONAL-OPS/01-DAILY-BRIEFS/daily-briefing.md",
     "01-PERSONAL-OPS/01-DAILY-BRIEFS/example-daily-brief.md",
     "00-INBOX/todo-backlog.md",
     "docs/zh/skills-guide.md",
-    "05-PROJECTS/README.md",
     "05-PROJECTS",
     "02-TEAM/01-OPERATING-RULES",
     "02-TEAM",
@@ -205,21 +220,6 @@
     "03-KNOWLEDGE/README.md",
     "docs/zh/guide/01-agent-setup.md",
     "00-INBOX/ai-conversations/2026-04-12/claude_subagent_songstephen_基础模型是这个：CoPaw Flash 9B.md",
-    "00-INBOX/ai-conversations/2026-04-12/claude_songstephen_继续初始化.md",
-    "00-INBOX/ai-conversations/2026-04-12/claude_songstephen_基础模型是这个：CoPaw Flash 9B.md",
-    "00-INBOX/ai-conversations/2026-04-12/claude_songstephen_skills安装目录是什么.md",
-    "00-INBOX/ai-conversations/2026-04-12/claude_brain_name_ personal ops todo reminder 150.md",
-    "00-INBOX/ai-conversations/2026-04-12/claude_brain_name_ knowledgebase commit patrol 30_3.md",
-    "00-INBOX/ai-conversations/2026-04-12/claude_brain_name_ knowledgebase commit patrol 30_2.md",
-    "00-INBOX/ai-conversations/2026-04-12/claude_brain_name_ knowledgebase commit patrol 30_1.md",
-    "00-INBOX/ai-conversations/2026-04-12/claude_brain_name_ knowledgebase commit patrol 30.md",
-    "00-INBOX/ai-conversations/2026-04-12/claude_brain_hello.md",
-    "00-INBOX/ai-conversations/2026-04-10/claude_songstephen_你知道fish安装了starship主题了吗.md",
-    "00-INBOX/ai-conversations/2026-04-09/claude_subagent_songstephen_graphify的帮助文件.md",
-    "00-INBOX/ai-conversations/2026-04-09/claude_subagent_songstephen_You are writing Module 6 of an interacti.md",
-    "00-INBOX/ai-conversations/2026-04-09/claude_subagent_songstephen_You are writing Module 5 of an interacti.md",
-    "00-INBOX/ai-conversations/2026-04-09/claude_subagent_songstephen_You are writing Module 4 of an interacti.md",
-    "00-INBOX/ai-conversations/2026-04-09/claude_subagent_songstephen_You are writing Module 3 of an interacti.md",
-    "00-INBOX/ai-conversations/2026-04-09/claude_subagent_songstephen_You are writing Module 2 of an interacti.md"
+    "00-INBOX/ai-conversations/2026-04-12/claude_songstephen_继续初始化.md"
   ]
 }
