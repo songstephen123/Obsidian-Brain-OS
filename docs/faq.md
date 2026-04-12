@@ -10,7 +10,7 @@ An AI-augmented personal context system built on Obsidian. It combines a structu
 
 ### Do I need to use OpenClaw?
 
-For the **full experience** (nightly pipeline, automated briefings): yes, OpenClaw handles scheduling.
+For the **full experience** (nightly pipeline, automated briefings): /Users/songstephen/my-brain, OpenClaw handles scheduling.
 
 For **knowledge management only**: no. The vault structure, templates, and skills work with any AI assistant. You just won't have automated cron jobs.
 
@@ -46,7 +46,7 @@ Brain OS supports **modular installation**. See [Getting Started](getting-starte
 
 1. Edit `scripts/config.env` → `TIMEZONE="Your/Timezone"`
 2. Edit cron job configs → `schedule.tz`
-3. Replace `CST` in skill files
+3. Replace `Asia/Shanghai` in skill files
 
 ---
 

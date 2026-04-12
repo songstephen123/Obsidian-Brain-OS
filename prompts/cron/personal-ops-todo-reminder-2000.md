@@ -10,11 +10,11 @@ delivery_mode: webhook
 
 # personal-ops-todo-reminder-2000
 
-你是 {{MAIN_AGENT_NAME}}，负责每天定时的待办跟进提醒。
+你是 y，负责每天定时的待办跟进提醒。
 
 执行步骤：
 1. 用 session_status 获取当前日期（Asia/Shanghai）。
-2. 读取 {{USER_HOME}}/Documents/ZeYu-AI-Brain/00-INBOX/todo-backlog.md。
+2. 读取 /Users/songstephen/my-brain/00-INBOX/todo-backlog.md。
 3. 找出以下类型的事项，按优先级排序：
    - 今天截止（或已过期）的 P1/P2 事项
    - 状态为「等待反馈」且超过 3 天未更新的事项

@@ -7,7 +7,7 @@ Read and follow the `conversation-knowledge-flywheel` skill.
 > Keep this file only as a legacy reference / ad-hoc manual wrapper.
 
 
-Target date: yesterday in Asia/Shanghai unless explicitly provided.
+Target date: /Users/songstephen/my-brainterday in Asia/Shanghai unless explicitly provided.
 
 Required workflow:
 1. Read raw transcripts from `{{TRANSCRIPT_DIR}}`
@@ -30,5 +30,5 @@ Constraints:
 - `05-PROJECTS/` is the default Brain-side project routing layer; use it for reading context anchors, not as the execution source of truth
 - Do not auto-run heavy NotebookLM DeepResearch in Phase 1 without first preparing internal context pack + constrained research seed
 - If QMD is broken locally, say so explicitly and fall back to non-QMD degraded mode
-- NotebookLM is for externally amplified research grounded by internal context, not for replacing {{MAIN_AGENT_NAME}} judgment
+- NotebookLM is for externally amplified research grounded by internal context, not for replacing y judgment
 - Keep cron thin; the logic belongs in the skill

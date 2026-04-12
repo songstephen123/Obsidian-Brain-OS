@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "c0674522cc6c3e36",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ff8419343e6e4c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8237e4b53bffbe9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/zh/guide/01-agent-setup.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01-agent-setup"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5b0046a9ca1f9270",
+    "type": "split",
+    "children": [
+      {
+        "id": "c36161c7f552adea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebf66b653537925f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "ca467aee0c66d945",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "e77a836f52d9899b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f0b91231cfe4b8b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c3c326aed8cb572",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "167785e7d94e8267",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "tools/conversation-mining/README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "README 的反向链接列表"
+            }
+          },
+          {
+            "id": "3bc3a6cfdd53fd26",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "tools/conversation-mining/README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "README 的出链列表"
+            }
+          },
+          {
+            "id": "dd5672427eaed998",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "24f9f682baeef0f9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "e84b7b48f2da0d0c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "tools/conversation-mining/README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "README 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "a8237e4b53bffbe9",
+  "lastOpenFiles": [
+    "docs/zh/guide/03-daily-workflow.md",
+    "graphify-out/graph.json",
+    "graphify-out/GRAPH_REPORT.md",
+    "graphify-out/cache/bb5c9972776d6bc66385a10f2c9ea5bb339f9add7202c3f1433bfa428ba7fd5a.json",
+    "graphify-out/cache/1867bd25f47f76430d76f839947ed7beab463ee11bd5ebde7fb1587bbaaf341a.json",
+    "graphify-out/cache/08c77268cab1b09c9ac16b7a3cd30afb570c3a780f0b8364f79ec203aa8c3600.json",
+    "graphify-out/cache/33884aa71216ed8baabaf83761eb3906112c6369dffc74f0f55dee8571cdfe12.json",
+    "graphify-out/cache/713ed265b6bcfefbda1ee02fe6836666e1b2c24a52d22250bf8318dd10afc732.json",
+    "graphify-out/cache/a47548fad8f39d60f043e4b4921b1bd7f785736e3cf32548c534a7ed43d50781.json",
+    "graphify-out/cache/d8a11ee5cd43d63db566a9d7a133f475baacb15c8a6536271f494eedc17bbbeb.json",
+    "graphify-out/cache/c94e16fbf69414ef6519f5036a8e9ce7bd9e457e347ca57a2dddf71cde2ecc7a.json",
+    "graphify-out/cache/c50320bfd67d8146e1b159f471f6f48c856c2e33c58c3731f59a880a1885220e.json",
+    "tools/conversation-mining/README.md",
+    "tools/conversation-mining/README_CN.md",
+    "skills/article-notes-integration/SKILL.md",
+    "prompts/cron/article-notes-integration-nightly.md",
+    "docs/zh/guide/00-overview.md",
+    "docs/zh/guide/00-philosophy.md",
+    "docs/zh/guide/01-agent-setup.md",
+    "docs/notebooklm.md",
+    "docs/architecture.md",
+    "docs/agents.md",
+    "docs/agent-workspace-cleanup-guide.md",
+    "README_CN.md"
+  ]
+}

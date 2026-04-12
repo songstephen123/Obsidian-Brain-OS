@@ -2,7 +2,7 @@
 
 Read and follow the `conversation-knowledge-flywheel` skill.
 
-Target date: yesterday (CST) unless explicitly provided.
+Target date: /Users/songstephen/my-brainterday (Asia/Shanghai) unless explicitly provided.
 
 ## First Step (mandatory)
 

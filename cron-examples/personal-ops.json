@@ -10,12 +10,12 @@
       "{{WORKSPACE_ROOT}}": "OpenClaw workspace path",
       "{{SKILLS_ROOT}}": "Path to your skills directory",
       "{{USER_NAME}}": "Your display name",
-      "{{MAIN_AGENT_NAME}}": "Your main agent name",
+      "y": "Your main agent name",
       "{{GUILD_ID}}": "Discord guild/server ID",
       "{{CHANNEL_ID}}": "Discord channel ID",
       "{{DISCORD_WEBHOOK_URL}}": "Discord webhook URL (legacy, now using announce mode)",
-      "{{MAIN_MODEL}}": "Model ID for main agent tasks",
-      "{{LIGHT_MODEL}}": "Cheap model for routine tasks"
+      "minimax": "Model ID for main agent tasks",
+      "minimax": "Cheap model for routine tasks"
     }
   },
   "jobs": [
@@ -34,7 +34,7 @@
       "payload": {
         "kind": "agentTurn",
         "message": "【定时任务】请先读取任务文档获取完整指令：\n\n📄 文件路径：{{BRAIN_ROOT}}/04-SYSTEM/prompts/cron/personal-ops-morning-brief.md\n\n读取后严格按照文档内容执行。如果文件不存在，报告错误并终止。",
-        "model": "{{MAIN_MODEL}}",
+        "model": "minimax",
         "timeoutSeconds": 900
       },
       "delivery": {
@@ -59,7 +59,7 @@
       "payload": {
         "kind": "agentTurn",
         "message": "【定时任务】请先读取任务文档获取完整指令：\n\n📄 文件路径：{{BRAIN_ROOT}}/04-SYSTEM/prompts/cron/personal-ops-weekly-plan.md\n\n读取后严格按照文档内容执行。如果文件不存在，报告错误并终止。",
-        "model": "{{MAIN_MODEL}}",
+        "model": "minimax",
         "timeoutSeconds": 900
       },
       "delivery": {
@@ -84,7 +84,7 @@
       "payload": {
         "kind": "agentTurn",
         "message": "【定时任务】请先读取任务文档获取完整指令：\n\n📄 文件路径：{{BRAIN_ROOT}}/04-SYSTEM/prompts/cron/personal-ops-monthly-milestones.md\n\n读取后严格按照文档内容执行。如果文件不存在，报告错误并终止。",
-        "model": "{{MAIN_MODEL}}",
+        "model": "minimax",
         "timeoutSeconds": 900
       },
       "delivery": {
@@ -109,7 +109,7 @@
       "payload": {
         "kind": "agentTurn",
         "message": "【定时任务】请先读取任务文档获取完整指令：\n\n📄 文件路径：{{BRAIN_ROOT}}/04-SYSTEM/prompts/cron/personal-ops-todo-reminder-1500.md\n\n读取后严格按照文档内容执行。如果文件不存在，报告错误并终止。",
-        "model": "{{LIGHT_MODEL}}"
+        "model": "minimax"
       },
       "delivery": {
         "mode": "announce",
@@ -133,7 +133,7 @@
       "payload": {
         "kind": "agentTurn",
         "message": "【定时任务】请先读取任务文档获取完整指令：\n\n📄 文件路径：{{BRAIN_ROOT}}/04-SYSTEM/prompts/cron/personal-ops-todo-reminder-2000.md\n\n读取后严格按照文档内容执行。如果文件不存在，报告错误并终止。",
-        "model": "{{LIGHT_MODEL}}"
+        "model": "minimax"
       },
       "delivery": {
         "mode": "announce",
@@ -156,7 +156,7 @@
       "payload": {
         "kind": "agentTurn",
         "message": "【定时任务】请先读取任务文档获取完整指令：\n\n📄 文件路径：{{BRAIN_ROOT}}/04-SYSTEM/prompts/cron/knowledgebase-commit-patrol-30m.md\n\n读取后严格按照文档内容执行。如果文件不存在，报告错误并终止。",
-        "model": "{{LIGHT_MODEL}}",
+        "model": "minimax",
         "timeoutSeconds": 600
       },
       "delivery": {
@@ -181,7 +181,7 @@
       "payload": {
         "kind": "agentTurn",
         "message": "【定时任务】请先读取任务文档获取完整指令：\n\n📄 文件路径：{{BRAIN_ROOT}}/04-SYSTEM/prompts/cron/chronicle-every-2h-log.md\n\n读取后严格按照文档内容执行。如果文件不存在，报告错误并终止。",
-        "model": "{{LIGHT_MODEL}}",
+        "model": "minimax",
         "timeoutSeconds": 300
       },
       "delivery": {

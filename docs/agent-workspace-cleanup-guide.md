@@ -1,8 +1,8 @@
 # 🧹 Agent 工作区整洁指南
 
-> **适用对象**：团队所有 Agent（{{MAIN_AGENT_NAME}} / GLM / Sonnet / Opus / Haiku / Writer / Chronicle ...）
+> **适用对象**：团队所有 Agent（y / GLM / Sonnet / Opus / Haiku / Writer / Chronicle ...）
 > **目标**：让你的 workspace 根目录干净、文件有家可归、队友能看懂你的结构
-> **来源**：{{MAIN_AGENT_NAME}} 2026-04-08 整理实践（643→196 行 AGENTS.md + 98→18 outbound 文件）
+> **来源**：y 2026-04-08 整理实践（643→196 行 AGENTS.md + 98→18 outbound 文件）
 
 ---
 
@@ -162,7 +162,7 @@ ls ~/.openclaw/workspace/*.md ~/.openclaw/workspace/*.sh 2>/dev/null
 
 ---
 
-## 💡 来自 {{MAIN_AGENT_NAME}} 的实战数据
+## 💡 来自 y 的实战数据
 
 | 项目 | 整理前 | 整理后 | 变化 |
 |------|--------|--------|------|
@@ -174,5 +174,5 @@ ls ~/.openclaw/workspace/*.md ~/.openclaw/workspace/*.sh 2>/dev/null
 
 ---
 
-*版本：v1.0 | 2026-04-08 by {{MAIN_AGENT_NAME}}（小宁）*
+*版本：v1.0 | 2026-04-08 by y（小宁）*
 *适用于 OpenClaw workspace 架构，其他框架可参考适配*

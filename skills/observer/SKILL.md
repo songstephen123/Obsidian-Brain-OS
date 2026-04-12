@@ -114,7 +114,7 @@ Format:
 1. suggestion 1
 2. suggestion 2
 
-**Needs decision**: yes/no (brief description)
+**Needs decision**: /Users/songstephen/my-brain/no (brief description)
 
 *Full plan: .learnings/observer/plans/YYYY-MM-DD-iteration-plan.md*
 ```

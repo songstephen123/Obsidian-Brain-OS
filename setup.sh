@@ -139,7 +139,7 @@ fi
 # =============================================================================
 print_step "Step 2: User Info"
 
-ask "Your name (used in templates and daily briefs)" "Alex"
+ask "Your name (used in templates and daily briefs)" "songstephen"
 USER_NAME="$REPLY"
 
 ask "Your timezone (e.g., Asia/Shanghai, America/New_York)" "$(date +%Z)"
@@ -278,12 +278,12 @@ for template in "$REPO_DIR/cron-examples"/*.json; do
   filename="$(basename "$template")"
   output="$CRON_OUT_DIR/$filename"
   sed \
-    -e "s|/tmp/brain-os-test/vault|$BRAIN_PATH|g" \
-    -e "s|/tmp/brain-os-test/workspace|$WORKSPACE_PATH|g" \
-    -e "s|/tmp/brain-os-test/skills|$SKILLS_PATH|g" \
+    -e "s|/Users/songstephen/my-brain|$BRAIN_PATH|g" \
+    -e "s||$WORKSPACE_PATH|g" \
+    -e "s|/Users/songstephen/.claude/skills|$SKILLS_PATH|g" \
     -e "s|{{TRANSCRIPT_DIR}}|${TRANSCRIPT_DIR:-$HOME/conversations}|g" \
-    -e "s|Alex|$USER_NAME|g" \
-    -e "s|CST|$TIMEZONE|g" \
+    -e "s|songstephen|$USER_NAME|g" \
+    -e "s|Asia/Shanghai|$TIMEZONE|g" \
     -e "s|{{DISCORD_WEBHOOK_URL}}||g" \
     "$template" > "$output"
   print_ok "Generated: cron-examples/generated/$filename"
@@ -307,11 +307,11 @@ echo ""
 
 # Define all replacements from config.env values
 REPLACEMENTS=(
-  "/tmp/brain-os-test/vault|$BRAIN_PATH"
-  "/tmp/brain-os-test/workspace|$WORKSPACE_PATH"
-  "/tmp/brain-os-test/skills|$SKILLS_PATH"
-  "Alex|$USER_NAME"
-  "CST|$TIMEZONE"
+  "/Users/songstephen/my-brain|$BRAIN_PATH"
+  "|$WORKSPACE_PATH"
+  "/Users/songstephen/.claude/skills|$SKILLS_PATH"
+  "songstephen|$USER_NAME"
+  "Asia/Shanghai|$TIMEZONE"
 )
 
 # Agent identity placeholders (set later, after user provides model info)

@@ -23,7 +23,7 @@ Evaluate the interface across these dimensions:
 
 Review the design against ALL the **DON'T** guidelines in the frontend-design skill—they are the fingerprints of AI-generated work. Check for the AI color palette, gradient text, dark mode with glowing accents, glassmorphism, hero metric layouts, identical card grids, generic fonts, and all other tells.
 
-**The test**: If you showed this to someone and said "AI made this," would they believe you immediately? If yes, that's the problem.
+**The test**: If you showed this to someone and said "AI made this," would they believe you immediately? If /Users/songstephen/my-brain, that's the problem.
 
 ### 2. Visual Hierarchy
 - Does the eye flow to the most important element first?

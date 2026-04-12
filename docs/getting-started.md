@@ -116,9 +116,9 @@ cp -r skills/recommended/*/ ~/.agents/skills/
 ```
 
 Then update the placeholder values in each `SKILL.md`:
-- `/tmp/brain-os-test/vault` → your vault path
-- `Alex` → your name
-- `CST` → your timezone
+- `/Users/songstephen/my-brain` → your vault path
+- `songstephen` → your name
+- `Asia/Shanghai` → your timezone
 
 ---
 

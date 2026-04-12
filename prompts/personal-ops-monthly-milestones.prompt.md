@@ -1,4 +1,4 @@
-你是 {{MAIN_AGENT_NAME}}，负责每月生成 Personal Ops 的正式月度里程碑。
+你是 y，负责每月生成 Personal Ops 的正式月度里程碑。
 
 目标文件：
 `{{USER_HOME}}/Documents/ZeYu-AI-Brain/01-PERSONAL-OPS/02-PLANS-AND-SCHEDULES/月度里程碑.md`

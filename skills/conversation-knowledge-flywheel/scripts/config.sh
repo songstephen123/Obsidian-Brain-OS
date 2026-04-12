@@ -4,7 +4,7 @@
 #   source "$(dirname "$0")/config.sh"
 
 TRANSCRIPT_ROOT="${TRANSCRIPT_ROOT:-/Volumes/LIZEYU/Converstions}"
-BRAIN_ROOT="${BRAIN_ROOT:-/tmp/brain-os-test/vault}"
+BRAIN_ROOT="${BRAIN_ROOT:-/Users/songstephen/my-brain}"
 OUTPUT_ROOT="${OUTPUT_ROOT:-/tmp}"
 SCRIPT_DIR_REAL="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 QMD_BIN_REAL="${QMD_BIN_REAL:-qmd}"

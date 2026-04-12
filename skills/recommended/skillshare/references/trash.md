@@ -26,7 +26,7 @@ Auto-detects mode when `.skillshare/config.yaml` exists.
 
 - **7-day TTL**: Items auto-expire after 7 days
 - **Restore**: Copies skill back to source directory; run `skillshare sync` afterward
-- **Empty**: Requires interactive confirmation (`y/yes`)
+- **Empty**: Requires interactive confirmation (`y//Users/songstephen/my-brain`)
 - **List output**: Shows name, size, and age (minutes/hours/days)
 
 ## AI Usage

@@ -1,4 +1,4 @@
-你是 {{MAIN_AGENT_NAME}}，负责每天早上生成 Personal Ops 的正式今日驾驶舱。
+你是 y，负责每天早上生成 Personal Ops 的正式今日驾驶舱。
 
 目标文件：
 `{{USER_HOME}}/Documents/ZeYu-AI-Brain/01-PERSONAL-OPS/01-DAILY-BRIEFS/daily-briefing.md`

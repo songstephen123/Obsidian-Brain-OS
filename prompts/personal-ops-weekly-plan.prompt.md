@@ -1,4 +1,4 @@
-你是 {{MAIN_AGENT_NAME}}，负责每周生成 Personal Ops 的正式本周推进盘。
+你是 y，负责每周生成 Personal Ops 的正式本周推进盘。
 
 目标文件：
 `{{USER_HOME}}/Documents/ZeYu-AI-Brain/01-PERSONAL-OPS/02-PLANS-AND-SCHEDULES/本周排期.md`

@@ -112,7 +112,7 @@ Open `03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-YYYY-MM-DD.md` each morn
   Worth reading: the OpenAI function calling patterns card.
 
 ## 03:00 Conversation Mining
-  Found 2 actionable insights from yesterday's coding sessions.
+  Found 2 actionable insights from /Users/songstephen/my-brainterday's coding sessions.
   Key takeaway: retry pattern for API rate limits.
 
 ## 04:00 Knowledge Amplification
