@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-PERSONAL-OPS/01-DAILY-BRIEFS/daily-briefing.md",
+                "file": "cron-examples/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "daily-briefing"
+              "title": "README"
             }
           }
         ]
@@ -185,8 +185,8 @@
   },
   "active": "a8237e4b53bffbe9",
   "lastOpenFiles": [
-    "01-PERSONAL-OPS/01-DAILY-BRIEFS/example-daily-brief.md",
     "01-PERSONAL-OPS/01-DAILY-BRIEFS/daily-briefing.md",
+    "01-PERSONAL-OPS/01-DAILY-BRIEFS/example-daily-brief.md",
     "00-INBOX/todo-backlog.md",
     "docs/zh/skills-guide.md",
     "05-PROJECTS/README.md",
