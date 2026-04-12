@@ -4,7 +4,9 @@
 
 # 配置
 INBOX="/Users/songstephen/my-brain/00-INBOX"
-TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+# Use C locale to avoid leading zero issues with bash arithmetic
+TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
+SEQ=0
 
 # 创建目录
 mkdir -p "$INBOX"/{web,office,wechat,papers,images,audio,projects}
@@ -208,7 +210,7 @@ main() {
     else
       error "无法识别: $item (不是文件也不是 URL)"
     fi
-    TIMESTAMP=$((TIMESTAMP + 1))
+    SEQ=$((SEQ + 1))
   done
 
   echo ""
