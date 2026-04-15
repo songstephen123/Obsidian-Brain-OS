@@ -1,11 +1,11 @@
 ---
-date: 2026-04-15
+date: 2026-04-16
 week: W16
-updated: 2026-04-15 07:30
+updated: 2026-04-16 07:30
 type: daily-brief
 ---
 
-# 🌅 2026-04-15 每日驾驶舱
+# 🌅 2026-04-16 每日驾驶舱
 
 ## 今日焦点（Top 3）
 
@@ -20,7 +20,7 @@ type: daily-brief
 ## 二、今天必须推进但不必做完
 
 - [ ] 完善 todo-backlog.md — 填充真实个人待办（P1-P3）
-- [ ] Brain OS Nightly Pipeline 验证 — 确认凌晨各 cron 任务是否正常触发（02-05 点）
+- [ ] 评估 Nightly Pipeline 实际运行效果（02-05 点各任务是否触发）
 
 ## 三、今天等待反馈 / 需要催办
 
@@ -36,8 +36,8 @@ type: daily-brief
 
 ## 六、低能量时可做的小事
 
-- [ ] 补充当前承诺事项（如有对外承诺）
-- [ ] 熟悉 Brain OS 目录结构和各技能用途
+- [ ] 熟悉 Brain OS 各目录用途
+- [ ] 补充当前承诺事项（如有）
 
 ## 七、今天明确不做
 
@@ -46,9 +46,9 @@ type: daily-brief
 
 ## 八、今日提醒
 
-- W16 第三天，系统初始化第三天
-- 今天凌晨 Nightly Pipeline 应已运行（article / conversation / amplifier / knowledge-canvas / graphify）
-- commit patrol 每 6 小时一次
+- W16 第四天（周四）
+- 系统初始化阶段，重点建立使用习惯
+- commit patrol 每 6 小时一次（00:00 / 06:00 / 12:00 / 18:00）
 
 ---
 
@@ -58,4 +58,4 @@ type: daily-brief
 
 ---
 
-*最后更新：2026-04-15 07:30*
+*最后更新：2026-04-16 07:30*
