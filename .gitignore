@@ -11,12 +11,25 @@ scripts/config.env
 # =============================================
 # Obsidian internals
 # =============================================
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/
+.obsidian/types.json
+.obsidian/community-plugins.json
 vault-template/.obsidian/workspace.json
 vault-template/.obsidian/workspace-mobile.json
 vault-template/.obsidian/cache
 vault-template/.trash/
 vault-template/.smart-env/
 vault-template/.clawdbot/
+
+# =============================================
+# Obsidian plugin data / third-party
+# =============================================
+.makemd/
+.claudian/
+.space/
 
 # =============================================
 # Personal content (never commit)
