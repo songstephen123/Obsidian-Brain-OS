@@ -20,8 +20,7 @@ status: draft
 
 ## 03:00 Conversation Mining
 
-<!-- 由 conversation-knowledge-mining pipeline 填写 -->
-*Pending...*
+**No-op (degraded)** — Transcript volume `/Volumes/LIZEYU/Converstions/` 未挂载，preflight 检查 transcript_ok=0, qmd_ok=0。无法导出或挖掘 2026-04-19 的对话记录。无新知识产出。
 
 ---
 
