@@ -1,7 +1,7 @@
 ---
 date: 2026-04-20
 week: W17
-updated: 2026-04-20 07:00
+updated: 2026-04-20 07:30
 type: daily-brief
 ---
 
@@ -50,9 +50,10 @@ type: daily-brief
 
 ## 九、🧠 昨日知识信号
 
-> 昨日 nightly digest 尚未生成或无有效信号
-> （2026-04-19 digest 存在但三段均为 no-op：无新文章、外置卷未挂载导致对话挖掘降级、无跨源汇合）
+> 2026-04-19 digest 存在但三段均为 no-op：Article Integration 无新文章，Conversation Mining 因 `/Volumes/LIZEYU/Converstions/` 未挂载而降级，Knowledge Amplification 无输入可汇合。
+>
+> [[03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-04-19|查看完整 nightly digest →]]
 
 ---
 
-*最后更新：2026-04-20 07:00*
+*最后更新：2026-04-20 07:30*
