@@ -8,1144 +8,1144 @@
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/build-day-manifest.py",
       "source_location": "L1",
-      "id": "build_day_manifest",
-      "community": 8
+      "community": 8,
+      "id": "build_day_manifest"
     },
     {
       "label": "infer_project()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/build-day-manifest.py",
       "source_location": "L12",
-      "id": "build_day_manifest_infer_project",
-      "community": 8
+      "community": 8,
+      "id": "build_day_manifest_infer_project"
     },
     {
       "label": "infer_agent()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/build-day-manifest.py",
       "source_location": "L19",
-      "id": "build_day_manifest_infer_agent",
-      "community": 8
+      "community": 8,
+      "id": "build_day_manifest_infer_agent"
     },
     {
       "label": "infer_title()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/build-day-manifest.py",
       "source_location": "L26",
-      "id": "build_day_manifest_infer_title",
-      "community": 8
+      "community": 8,
+      "id": "build_day_manifest_infer_title"
     },
     {
       "label": "main()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/build-day-manifest.py",
       "source_location": "L33",
-      "id": "build_day_manifest_main",
-      "community": 8
+      "community": 8,
+      "id": "build_day_manifest_main"
     },
     {
       "label": "render-writer-package.py",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/render-writer-package.py",
       "source_location": "L1",
-      "id": "render_writer_package",
-      "community": 11
+      "community": 11,
+      "id": "render_writer_package"
     },
     {
       "label": "resolve-project-ref.py",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/resolve-project-ref.py",
       "source_location": "L1",
-      "id": "resolve_project_ref",
-      "community": 5
+      "community": 5,
+      "id": "resolve_project_ref"
     },
     {
       "label": "parse_frontmatter()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/resolve-project-ref.py",
       "source_location": "L27",
-      "id": "resolve_project_ref_parse_frontmatter",
-      "community": 5
+      "community": 5,
+      "id": "resolve_project_ref_parse_frontmatter"
     },
     {
       "label": "build_mapping()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/resolve-project-ref.py",
       "source_location": "L57",
-      "id": "resolve_project_ref_build_mapping",
-      "community": 5
+      "community": 5,
+      "id": "resolve_project_ref_build_mapping"
     },
     {
       "label": "main()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/resolve-project-ref.py",
       "source_location": "L74",
-      "id": "resolve_project_ref_main",
-      "community": 5
+      "community": 5,
+      "id": "resolve_project_ref_main"
     },
     {
       "label": "Extract YAML frontmatter fields we care about (project_ref, aliases).",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/resolve-project-ref.py",
       "source_location": "L28",
-      "id": "resolve_project_ref_rationale_28",
-      "community": 5
+      "community": 5,
+      "id": "resolve_project_ref_rationale_28"
     },
     {
       "label": "Return {alias_lower: (project_ref, brief_path)} for all projects.",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/resolve-project-ref.py",
       "source_location": "L58",
-      "id": "resolve_project_ref_rationale_58",
-      "community": 5
+      "community": 5,
+      "id": "resolve_project_ref_rationale_58"
     },
     {
       "label": "speak.py",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/skills/english-tutor/scripts/speak.py",
       "source_location": "L1",
-      "id": "speak",
-      "community": 9
+      "community": 9,
+      "id": "speak"
     },
     {
       "label": "speak()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/skills/english-tutor/scripts/speak.py",
       "source_location": "L27",
-      "id": "speak_speak",
-      "community": 9
+      "community": 9,
+      "id": "speak_speak"
     },
     {
       "label": "main()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/skills/english-tutor/scripts/speak.py",
       "source_location": "L37",
-      "id": "speak_main",
-      "community": 9
+      "community": 9,
+      "id": "speak_main"
     },
     {
       "label": "Generate speech from text using edge-tts.",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/skills/english-tutor/scripts/speak.py",
       "source_location": "L29",
-      "id": "speak_rationale_29",
-      "community": 9
+      "community": 9,
+      "id": "speak_rationale_29"
     },
     {
       "label": "transcribe.py",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/skills/english-tutor/scripts/transcribe.py",
       "source_location": "L1",
-      "id": "transcribe",
-      "community": 10
+      "community": 10,
+      "id": "transcribe"
     },
     {
       "label": "transcribe()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/skills/english-tutor/scripts/transcribe.py",
       "source_location": "L18",
-      "id": "transcribe_transcribe",
-      "community": 10
+      "community": 10,
+      "id": "transcribe_transcribe"
     },
     {
       "label": "main()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/skills/english-tutor/scripts/transcribe.py",
       "source_location": "L56",
-      "id": "transcribe_main",
-      "community": 10
+      "community": 10,
+      "id": "transcribe_main"
     },
     {
       "label": "Transcribe audio file using faster-whisper.",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/skills/english-tutor/scripts/transcribe.py",
       "source_location": "L19",
-      "id": "transcribe_rationale_19",
-      "community": 10
+      "community": 10,
+      "id": "transcribe_rationale_19"
     },
     {
       "label": "render-graphs.js",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/skills/recommended/writing-skills/render-graphs.js",
       "source_location": "L1",
-      "id": "render_graphs",
-      "community": 6
+      "community": 6,
+      "id": "render_graphs"
     },
     {
       "label": "extractDotBlocks()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/skills/recommended/writing-skills/render-graphs.js",
       "source_location": "L20",
-      "id": "render_graphs_extractdotblocks",
-      "community": 6
+      "community": 6,
+      "id": "render_graphs_extractdotblocks"
     },
     {
       "label": "extractGraphBody()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/skills/recommended/writing-skills/render-graphs.js",
       "source_location": "L38",
-      "id": "render_graphs_extractgraphbody",
-      "community": 6
+      "community": 6,
+      "id": "render_graphs_extractgraphbody"
     },
     {
       "label": "combineGraphs()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/skills/recommended/writing-skills/render-graphs.js",
       "source_location": "L51",
-      "id": "render_graphs_combinegraphs",
-      "community": 6
+      "community": 6,
+      "id": "render_graphs_combinegraphs"
     },
     {
       "label": "renderToSvg()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/skills/recommended/writing-skills/render-graphs.js",
       "source_location": "L70",
-      "id": "render_graphs_rendertosvg",
-      "community": 6
+      "community": 6,
+      "id": "render_graphs_rendertosvg"
     },
     {
       "label": "main()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/skills/recommended/writing-skills/render-graphs.js",
       "source_location": "L84",
-      "id": "render_graphs_main",
-      "community": 6
+      "community": 6,
+      "id": "render_graphs_main"
     },
     {
       "label": "__init__.py",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/__init__.py",
       "source_location": "L1",
-      "id": "init",
-      "community": 12
+      "community": 12,
+      "id": "init"
     },
     {
       "label": "__main__.py",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/conversation_mining/__main__.py",
       "source_location": "L1",
-      "id": "main",
-      "community": 7
+      "community": 7,
+      "id": "main"
     },
     {
       "label": "cli.py",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/conversation_mining/cli.py",
       "source_location": "L1",
-      "id": "cli",
-      "community": 7
+      "community": 7,
+      "id": "cli"
     },
     {
       "label": "_json_for_html_script()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/conversation_mining/cli.py",
       "source_location": "L20",
-      "id": "cli_json_for_html_script",
-      "community": 7
+      "community": 7,
+      "id": "cli_json_for_html_script"
     },
     {
       "label": "run_export()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/conversation_mining/cli.py",
       "source_location": "L25",
-      "id": "cli_run_export",
-      "community": 7
+      "community": 7,
+      "id": "cli_run_export"
     },
     {
       "label": "build_html()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/conversation_mining/cli.py",
       "source_location": "L37",
-      "id": "cli_build_html",
-      "community": 7
+      "community": 7,
+      "id": "cli_build_html"
     },
     {
       "label": "main()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/conversation_mining/cli.py",
       "source_location": "L73",
-      "id": "cli_main",
-      "community": 7
+      "community": 7,
+      "id": "cli_main"
     },
     {
       "label": "convs.py",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/convs.py",
       "source_location": "L1",
-      "id": "convs",
-      "community": 13
+      "community": 13,
+      "id": "convs"
     },
     {
       "label": "export_all.py",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L1",
-      "id": "export_all",
-      "community": 1
+      "community": 1,
+      "id": "export_all"
     },
     {
       "label": "load_index()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L36",
-      "id": "export_all_load_index",
-      "community": 1
+      "community": 1,
+      "id": "export_all_load_index"
     },
     {
       "label": "save_index()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L46",
-      "id": "export_all_save_index",
-      "community": 1
+      "community": 1,
+      "id": "export_all_save_index"
     },
     {
       "label": "get_existing_ids()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L53",
-      "id": "export_all_get_existing_ids",
-      "community": 1
+      "community": 1,
+      "id": "export_all_get_existing_ids"
     },
     {
       "label": "_preserve_existing_fields()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L57",
-      "id": "export_all_preserve_existing_fields",
-      "community": 1
+      "community": 1,
+      "id": "export_all_preserve_existing_fields"
     },
     {
       "label": "_clean_metadata_text()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L64",
-      "id": "export_all_clean_metadata_text",
-      "community": 1
+      "community": 1,
+      "id": "export_all_clean_metadata_text"
     },
     {
       "label": "_normalize_project_metadata()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L70",
-      "id": "export_all_normalize_project_metadata",
-      "community": 1
+      "community": 1,
+      "id": "export_all_normalize_project_metadata"
     },
     {
       "label": "_sanitize_conversation_metadata()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L81",
-      "id": "export_all_sanitize_conversation_metadata",
-      "community": 1
+      "community": 1,
+      "id": "export_all_sanitize_conversation_metadata"
     },
     {
       "label": "_sanitize_index_metadata()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L118",
-      "id": "export_all_sanitize_index_metadata",
-      "community": 1
+      "community": 1,
+      "id": "export_all_sanitize_index_metadata"
     },
     {
       "label": "_content_hash()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L126",
-      "id": "export_all_content_hash",
-      "community": 1
+      "community": 1,
+      "id": "export_all_content_hash"
     },
     {
       "label": "upsert_conversation()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L136",
-      "id": "export_all_upsert_conversation",
-      "community": 1
+      "community": 1,
+      "id": "export_all_upsert_conversation"
     },
     {
       "label": "find_existing_conversation()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L154",
-      "id": "export_all_find_existing_conversation",
-      "community": 1
+      "community": 1,
+      "id": "export_all_find_existing_conversation"
     },
     {
       "label": "make_conv_id()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L161",
-      "id": "export_all_make_conv_id",
-      "community": 1
+      "community": 1,
+      "id": "export_all_make_conv_id"
     },
     {
       "label": "_default_markdown_dir()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L166",
-      "id": "export_all_default_markdown_dir",
-      "community": 1
+      "community": 1,
+      "id": "export_all_default_markdown_dir"
     },
     {
       "label": "_build_transcript_stem()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L172",
-      "id": "export_all_build_transcript_stem",
-      "community": 1
+      "community": 1,
+      "id": "export_all_build_transcript_stem"
     },
     {
       "label": "materialize_transcripts()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L185",
-      "id": "export_all_materialize_transcripts",
-      "community": 1
+      "community": 1,
+      "id": "export_all_materialize_transcripts"
     },
     {
       "label": "export_claude()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L232",
-      "id": "export_all_export_claude",
-      "community": 1
+      "community": 1,
+      "id": "export_all_export_claude"
     },
     {
       "label": "export_codex()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L292",
-      "id": "export_all_export_codex",
-      "community": 1
+      "community": 1,
+      "id": "export_all_export_codex"
     },
     {
       "label": "export_antigravity()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L331",
-      "id": "export_all_export_antigravity",
-      "community": 1
+      "community": 1,
+      "id": "export_all_export_antigravity"
     },
     {
       "label": "_build_search_index()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L368",
-      "id": "export_all_build_search_index",
-      "community": 1
+      "community": 1,
+      "id": "export_all_build_search_index"
     },
     {
       "label": "main()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L388",
-      "id": "export_all_main",
-      "community": 1
+      "community": 1,
+      "id": "export_all_main"
     },
     {
       "label": "\u57fa\u4e8e messages \u751f\u6210\u5185\u5bb9\u54c8\u5e0c\uff0c\u7528\u4e8e\u5224\u65ad\u4f1a\u8bdd\u662f\u5426\u6709\u53d8\u5316",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L127",
-      "id": "export_all_rationale_127",
-      "community": 1
+      "community": 1,
+      "id": "export_all_rationale_127"
     },
     {
       "label": "\u63d2\u5165\u6216\u66f4\u65b0\u4f1a\u8bdd\u3002\u8fd4\u56de True \u8868\u793a\u5185\u5bb9\u6709\u53d8\u5316\uff08\u9700\u8981\u91cd\u65b0 materialize\uff09\uff0cFalse \u8868\u793a\u672a\u53d8\u5316\u3002",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L137",
-      "id": "export_all_rationale_137",
-      "community": 1
+      "community": 1,
+      "id": "export_all_rationale_137"
     },
     {
       "label": "Materialize transcript markdown files.      Args:         dirty_ids: \u5982\u679c\u975e None\uff0c\u53ea\u91cd",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L186",
-      "id": "export_all_rationale_186",
-      "community": 1
+      "community": 1,
+      "id": "export_all_rationale_186"
     },
     {
       "label": "\u5bfc\u51fa\u65f6\u751f\u6210\u8f7b\u91cf\u641c\u7d22\u7d22\u5f15 search_index.json",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L369",
-      "id": "export_all_rationale_369",
-      "community": 1
+      "community": 1,
+      "id": "export_all_rationale_369"
     },
     {
       "label": "extract_antigravity.py",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L1",
-      "id": "extract_antigravity",
-      "community": 2
+      "community": 2,
+      "id": "extract_antigravity"
     },
     {
       "label": "_decode_value()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L38",
-      "id": "extract_antigravity_decode_value",
-      "community": 2
+      "community": 2,
+      "id": "extract_antigravity_decode_value"
     },
     {
       "label": "_clean_text()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L45",
-      "id": "extract_antigravity_clean_text",
-      "community": 2
+      "community": 2,
+      "id": "extract_antigravity_clean_text"
     },
     {
       "label": "_looks_human_readable()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L55",
-      "id": "extract_antigravity_looks_human_readable",
-      "community": 2
+      "community": 2,
+      "id": "extract_antigravity_looks_human_readable"
     },
     {
       "label": "_extract_title()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L62",
-      "id": "extract_antigravity_extract_title",
-      "community": 2
+      "community": 2,
+      "id": "extract_antigravity_extract_title"
     },
     {
       "label": "_is_poor_title()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L79",
-      "id": "extract_antigravity_is_poor_title",
-      "community": 2
+      "community": 2,
+      "id": "extract_antigravity_is_poor_title"
     },
     {
       "label": "_normalize_title_candidate()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L91",
-      "id": "extract_antigravity_normalize_title_candidate",
-      "community": 2
+      "community": 2,
+      "id": "extract_antigravity_normalize_title_candidate"
     },
     {
       "label": "_title_from_messages()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L102",
-      "id": "extract_antigravity_title_from_messages",
-      "community": 2
+      "community": 2,
+      "id": "extract_antigravity_title_from_messages"
     },
     {
       "label": "_extract_project()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L116",
-      "id": "extract_antigravity_extract_project",
-      "community": 2
+      "community": 2,
+      "id": "extract_antigravity_extract_project"
     },
     {
       "label": "_extract_json_objects()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L123",
-      "id": "extract_antigravity_extract_json_objects",
-      "community": 2
+      "community": 2,
+      "id": "extract_antigravity_extract_json_objects"
     },
     {
       "label": "_append_message()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L142",
-      "id": "extract_antigravity_append_message",
-      "community": 2
+      "community": 2,
+      "id": "extract_antigravity_append_message"
     },
     {
       "label": "_extract_messages_from_chunk()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L151",
-      "id": "extract_antigravity_extract_messages_from_chunk",
-      "community": 2
+      "community": 2,
+      "id": "extract_antigravity_extract_messages_from_chunk"
     },
     {
       "label": "_extract_conversations_from_traj()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L169",
-      "id": "extract_antigravity_extract_conversations_from_traj",
-      "community": 2
+      "community": 2,
+      "id": "extract_antigravity_extract_conversations_from_traj"
     },
     {
       "label": "_extract_messages_from_jetski()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L202",
-      "id": "extract_antigravity_extract_messages_from_jetski",
-      "community": 2
+      "community": 2,
+      "id": "extract_antigravity_extract_messages_from_jetski"
     },
     {
       "label": "_safe_read_json()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L226",
-      "id": "extract_antigravity_safe_read_json",
-      "community": 2
+      "community": 2,
+      "id": "extract_antigravity_safe_read_json"
     },
     {
       "label": "_extract_artifact_heading()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L233",
-      "id": "extract_antigravity_extract_artifact_heading",
-      "community": 2
+      "community": 2,
+      "id": "extract_antigravity_extract_artifact_heading"
     },
     {
       "label": "_artifact_priority()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L255",
-      "id": "extract_antigravity_artifact_priority",
-      "community": 2
+      "community": 2,
+      "id": "extract_antigravity_artifact_priority"
     },
     {
       "label": "_collect_brain_artifacts()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L272",
-      "id": "extract_antigravity_collect_brain_artifacts",
-      "community": 2
+      "community": 2,
+      "id": "extract_antigravity_collect_brain_artifacts"
     },
     {
       "label": "find_sessions()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L308",
-      "id": "extract_antigravity_find_sessions",
-      "community": 2
+      "community": 2,
+      "id": "extract_antigravity_find_sessions"
     },
     {
       "label": "Extract conversation messages from jetski state (most recent conversation).",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L203",
-      "id": "extract_antigravity_rationale_203",
-      "community": 2
+      "community": 2,
+      "id": "extract_antigravity_rationale_203"
     },
     {
       "label": "Extract AntiGravity conversations from state.vscdb.     Returns list of session",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L309",
-      "id": "extract_antigravity_rationale_309",
-      "community": 2
+      "community": 2,
+      "id": "extract_antigravity_rationale_309"
     },
     {
       "label": "extract_claude.py",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L1",
-      "id": "extract_claude",
-      "community": 3
+      "community": 3,
+      "id": "extract_claude"
     },
     {
       "label": "load_history_index()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L20",
-      "id": "extract_claude_load_history_index",
-      "community": 3
+      "community": 3,
+      "id": "extract_claude_load_history_index"
     },
     {
       "label": "find_sessions_by_date()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L40",
-      "id": "extract_claude_find_sessions_by_date",
-      "community": 3
+      "community": 3,
+      "id": "extract_claude_find_sessions_by_date"
     },
     {
       "label": "_is_noise()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L113",
-      "id": "extract_claude_is_noise",
-      "community": 3
+      "community": 3,
+      "id": "extract_claude_is_noise"
     },
     {
       "label": "_clean_text()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L129",
-      "id": "extract_claude_clean_text",
-      "community": 3
+      "community": 3,
+      "id": "extract_claude_clean_text"
     },
     {
       "label": "_extract_user_text()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L156",
-      "id": "extract_claude_extract_user_text",
-      "community": 3
+      "community": 3,
+      "id": "extract_claude_extract_user_text"
     },
     {
       "label": "_extract_assistant_text()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L174",
-      "id": "extract_claude_extract_assistant_text",
-      "community": 3
+      "community": 3,
+      "id": "extract_claude_extract_assistant_text"
     },
     {
       "label": "_extract_subagent_summary()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L186",
-      "id": "extract_claude_extract_subagent_summary",
-      "community": 3
+      "community": 3,
+      "id": "extract_claude_extract_subagent_summary"
     },
     {
       "label": "extract_conversation()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L195",
-      "id": "extract_claude_extract_conversation",
-      "community": 3
+      "community": 3,
+      "id": "extract_claude_extract_conversation"
     },
     {
       "label": "decode_project_name()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L294",
-      "id": "extract_claude_decode_project_name",
-      "community": 3
+      "community": 3,
+      "id": "extract_claude_decode_project_name"
     },
     {
       "label": "sanitize_filename()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L299",
-      "id": "extract_claude_sanitize_filename",
-      "community": 3
+      "community": 3,
+      "id": "extract_claude_sanitize_filename"
     },
     {
       "label": "format_conversation()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L313",
-      "id": "extract_claude_format_conversation",
-      "community": 3
+      "community": 3,
+      "id": "extract_claude_format_conversation"
     },
     {
       "label": "main()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L369",
-      "id": "extract_claude_main",
-      "community": 3
+      "community": 3,
+      "id": "extract_claude_main"
     },
     {
       "label": "\u4ece history.jsonl \u5efa\u7acb sessionId -> \u9996\u6761\u7528\u6237\u8f93\u5165 \u7684\u7d22\u5f15\uff08\u7528\u4e8e\u6807\u9898\uff09",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L21",
-      "id": "extract_claude_rationale_21",
-      "community": 3
+      "community": 3,
+      "id": "extract_claude_rationale_21"
     },
     {
       "label": "\u627e\u5230\u67d0\u5929\u6d3b\u8dc3\u7684\u6240\u6709 Claude Code \u4f1a\u8bdd\u3002     \u626b\u63cf\u6240\u6709 project \u76ee\u5f55\u4e0b\u7684 .jsonl \u6587\u4ef6\uff0c\u68c0\u67e5\u5176\u4e2d\u6d88\u606f\u7684\u65f6\u95f4\u6233\u3002     \u8fd4\u56de lis",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L41",
-      "id": "extract_claude_rationale_41",
-      "community": 3
+      "community": 3,
+      "id": "extract_claude_rationale_41"
     },
     {
       "label": "\u6e05\u6d17\u6587\u672c\uff0c\u53bb\u6389\u5404\u79cd\u566a\u97f3\u6807\u7b7e\u548c skill \u52a0\u8f7d\u5185\u5bb9",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L130",
-      "id": "extract_claude_rationale_130",
-      "community": 3
+      "community": 3,
+      "id": "extract_claude_rationale_130"
     },
     {
       "label": "\u4ece user message content \u63d0\u53d6\u7eaf\u6587\u672c",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L157",
-      "id": "extract_claude_rationale_157",
-      "community": 3
+      "community": 3,
+      "id": "extract_claude_rationale_157"
     },
     {
       "label": "\u4ece assistant message content \u63d0\u53d6\u7eaf\u6587\u672c",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L175",
-      "id": "extract_claude_rationale_175",
-      "community": 3
+      "community": 3,
+      "id": "extract_claude_rationale_175"
     },
     {
       "label": "\u4ece Claude Code session JSONL \u63d0\u53d6\u5bf9\u8bdd\u3002      \u5904\u7406\u4e24\u79cd\u60c5\u51b5\uff1a     1. \u666e\u901a session\uff1a\u76f4\u63a5\u4ece user/assist",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L196",
-      "id": "extract_claude_rationale_196",
-      "community": 3
+      "community": 3,
+      "id": "extract_claude_rationale_196"
     },
     {
       "label": "extract_codex.py",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L1",
-      "id": "extract_codex",
-      "community": 4
+      "community": 4,
+      "id": "extract_codex"
     },
     {
       "label": "load_thread_titles()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L22",
-      "id": "extract_codex_load_thread_titles",
-      "community": 4
+      "community": 4,
+      "id": "extract_codex_load_thread_titles"
     },
     {
       "label": "load_history_for_session()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L48",
-      "id": "extract_codex_load_history_for_session",
-      "community": 4
+      "community": 4,
+      "id": "extract_codex_load_history_for_session"
     },
     {
       "label": "find_sessions_by_date()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L66",
-      "id": "extract_codex_find_sessions_by_date",
-      "community": 4
+      "community": 4,
+      "id": "extract_codex_find_sessions_by_date"
     },
     {
       "label": "_is_system_noise()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L131",
-      "id": "extract_codex_is_system_noise",
-      "community": 4
+      "community": 4,
+      "id": "extract_codex_is_system_noise"
     },
     {
       "label": "_clean_text()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L151",
-      "id": "extract_codex_clean_text",
-      "community": 4
+      "community": 4,
+      "id": "extract_codex_clean_text"
     },
     {
       "label": "_extract_from_history()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L177",
-      "id": "extract_codex_extract_from_history",
-      "community": 4
+      "community": 4,
+      "id": "extract_codex_extract_from_history"
     },
     {
       "label": "extract_conversation()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L221",
-      "id": "extract_codex_extract_conversation",
-      "community": 4
+      "community": 4,
+      "id": "extract_codex_extract_conversation"
     },
     {
       "label": "format_conversation()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L334",
-      "id": "extract_codex_format_conversation",
-      "community": 4
+      "community": 4,
+      "id": "extract_codex_format_conversation"
     },
     {
       "label": "sanitize_filename()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L371",
-      "id": "extract_codex_sanitize_filename",
-      "community": 4
+      "community": 4,
+      "id": "extract_codex_sanitize_filename"
     },
     {
       "label": "main()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L387",
-      "id": "extract_codex_main",
-      "community": 4
+      "community": 4,
+      "id": "extract_codex_main"
     },
     {
       "label": "\u4ece session_index.jsonl \u548c SQLite \u52a0\u8f7d\u4f1a\u8bdd\u6807\u9898",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L23",
-      "id": "extract_codex_rationale_23",
-      "community": 4
+      "community": 4,
+      "id": "extract_codex_rationale_23"
     },
     {
       "label": "\u4ece history.jsonl \u52a0\u8f7d\u67d0\u4e2a session \u7684\u7528\u6237\u8f93\u5165",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L49",
-      "id": "extract_codex_rationale_49",
-      "community": 4
+      "community": 4,
+      "id": "extract_codex_rationale_49"
     },
     {
       "label": "\u627e\u5230\u67d0\u5929\u6d3b\u8dc3\u7684\u6240\u6709\u4f1a\u8bdd\u6587\u4ef6\u3002     target_date \u683c\u5f0f: YYYY-MM-DD      \u7b56\u7565:     1. \u76f4\u63a5\u5339\u914d sessions/YYYY",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L67",
-      "id": "extract_codex_rationale_67",
-      "community": 4
+      "community": 4,
+      "id": "extract_codex_rationale_67"
     },
     {
       "label": "\u6e05\u6d17\u6587\u672c\uff0c\u53bb\u6389\u5404\u79cd\u566a\u97f3\u6807\u7b7e\u548c skill \u52a0\u8f7d\u5185\u5bb9",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L152",
-      "id": "extract_codex_rationale_152",
-      "community": 4
+      "community": 4,
+      "id": "extract_codex_rationale_152"
     },
     {
       "label": "\u4ece replacement_history \u5217\u8868\u63d0\u53d6\u5bf9\u8bdd\u6d88\u606f\u3002     rh: list of {role, content} dicts     \u8fd4\u56de lis",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L178",
-      "id": "extract_codex_rationale_178",
-      "community": 4
+      "community": 4,
+      "id": "extract_codex_rationale_178"
     },
     {
       "label": "\u4ece session JSONL \u6587\u4ef6\u63d0\u53d6\u7eaf\u5bf9\u8bdd\u5185\u5bb9\uff08\u7528\u6237\u95ee\u9898 + Codex \u56de\u7b54\uff09\u3002      \u5904\u7406\u4e24\u79cd\u60c5\u51b5\uff1a     1. \u666e\u901a session\uff1a\u4ece eve",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L222",
-      "id": "extract_codex_rationale_222",
-      "community": 4
+      "community": 4,
+      "id": "extract_codex_rationale_222"
     },
     {
       "label": "transcript_export.py",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L1",
-      "id": "transcript_export",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export"
     },
     {
       "label": "sanitize_filename()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L14",
-      "id": "transcript_export_sanitize_filename",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_sanitize_filename"
     },
     {
       "label": "unique_markdown_path()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L30",
-      "id": "transcript_export_unique_markdown_path",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_unique_markdown_path"
     },
     {
       "label": "strip_markdown_for_text()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L41",
-      "id": "transcript_export_strip_markdown_for_text",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_strip_markdown_for_text"
     },
     {
       "label": "clean_project_label()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L52",
-      "id": "transcript_export_clean_project_label",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_clean_project_label"
     },
     {
       "label": "truncate_text()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L59",
-      "id": "transcript_export_truncate_text",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_truncate_text"
     },
     {
       "label": "humanize_title_fragment()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L66",
-      "id": "transcript_export_humanize_title_fragment",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_humanize_title_fragment"
     },
     {
       "label": "_normalize_path_candidate()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L78",
-      "id": "transcript_export_normalize_path_candidate",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_normalize_path_candidate"
     },
     {
       "label": "_push_unique()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L90",
-      "id": "transcript_export_push_unique",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_push_unique"
     },
     {
       "label": "extract_file_mentions()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L97",
-      "id": "transcript_export_extract_file_mentions",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_extract_file_mentions"
     },
     {
       "label": "extract_command_mentions()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L111",
-      "id": "transcript_export_extract_command_mentions",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_extract_command_mentions"
     },
     {
       "label": "extract_signal_mentions()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L126",
-      "id": "transcript_export_extract_signal_mentions",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_extract_signal_mentions"
     },
     {
       "label": "pick_final_answer()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L142",
-      "id": "transcript_export_pick_final_answer",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_pick_final_answer"
     },
     {
       "label": "prompts_match()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L151",
-      "id": "transcript_export_prompts_match",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_prompts_match"
     },
     {
       "label": "build_search_entry()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L163",
-      "id": "transcript_export_build_search_entry",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_build_search_entry"
     },
     {
       "label": "is_subagent_conversation()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L184",
-      "id": "transcript_export_is_subagent_conversation",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_is_subagent_conversation"
     },
     {
       "label": "get_subagent_display_name()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L192",
-      "id": "transcript_export_get_subagent_display_name",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_get_subagent_display_name"
     },
     {
       "label": "build_subagent_index()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L196",
-      "id": "transcript_export_build_subagent_index",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_build_subagent_index"
     },
     {
       "label": "match_subagent_calls()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L210",
-      "id": "transcript_export_match_subagent_calls",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_match_subagent_calls"
     },
     {
       "label": "_render_frontmatter()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L229",
-      "id": "transcript_export_render_frontmatter",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_render_frontmatter"
     },
     {
       "label": "_append_section()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L244",
-      "id": "transcript_export_append_section",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_append_section"
     },
     {
       "label": "_render_quick_summary()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L251",
-      "id": "transcript_export_render_quick_summary",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_render_quick_summary"
     },
     {
       "label": "_render_artifacts()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L274",
-      "id": "transcript_export_render_artifacts",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_render_artifacts"
     },
     {
       "label": "_role_heading()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L290",
-      "id": "transcript_export_role_heading",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_role_heading"
     },
     {
       "label": "_append_text_block()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L301",
-      "id": "transcript_export_append_text_block",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_append_text_block"
     },
     {
       "label": "render_transcript_markdown()",
       "file_type": "code",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L308",
-      "id": "transcript_export_render_transcript_markdown",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_render_transcript_markdown"
     },
     {
       "label": "\u4ece conversation \u4e2d\u63d0\u53d6\u641c\u7d22\u7d22\u5f15\u6761\u76ee\uff0c\u7528\u4e8e\u8f7b\u91cf\u5feb\u901f\u641c\u7d22\u3002",
       "file_type": "rationale",
       "source_file": "/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L164",
-      "id": "transcript_export_rationale_164",
-      "community": 0
+      "community": 0,
+      "id": "transcript_export_rationale_164"
     }
   ],
   "links": [
@@ -1157,9 +1157,9 @@
       "weight": 1.0,
       "_src": "build_day_manifest",
       "_tgt": "build_day_manifest_infer_project",
+      "confidence_score": 1.0,
       "source": "build_day_manifest",
-      "target": "build_day_manifest_infer_project",
-      "confidence_score": 1.0
+      "target": "build_day_manifest_infer_project"
     },
     {
       "relation": "contains",
@@ -1169,9 +1169,9 @@
       "weight": 1.0,
       "_src": "build_day_manifest",
       "_tgt": "build_day_manifest_infer_agent",
+      "confidence_score": 1.0,
       "source": "build_day_manifest",
-      "target": "build_day_manifest_infer_agent",
-      "confidence_score": 1.0
+      "target": "build_day_manifest_infer_agent"
     },
     {
       "relation": "contains",
@@ -1181,9 +1181,9 @@
       "weight": 1.0,
       "_src": "build_day_manifest",
       "_tgt": "build_day_manifest_infer_title",
+      "confidence_score": 1.0,
       "source": "build_day_manifest",
-      "target": "build_day_manifest_infer_title",
-      "confidence_score": 1.0
+      "target": "build_day_manifest_infer_title"
     },
     {
       "relation": "contains",
@@ -1193,9 +1193,9 @@
       "weight": 1.0,
       "_src": "build_day_manifest",
       "_tgt": "build_day_manifest_main",
+      "confidence_score": 1.0,
       "source": "build_day_manifest",
-      "target": "build_day_manifest_main",
-      "confidence_score": 1.0
+      "target": "build_day_manifest_main"
     },
     {
       "relation": "calls",
@@ -1205,9 +1205,9 @@
       "weight": 0.8,
       "_src": "build_day_manifest_main",
       "_tgt": "build_day_manifest_infer_project",
+      "confidence_score": 0.5,
       "source": "build_day_manifest_infer_project",
-      "target": "build_day_manifest_main",
-      "confidence_score": 0.5
+      "target": "build_day_manifest_main"
     },
     {
       "relation": "calls",
@@ -1217,9 +1217,9 @@
       "weight": 0.8,
       "_src": "build_day_manifest_main",
       "_tgt": "build_day_manifest_infer_agent",
+      "confidence_score": 0.5,
       "source": "build_day_manifest_infer_agent",
-      "target": "build_day_manifest_main",
-      "confidence_score": 0.5
+      "target": "build_day_manifest_main"
     },
     {
       "relation": "calls",
@@ -1229,9 +1229,9 @@
       "weight": 0.8,
       "_src": "build_day_manifest_main",
       "_tgt": "build_day_manifest_infer_title",
+      "confidence_score": 0.5,
       "source": "build_day_manifest_infer_title",
-      "target": "build_day_manifest_main",
-      "confidence_score": 0.5
+      "target": "build_day_manifest_main"
     },
     {
       "relation": "contains",
@@ -1241,9 +1241,9 @@
       "weight": 1.0,
       "_src": "resolve_project_ref",
       "_tgt": "resolve_project_ref_parse_frontmatter",
+      "confidence_score": 1.0,
       "source": "resolve_project_ref",
-      "target": "resolve_project_ref_parse_frontmatter",
-      "confidence_score": 1.0
+      "target": "resolve_project_ref_parse_frontmatter"
     },
     {
       "relation": "contains",
@@ -1253,9 +1253,9 @@
       "weight": 1.0,
       "_src": "resolve_project_ref",
       "_tgt": "resolve_project_ref_build_mapping",
+      "confidence_score": 1.0,
       "source": "resolve_project_ref",
-      "target": "resolve_project_ref_build_mapping",
-      "confidence_score": 1.0
+      "target": "resolve_project_ref_build_mapping"
     },
     {
       "relation": "contains",
@@ -1265,9 +1265,9 @@
       "weight": 1.0,
       "_src": "resolve_project_ref",
       "_tgt": "resolve_project_ref_main",
+      "confidence_score": 1.0,
       "source": "resolve_project_ref",
-      "target": "resolve_project_ref_main",
-      "confidence_score": 1.0
+      "target": "resolve_project_ref_main"
     },
     {
       "relation": "calls",
@@ -1277,9 +1277,9 @@
       "weight": 0.8,
       "_src": "resolve_project_ref_build_mapping",
       "_tgt": "resolve_project_ref_parse_frontmatter",
+      "confidence_score": 0.5,
       "source": "resolve_project_ref_parse_frontmatter",
-      "target": "resolve_project_ref_build_mapping",
-      "confidence_score": 0.5
+      "target": "resolve_project_ref_build_mapping"
     },
     {
       "relation": "rationale_for",
@@ -1289,9 +1289,9 @@
       "weight": 1.0,
       "_src": "resolve_project_ref_rationale_28",
       "_tgt": "resolve_project_ref_parse_frontmatter",
+      "confidence_score": 1.0,
       "source": "resolve_project_ref_parse_frontmatter",
-      "target": "resolve_project_ref_rationale_28",
-      "confidence_score": 1.0
+      "target": "resolve_project_ref_rationale_28"
     },
     {
       "relation": "calls",
@@ -1301,9 +1301,9 @@
       "weight": 0.8,
       "_src": "resolve_project_ref_main",
       "_tgt": "resolve_project_ref_build_mapping",
+      "confidence_score": 0.5,
       "source": "resolve_project_ref_build_mapping",
-      "target": "resolve_project_ref_main",
-      "confidence_score": 0.5
+      "target": "resolve_project_ref_main"
     },
     {
       "relation": "rationale_for",
@@ -1313,9 +1313,9 @@
       "weight": 1.0,
       "_src": "resolve_project_ref_rationale_58",
       "_tgt": "resolve_project_ref_build_mapping",
+      "confidence_score": 1.0,
       "source": "resolve_project_ref_build_mapping",
-      "target": "resolve_project_ref_rationale_58",
-      "confidence_score": 1.0
+      "target": "resolve_project_ref_rationale_58"
     },
     {
       "relation": "contains",
@@ -1325,9 +1325,9 @@
       "weight": 1.0,
       "_src": "speak",
       "_tgt": "speak_speak",
+      "confidence_score": 1.0,
       "source": "speak",
-      "target": "speak_speak",
-      "confidence_score": 1.0
+      "target": "speak_speak"
     },
     {
       "relation": "contains",
@@ -1337,9 +1337,9 @@
       "weight": 1.0,
       "_src": "speak",
       "_tgt": "speak_main",
+      "confidence_score": 1.0,
       "source": "speak",
-      "target": "speak_main",
-      "confidence_score": 1.0
+      "target": "speak_main"
     },
     {
       "relation": "calls",
@@ -1349,9 +1349,9 @@
       "weight": 0.8,
       "_src": "speak_main",
       "_tgt": "speak_speak",
+      "confidence_score": 0.5,
       "source": "speak_speak",
-      "target": "speak_main",
-      "confidence_score": 0.5
+      "target": "speak_main"
     },
     {
       "relation": "rationale_for",
@@ -1361,9 +1361,9 @@
       "weight": 1.0,
       "_src": "speak_rationale_29",
       "_tgt": "speak_speak",
+      "confidence_score": 1.0,
       "source": "speak_speak",
-      "target": "speak_rationale_29",
-      "confidence_score": 1.0
+      "target": "speak_rationale_29"
     },
     {
       "relation": "contains",
@@ -1373,9 +1373,9 @@
       "weight": 1.0,
       "_src": "transcribe",
       "_tgt": "transcribe_transcribe",
+      "confidence_score": 1.0,
       "source": "transcribe",
-      "target": "transcribe_transcribe",
-      "confidence_score": 1.0
+      "target": "transcribe_transcribe"
     },
     {
       "relation": "contains",
@@ -1385,9 +1385,9 @@
       "weight": 1.0,
       "_src": "transcribe",
       "_tgt": "transcribe_main",
+      "confidence_score": 1.0,
       "source": "transcribe",
-      "target": "transcribe_main",
-      "confidence_score": 1.0
+      "target": "transcribe_main"
     },
     {
       "relation": "calls",
@@ -1397,9 +1397,9 @@
       "weight": 0.8,
       "_src": "transcribe_main",
       "_tgt": "transcribe_transcribe",
+      "confidence_score": 0.5,
       "source": "transcribe_transcribe",
-      "target": "transcribe_main",
-      "confidence_score": 0.5
+      "target": "transcribe_main"
     },
     {
       "relation": "rationale_for",
@@ -1409,9 +1409,9 @@
       "weight": 1.0,
       "_src": "transcribe_rationale_19",
       "_tgt": "transcribe_transcribe",
+      "confidence_score": 1.0,
       "source": "transcribe_transcribe",
-      "target": "transcribe_rationale_19",
-      "confidence_score": 1.0
+      "target": "transcribe_rationale_19"
     },
     {
       "relation": "contains",
@@ -1421,9 +1421,9 @@
       "weight": 1.0,
       "_src": "render_graphs",
       "_tgt": "render_graphs_extractdotblocks",
+      "confidence_score": 1.0,
       "source": "render_graphs",
-      "target": "render_graphs_extractdotblocks",
-      "confidence_score": 1.0
+      "target": "render_graphs_extractdotblocks"
     },
     {
       "relation": "contains",
@@ -1433,9 +1433,9 @@
       "weight": 1.0,
       "_src": "render_graphs",
       "_tgt": "render_graphs_extractgraphbody",
+      "confidence_score": 1.0,
       "source": "render_graphs",
-      "target": "render_graphs_extractgraphbody",
-      "confidence_score": 1.0
+      "target": "render_graphs_extractgraphbody"
     },
     {
       "relation": "contains",
@@ -1445,9 +1445,9 @@
       "weight": 1.0,
       "_src": "render_graphs",
       "_tgt": "render_graphs_combinegraphs",
+      "confidence_score": 1.0,
       "source": "render_graphs",
-      "target": "render_graphs_combinegraphs",
-      "confidence_score": 1.0
+      "target": "render_graphs_combinegraphs"
     },
     {
       "relation": "contains",
@@ -1457,9 +1457,9 @@
       "weight": 1.0,
       "_src": "render_graphs",
       "_tgt": "render_graphs_rendertosvg",
+      "confidence_score": 1.0,
       "source": "render_graphs",
-      "target": "render_graphs_rendertosvg",
-      "confidence_score": 1.0
+      "target": "render_graphs_rendertosvg"
     },
     {
       "relation": "contains",
@@ -1469,9 +1469,9 @@
       "weight": 1.0,
       "_src": "render_graphs",
       "_tgt": "render_graphs_main",
+      "confidence_score": 1.0,
       "source": "render_graphs",
-      "target": "render_graphs_main",
-      "confidence_score": 1.0
+      "target": "render_graphs_main"
     },
     {
       "relation": "calls",
@@ -1481,9 +1481,9 @@
       "weight": 0.8,
       "_src": "render_graphs_main",
       "_tgt": "render_graphs_extractdotblocks",
+      "confidence_score": 0.5,
       "source": "render_graphs_extractdotblocks",
-      "target": "render_graphs_main",
-      "confidence_score": 0.5
+      "target": "render_graphs_main"
     },
     {
       "relation": "calls",
@@ -1493,9 +1493,9 @@
       "weight": 0.8,
       "_src": "render_graphs_main",
       "_tgt": "render_graphs_combinegraphs",
+      "confidence_score": 0.5,
       "source": "render_graphs_combinegraphs",
-      "target": "render_graphs_main",
-      "confidence_score": 0.5
+      "target": "render_graphs_main"
     },
     {
       "relation": "calls",
@@ -1505,9 +1505,9 @@
       "weight": 0.8,
       "_src": "render_graphs_main",
       "_tgt": "render_graphs_rendertosvg",
+      "confidence_score": 0.5,
       "source": "render_graphs_rendertosvg",
-      "target": "render_graphs_main",
-      "confidence_score": 0.5
+      "target": "render_graphs_main"
     },
     {
       "relation": "imports_from",
@@ -1517,9 +1517,9 @@
       "weight": 1.0,
       "_src": "main",
       "_tgt": "cli",
+      "confidence_score": 1.0,
       "source": "main",
-      "target": "cli",
-      "confidence_score": 1.0
+      "target": "cli"
     },
     {
       "relation": "contains",
@@ -1529,9 +1529,9 @@
       "weight": 1.0,
       "_src": "cli",
       "_tgt": "cli_json_for_html_script",
+      "confidence_score": 1.0,
       "source": "cli",
-      "target": "cli_json_for_html_script",
-      "confidence_score": 1.0
+      "target": "cli_json_for_html_script"
     },
     {
       "relation": "contains",
@@ -1541,9 +1541,9 @@
       "weight": 1.0,
       "_src": "cli",
       "_tgt": "cli_run_export",
+      "confidence_score": 1.0,
       "source": "cli",
-      "target": "cli_run_export",
-      "confidence_score": 1.0
+      "target": "cli_run_export"
     },
     {
       "relation": "contains",
@@ -1553,9 +1553,9 @@
       "weight": 1.0,
       "_src": "cli",
       "_tgt": "cli_build_html",
+      "confidence_score": 1.0,
       "source": "cli",
-      "target": "cli_build_html",
-      "confidence_score": 1.0
+      "target": "cli_build_html"
     },
     {
       "relation": "contains",
@@ -1565,9 +1565,9 @@
       "weight": 1.0,
       "_src": "cli",
       "_tgt": "cli_main",
+      "confidence_score": 1.0,
       "source": "cli",
-      "target": "cli_main",
-      "confidence_score": 1.0
+      "target": "cli_main"
     },
     {
       "relation": "calls",
@@ -1577,9 +1577,9 @@
       "weight": 0.8,
       "_src": "cli_build_html",
       "_tgt": "cli_json_for_html_script",
+      "confidence_score": 0.5,
       "source": "cli_json_for_html_script",
-      "target": "cli_build_html",
-      "confidence_score": 0.5
+      "target": "cli_build_html"
     },
     {
       "relation": "calls",
@@ -1589,9 +1589,9 @@
       "weight": 0.8,
       "_src": "cli_main",
       "_tgt": "cli_run_export",
+      "confidence_score": 0.5,
       "source": "cli_run_export",
-      "target": "cli_main",
-      "confidence_score": 0.5
+      "target": "cli_main"
     },
     {
       "relation": "calls",
@@ -1601,9 +1601,9 @@
       "weight": 0.8,
       "_src": "cli_main",
       "_tgt": "cli_build_html",
+      "confidence_score": 0.5,
       "source": "cli_build_html",
-      "target": "cli_main",
-      "confidence_score": 0.5
+      "target": "cli_main"
     },
     {
       "relation": "contains",
@@ -1613,9 +1613,9 @@
       "weight": 1.0,
       "_src": "export_all",
       "_tgt": "export_all_load_index",
+      "confidence_score": 1.0,
       "source": "export_all",
-      "target": "export_all_load_index",
-      "confidence_score": 1.0
+      "target": "export_all_load_index"
     },
     {
       "relation": "contains",
@@ -1625,9 +1625,9 @@
       "weight": 1.0,
       "_src": "export_all",
       "_tgt": "export_all_save_index",
+      "confidence_score": 1.0,
       "source": "export_all",
-      "target": "export_all_save_index",
-      "confidence_score": 1.0
+      "target": "export_all_save_index"
     },
     {
       "relation": "contains",
@@ -1637,9 +1637,9 @@
       "weight": 1.0,
       "_src": "export_all",
       "_tgt": "export_all_get_existing_ids",
+      "confidence_score": 1.0,
       "source": "export_all",
-      "target": "export_all_get_existing_ids",
-      "confidence_score": 1.0
+      "target": "export_all_get_existing_ids"
     },
     {
       "relation": "contains",
@@ -1649,9 +1649,9 @@
       "weight": 1.0,
       "_src": "export_all",
       "_tgt": "export_all_preserve_existing_fields",
+      "confidence_score": 1.0,
       "source": "export_all",
-      "target": "export_all_preserve_existing_fields",
-      "confidence_score": 1.0
+      "target": "export_all_preserve_existing_fields"
     },
     {
       "relation": "contains",
@@ -1661,9 +1661,9 @@
       "weight": 1.0,
       "_src": "export_all",
       "_tgt": "export_all_clean_metadata_text",
+      "confidence_score": 1.0,
       "source": "export_all",
-      "target": "export_all_clean_metadata_text",
-      "confidence_score": 1.0
+      "target": "export_all_clean_metadata_text"
     },
     {
       "relation": "contains",
@@ -1673,9 +1673,9 @@
       "weight": 1.0,
       "_src": "export_all",
       "_tgt": "export_all_normalize_project_metadata",
+      "confidence_score": 1.0,
       "source": "export_all",
-      "target": "export_all_normalize_project_metadata",
-      "confidence_score": 1.0
+      "target": "export_all_normalize_project_metadata"
     },
     {
       "relation": "contains",
@@ -1685,9 +1685,9 @@
       "weight": 1.0,
       "_src": "export_all",
       "_tgt": "export_all_sanitize_conversation_metadata",
+      "confidence_score": 1.0,
       "source": "export_all",
-      "target": "export_all_sanitize_conversation_metadata",
-      "confidence_score": 1.0
+      "target": "export_all_sanitize_conversation_metadata"
     },
     {
       "relation": "contains",
@@ -1697,9 +1697,9 @@
       "weight": 1.0,
       "_src": "export_all",
       "_tgt": "export_all_sanitize_index_metadata",
+      "confidence_score": 1.0,
       "source": "export_all",
-      "target": "export_all_sanitize_index_metadata",
-      "confidence_score": 1.0
+      "target": "export_all_sanitize_index_metadata"
     },
     {
       "relation": "contains",
@@ -1709,9 +1709,9 @@
       "weight": 1.0,
       "_src": "export_all",
       "_tgt": "export_all_content_hash",
+      "confidence_score": 1.0,
       "source": "export_all",
-      "target": "export_all_content_hash",
-      "confidence_score": 1.0
+      "target": "export_all_content_hash"
     },
     {
       "relation": "contains",
@@ -1721,9 +1721,9 @@
       "weight": 1.0,
       "_src": "export_all",
       "_tgt": "export_all_upsert_conversation",
+      "confidence_score": 1.0,
       "source": "export_all",
-      "target": "export_all_upsert_conversation",
-      "confidence_score": 1.0
+      "target": "export_all_upsert_conversation"
     },
     {
       "relation": "contains",
@@ -1733,9 +1733,9 @@
       "weight": 1.0,
       "_src": "export_all",
       "_tgt": "export_all_find_existing_conversation",
+      "confidence_score": 1.0,
       "source": "export_all",
-      "target": "export_all_find_existing_conversation",
-      "confidence_score": 1.0
+      "target": "export_all_find_existing_conversation"
     },
     {
       "relation": "contains",
@@ -1745,9 +1745,9 @@
       "weight": 1.0,
       "_src": "export_all",
       "_tgt": "export_all_make_conv_id",
+      "confidence_score": 1.0,
       "source": "export_all",
-      "target": "export_all_make_conv_id",
-      "confidence_score": 1.0
+      "target": "export_all_make_conv_id"
     },
     {
       "relation": "contains",
@@ -1757,9 +1757,9 @@
       "weight": 1.0,
       "_src": "export_all",
       "_tgt": "export_all_default_markdown_dir",
+      "confidence_score": 1.0,
       "source": "export_all",
-      "target": "export_all_default_markdown_dir",
-      "confidence_score": 1.0
+      "target": "export_all_default_markdown_dir"
     },
     {
       "relation": "contains",
@@ -1769,9 +1769,9 @@
       "weight": 1.0,
       "_src": "export_all",
       "_tgt": "export_all_build_transcript_stem",
+      "confidence_score": 1.0,
       "source": "export_all",
-      "target": "export_all_build_transcript_stem",
-      "confidence_score": 1.0
+      "target": "export_all_build_transcript_stem"
     },
     {
       "relation": "contains",
@@ -1781,9 +1781,9 @@
       "weight": 1.0,
       "_src": "export_all",
       "_tgt": "export_all_materialize_transcripts",
+      "confidence_score": 1.0,
       "source": "export_all",
-      "target": "export_all_materialize_transcripts",
-      "confidence_score": 1.0
+      "target": "export_all_materialize_transcripts"
     },
     {
       "relation": "contains",
@@ -1793,9 +1793,9 @@
       "weight": 1.0,
       "_src": "export_all",
       "_tgt": "export_all_export_claude",
+      "confidence_score": 1.0,
       "source": "export_all",
-      "target": "export_all_export_claude",
-      "confidence_score": 1.0
+      "target": "export_all_export_claude"
     },
     {
       "relation": "contains",
@@ -1805,9 +1805,9 @@
       "weight": 1.0,
       "_src": "export_all",
       "_tgt": "export_all_export_codex",
+      "confidence_score": 1.0,
       "source": "export_all",
-      "target": "export_all_export_codex",
-      "confidence_score": 1.0
+      "target": "export_all_export_codex"
     },
     {
       "relation": "contains",
@@ -1817,9 +1817,9 @@
       "weight": 1.0,
       "_src": "export_all",
       "_tgt": "export_all_export_antigravity",
+      "confidence_score": 1.0,
       "source": "export_all",
-      "target": "export_all_export_antigravity",
-      "confidence_score": 1.0
+      "target": "export_all_export_antigravity"
     },
     {
       "relation": "contains",
@@ -1829,9 +1829,9 @@
       "weight": 1.0,
       "_src": "export_all",
       "_tgt": "export_all_build_search_index",
+      "confidence_score": 1.0,
       "source": "export_all",
-      "target": "export_all_build_search_index",
-      "confidence_score": 1.0
+      "target": "export_all_build_search_index"
     },
     {
       "relation": "contains",
@@ -1841,9 +1841,9 @@
       "weight": 1.0,
       "_src": "export_all",
       "_tgt": "export_all_main",
+      "confidence_score": 1.0,
       "source": "export_all",
-      "target": "export_all_main",
-      "confidence_score": 1.0
+      "target": "export_all_main"
     },
     {
       "relation": "calls",
@@ -1853,9 +1853,9 @@
       "weight": 0.8,
       "_src": "export_all_main",
       "_tgt": "export_all_load_index",
+      "confidence_score": 0.5,
       "source": "export_all_load_index",
-      "target": "export_all_main",
-      "confidence_score": 0.5
+      "target": "export_all_main"
     },
     {
       "relation": "calls",
@@ -1865,9 +1865,9 @@
       "weight": 0.8,
       "_src": "export_all_main",
       "_tgt": "export_all_save_index",
+      "confidence_score": 0.5,
       "source": "export_all_save_index",
-      "target": "export_all_main",
-      "confidence_score": 0.5
+      "target": "export_all_main"
     },
     {
       "relation": "calls",
@@ -1877,9 +1877,9 @@
       "weight": 0.8,
       "_src": "export_all_main",
       "_tgt": "export_all_get_existing_ids",
+      "confidence_score": 0.5,
       "source": "export_all_get_existing_ids",
-      "target": "export_all_main",
-      "confidence_score": 0.5
+      "target": "export_all_main"
     },
     {
       "relation": "calls",
@@ -1889,9 +1889,9 @@
       "weight": 0.8,
       "_src": "export_all_upsert_conversation",
       "_tgt": "export_all_preserve_existing_fields",
+      "confidence_score": 0.5,
       "source": "export_all_preserve_existing_fields",
-      "target": "export_all_upsert_conversation",
-      "confidence_score": 0.5
+      "target": "export_all_upsert_conversation"
     },
     {
       "relation": "calls",
@@ -1901,9 +1901,9 @@
       "weight": 0.8,
       "_src": "export_all_normalize_project_metadata",
       "_tgt": "export_all_clean_metadata_text",
+      "confidence_score": 0.5,
       "source": "export_all_clean_metadata_text",
-      "target": "export_all_normalize_project_metadata",
-      "confidence_score": 0.5
+      "target": "export_all_normalize_project_metadata"
     },
     {
       "relation": "calls",
@@ -1913,9 +1913,9 @@
       "weight": 0.8,
       "_src": "export_all_sanitize_conversation_metadata",
       "_tgt": "export_all_clean_metadata_text",
+      "confidence_score": 0.5,
       "source": "export_all_clean_metadata_text",
-      "target": "export_all_sanitize_conversation_metadata",
-      "confidence_score": 0.5
+      "target": "export_all_sanitize_conversation_metadata"
     },
     {
       "relation": "calls",
@@ -1925,9 +1925,9 @@
       "weight": 0.8,
       "_src": "export_all_sanitize_conversation_metadata",
       "_tgt": "export_all_normalize_project_metadata",
+      "confidence_score": 0.5,
       "source": "export_all_normalize_project_metadata",
-      "target": "export_all_sanitize_conversation_metadata",
-      "confidence_score": 0.5
+      "target": "export_all_sanitize_conversation_metadata"
     },
     {
       "relation": "calls",
@@ -1937,9 +1937,9 @@
       "weight": 0.8,
       "_src": "export_all_sanitize_index_metadata",
       "_tgt": "export_all_sanitize_conversation_metadata",
+      "confidence_score": 0.5,
       "source": "export_all_sanitize_conversation_metadata",
-      "target": "export_all_sanitize_index_metadata",
-      "confidence_score": 0.5
+      "target": "export_all_sanitize_index_metadata"
     },
     {
       "relation": "calls",
@@ -1949,9 +1949,9 @@
       "weight": 0.8,
       "_src": "export_all_upsert_conversation",
       "_tgt": "export_all_sanitize_conversation_metadata",
+      "confidence_score": 0.5,
       "source": "export_all_sanitize_conversation_metadata",
-      "target": "export_all_upsert_conversation",
-      "confidence_score": 0.5
+      "target": "export_all_upsert_conversation"
     },
     {
       "relation": "calls",
@@ -1961,9 +1961,9 @@
       "weight": 0.8,
       "_src": "export_all_main",
       "_tgt": "export_all_sanitize_index_metadata",
+      "confidence_score": 0.5,
       "source": "export_all_sanitize_index_metadata",
-      "target": "export_all_main",
-      "confidence_score": 0.5
+      "target": "export_all_main"
     },
     {
       "relation": "calls",
@@ -1973,9 +1973,9 @@
       "weight": 0.8,
       "_src": "export_all_upsert_conversation",
       "_tgt": "export_all_content_hash",
+      "confidence_score": 0.5,
       "source": "export_all_content_hash",
-      "target": "export_all_upsert_conversation",
-      "confidence_score": 0.5
+      "target": "export_all_upsert_conversation"
     },
     {
       "relation": "rationale_for",
@@ -1985,9 +1985,9 @@
       "weight": 1.0,
       "_src": "export_all_rationale_127",
       "_tgt": "export_all_content_hash",
+      "confidence_score": 1.0,
       "source": "export_all_content_hash",
-      "target": "export_all_rationale_127",
-      "confidence_score": 1.0
+      "target": "export_all_rationale_127"
     },
     {
       "relation": "calls",
@@ -1997,9 +1997,9 @@
       "weight": 0.8,
       "_src": "export_all_export_claude",
       "_tgt": "export_all_upsert_conversation",
+      "confidence_score": 0.5,
       "source": "export_all_upsert_conversation",
-      "target": "export_all_export_claude",
-      "confidence_score": 0.5
+      "target": "export_all_export_claude"
     },
     {
       "relation": "calls",
@@ -2009,9 +2009,9 @@
       "weight": 0.8,
       "_src": "export_all_export_codex",
       "_tgt": "export_all_upsert_conversation",
+      "confidence_score": 0.5,
       "source": "export_all_upsert_conversation",
-      "target": "export_all_export_codex",
-      "confidence_score": 0.5
+      "target": "export_all_export_codex"
     },
     {
       "relation": "calls",
@@ -2021,9 +2021,9 @@
       "weight": 0.8,
       "_src": "export_all_export_antigravity",
       "_tgt": "export_all_upsert_conversation",
+      "confidence_score": 0.5,
       "source": "export_all_upsert_conversation",
-      "target": "export_all_export_antigravity",
-      "confidence_score": 0.5
+      "target": "export_all_export_antigravity"
     },
     {
       "relation": "rationale_for",
@@ -2033,9 +2033,9 @@
       "weight": 1.0,
       "_src": "export_all_rationale_137",
       "_tgt": "export_all_upsert_conversation",
+      "confidence_score": 1.0,
       "source": "export_all_upsert_conversation",
-      "target": "export_all_rationale_137",
-      "confidence_score": 1.0
+      "target": "export_all_rationale_137"
     },
     {
       "relation": "calls",
@@ -2045,9 +2045,9 @@
       "weight": 0.8,
       "_src": "export_all_export_claude",
       "_tgt": "export_all_make_conv_id",
+      "confidence_score": 0.5,
       "source": "export_all_make_conv_id",
-      "target": "export_all_export_claude",
-      "confidence_score": 0.5
+      "target": "export_all_export_claude"
     },
     {
       "relation": "calls",
@@ -2057,9 +2057,9 @@
       "weight": 0.8,
       "_src": "export_all_export_codex",
       "_tgt": "export_all_make_conv_id",
+      "confidence_score": 0.5,
       "source": "export_all_make_conv_id",
-      "target": "export_all_export_codex",
-      "confidence_score": 0.5
+      "target": "export_all_export_codex"
     },
     {
       "relation": "calls",
@@ -2069,9 +2069,9 @@
       "weight": 0.8,
       "_src": "export_all_export_antigravity",
       "_tgt": "export_all_make_conv_id",
+      "confidence_score": 0.5,
       "source": "export_all_make_conv_id",
-      "target": "export_all_export_antigravity",
-      "confidence_score": 0.5
+      "target": "export_all_export_antigravity"
     },
     {
       "relation": "calls",
@@ -2081,9 +2081,9 @@
       "weight": 0.8,
       "_src": "export_all_main",
       "_tgt": "export_all_default_markdown_dir",
+      "confidence_score": 0.5,
       "source": "export_all_default_markdown_dir",
-      "target": "export_all_main",
-      "confidence_score": 0.5
+      "target": "export_all_main"
     },
     {
       "relation": "calls",
@@ -2093,9 +2093,9 @@
       "weight": 0.8,
       "_src": "export_all_materialize_transcripts",
       "_tgt": "export_all_build_transcript_stem",
+      "confidence_score": 0.5,
       "source": "export_all_build_transcript_stem",
-      "target": "export_all_materialize_transcripts",
-      "confidence_score": 0.5
+      "target": "export_all_materialize_transcripts"
     },
     {
       "relation": "calls",
@@ -2105,9 +2105,9 @@
       "weight": 0.8,
       "_src": "export_all_main",
       "_tgt": "export_all_materialize_transcripts",
+      "confidence_score": 0.5,
       "source": "export_all_materialize_transcripts",
-      "target": "export_all_main",
-      "confidence_score": 0.5
+      "target": "export_all_main"
     },
     {
       "relation": "rationale_for",
@@ -2117,9 +2117,9 @@
       "weight": 1.0,
       "_src": "export_all_rationale_186",
       "_tgt": "export_all_materialize_transcripts",
+      "confidence_score": 1.0,
       "source": "export_all_materialize_transcripts",
-      "target": "export_all_rationale_186",
-      "confidence_score": 1.0
+      "target": "export_all_rationale_186"
     },
     {
       "relation": "calls",
@@ -2129,9 +2129,9 @@
       "weight": 0.8,
       "_src": "export_all_main",
       "_tgt": "export_all_export_claude",
+      "confidence_score": 0.5,
       "source": "export_all_export_claude",
-      "target": "export_all_main",
-      "confidence_score": 0.5
+      "target": "export_all_main"
     },
     {
       "relation": "calls",
@@ -2141,9 +2141,9 @@
       "weight": 0.8,
       "_src": "export_all_main",
       "_tgt": "export_all_export_codex",
+      "confidence_score": 0.5,
       "source": "export_all_export_codex",
-      "target": "export_all_main",
-      "confidence_score": 0.5
+      "target": "export_all_main"
     },
     {
       "relation": "calls",
@@ -2153,9 +2153,9 @@
       "weight": 0.8,
       "_src": "export_all_main",
       "_tgt": "export_all_export_antigravity",
+      "confidence_score": 0.5,
       "source": "export_all_export_antigravity",
-      "target": "export_all_main",
-      "confidence_score": 0.5
+      "target": "export_all_main"
     },
     {
       "relation": "calls",
@@ -2165,9 +2165,9 @@
       "weight": 0.8,
       "_src": "export_all_main",
       "_tgt": "export_all_build_search_index",
+      "confidence_score": 0.5,
       "source": "export_all_build_search_index",
-      "target": "export_all_main",
-      "confidence_score": 0.5
+      "target": "export_all_main"
     },
     {
       "relation": "rationale_for",
@@ -2177,9 +2177,9 @@
       "weight": 1.0,
       "_src": "export_all_rationale_369",
       "_tgt": "export_all_build_search_index",
+      "confidence_score": 1.0,
       "source": "export_all_build_search_index",
-      "target": "export_all_rationale_369",
-      "confidence_score": 1.0
+      "target": "export_all_rationale_369"
     },
     {
       "relation": "contains",
@@ -2189,9 +2189,9 @@
       "weight": 1.0,
       "_src": "extract_antigravity",
       "_tgt": "extract_antigravity_decode_value",
+      "confidence_score": 1.0,
       "source": "extract_antigravity",
-      "target": "extract_antigravity_decode_value",
-      "confidence_score": 1.0
+      "target": "extract_antigravity_decode_value"
     },
     {
       "relation": "contains",
@@ -2201,9 +2201,9 @@
       "weight": 1.0,
       "_src": "extract_antigravity",
       "_tgt": "extract_antigravity_clean_text",
+      "confidence_score": 1.0,
       "source": "extract_antigravity",
-      "target": "extract_antigravity_clean_text",
-      "confidence_score": 1.0
+      "target": "extract_antigravity_clean_text"
     },
     {
       "relation": "contains",
@@ -2213,9 +2213,9 @@
       "weight": 1.0,
       "_src": "extract_antigravity",
       "_tgt": "extract_antigravity_looks_human_readable",
+      "confidence_score": 1.0,
       "source": "extract_antigravity",
-      "target": "extract_antigravity_looks_human_readable",
-      "confidence_score": 1.0
+      "target": "extract_antigravity_looks_human_readable"
     },
     {
       "relation": "contains",
@@ -2225,9 +2225,9 @@
       "weight": 1.0,
       "_src": "extract_antigravity",
       "_tgt": "extract_antigravity_extract_title",
+      "confidence_score": 1.0,
       "source": "extract_antigravity",
-      "target": "extract_antigravity_extract_title",
-      "confidence_score": 1.0
+      "target": "extract_antigravity_extract_title"
     },
     {
       "relation": "contains",
@@ -2237,9 +2237,9 @@
       "weight": 1.0,
       "_src": "extract_antigravity",
       "_tgt": "extract_antigravity_is_poor_title",
+      "confidence_score": 1.0,
       "source": "extract_antigravity",
-      "target": "extract_antigravity_is_poor_title",
-      "confidence_score": 1.0
+      "target": "extract_antigravity_is_poor_title"
     },
     {
       "relation": "contains",
@@ -2249,9 +2249,9 @@
       "weight": 1.0,
       "_src": "extract_antigravity",
       "_tgt": "extract_antigravity_normalize_title_candidate",
+      "confidence_score": 1.0,
       "source": "extract_antigravity",
-      "target": "extract_antigravity_normalize_title_candidate",
-      "confidence_score": 1.0
+      "target": "extract_antigravity_normalize_title_candidate"
     },
     {
       "relation": "contains",
@@ -2261,9 +2261,9 @@
       "weight": 1.0,
       "_src": "extract_antigravity",
       "_tgt": "extract_antigravity_title_from_messages",
+      "confidence_score": 1.0,
       "source": "extract_antigravity",
-      "target": "extract_antigravity_title_from_messages",
-      "confidence_score": 1.0
+      "target": "extract_antigravity_title_from_messages"
     },
     {
       "relation": "contains",
@@ -2273,9 +2273,9 @@
       "weight": 1.0,
       "_src": "extract_antigravity",
       "_tgt": "extract_antigravity_extract_project",
+      "confidence_score": 1.0,
       "source": "extract_antigravity",
-      "target": "extract_antigravity_extract_project",
-      "confidence_score": 1.0
+      "target": "extract_antigravity_extract_project"
     },
     {
       "relation": "contains",
@@ -2285,9 +2285,9 @@
       "weight": 1.0,
       "_src": "extract_antigravity",
       "_tgt": "extract_antigravity_extract_json_objects",
+      "confidence_score": 1.0,
       "source": "extract_antigravity",
-      "target": "extract_antigravity_extract_json_objects",
-      "confidence_score": 1.0
+      "target": "extract_antigravity_extract_json_objects"
     },
     {
       "relation": "contains",
@@ -2297,9 +2297,9 @@
       "weight": 1.0,
       "_src": "extract_antigravity",
       "_tgt": "extract_antigravity_append_message",
+      "confidence_score": 1.0,
       "source": "extract_antigravity",
-      "target": "extract_antigravity_append_message",
-      "confidence_score": 1.0
+      "target": "extract_antigravity_append_message"
     },
     {
       "relation": "contains",
@@ -2309,9 +2309,9 @@
       "weight": 1.0,
       "_src": "extract_antigravity",
       "_tgt": "extract_antigravity_extract_messages_from_chunk",
+      "confidence_score": 1.0,
       "source": "extract_antigravity",
-      "target": "extract_antigravity_extract_messages_from_chunk",
-      "confidence_score": 1.0
+      "target": "extract_antigravity_extract_messages_from_chunk"
     },
     {
       "relation": "contains",
@@ -2321,9 +2321,9 @@
       "weight": 1.0,
       "_src": "extract_antigravity",
       "_tgt": "extract_antigravity_extract_conversations_from_traj",
+      "confidence_score": 1.0,
       "source": "extract_antigravity",
-      "target": "extract_antigravity_extract_conversations_from_traj",
-      "confidence_score": 1.0
+      "target": "extract_antigravity_extract_conversations_from_traj"
     },
     {
       "relation": "contains",
@@ -2333,9 +2333,9 @@
       "weight": 1.0,
       "_src": "extract_antigravity",
       "_tgt": "extract_antigravity_extract_messages_from_jetski",
+      "confidence_score": 1.0,
       "source": "extract_antigravity",
-      "target": "extract_antigravity_extract_messages_from_jetski",
-      "confidence_score": 1.0
+      "target": "extract_antigravity_extract_messages_from_jetski"
     },
     {
       "relation": "contains",
@@ -2345,9 +2345,9 @@
       "weight": 1.0,
       "_src": "extract_antigravity",
       "_tgt": "extract_antigravity_safe_read_json",
+      "confidence_score": 1.0,
       "source": "extract_antigravity",
-      "target": "extract_antigravity_safe_read_json",
-      "confidence_score": 1.0
+      "target": "extract_antigravity_safe_read_json"
     },
     {
       "relation": "contains",
@@ -2357,9 +2357,9 @@
       "weight": 1.0,
       "_src": "extract_antigravity",
       "_tgt": "extract_antigravity_extract_artifact_heading",
+      "confidence_score": 1.0,
       "source": "extract_antigravity",
-      "target": "extract_antigravity_extract_artifact_heading",
-      "confidence_score": 1.0
+      "target": "extract_antigravity_extract_artifact_heading"
     },
     {
       "relation": "contains",
@@ -2369,9 +2369,9 @@
       "weight": 1.0,
       "_src": "extract_antigravity",
       "_tgt": "extract_antigravity_artifact_priority",
+      "confidence_score": 1.0,
       "source": "extract_antigravity",
-      "target": "extract_antigravity_artifact_priority",
-      "confidence_score": 1.0
+      "target": "extract_antigravity_artifact_priority"
     },
     {
       "relation": "contains",
@@ -2381,9 +2381,9 @@
       "weight": 1.0,
       "_src": "extract_antigravity",
       "_tgt": "extract_antigravity_collect_brain_artifacts",
+      "confidence_score": 1.0,
       "source": "extract_antigravity",
-      "target": "extract_antigravity_collect_brain_artifacts",
-      "confidence_score": 1.0
+      "target": "extract_antigravity_collect_brain_artifacts"
     },
     {
       "relation": "contains",
@@ -2393,9 +2393,9 @@
       "weight": 1.0,
       "_src": "extract_antigravity",
       "_tgt": "extract_antigravity_find_sessions",
+      "confidence_score": 1.0,
       "source": "extract_antigravity",
-      "target": "extract_antigravity_find_sessions",
-      "confidence_score": 1.0
+      "target": "extract_antigravity_find_sessions"
     },
     {
       "relation": "calls",
@@ -2405,9 +2405,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_find_sessions",
       "_tgt": "extract_antigravity_decode_value",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_decode_value",
-      "target": "extract_antigravity_find_sessions",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_find_sessions"
     },
     {
       "relation": "calls",
@@ -2417,9 +2417,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_extract_title",
       "_tgt": "extract_antigravity_clean_text",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_clean_text",
-      "target": "extract_antigravity_extract_title",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_extract_title"
     },
     {
       "relation": "calls",
@@ -2429,9 +2429,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_normalize_title_candidate",
       "_tgt": "extract_antigravity_clean_text",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_clean_text",
-      "target": "extract_antigravity_normalize_title_candidate",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_normalize_title_candidate"
     },
     {
       "relation": "calls",
@@ -2441,9 +2441,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_title_from_messages",
       "_tgt": "extract_antigravity_clean_text",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_clean_text",
-      "target": "extract_antigravity_title_from_messages",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_title_from_messages"
     },
     {
       "relation": "calls",
@@ -2453,9 +2453,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_append_message",
       "_tgt": "extract_antigravity_clean_text",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_clean_text",
-      "target": "extract_antigravity_append_message",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_append_message"
     },
     {
       "relation": "calls",
@@ -2465,9 +2465,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_extract_messages_from_jetski",
       "_tgt": "extract_antigravity_clean_text",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_clean_text",
-      "target": "extract_antigravity_extract_messages_from_jetski",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_extract_messages_from_jetski"
     },
     {
       "relation": "calls",
@@ -2477,9 +2477,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_extract_artifact_heading",
       "_tgt": "extract_antigravity_clean_text",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_clean_text",
-      "target": "extract_antigravity_extract_artifact_heading",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_extract_artifact_heading"
     },
     {
       "relation": "calls",
@@ -2489,9 +2489,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_extract_title",
       "_tgt": "extract_antigravity_looks_human_readable",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_looks_human_readable",
-      "target": "extract_antigravity_extract_title",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_extract_title"
     },
     {
       "relation": "calls",
@@ -2501,9 +2501,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_title_from_messages",
       "_tgt": "extract_antigravity_looks_human_readable",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_looks_human_readable",
-      "target": "extract_antigravity_title_from_messages",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_title_from_messages"
     },
     {
       "relation": "calls",
@@ -2513,9 +2513,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_extract_conversations_from_traj",
       "_tgt": "extract_antigravity_extract_title",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_extract_title",
-      "target": "extract_antigravity_extract_conversations_from_traj",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_extract_conversations_from_traj"
     },
     {
       "relation": "calls",
@@ -2525,9 +2525,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_title_from_messages",
       "_tgt": "extract_antigravity_is_poor_title",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_is_poor_title",
-      "target": "extract_antigravity_title_from_messages",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_title_from_messages"
     },
     {
       "relation": "calls",
@@ -2537,9 +2537,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_extract_conversations_from_traj",
       "_tgt": "extract_antigravity_is_poor_title",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_is_poor_title",
-      "target": "extract_antigravity_extract_conversations_from_traj",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_extract_conversations_from_traj"
     },
     {
       "relation": "calls",
@@ -2549,9 +2549,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_title_from_messages",
       "_tgt": "extract_antigravity_normalize_title_candidate",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_normalize_title_candidate",
-      "target": "extract_antigravity_title_from_messages",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_title_from_messages"
     },
     {
       "relation": "calls",
@@ -2561,9 +2561,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_extract_conversations_from_traj",
       "_tgt": "extract_antigravity_title_from_messages",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_title_from_messages",
-      "target": "extract_antigravity_extract_conversations_from_traj",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_extract_conversations_from_traj"
     },
     {
       "relation": "calls",
@@ -2573,9 +2573,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_extract_conversations_from_traj",
       "_tgt": "extract_antigravity_extract_project",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_extract_project",
-      "target": "extract_antigravity_extract_conversations_from_traj",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_extract_conversations_from_traj"
     },
     {
       "relation": "calls",
@@ -2585,9 +2585,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_extract_messages_from_chunk",
       "_tgt": "extract_antigravity_extract_json_objects",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_extract_json_objects",
-      "target": "extract_antigravity_extract_messages_from_chunk",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_extract_messages_from_chunk"
     },
     {
       "relation": "calls",
@@ -2597,9 +2597,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_extract_messages_from_chunk",
       "_tgt": "extract_antigravity_append_message",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_append_message",
-      "target": "extract_antigravity_extract_messages_from_chunk",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_extract_messages_from_chunk"
     },
     {
       "relation": "calls",
@@ -2609,9 +2609,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_find_sessions",
       "_tgt": "extract_antigravity_append_message",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_append_message",
-      "target": "extract_antigravity_find_sessions",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_find_sessions"
     },
     {
       "relation": "calls",
@@ -2621,9 +2621,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_extract_conversations_from_traj",
       "_tgt": "extract_antigravity_extract_messages_from_chunk",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_extract_messages_from_chunk",
-      "target": "extract_antigravity_extract_conversations_from_traj",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_extract_conversations_from_traj"
     },
     {
       "relation": "calls",
@@ -2633,9 +2633,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_find_sessions",
       "_tgt": "extract_antigravity_extract_conversations_from_traj",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_extract_conversations_from_traj",
-      "target": "extract_antigravity_find_sessions",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_find_sessions"
     },
     {
       "relation": "calls",
@@ -2645,9 +2645,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_find_sessions",
       "_tgt": "extract_antigravity_extract_messages_from_jetski",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_extract_messages_from_jetski",
-      "target": "extract_antigravity_find_sessions",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_find_sessions"
     },
     {
       "relation": "rationale_for",
@@ -2657,9 +2657,9 @@
       "weight": 1.0,
       "_src": "extract_antigravity_rationale_203",
       "_tgt": "extract_antigravity_extract_messages_from_jetski",
+      "confidence_score": 1.0,
       "source": "extract_antigravity_extract_messages_from_jetski",
-      "target": "extract_antigravity_rationale_203",
-      "confidence_score": 1.0
+      "target": "extract_antigravity_rationale_203"
     },
     {
       "relation": "calls",
@@ -2669,9 +2669,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_collect_brain_artifacts",
       "_tgt": "extract_antigravity_safe_read_json",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_safe_read_json",
-      "target": "extract_antigravity_collect_brain_artifacts",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_collect_brain_artifacts"
     },
     {
       "relation": "calls",
@@ -2681,9 +2681,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_collect_brain_artifacts",
       "_tgt": "extract_antigravity_extract_artifact_heading",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_extract_artifact_heading",
-      "target": "extract_antigravity_collect_brain_artifacts",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_collect_brain_artifacts"
     },
     {
       "relation": "calls",
@@ -2693,9 +2693,9 @@
       "weight": 0.8,
       "_src": "extract_antigravity_find_sessions",
       "_tgt": "extract_antigravity_collect_brain_artifacts",
+      "confidence_score": 0.5,
       "source": "extract_antigravity_collect_brain_artifacts",
-      "target": "extract_antigravity_find_sessions",
-      "confidence_score": 0.5
+      "target": "extract_antigravity_find_sessions"
     },
     {
       "relation": "rationale_for",
@@ -2705,9 +2705,9 @@
       "weight": 1.0,
       "_src": "extract_antigravity_rationale_309",
       "_tgt": "extract_antigravity_find_sessions",
+      "confidence_score": 1.0,
       "source": "extract_antigravity_find_sessions",
-      "target": "extract_antigravity_rationale_309",
-      "confidence_score": 1.0
+      "target": "extract_antigravity_rationale_309"
     },
     {
       "relation": "contains",
@@ -2717,9 +2717,9 @@
       "weight": 1.0,
       "_src": "extract_claude",
       "_tgt": "extract_claude_load_history_index",
+      "confidence_score": 1.0,
       "source": "extract_claude",
-      "target": "extract_claude_load_history_index",
-      "confidence_score": 1.0
+      "target": "extract_claude_load_history_index"
     },
     {
       "relation": "contains",
@@ -2729,9 +2729,9 @@
       "weight": 1.0,
       "_src": "extract_claude",
       "_tgt": "extract_claude_find_sessions_by_date",
+      "confidence_score": 1.0,
       "source": "extract_claude",
-      "target": "extract_claude_find_sessions_by_date",
-      "confidence_score": 1.0
+      "target": "extract_claude_find_sessions_by_date"
     },
     {
       "relation": "contains",
@@ -2741,9 +2741,9 @@
       "weight": 1.0,
       "_src": "extract_claude",
       "_tgt": "extract_claude_is_noise",
+      "confidence_score": 1.0,
       "source": "extract_claude",
-      "target": "extract_claude_is_noise",
-      "confidence_score": 1.0
+      "target": "extract_claude_is_noise"
     },
     {
       "relation": "contains",
@@ -2753,9 +2753,9 @@
       "weight": 1.0,
       "_src": "extract_claude",
       "_tgt": "extract_claude_clean_text",
+      "confidence_score": 1.0,
       "source": "extract_claude",
-      "target": "extract_claude_clean_text",
-      "confidence_score": 1.0
+      "target": "extract_claude_clean_text"
     },
     {
       "relation": "contains",
@@ -2765,9 +2765,9 @@
       "weight": 1.0,
       "_src": "extract_claude",
       "_tgt": "extract_claude_extract_user_text",
+      "confidence_score": 1.0,
       "source": "extract_claude",
-      "target": "extract_claude_extract_user_text",
-      "confidence_score": 1.0
+      "target": "extract_claude_extract_user_text"
     },
     {
       "relation": "contains",
@@ -2777,9 +2777,9 @@
       "weight": 1.0,
       "_src": "extract_claude",
       "_tgt": "extract_claude_extract_assistant_text",
+      "confidence_score": 1.0,
       "source": "extract_claude",
-      "target": "extract_claude_extract_assistant_text",
-      "confidence_score": 1.0
+      "target": "extract_claude_extract_assistant_text"
     },
     {
       "relation": "contains",
@@ -2789,9 +2789,9 @@
       "weight": 1.0,
       "_src": "extract_claude",
       "_tgt": "extract_claude_extract_subagent_summary",
+      "confidence_score": 1.0,
       "source": "extract_claude",
-      "target": "extract_claude_extract_subagent_summary",
-      "confidence_score": 1.0
+      "target": "extract_claude_extract_subagent_summary"
     },
     {
       "relation": "contains",
@@ -2801,9 +2801,9 @@
       "weight": 1.0,
       "_src": "extract_claude",
       "_tgt": "extract_claude_extract_conversation",
+      "confidence_score": 1.0,
       "source": "extract_claude",
-      "target": "extract_claude_extract_conversation",
-      "confidence_score": 1.0
+      "target": "extract_claude_extract_conversation"
     },
     {
       "relation": "contains",
@@ -2813,9 +2813,9 @@
       "weight": 1.0,
       "_src": "extract_claude",
       "_tgt": "extract_claude_decode_project_name",
+      "confidence_score": 1.0,
       "source": "extract_claude",
-      "target": "extract_claude_decode_project_name",
-      "confidence_score": 1.0
+      "target": "extract_claude_decode_project_name"
     },
     {
       "relation": "contains",
@@ -2825,9 +2825,9 @@
       "weight": 1.0,
       "_src": "extract_claude",
       "_tgt": "extract_claude_sanitize_filename",
+      "confidence_score": 1.0,
       "source": "extract_claude",
-      "target": "extract_claude_sanitize_filename",
-      "confidence_score": 1.0
+      "target": "extract_claude_sanitize_filename"
     },
     {
       "relation": "contains",
@@ -2837,9 +2837,9 @@
       "weight": 1.0,
       "_src": "extract_claude",
       "_tgt": "extract_claude_format_conversation",
+      "confidence_score": 1.0,
       "source": "extract_claude",
-      "target": "extract_claude_format_conversation",
-      "confidence_score": 1.0
+      "target": "extract_claude_format_conversation"
     },
     {
       "relation": "contains",
@@ -2849,9 +2849,9 @@
       "weight": 1.0,
       "_src": "extract_claude",
       "_tgt": "extract_claude_main",
+      "confidence_score": 1.0,
       "source": "extract_claude",
-      "target": "extract_claude_main",
-      "confidence_score": 1.0
+      "target": "extract_claude_main"
     },
     {
       "relation": "calls",
@@ -2861,9 +2861,9 @@
       "weight": 0.8,
       "_src": "extract_claude_main",
       "_tgt": "extract_claude_load_history_index",
+      "confidence_score": 0.5,
       "source": "extract_claude_load_history_index",
-      "target": "extract_claude_main",
-      "confidence_score": 0.5
+      "target": "extract_claude_main"
     },
     {
       "relation": "rationale_for",
@@ -2873,9 +2873,9 @@
       "weight": 1.0,
       "_src": "extract_claude_rationale_21",
       "_tgt": "extract_claude_load_history_index",
+      "confidence_score": 1.0,
       "source": "extract_claude_load_history_index",
-      "target": "extract_claude_rationale_21",
-      "confidence_score": 1.0
+      "target": "extract_claude_rationale_21"
     },
     {
       "relation": "calls",
@@ -2885,9 +2885,9 @@
       "weight": 0.8,
       "_src": "extract_claude_main",
       "_tgt": "extract_claude_find_sessions_by_date",
+      "confidence_score": 0.5,
       "source": "extract_claude_find_sessions_by_date",
-      "target": "extract_claude_main",
-      "confidence_score": 0.5
+      "target": "extract_claude_main"
     },
     {
       "relation": "rationale_for",
@@ -2897,9 +2897,9 @@
       "weight": 1.0,
       "_src": "extract_claude_rationale_41",
       "_tgt": "extract_claude_find_sessions_by_date",
+      "confidence_score": 1.0,
       "source": "extract_claude_find_sessions_by_date",
-      "target": "extract_claude_rationale_41",
-      "confidence_score": 1.0
+      "target": "extract_claude_rationale_41"
     },
     {
       "relation": "calls",
@@ -2909,9 +2909,9 @@
       "weight": 0.8,
       "_src": "extract_claude_extract_conversation",
       "_tgt": "extract_claude_is_noise",
+      "confidence_score": 0.5,
       "source": "extract_claude_is_noise",
-      "target": "extract_claude_extract_conversation",
-      "confidence_score": 0.5
+      "target": "extract_claude_extract_conversation"
     },
     {
       "relation": "calls",
@@ -2921,9 +2921,9 @@
       "weight": 0.8,
       "_src": "extract_claude_extract_user_text",
       "_tgt": "extract_claude_clean_text",
+      "confidence_score": 0.5,
       "source": "extract_claude_clean_text",
-      "target": "extract_claude_extract_user_text",
-      "confidence_score": 0.5
+      "target": "extract_claude_extract_user_text"
     },
     {
       "relation": "calls",
@@ -2933,9 +2933,9 @@
       "weight": 0.8,
       "_src": "extract_claude_extract_assistant_text",
       "_tgt": "extract_claude_clean_text",
+      "confidence_score": 0.5,
       "source": "extract_claude_clean_text",
-      "target": "extract_claude_extract_assistant_text",
-      "confidence_score": 0.5
+      "target": "extract_claude_extract_assistant_text"
     },
     {
       "relation": "calls",
@@ -2945,9 +2945,9 @@
       "weight": 0.8,
       "_src": "extract_claude_extract_conversation",
       "_tgt": "extract_claude_clean_text",
+      "confidence_score": 0.5,
       "source": "extract_claude_clean_text",
-      "target": "extract_claude_extract_conversation",
-      "confidence_score": 0.5
+      "target": "extract_claude_extract_conversation"
     },
     {
       "relation": "rationale_for",
@@ -2957,9 +2957,9 @@
       "weight": 1.0,
       "_src": "extract_claude_rationale_130",
       "_tgt": "extract_claude_clean_text",
+      "confidence_score": 1.0,
       "source": "extract_claude_clean_text",
-      "target": "extract_claude_rationale_130",
-      "confidence_score": 1.0
+      "target": "extract_claude_rationale_130"
     },
     {
       "relation": "calls",
@@ -2969,9 +2969,9 @@
       "weight": 0.8,
       "_src": "extract_claude_extract_conversation",
       "_tgt": "extract_claude_extract_user_text",
+      "confidence_score": 0.5,
       "source": "extract_claude_extract_user_text",
-      "target": "extract_claude_extract_conversation",
-      "confidence_score": 0.5
+      "target": "extract_claude_extract_conversation"
     },
     {
       "relation": "rationale_for",
@@ -2981,9 +2981,9 @@
       "weight": 1.0,
       "_src": "extract_claude_rationale_157",
       "_tgt": "extract_claude_extract_user_text",
+      "confidence_score": 1.0,
       "source": "extract_claude_extract_user_text",
-      "target": "extract_claude_rationale_157",
-      "confidence_score": 1.0
+      "target": "extract_claude_rationale_157"
     },
     {
       "relation": "calls",
@@ -2993,9 +2993,9 @@
       "weight": 0.8,
       "_src": "extract_claude_extract_conversation",
       "_tgt": "extract_claude_extract_assistant_text",
+      "confidence_score": 0.5,
       "source": "extract_claude_extract_assistant_text",
-      "target": "extract_claude_extract_conversation",
-      "confidence_score": 0.5
+      "target": "extract_claude_extract_conversation"
     },
     {
       "relation": "rationale_for",
@@ -3005,9 +3005,9 @@
       "weight": 1.0,
       "_src": "extract_claude_rationale_175",
       "_tgt": "extract_claude_extract_assistant_text",
+      "confidence_score": 1.0,
       "source": "extract_claude_extract_assistant_text",
-      "target": "extract_claude_rationale_175",
-      "confidence_score": 1.0
+      "target": "extract_claude_rationale_175"
     },
     {
       "relation": "calls",
@@ -3017,9 +3017,9 @@
       "weight": 0.8,
       "_src": "extract_claude_main",
       "_tgt": "extract_claude_extract_conversation",
+      "confidence_score": 0.5,
       "source": "extract_claude_extract_conversation",
-      "target": "extract_claude_main",
-      "confidence_score": 0.5
+      "target": "extract_claude_main"
     },
     {
       "relation": "rationale_for",
@@ -3029,9 +3029,9 @@
       "weight": 1.0,
       "_src": "extract_claude_rationale_196",
       "_tgt": "extract_claude_extract_conversation",
+      "confidence_score": 1.0,
       "source": "extract_claude_extract_conversation",
-      "target": "extract_claude_rationale_196",
-      "confidence_score": 1.0
+      "target": "extract_claude_rationale_196"
     },
     {
       "relation": "calls",
@@ -3041,9 +3041,9 @@
       "weight": 0.8,
       "_src": "extract_claude_format_conversation",
       "_tgt": "extract_claude_decode_project_name",
+      "confidence_score": 0.5,
       "source": "extract_claude_decode_project_name",
-      "target": "extract_claude_format_conversation",
-      "confidence_score": 0.5
+      "target": "extract_claude_format_conversation"
     },
     {
       "relation": "calls",
@@ -3053,9 +3053,9 @@
       "weight": 0.8,
       "_src": "extract_claude_main",
       "_tgt": "extract_claude_decode_project_name",
+      "confidence_score": 0.5,
       "source": "extract_claude_decode_project_name",
-      "target": "extract_claude_main",
-      "confidence_score": 0.5
+      "target": "extract_claude_main"
     },
     {
       "relation": "calls",
@@ -3065,9 +3065,9 @@
       "weight": 0.8,
       "_src": "extract_claude_main",
       "_tgt": "extract_claude_sanitize_filename",
+      "confidence_score": 0.5,
       "source": "extract_claude_sanitize_filename",
-      "target": "extract_claude_main",
-      "confidence_score": 0.5
+      "target": "extract_claude_main"
     },
     {
       "relation": "calls",
@@ -3077,9 +3077,9 @@
       "weight": 0.8,
       "_src": "extract_claude_main",
       "_tgt": "extract_claude_format_conversation",
+      "confidence_score": 0.5,
       "source": "extract_claude_format_conversation",
-      "target": "extract_claude_main",
-      "confidence_score": 0.5
+      "target": "extract_claude_main"
     },
     {
       "relation": "contains",
@@ -3089,9 +3089,9 @@
       "weight": 1.0,
       "_src": "extract_codex",
       "_tgt": "extract_codex_load_thread_titles",
+      "confidence_score": 1.0,
       "source": "extract_codex",
-      "target": "extract_codex_load_thread_titles",
-      "confidence_score": 1.0
+      "target": "extract_codex_load_thread_titles"
     },
     {
       "relation": "contains",
@@ -3101,9 +3101,9 @@
       "weight": 1.0,
       "_src": "extract_codex",
       "_tgt": "extract_codex_load_history_for_session",
+      "confidence_score": 1.0,
       "source": "extract_codex",
-      "target": "extract_codex_load_history_for_session",
-      "confidence_score": 1.0
+      "target": "extract_codex_load_history_for_session"
     },
     {
       "relation": "contains",
@@ -3113,9 +3113,9 @@
       "weight": 1.0,
       "_src": "extract_codex",
       "_tgt": "extract_codex_find_sessions_by_date",
+      "confidence_score": 1.0,
       "source": "extract_codex",
-      "target": "extract_codex_find_sessions_by_date",
-      "confidence_score": 1.0
+      "target": "extract_codex_find_sessions_by_date"
     },
     {
       "relation": "contains",
@@ -3125,9 +3125,9 @@
       "weight": 1.0,
       "_src": "extract_codex",
       "_tgt": "extract_codex_is_system_noise",
+      "confidence_score": 1.0,
       "source": "extract_codex",
-      "target": "extract_codex_is_system_noise",
-      "confidence_score": 1.0
+      "target": "extract_codex_is_system_noise"
     },
     {
       "relation": "contains",
@@ -3137,9 +3137,9 @@
       "weight": 1.0,
       "_src": "extract_codex",
       "_tgt": "extract_codex_clean_text",
+      "confidence_score": 1.0,
       "source": "extract_codex",
-      "target": "extract_codex_clean_text",
-      "confidence_score": 1.0
+      "target": "extract_codex_clean_text"
     },
     {
       "relation": "contains",
@@ -3149,9 +3149,9 @@
       "weight": 1.0,
       "_src": "extract_codex",
       "_tgt": "extract_codex_extract_from_history",
+      "confidence_score": 1.0,
       "source": "extract_codex",
-      "target": "extract_codex_extract_from_history",
-      "confidence_score": 1.0
+      "target": "extract_codex_extract_from_history"
     },
     {
       "relation": "contains",
@@ -3161,9 +3161,9 @@
       "weight": 1.0,
       "_src": "extract_codex",
       "_tgt": "extract_codex_extract_conversation",
+      "confidence_score": 1.0,
       "source": "extract_codex",
-      "target": "extract_codex_extract_conversation",
-      "confidence_score": 1.0
+      "target": "extract_codex_extract_conversation"
     },
     {
       "relation": "contains",
@@ -3173,9 +3173,9 @@
       "weight": 1.0,
       "_src": "extract_codex",
       "_tgt": "extract_codex_format_conversation",
+      "confidence_score": 1.0,
       "source": "extract_codex",
-      "target": "extract_codex_format_conversation",
-      "confidence_score": 1.0
+      "target": "extract_codex_format_conversation"
     },
     {
       "relation": "contains",
@@ -3185,9 +3185,9 @@
       "weight": 1.0,
       "_src": "extract_codex",
       "_tgt": "extract_codex_sanitize_filename",
+      "confidence_score": 1.0,
       "source": "extract_codex",
-      "target": "extract_codex_sanitize_filename",
-      "confidence_score": 1.0
+      "target": "extract_codex_sanitize_filename"
     },
     {
       "relation": "contains",
@@ -3197,9 +3197,9 @@
       "weight": 1.0,
       "_src": "extract_codex",
       "_tgt": "extract_codex_main",
+      "confidence_score": 1.0,
       "source": "extract_codex",
-      "target": "extract_codex_main",
-      "confidence_score": 1.0
+      "target": "extract_codex_main"
     },
     {
       "relation": "calls",
@@ -3209,9 +3209,9 @@
       "weight": 0.8,
       "_src": "extract_codex_main",
       "_tgt": "extract_codex_load_thread_titles",
+      "confidence_score": 0.5,
       "source": "extract_codex_load_thread_titles",
-      "target": "extract_codex_main",
-      "confidence_score": 0.5
+      "target": "extract_codex_main"
     },
     {
       "relation": "rationale_for",
@@ -3221,9 +3221,9 @@
       "weight": 1.0,
       "_src": "extract_codex_rationale_23",
       "_tgt": "extract_codex_load_thread_titles",
+      "confidence_score": 1.0,
       "source": "extract_codex_load_thread_titles",
-      "target": "extract_codex_rationale_23",
-      "confidence_score": 1.0
+      "target": "extract_codex_rationale_23"
     },
     {
       "relation": "calls",
@@ -3233,9 +3233,9 @@
       "weight": 0.8,
       "_src": "extract_codex_extract_conversation",
       "_tgt": "extract_codex_load_history_for_session",
+      "confidence_score": 0.5,
       "source": "extract_codex_load_history_for_session",
-      "target": "extract_codex_extract_conversation",
-      "confidence_score": 0.5
+      "target": "extract_codex_extract_conversation"
     },
     {
       "relation": "rationale_for",
@@ -3245,9 +3245,9 @@
       "weight": 1.0,
       "_src": "extract_codex_rationale_49",
       "_tgt": "extract_codex_load_history_for_session",
+      "confidence_score": 1.0,
       "source": "extract_codex_load_history_for_session",
-      "target": "extract_codex_rationale_49",
-      "confidence_score": 1.0
+      "target": "extract_codex_rationale_49"
     },
     {
       "relation": "calls",
@@ -3257,9 +3257,9 @@
       "weight": 0.8,
       "_src": "extract_codex_main",
       "_tgt": "extract_codex_find_sessions_by_date",
+      "confidence_score": 0.5,
       "source": "extract_codex_find_sessions_by_date",
-      "target": "extract_codex_main",
-      "confidence_score": 0.5
+      "target": "extract_codex_main"
     },
     {
       "relation": "rationale_for",
@@ -3269,9 +3269,9 @@
       "weight": 1.0,
       "_src": "extract_codex_rationale_67",
       "_tgt": "extract_codex_find_sessions_by_date",
+      "confidence_score": 1.0,
       "source": "extract_codex_find_sessions_by_date",
-      "target": "extract_codex_rationale_67",
-      "confidence_score": 1.0
+      "target": "extract_codex_rationale_67"
     },
     {
       "relation": "calls",
@@ -3281,9 +3281,9 @@
       "weight": 0.8,
       "_src": "extract_codex_extract_from_history",
       "_tgt": "extract_codex_is_system_noise",
+      "confidence_score": 0.5,
       "source": "extract_codex_is_system_noise",
-      "target": "extract_codex_extract_from_history",
-      "confidence_score": 0.5
+      "target": "extract_codex_extract_from_history"
     },
     {
       "relation": "calls",
@@ -3293,9 +3293,9 @@
       "weight": 0.8,
       "_src": "extract_codex_extract_conversation",
       "_tgt": "extract_codex_is_system_noise",
+      "confidence_score": 0.5,
       "source": "extract_codex_is_system_noise",
-      "target": "extract_codex_extract_conversation",
-      "confidence_score": 0.5
+      "target": "extract_codex_extract_conversation"
     },
     {
       "relation": "calls",
@@ -3305,9 +3305,9 @@
       "weight": 0.8,
       "_src": "extract_codex_extract_from_history",
       "_tgt": "extract_codex_clean_text",
+      "confidence_score": 0.5,
       "source": "extract_codex_clean_text",
-      "target": "extract_codex_extract_from_history",
-      "confidence_score": 0.5
+      "target": "extract_codex_extract_from_history"
     },
     {
       "relation": "calls",
@@ -3317,9 +3317,9 @@
       "weight": 0.8,
       "_src": "extract_codex_extract_conversation",
       "_tgt": "extract_codex_clean_text",
+      "confidence_score": 0.5,
       "source": "extract_codex_clean_text",
-      "target": "extract_codex_extract_conversation",
-      "confidence_score": 0.5
+      "target": "extract_codex_extract_conversation"
     },
     {
       "relation": "rationale_for",
@@ -3329,9 +3329,9 @@
       "weight": 1.0,
       "_src": "extract_codex_rationale_152",
       "_tgt": "extract_codex_clean_text",
+      "confidence_score": 1.0,
       "source": "extract_codex_clean_text",
-      "target": "extract_codex_rationale_152",
-      "confidence_score": 1.0
+      "target": "extract_codex_rationale_152"
     },
     {
       "relation": "calls",
@@ -3341,9 +3341,9 @@
       "weight": 0.8,
       "_src": "extract_codex_extract_conversation",
       "_tgt": "extract_codex_extract_from_history",
+      "confidence_score": 0.5,
       "source": "extract_codex_extract_from_history",
-      "target": "extract_codex_extract_conversation",
-      "confidence_score": 0.5
+      "target": "extract_codex_extract_conversation"
     },
     {
       "relation": "rationale_for",
@@ -3353,9 +3353,9 @@
       "weight": 1.0,
       "_src": "extract_codex_rationale_178",
       "_tgt": "extract_codex_extract_from_history",
+      "confidence_score": 1.0,
       "source": "extract_codex_extract_from_history",
-      "target": "extract_codex_rationale_178",
-      "confidence_score": 1.0
+      "target": "extract_codex_rationale_178"
     },
     {
       "relation": "calls",
@@ -3365,9 +3365,9 @@
       "weight": 0.8,
       "_src": "extract_codex_main",
       "_tgt": "extract_codex_extract_conversation",
+      "confidence_score": 0.5,
       "source": "extract_codex_extract_conversation",
-      "target": "extract_codex_main",
-      "confidence_score": 0.5
+      "target": "extract_codex_main"
     },
     {
       "relation": "rationale_for",
@@ -3377,9 +3377,9 @@
       "weight": 1.0,
       "_src": "extract_codex_rationale_222",
       "_tgt": "extract_codex_extract_conversation",
+      "confidence_score": 1.0,
       "source": "extract_codex_extract_conversation",
-      "target": "extract_codex_rationale_222",
-      "confidence_score": 1.0
+      "target": "extract_codex_rationale_222"
     },
     {
       "relation": "calls",
@@ -3389,9 +3389,9 @@
       "weight": 0.8,
       "_src": "extract_codex_main",
       "_tgt": "extract_codex_format_conversation",
+      "confidence_score": 0.5,
       "source": "extract_codex_format_conversation",
-      "target": "extract_codex_main",
-      "confidence_score": 0.5
+      "target": "extract_codex_main"
     },
     {
       "relation": "calls",
@@ -3401,9 +3401,9 @@
       "weight": 0.8,
       "_src": "extract_codex_main",
       "_tgt": "extract_codex_sanitize_filename",
+      "confidence_score": 0.5,
       "source": "extract_codex_sanitize_filename",
-      "target": "extract_codex_main",
-      "confidence_score": 0.5
+      "target": "extract_codex_main"
     },
     {
       "relation": "contains",
@@ -3413,9 +3413,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_sanitize_filename",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_sanitize_filename",
-      "confidence_score": 1.0
+      "target": "transcript_export_sanitize_filename"
     },
     {
       "relation": "contains",
@@ -3425,9 +3425,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_unique_markdown_path",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_unique_markdown_path",
-      "confidence_score": 1.0
+      "target": "transcript_export_unique_markdown_path"
     },
     {
       "relation": "contains",
@@ -3437,9 +3437,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_strip_markdown_for_text",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_strip_markdown_for_text",
-      "confidence_score": 1.0
+      "target": "transcript_export_strip_markdown_for_text"
     },
     {
       "relation": "contains",
@@ -3449,9 +3449,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_clean_project_label",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_clean_project_label",
-      "confidence_score": 1.0
+      "target": "transcript_export_clean_project_label"
     },
     {
       "relation": "contains",
@@ -3461,9 +3461,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_truncate_text",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_truncate_text",
-      "confidence_score": 1.0
+      "target": "transcript_export_truncate_text"
     },
     {
       "relation": "contains",
@@ -3473,9 +3473,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_humanize_title_fragment",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_humanize_title_fragment",
-      "confidence_score": 1.0
+      "target": "transcript_export_humanize_title_fragment"
     },
     {
       "relation": "contains",
@@ -3485,9 +3485,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_normalize_path_candidate",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_normalize_path_candidate",
-      "confidence_score": 1.0
+      "target": "transcript_export_normalize_path_candidate"
     },
     {
       "relation": "contains",
@@ -3497,9 +3497,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_push_unique",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_push_unique",
-      "confidence_score": 1.0
+      "target": "transcript_export_push_unique"
     },
     {
       "relation": "contains",
@@ -3509,9 +3509,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_extract_file_mentions",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_extract_file_mentions",
-      "confidence_score": 1.0
+      "target": "transcript_export_extract_file_mentions"
     },
     {
       "relation": "contains",
@@ -3521,9 +3521,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_extract_command_mentions",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_extract_command_mentions",
-      "confidence_score": 1.0
+      "target": "transcript_export_extract_command_mentions"
     },
     {
       "relation": "contains",
@@ -3533,9 +3533,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_extract_signal_mentions",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_extract_signal_mentions",
-      "confidence_score": 1.0
+      "target": "transcript_export_extract_signal_mentions"
     },
     {
       "relation": "contains",
@@ -3545,9 +3545,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_pick_final_answer",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_pick_final_answer",
-      "confidence_score": 1.0
+      "target": "transcript_export_pick_final_answer"
     },
     {
       "relation": "contains",
@@ -3557,9 +3557,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_prompts_match",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_prompts_match",
-      "confidence_score": 1.0
+      "target": "transcript_export_prompts_match"
     },
     {
       "relation": "contains",
@@ -3569,9 +3569,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_build_search_entry",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_build_search_entry",
-      "confidence_score": 1.0
+      "target": "transcript_export_build_search_entry"
     },
     {
       "relation": "contains",
@@ -3581,9 +3581,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_is_subagent_conversation",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_is_subagent_conversation",
-      "confidence_score": 1.0
+      "target": "transcript_export_is_subagent_conversation"
     },
     {
       "relation": "contains",
@@ -3593,9 +3593,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_get_subagent_display_name",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_get_subagent_display_name",
-      "confidence_score": 1.0
+      "target": "transcript_export_get_subagent_display_name"
     },
     {
       "relation": "contains",
@@ -3605,9 +3605,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_build_subagent_index",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_build_subagent_index",
-      "confidence_score": 1.0
+      "target": "transcript_export_build_subagent_index"
     },
     {
       "relation": "contains",
@@ -3617,9 +3617,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_match_subagent_calls",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_match_subagent_calls",
-      "confidence_score": 1.0
+      "target": "transcript_export_match_subagent_calls"
     },
     {
       "relation": "contains",
@@ -3629,9 +3629,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_render_frontmatter",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_render_frontmatter",
-      "confidence_score": 1.0
+      "target": "transcript_export_render_frontmatter"
     },
     {
       "relation": "contains",
@@ -3641,9 +3641,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_append_section",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_append_section",
-      "confidence_score": 1.0
+      "target": "transcript_export_append_section"
     },
     {
       "relation": "contains",
@@ -3653,9 +3653,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_render_quick_summary",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_render_quick_summary",
-      "confidence_score": 1.0
+      "target": "transcript_export_render_quick_summary"
     },
     {
       "relation": "contains",
@@ -3665,9 +3665,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_render_artifacts",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_render_artifacts",
-      "confidence_score": 1.0
+      "target": "transcript_export_render_artifacts"
     },
     {
       "relation": "contains",
@@ -3677,9 +3677,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_role_heading",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_role_heading",
-      "confidence_score": 1.0
+      "target": "transcript_export_role_heading"
     },
     {
       "relation": "contains",
@@ -3689,9 +3689,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_append_text_block",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_append_text_block",
-      "confidence_score": 1.0
+      "target": "transcript_export_append_text_block"
     },
     {
       "relation": "contains",
@@ -3701,9 +3701,9 @@
       "weight": 1.0,
       "_src": "transcript_export",
       "_tgt": "transcript_export_render_transcript_markdown",
+      "confidence_score": 1.0,
       "source": "transcript_export",
-      "target": "transcript_export_render_transcript_markdown",
-      "confidence_score": 1.0
+      "target": "transcript_export_render_transcript_markdown"
     },
     {
       "relation": "calls",
@@ -3713,9 +3713,9 @@
       "weight": 0.8,
       "_src": "transcript_export_truncate_text",
       "_tgt": "transcript_export_strip_markdown_for_text",
+      "confidence_score": 0.5,
       "source": "transcript_export_strip_markdown_for_text",
-      "target": "transcript_export_truncate_text",
-      "confidence_score": 0.5
+      "target": "transcript_export_truncate_text"
     },
     {
       "relation": "calls",
@@ -3725,9 +3725,9 @@
       "weight": 0.8,
       "_src": "transcript_export_humanize_title_fragment",
       "_tgt": "transcript_export_strip_markdown_for_text",
+      "confidence_score": 0.5,
       "source": "transcript_export_strip_markdown_for_text",
-      "target": "transcript_export_humanize_title_fragment",
-      "confidence_score": 0.5
+      "target": "transcript_export_humanize_title_fragment"
     },
     {
       "relation": "calls",
@@ -3737,9 +3737,9 @@
       "weight": 0.8,
       "_src": "transcript_export_build_search_entry",
       "_tgt": "transcript_export_strip_markdown_for_text",
+      "confidence_score": 0.5,
       "source": "transcript_export_strip_markdown_for_text",
-      "target": "transcript_export_build_search_entry",
-      "confidence_score": 0.5
+      "target": "transcript_export_build_search_entry"
     },
     {
       "relation": "calls",
@@ -3749,9 +3749,9 @@
       "weight": 0.8,
       "_src": "transcript_export_render_quick_summary",
       "_tgt": "transcript_export_clean_project_label",
+      "confidence_score": 0.5,
       "source": "transcript_export_clean_project_label",
-      "target": "transcript_export_render_quick_summary",
-      "confidence_score": 0.5
+      "target": "transcript_export_render_quick_summary"
     },
     {
       "relation": "calls",
@@ -3761,9 +3761,9 @@
       "weight": 0.8,
       "_src": "transcript_export_humanize_title_fragment",
       "_tgt": "transcript_export_truncate_text",
+      "confidence_score": 0.5,
       "source": "transcript_export_truncate_text",
-      "target": "transcript_export_humanize_title_fragment",
-      "confidence_score": 0.5
+      "target": "transcript_export_humanize_title_fragment"
     },
     {
       "relation": "calls",
@@ -3773,9 +3773,9 @@
       "weight": 0.8,
       "_src": "transcript_export_extract_command_mentions",
       "_tgt": "transcript_export_truncate_text",
+      "confidence_score": 0.5,
       "source": "transcript_export_truncate_text",
-      "target": "transcript_export_extract_command_mentions",
-      "confidence_score": 0.5
+      "target": "transcript_export_extract_command_mentions"
     },
     {
       "relation": "calls",
@@ -3785,9 +3785,9 @@
       "weight": 0.8,
       "_src": "transcript_export_extract_signal_mentions",
       "_tgt": "transcript_export_truncate_text",
+      "confidence_score": 0.5,
       "source": "transcript_export_truncate_text",
-      "target": "transcript_export_extract_signal_mentions",
-      "confidence_score": 0.5
+      "target": "transcript_export_extract_signal_mentions"
     },
     {
       "relation": "calls",
@@ -3797,9 +3797,9 @@
       "weight": 0.8,
       "_src": "transcript_export_pick_final_answer",
       "_tgt": "transcript_export_truncate_text",
+      "confidence_score": 0.5,
       "source": "transcript_export_truncate_text",
-      "target": "transcript_export_pick_final_answer",
-      "confidence_score": 0.5
+      "target": "transcript_export_pick_final_answer"
     },
     {
       "relation": "calls",
@@ -3809,9 +3809,9 @@
       "weight": 0.8,
       "_src": "transcript_export_extract_file_mentions",
       "_tgt": "transcript_export_normalize_path_candidate",
+      "confidence_score": 0.5,
       "source": "transcript_export_normalize_path_candidate",
-      "target": "transcript_export_extract_file_mentions",
-      "confidence_score": 0.5
+      "target": "transcript_export_extract_file_mentions"
     },
     {
       "relation": "calls",
@@ -3821,9 +3821,9 @@
       "weight": 0.8,
       "_src": "transcript_export_extract_file_mentions",
       "_tgt": "transcript_export_push_unique",
+      "confidence_score": 0.5,
       "source": "transcript_export_push_unique",
-      "target": "transcript_export_extract_file_mentions",
-      "confidence_score": 0.5
+      "target": "transcript_export_extract_file_mentions"
     },
     {
       "relation": "calls",
@@ -3833,9 +3833,9 @@
       "weight": 0.8,
       "_src": "transcript_export_extract_command_mentions",
       "_tgt": "transcript_export_push_unique",
+      "confidence_score": 0.5,
       "source": "transcript_export_push_unique",
-      "target": "transcript_export_extract_command_mentions",
-      "confidence_score": 0.5
+      "target": "transcript_export_extract_command_mentions"
     },
     {
       "relation": "calls",
@@ -3845,9 +3845,9 @@
       "weight": 0.8,
       "_src": "transcript_export_extract_signal_mentions",
       "_tgt": "transcript_export_push_unique",
+      "confidence_score": 0.5,
       "source": "transcript_export_push_unique",
-      "target": "transcript_export_extract_signal_mentions",
-      "confidence_score": 0.5
+      "target": "transcript_export_extract_signal_mentions"
     },
     {
       "relation": "calls",
@@ -3857,9 +3857,9 @@
       "weight": 0.8,
       "_src": "transcript_export_build_search_entry",
       "_tgt": "transcript_export_extract_file_mentions",
+      "confidence_score": 0.5,
       "source": "transcript_export_extract_file_mentions",
-      "target": "transcript_export_build_search_entry",
-      "confidence_score": 0.5
+      "target": "transcript_export_build_search_entry"
     },
     {
       "relation": "calls",
@@ -3869,9 +3869,9 @@
       "weight": 0.8,
       "_src": "transcript_export_render_quick_summary",
       "_tgt": "transcript_export_extract_file_mentions",
+      "confidence_score": 0.5,
       "source": "transcript_export_extract_file_mentions",
-      "target": "transcript_export_render_quick_summary",
-      "confidence_score": 0.5
+      "target": "transcript_export_render_quick_summary"
     },
     {
       "relation": "calls",
@@ -3881,9 +3881,9 @@
       "weight": 0.8,
       "_src": "transcript_export_build_search_entry",
       "_tgt": "transcript_export_extract_command_mentions",
+      "confidence_score": 0.5,
       "source": "transcript_export_extract_command_mentions",
-      "target": "transcript_export_build_search_entry",
-      "confidence_score": 0.5
+      "target": "transcript_export_build_search_entry"
     },
     {
       "relation": "calls",
@@ -3893,9 +3893,9 @@
       "weight": 0.8,
       "_src": "transcript_export_render_quick_summary",
       "_tgt": "transcript_export_extract_command_mentions",
+      "confidence_score": 0.5,
       "source": "transcript_export_extract_command_mentions",
-      "target": "transcript_export_render_quick_summary",
-      "confidence_score": 0.5
+      "target": "transcript_export_render_quick_summary"
     },
     {
       "relation": "calls",
@@ -3905,9 +3905,9 @@
       "weight": 0.8,
       "_src": "transcript_export_build_search_entry",
       "_tgt": "transcript_export_extract_signal_mentions",
+      "confidence_score": 0.5,
       "source": "transcript_export_extract_signal_mentions",
-      "target": "transcript_export_build_search_entry",
-      "confidence_score": 0.5
+      "target": "transcript_export_build_search_entry"
     },
     {
       "relation": "calls",
@@ -3917,9 +3917,9 @@
       "weight": 0.8,
       "_src": "transcript_export_render_quick_summary",
       "_tgt": "transcript_export_extract_signal_mentions",
+      "confidence_score": 0.5,
       "source": "transcript_export_extract_signal_mentions",
-      "target": "transcript_export_render_quick_summary",
-      "confidence_score": 0.5
+      "target": "transcript_export_render_quick_summary"
     },
     {
       "relation": "calls",
@@ -3929,9 +3929,9 @@
       "weight": 0.8,
       "_src": "transcript_export_render_quick_summary",
       "_tgt": "transcript_export_pick_final_answer",
+      "confidence_score": 0.5,
       "source": "transcript_export_pick_final_answer",
-      "target": "transcript_export_render_quick_summary",
-      "confidence_score": 0.5
+      "target": "transcript_export_render_quick_summary"
     },
     {
       "relation": "calls",
@@ -3941,9 +3941,9 @@
       "weight": 0.8,
       "_src": "transcript_export_match_subagent_calls",
       "_tgt": "transcript_export_prompts_match",
+      "confidence_score": 0.5,
       "source": "transcript_export_prompts_match",
-      "target": "transcript_export_match_subagent_calls",
-      "confidence_score": 0.5
+      "target": "transcript_export_match_subagent_calls"
     },
     {
       "relation": "rationale_for",
@@ -3953,9 +3953,9 @@
       "weight": 1.0,
       "_src": "transcript_export_rationale_164",
       "_tgt": "transcript_export_build_search_entry",
+      "confidence_score": 1.0,
       "source": "transcript_export_build_search_entry",
-      "target": "transcript_export_rationale_164",
-      "confidence_score": 1.0
+      "target": "transcript_export_rationale_164"
     },
     {
       "relation": "calls",
@@ -3965,9 +3965,9 @@
       "weight": 0.8,
       "_src": "transcript_export_build_subagent_index",
       "_tgt": "transcript_export_is_subagent_conversation",
+      "confidence_score": 0.5,
       "source": "transcript_export_is_subagent_conversation",
-      "target": "transcript_export_build_subagent_index",
-      "confidence_score": 0.5
+      "target": "transcript_export_build_subagent_index"
     },
     {
       "relation": "calls",
@@ -3977,9 +3977,9 @@
       "weight": 0.8,
       "_src": "transcript_export_render_transcript_markdown",
       "_tgt": "transcript_export_get_subagent_display_name",
+      "confidence_score": 0.5,
       "source": "transcript_export_get_subagent_display_name",
-      "target": "transcript_export_render_transcript_markdown",
-      "confidence_score": 0.5
+      "target": "transcript_export_render_transcript_markdown"
     },
     {
       "relation": "calls",
@@ -3989,9 +3989,9 @@
       "weight": 0.8,
       "_src": "transcript_export_render_transcript_markdown",
       "_tgt": "transcript_export_build_subagent_index",
+      "confidence_score": 0.5,
       "source": "transcript_export_build_subagent_index",
-      "target": "transcript_export_render_transcript_markdown",
-      "confidence_score": 0.5
+      "target": "transcript_export_render_transcript_markdown"
     },
     {
       "relation": "calls",
@@ -4001,9 +4001,9 @@
       "weight": 0.8,
       "_src": "transcript_export_render_transcript_markdown",
       "_tgt": "transcript_export_match_subagent_calls",
+      "confidence_score": 0.5,
       "source": "transcript_export_match_subagent_calls",
-      "target": "transcript_export_render_transcript_markdown",
-      "confidence_score": 0.5
+      "target": "transcript_export_render_transcript_markdown"
     },
     {
       "relation": "calls",
@@ -4013,9 +4013,9 @@
       "weight": 0.8,
       "_src": "transcript_export_render_transcript_markdown",
       "_tgt": "transcript_export_render_frontmatter",
+      "confidence_score": 0.5,
       "source": "transcript_export_render_frontmatter",
-      "target": "transcript_export_render_transcript_markdown",
-      "confidence_score": 0.5
+      "target": "transcript_export_render_transcript_markdown"
     },
     {
       "relation": "calls",
@@ -4025,9 +4025,9 @@
       "weight": 0.8,
       "_src": "transcript_export_render_quick_summary",
       "_tgt": "transcript_export_append_section",
+      "confidence_score": 0.5,
       "source": "transcript_export_append_section",
-      "target": "transcript_export_render_quick_summary",
-      "confidence_score": 0.5
+      "target": "transcript_export_render_quick_summary"
     },
     {
       "relation": "calls",
@@ -4037,9 +4037,9 @@
       "weight": 0.8,
       "_src": "transcript_export_render_transcript_markdown",
       "_tgt": "transcript_export_append_section",
+      "confidence_score": 0.5,
       "source": "transcript_export_append_section",
-      "target": "transcript_export_render_transcript_markdown",
-      "confidence_score": 0.5
+      "target": "transcript_export_render_transcript_markdown"
     },
     {
       "relation": "calls",
@@ -4049,9 +4049,9 @@
       "weight": 0.8,
       "_src": "transcript_export_render_transcript_markdown",
       "_tgt": "transcript_export_render_quick_summary",
+      "confidence_score": 0.5,
       "source": "transcript_export_render_quick_summary",
-      "target": "transcript_export_render_transcript_markdown",
-      "confidence_score": 0.5
+      "target": "transcript_export_render_transcript_markdown"
     },
     {
       "relation": "calls",
@@ -4061,9 +4061,9 @@
       "weight": 0.8,
       "_src": "transcript_export_render_transcript_markdown",
       "_tgt": "transcript_export_render_artifacts",
+      "confidence_score": 0.5,
       "source": "transcript_export_render_artifacts",
-      "target": "transcript_export_render_transcript_markdown",
-      "confidence_score": 0.5
+      "target": "transcript_export_render_transcript_markdown"
     },
     {
       "relation": "calls",
@@ -4073,9 +4073,9 @@
       "weight": 0.8,
       "_src": "transcript_export_render_transcript_markdown",
       "_tgt": "transcript_export_role_heading",
+      "confidence_score": 0.5,
       "source": "transcript_export_role_heading",
-      "target": "transcript_export_render_transcript_markdown",
-      "confidence_score": 0.5
+      "target": "transcript_export_render_transcript_markdown"
     },
     {
       "relation": "calls",
@@ -4085,9 +4085,9 @@
       "weight": 0.8,
       "_src": "transcript_export_render_transcript_markdown",
       "_tgt": "transcript_export_append_text_block",
+      "confidence_score": 0.5,
       "source": "transcript_export_append_text_block",
-      "target": "transcript_export_render_transcript_markdown",
-      "confidence_score": 0.5
+      "target": "transcript_export_render_transcript_markdown"
     }
   ],
   "hyperedges": []

@@ -1,8 +1,7 @@
-# Graph Report - /Users/songstephen/my-brain  (2026-04-13)
+# Graph Report - /Users/songstephen/my-brain  (2026-04-20)
 
 ## Corpus Check
-- 16 files · ~0 words
-- Verdict: corpus is large enough that graph structure adds value.
+- Large corpus: 258 files · ~167,284 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.
 
 ## Summary
 - 143 nodes · 245 edges · 14 communities detected
@@ -95,13 +94,13 @@ Nodes (0):
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Are the 10 inferred relationships involving `main()` (e.g. with `_default_markdown_dir()` and `load_index()`) actually correct?**
+- **Are the 10 inferred relationships involving `main()` (e.g. with `load_index()` and `save_index()`) actually correct?**
   _`main()` has 10 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 9 inferred relationships involving `render_transcript_markdown()` (e.g. with `_render_frontmatter()` and `_render_quick_summary()`) actually correct?**
+- **Are the 9 inferred relationships involving `render_transcript_markdown()` (e.g. with `get_subagent_display_name()` and `build_subagent_index()`) actually correct?**
   _`render_transcript_markdown()` has 9 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 6 inferred relationships involving `upsert_conversation()` (e.g. with `_sanitize_conversation_metadata()` and `_content_hash()`) actually correct?**
+- **Are the 6 inferred relationships involving `upsert_conversation()` (e.g. with `_preserve_existing_fields()` and `_sanitize_conversation_metadata()`) actually correct?**
   _`upsert_conversation()` has 6 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 7 inferred relationships involving `_render_quick_summary()` (e.g. with `clean_project_label()` and `pick_final_answer()`) actually correct?**
+- **Are the 7 inferred relationships involving `_render_quick_summary()` (e.g. with `clean_project_label()` and `extract_file_mentions()`) actually correct?**
   _`_render_quick_summary()` has 7 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 6 inferred relationships involving `_clean_text()` (e.g. with `_extract_title()` and `_normalize_title_candidate()`) actually correct?**
   _`_clean_text()` has 6 INFERRED edges - model-reasoned connections that need verification._
