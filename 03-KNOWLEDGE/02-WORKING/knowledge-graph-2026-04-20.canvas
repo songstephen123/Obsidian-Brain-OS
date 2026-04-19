@@ -1,0 +1,3781 @@
+{
+  "nodes": [
+    {
+      "id": "n_transcript_export",
+      "type": "text",
+      "x": 0,
+      "y": 0,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**transcript_export.py**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_sanitize_filename",
+      "type": "text",
+      "x": 300,
+      "y": 0,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**sanitize_filename()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_unique_markdown_path",
+      "type": "text",
+      "x": 600,
+      "y": 0,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**unique_markdown_path()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_strip_markdown_for_text",
+      "type": "text",
+      "x": 900,
+      "y": 0,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**strip_markdown_for_text()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_clean_project_label",
+      "type": "text",
+      "x": 0,
+      "y": 80,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**clean_project_label()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_truncate_text",
+      "type": "text",
+      "x": 300,
+      "y": 80,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**truncate_text()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_humanize_title_fragment",
+      "type": "text",
+      "x": 600,
+      "y": 80,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**humanize_title_fragment()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_normalize_path_candidate",
+      "type": "text",
+      "x": 900,
+      "y": 80,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**_normalize_path_candidate()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_push_unique",
+      "type": "text",
+      "x": 0,
+      "y": 160,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**_push_unique()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_extract_file_mentions",
+      "type": "text",
+      "x": 300,
+      "y": 160,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**extract_file_mentions()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_extract_command_mentions",
+      "type": "text",
+      "x": 600,
+      "y": 160,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**extract_command_mentions()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_extract_signal_mentions",
+      "type": "text",
+      "x": 900,
+      "y": 160,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**extract_signal_mentions()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_pick_final_answer",
+      "type": "text",
+      "x": 0,
+      "y": 240,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**pick_final_answer()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_prompts_match",
+      "type": "text",
+      "x": 300,
+      "y": 240,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**prompts_match()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_build_search_entry",
+      "type": "text",
+      "x": 600,
+      "y": 240,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**build_search_entry()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_is_subagent_conversation",
+      "type": "text",
+      "x": 900,
+      "y": 240,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**is_subagent_conversation()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_get_subagent_display_name",
+      "type": "text",
+      "x": 0,
+      "y": 320,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**get_subagent_display_name()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_build_subagent_index",
+      "type": "text",
+      "x": 300,
+      "y": 320,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**build_subagent_index()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_match_subagent_calls",
+      "type": "text",
+      "x": 600,
+      "y": 320,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**match_subagent_calls()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_render_frontmatter",
+      "type": "text",
+      "x": 900,
+      "y": 320,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**_render_frontmatter()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_append_section",
+      "type": "text",
+      "x": 0,
+      "y": 400,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**_append_section()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_render_quick_summary",
+      "type": "text",
+      "x": 300,
+      "y": 400,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**_render_quick_summary()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_render_artifacts",
+      "type": "text",
+      "x": 600,
+      "y": 400,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**_render_artifacts()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_role_heading",
+      "type": "text",
+      "x": 900,
+      "y": 400,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**_role_heading()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_append_text_block",
+      "type": "text",
+      "x": 0,
+      "y": 480,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**_append_text_block()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_render_transcript_markdown",
+      "type": "text",
+      "x": 300,
+      "y": 480,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**render_transcript_markdown()**\ncode · C0"
+    },
+    {
+      "id": "n_transcript_export_rationale_164",
+      "type": "text",
+      "x": 600,
+      "y": 480,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**从 conversation 中提取搜索索引条目，用于轻量快速搜索。**\nrationale · C0"
+    },
+    {
+      "id": "n_export_all",
+      "type": "text",
+      "x": 1200,
+      "y": 0,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**export_all.py**\ncode · C1"
+    },
+    {
+      "id": "n_export_all_load_index",
+      "type": "text",
+      "x": 1500,
+      "y": 0,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**load_index()**\ncode · C1"
+    },
+    {
+      "id": "n_export_all_save_index",
+      "type": "text",
+      "x": 1800,
+      "y": 0,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**save_index()**\ncode · C1"
+    },
+    {
+      "id": "n_export_all_get_existing_ids",
+      "type": "text",
+      "x": 2100,
+      "y": 0,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**get_existing_ids()**\ncode · C1"
+    },
+    {
+      "id": "n_export_all_preserve_existing_fields",
+      "type": "text",
+      "x": 1200,
+      "y": 80,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**_preserve_existing_fields()**\ncode · C1"
+    },
+    {
+      "id": "n_export_all_clean_metadata_text",
+      "type": "text",
+      "x": 1500,
+      "y": 80,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**_clean_metadata_text()**\ncode · C1"
+    },
+    {
+      "id": "n_export_all_normalize_project_metadata",
+      "type": "text",
+      "x": 1800,
+      "y": 80,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**_normalize_project_metadata()**\ncode · C1"
+    },
+    {
+      "id": "n_export_all_sanitize_conversation_metadata",
+      "type": "text",
+      "x": 2100,
+      "y": 80,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**_sanitize_conversation_metadata()**\ncode · C1"
+    },
+    {
+      "id": "n_export_all_sanitize_index_metadata",
+      "type": "text",
+      "x": 1200,
+      "y": 160,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**_sanitize_index_metadata()**\ncode · C1"
+    },
+    {
+      "id": "n_export_all_content_hash",
+      "type": "text",
+      "x": 1500,
+      "y": 160,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**_content_hash()**\ncode · C1"
+    },
+    {
+      "id": "n_export_all_upsert_conversation",
+      "type": "text",
+      "x": 1800,
+      "y": 160,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**upsert_conversation()**\ncode · C1"
+    },
+    {
+      "id": "n_export_all_find_existing_conversation",
+      "type": "text",
+      "x": 2100,
+      "y": 160,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**find_existing_conversation()**\ncode · C1"
+    },
+    {
+      "id": "n_export_all_make_conv_id",
+      "type": "text",
+      "x": 1200,
+      "y": 240,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**make_conv_id()**\ncode · C1"
+    },
+    {
+      "id": "n_export_all_default_markdown_dir",
+      "type": "text",
+      "x": 1500,
+      "y": 240,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**_default_markdown_dir()**\ncode · C1"
+    },
+    {
+      "id": "n_export_all_build_transcript_stem",
+      "type": "text",
+      "x": 1800,
+      "y": 240,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**_build_transcript_stem()**\ncode · C1"
+    },
+    {
+      "id": "n_export_all_materialize_transcripts",
+      "type": "text",
+      "x": 2100,
+      "y": 240,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**materialize_transcripts()**\ncode · C1"
+    },
+    {
+      "id": "n_export_all_export_claude",
+      "type": "text",
+      "x": 1200,
+      "y": 320,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**export_claude()**\ncode · C1"
+    },
+    {
+      "id": "n_export_all_export_codex",
+      "type": "text",
+      "x": 1500,
+      "y": 320,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**export_codex()**\ncode · C1"
+    },
+    {
+      "id": "n_export_all_export_antigravity",
+      "type": "text",
+      "x": 1800,
+      "y": 320,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**export_antigravity()**\ncode · C1"
+    },
+    {
+      "id": "n_export_all_build_search_index",
+      "type": "text",
+      "x": 2100,
+      "y": 320,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**_build_search_index()**\ncode · C1"
+    },
+    {
+      "id": "n_export_all_main",
+      "type": "text",
+      "x": 1200,
+      "y": 400,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**main()**\ncode · C1"
+    },
+    {
+      "id": "n_export_all_rationale_127",
+      "type": "text",
+      "x": 1500,
+      "y": 400,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**基于 messages 生成内容哈希，用于判断会话是否有变化**\nrationale · C1"
+    },
+    {
+      "id": "n_export_all_rationale_137",
+      "type": "text",
+      "x": 1800,
+      "y": 400,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**插入或更新会话。返回 True 表示内容有变化（需要重新 material...**\nrationale · C1"
+    },
+    {
+      "id": "n_export_all_rationale_186",
+      "type": "text",
+      "x": 2100,
+      "y": 400,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**Materialize transcript markdown files...**\nrationale · C1"
+    },
+    {
+      "id": "n_export_all_rationale_369",
+      "type": "text",
+      "x": 1200,
+      "y": 480,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**导出时生成轻量搜索索引 search_index.json**\nrationale · C1"
+    },
+    {
+      "id": "n_extract_antigravity",
+      "type": "text",
+      "x": 2400,
+      "y": 0,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**extract_antigravity.py**\ncode · C2"
+    },
+    {
+      "id": "n_extract_antigravity_decode_value",
+      "type": "text",
+      "x": 2700,
+      "y": 0,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**_decode_value()**\ncode · C2"
+    },
+    {
+      "id": "n_extract_antigravity_clean_text",
+      "type": "text",
+      "x": 3000,
+      "y": 0,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**_clean_text()**\ncode · C2"
+    },
+    {
+      "id": "n_extract_antigravity_looks_human_readable",
+      "type": "text",
+      "x": 3300,
+      "y": 0,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**_looks_human_readable()**\ncode · C2"
+    },
+    {
+      "id": "n_extract_antigravity_extract_title",
+      "type": "text",
+      "x": 2400,
+      "y": 80,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**_extract_title()**\ncode · C2"
+    },
+    {
+      "id": "n_extract_antigravity_is_poor_title",
+      "type": "text",
+      "x": 2700,
+      "y": 80,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**_is_poor_title()**\ncode · C2"
+    },
+    {
+      "id": "n_extract_antigravity_normalize_title_candidate",
+      "type": "text",
+      "x": 3000,
+      "y": 80,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**_normalize_title_candidate()**\ncode · C2"
+    },
+    {
+      "id": "n_extract_antigravity_title_from_messages",
+      "type": "text",
+      "x": 3300,
+      "y": 80,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**_title_from_messages()**\ncode · C2"
+    },
+    {
+      "id": "n_extract_antigravity_extract_project",
+      "type": "text",
+      "x": 2400,
+      "y": 160,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**_extract_project()**\ncode · C2"
+    },
+    {
+      "id": "n_extract_antigravity_extract_json_objects",
+      "type": "text",
+      "x": 2700,
+      "y": 160,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**_extract_json_objects()**\ncode · C2"
+    },
+    {
+      "id": "n_extract_antigravity_append_message",
+      "type": "text",
+      "x": 3000,
+      "y": 160,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**_append_message()**\ncode · C2"
+    },
+    {
+      "id": "n_extract_antigravity_extract_messages_from_chunk",
+      "type": "text",
+      "x": 3300,
+      "y": 160,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**_extract_messages_from_chunk()**\ncode · C2"
+    },
+    {
+      "id": "n_extract_antigravity_extract_conversations_from_traj",
+      "type": "text",
+      "x": 2400,
+      "y": 240,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**_extract_conversations_from_traj()**\ncode · C2"
+    },
+    {
+      "id": "n_extract_antigravity_extract_messages_from_jetski",
+      "type": "text",
+      "x": 2700,
+      "y": 240,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**_extract_messages_from_jetski()**\ncode · C2"
+    },
+    {
+      "id": "n_extract_antigravity_safe_read_json",
+      "type": "text",
+      "x": 3000,
+      "y": 240,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**_safe_read_json()**\ncode · C2"
+    },
+    {
+      "id": "n_extract_antigravity_extract_artifact_heading",
+      "type": "text",
+      "x": 3300,
+      "y": 240,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**_extract_artifact_heading()**\ncode · C2"
+    },
+    {
+      "id": "n_extract_antigravity_artifact_priority",
+      "type": "text",
+      "x": 2400,
+      "y": 320,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**_artifact_priority()**\ncode · C2"
+    },
+    {
+      "id": "n_extract_antigravity_collect_brain_artifacts",
+      "type": "text",
+      "x": 2700,
+      "y": 320,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**_collect_brain_artifacts()**\ncode · C2"
+    },
+    {
+      "id": "n_extract_antigravity_find_sessions",
+      "type": "text",
+      "x": 3000,
+      "y": 320,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**find_sessions()**\ncode · C2"
+    },
+    {
+      "id": "n_extract_antigravity_rationale_203",
+      "type": "text",
+      "x": 3300,
+      "y": 320,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**Extract conversation messages from je...**\nrationale · C2"
+    },
+    {
+      "id": "n_extract_antigravity_rationale_309",
+      "type": "text",
+      "x": 2400,
+      "y": 400,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**Extract AntiGravity conversations fro...**\nrationale · C2"
+    },
+    {
+      "id": "n_extract_claude",
+      "type": "text",
+      "x": 3600,
+      "y": 0,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**extract_claude.py**\ncode · C3"
+    },
+    {
+      "id": "n_extract_claude_load_history_index",
+      "type": "text",
+      "x": 3900,
+      "y": 0,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**load_history_index()**\ncode · C3"
+    },
+    {
+      "id": "n_extract_claude_find_sessions_by_date",
+      "type": "text",
+      "x": 4200,
+      "y": 0,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**find_sessions_by_date()**\ncode · C3"
+    },
+    {
+      "id": "n_extract_claude_is_noise",
+      "type": "text",
+      "x": 4500,
+      "y": 0,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**_is_noise()**\ncode · C3"
+    },
+    {
+      "id": "n_extract_claude_clean_text",
+      "type": "text",
+      "x": 3600,
+      "y": 80,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**_clean_text()**\ncode · C3"
+    },
+    {
+      "id": "n_extract_claude_extract_user_text",
+      "type": "text",
+      "x": 3900,
+      "y": 80,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**_extract_user_text()**\ncode · C3"
+    },
+    {
+      "id": "n_extract_claude_extract_assistant_text",
+      "type": "text",
+      "x": 4200,
+      "y": 80,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**_extract_assistant_text()**\ncode · C3"
+    },
+    {
+      "id": "n_extract_claude_extract_subagent_summary",
+      "type": "text",
+      "x": 4500,
+      "y": 80,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**_extract_subagent_summary()**\ncode · C3"
+    },
+    {
+      "id": "n_extract_claude_extract_conversation",
+      "type": "text",
+      "x": 3600,
+      "y": 160,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**extract_conversation()**\ncode · C3"
+    },
+    {
+      "id": "n_extract_claude_decode_project_name",
+      "type": "text",
+      "x": 3900,
+      "y": 160,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**decode_project_name()**\ncode · C3"
+    },
+    {
+      "id": "n_extract_claude_sanitize_filename",
+      "type": "text",
+      "x": 4200,
+      "y": 160,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**sanitize_filename()**\ncode · C3"
+    },
+    {
+      "id": "n_extract_claude_format_conversation",
+      "type": "text",
+      "x": 4500,
+      "y": 160,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**format_conversation()**\ncode · C3"
+    },
+    {
+      "id": "n_extract_claude_main",
+      "type": "text",
+      "x": 3600,
+      "y": 240,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**main()**\ncode · C3"
+    },
+    {
+      "id": "n_extract_claude_rationale_21",
+      "type": "text",
+      "x": 3900,
+      "y": 240,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**从 history.jsonl 建立 sessionId -> 首条用户输...**\nrationale · C3"
+    },
+    {
+      "id": "n_extract_claude_rationale_41",
+      "type": "text",
+      "x": 4200,
+      "y": 240,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**找到某天活跃的所有 Claude Code 会话。     扫描所有 pr...**\nrationale · C3"
+    },
+    {
+      "id": "n_extract_claude_rationale_130",
+      "type": "text",
+      "x": 4500,
+      "y": 240,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**清洗文本，去掉各种噪音标签和 skill 加载内容**\nrationale · C3"
+    },
+    {
+      "id": "n_extract_claude_rationale_157",
+      "type": "text",
+      "x": 3600,
+      "y": 320,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**从 user message content 提取纯文本**\nrationale · C3"
+    },
+    {
+      "id": "n_extract_claude_rationale_175",
+      "type": "text",
+      "x": 3900,
+      "y": 320,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**从 assistant message content 提取纯文本**\nrationale · C3"
+    },
+    {
+      "id": "n_extract_claude_rationale_196",
+      "type": "text",
+      "x": 4200,
+      "y": 320,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**从 Claude Code session JSONL 提取对话。    ...**\nrationale · C3"
+    },
+    {
+      "id": "n_extract_codex",
+      "type": "text",
+      "x": 0,
+      "y": 640,
+      "width": 260,
+      "height": 60,
+      "color": "4",
+      "text": "**extract_codex.py**\ncode · C4"
+    },
+    {
+      "id": "n_extract_codex_load_thread_titles",
+      "type": "text",
+      "x": 300,
+      "y": 640,
+      "width": 260,
+      "height": 60,
+      "color": "4",
+      "text": "**load_thread_titles()**\ncode · C4"
+    },
+    {
+      "id": "n_extract_codex_load_history_for_session",
+      "type": "text",
+      "x": 600,
+      "y": 640,
+      "width": 260,
+      "height": 60,
+      "color": "4",
+      "text": "**load_history_for_session()**\ncode · C4"
+    },
+    {
+      "id": "n_extract_codex_find_sessions_by_date",
+      "type": "text",
+      "x": 900,
+      "y": 640,
+      "width": 260,
+      "height": 60,
+      "color": "4",
+      "text": "**find_sessions_by_date()**\ncode · C4"
+    },
+    {
+      "id": "n_extract_codex_is_system_noise",
+      "type": "text",
+      "x": 0,
+      "y": 720,
+      "width": 260,
+      "height": 60,
+      "color": "4",
+      "text": "**_is_system_noise()**\ncode · C4"
+    },
+    {
+      "id": "n_extract_codex_clean_text",
+      "type": "text",
+      "x": 300,
+      "y": 720,
+      "width": 260,
+      "height": 60,
+      "color": "4",
+      "text": "**_clean_text()**\ncode · C4"
+    },
+    {
+      "id": "n_extract_codex_extract_from_history",
+      "type": "text",
+      "x": 600,
+      "y": 720,
+      "width": 260,
+      "height": 60,
+      "color": "4",
+      "text": "**_extract_from_history()**\ncode · C4"
+    },
+    {
+      "id": "n_extract_codex_extract_conversation",
+      "type": "text",
+      "x": 900,
+      "y": 720,
+      "width": 260,
+      "height": 60,
+      "color": "4",
+      "text": "**extract_conversation()**\ncode · C4"
+    },
+    {
+      "id": "n_extract_codex_format_conversation",
+      "type": "text",
+      "x": 0,
+      "y": 800,
+      "width": 260,
+      "height": 60,
+      "color": "4",
+      "text": "**format_conversation()**\ncode · C4"
+    },
+    {
+      "id": "n_extract_codex_sanitize_filename",
+      "type": "text",
+      "x": 300,
+      "y": 800,
+      "width": 260,
+      "height": 60,
+      "color": "4",
+      "text": "**sanitize_filename()**\ncode · C4"
+    },
+    {
+      "id": "n_extract_codex_main",
+      "type": "text",
+      "x": 600,
+      "y": 800,
+      "width": 260,
+      "height": 60,
+      "color": "4",
+      "text": "**main()**\ncode · C4"
+    },
+    {
+      "id": "n_extract_codex_rationale_23",
+      "type": "text",
+      "x": 900,
+      "y": 800,
+      "width": 260,
+      "height": 60,
+      "color": "4",
+      "text": "**从 session_index.jsonl 和 SQLite 加载会话标题**\nrationale · C4"
+    },
+    {
+      "id": "n_extract_codex_rationale_49",
+      "type": "text",
+      "x": 0,
+      "y": 880,
+      "width": 260,
+      "height": 60,
+      "color": "4",
+      "text": "**从 history.jsonl 加载某个 session 的用户输入**\nrationale · C4"
+    },
+    {
+      "id": "n_extract_codex_rationale_67",
+      "type": "text",
+      "x": 300,
+      "y": 880,
+      "width": 260,
+      "height": 60,
+      "color": "4",
+      "text": "**找到某天活跃的所有会话文件。     target_date 格式: YY...**\nrationale · C4"
+    },
+    {
+      "id": "n_extract_codex_rationale_152",
+      "type": "text",
+      "x": 600,
+      "y": 880,
+      "width": 260,
+      "height": 60,
+      "color": "4",
+      "text": "**清洗文本，去掉各种噪音标签和 skill 加载内容**\nrationale · C4"
+    },
+    {
+      "id": "n_extract_codex_rationale_178",
+      "type": "text",
+      "x": 900,
+      "y": 880,
+      "width": 260,
+      "height": 60,
+      "color": "4",
+      "text": "**从 replacement_history 列表提取对话消息。     r...**\nrationale · C4"
+    },
+    {
+      "id": "n_extract_codex_rationale_222",
+      "type": "text",
+      "x": 0,
+      "y": 960,
+      "width": 260,
+      "height": 60,
+      "color": "4",
+      "text": "**从 session JSONL 文件提取纯对话内容（用户问题 + Code...**\nrationale · C4"
+    },
+    {
+      "id": "n_resolve_project_ref",
+      "type": "text",
+      "x": 1200,
+      "y": 640,
+      "width": 260,
+      "height": 60,
+      "color": "5",
+      "text": "**resolve-project-ref.py**\ncode · C5"
+    },
+    {
+      "id": "n_resolve_project_ref_parse_frontmatter",
+      "type": "text",
+      "x": 1500,
+      "y": 640,
+      "width": 260,
+      "height": 60,
+      "color": "5",
+      "text": "**parse_frontmatter()**\ncode · C5"
+    },
+    {
+      "id": "n_resolve_project_ref_build_mapping",
+      "type": "text",
+      "x": 1800,
+      "y": 640,
+      "width": 260,
+      "height": 60,
+      "color": "5",
+      "text": "**build_mapping()**\ncode · C5"
+    },
+    {
+      "id": "n_resolve_project_ref_main",
+      "type": "text",
+      "x": 2100,
+      "y": 640,
+      "width": 260,
+      "height": 60,
+      "color": "5",
+      "text": "**main()**\ncode · C5"
+    },
+    {
+      "id": "n_resolve_project_ref_rationale_28",
+      "type": "text",
+      "x": 1200,
+      "y": 720,
+      "width": 260,
+      "height": 60,
+      "color": "5",
+      "text": "**Extract YAML frontmatter fields we ca...**\nrationale · C5"
+    },
+    {
+      "id": "n_resolve_project_ref_rationale_58",
+      "type": "text",
+      "x": 1500,
+      "y": 720,
+      "width": 260,
+      "height": 60,
+      "color": "5",
+      "text": "**Return {alias_lower: (project_ref, br...**\nrationale · C5"
+    },
+    {
+      "id": "n_render_graphs",
+      "type": "text",
+      "x": 2400,
+      "y": 640,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**render-graphs.js**\ncode · C6"
+    },
+    {
+      "id": "n_render_graphs_extractdotblocks",
+      "type": "text",
+      "x": 2700,
+      "y": 640,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**extractDotBlocks()**\ncode · C6"
+    },
+    {
+      "id": "n_render_graphs_extractgraphbody",
+      "type": "text",
+      "x": 3000,
+      "y": 640,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**extractGraphBody()**\ncode · C6"
+    },
+    {
+      "id": "n_render_graphs_combinegraphs",
+      "type": "text",
+      "x": 3300,
+      "y": 640,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**combineGraphs()**\ncode · C6"
+    },
+    {
+      "id": "n_render_graphs_rendertosvg",
+      "type": "text",
+      "x": 2400,
+      "y": 720,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**renderToSvg()**\ncode · C6"
+    },
+    {
+      "id": "n_render_graphs_main",
+      "type": "text",
+      "x": 2700,
+      "y": 720,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**main()**\ncode · C6"
+    },
+    {
+      "id": "n_main",
+      "type": "text",
+      "x": 3600,
+      "y": 640,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**__main__.py**\ncode · C7"
+    },
+    {
+      "id": "n_cli",
+      "type": "text",
+      "x": 3900,
+      "y": 640,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**cli.py**\ncode · C7"
+    },
+    {
+      "id": "n_cli_json_for_html_script",
+      "type": "text",
+      "x": 4200,
+      "y": 640,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**_json_for_html_script()**\ncode · C7"
+    },
+    {
+      "id": "n_cli_run_export",
+      "type": "text",
+      "x": 4500,
+      "y": 640,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**run_export()**\ncode · C7"
+    },
+    {
+      "id": "n_cli_build_html",
+      "type": "text",
+      "x": 3600,
+      "y": 720,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**build_html()**\ncode · C7"
+    },
+    {
+      "id": "n_cli_main",
+      "type": "text",
+      "x": 3900,
+      "y": 720,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**main()**\ncode · C7"
+    },
+    {
+      "id": "n_build_day_manifest",
+      "type": "text",
+      "x": 0,
+      "y": 1280,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**build-day-manifest.py**\ncode · C8"
+    },
+    {
+      "id": "n_build_day_manifest_infer_project",
+      "type": "text",
+      "x": 300,
+      "y": 1280,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**infer_project()**\ncode · C8"
+    },
+    {
+      "id": "n_build_day_manifest_infer_agent",
+      "type": "text",
+      "x": 600,
+      "y": 1280,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**infer_agent()**\ncode · C8"
+    },
+    {
+      "id": "n_build_day_manifest_infer_title",
+      "type": "text",
+      "x": 900,
+      "y": 1280,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**infer_title()**\ncode · C8"
+    },
+    {
+      "id": "n_build_day_manifest_main",
+      "type": "text",
+      "x": 0,
+      "y": 1360,
+      "width": 260,
+      "height": 60,
+      "color": "2",
+      "text": "**main()**\ncode · C8"
+    },
+    {
+      "id": "n_speak",
+      "type": "text",
+      "x": 1200,
+      "y": 1280,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**speak.py**\ncode · C9"
+    },
+    {
+      "id": "n_speak_speak",
+      "type": "text",
+      "x": 1500,
+      "y": 1280,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**speak()**\ncode · C9"
+    },
+    {
+      "id": "n_speak_main",
+      "type": "text",
+      "x": 1800,
+      "y": 1280,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**main()**\ncode · C9"
+    },
+    {
+      "id": "n_speak_rationale_29",
+      "type": "text",
+      "x": 2100,
+      "y": 1280,
+      "width": 260,
+      "height": 60,
+      "color": "3",
+      "text": "**Generate speech from text using edge-...**\nrationale · C9"
+    },
+    {
+      "id": "n_transcribe",
+      "type": "text",
+      "x": 2400,
+      "y": 1280,
+      "width": 260,
+      "height": 60,
+      "color": "4",
+      "text": "**transcribe.py**\ncode · C10"
+    },
+    {
+      "id": "n_transcribe_transcribe",
+      "type": "text",
+      "x": 2700,
+      "y": 1280,
+      "width": 260,
+      "height": 60,
+      "color": "4",
+      "text": "**transcribe()**\ncode · C10"
+    },
+    {
+      "id": "n_transcribe_main",
+      "type": "text",
+      "x": 3000,
+      "y": 1280,
+      "width": 260,
+      "height": 60,
+      "color": "4",
+      "text": "**main()**\ncode · C10"
+    },
+    {
+      "id": "n_transcribe_rationale_19",
+      "type": "text",
+      "x": 3300,
+      "y": 1280,
+      "width": 260,
+      "height": 60,
+      "color": "4",
+      "text": "**Transcribe audio file using faster-wh...**\nrationale · C10"
+    },
+    {
+      "id": "n_render_writer_package",
+      "type": "text",
+      "x": 3600,
+      "y": 1280,
+      "width": 260,
+      "height": 60,
+      "color": "5",
+      "text": "**render-writer-package.py**\ncode · C11"
+    },
+    {
+      "id": "n_init",
+      "type": "text",
+      "x": 0,
+      "y": 1920,
+      "width": 260,
+      "height": 60,
+      "color": "0",
+      "text": "**__init__.py**\ncode · C12"
+    },
+    {
+      "id": "n_convs",
+      "type": "text",
+      "x": 1200,
+      "y": 1920,
+      "width": 260,
+      "height": 60,
+      "color": "1",
+      "text": "**convs.py**\ncode · C13"
+    },
+    {
+      "id": "group_c0",
+      "type": "text",
+      "x": 0,
+      "y": -60,
+      "width": 300,
+      "height": 40,
+      "color": "1",
+      "text": "## Community 0 (27 nodes)"
+    },
+    {
+      "id": "group_c1",
+      "type": "text",
+      "x": 1200,
+      "y": -60,
+      "width": 300,
+      "height": 40,
+      "color": "1",
+      "text": "## Community 1 (25 nodes)"
+    },
+    {
+      "id": "group_c2",
+      "type": "text",
+      "x": 2400,
+      "y": -60,
+      "width": 300,
+      "height": 40,
+      "color": "1",
+      "text": "## Community 2 (21 nodes)"
+    },
+    {
+      "id": "group_c3",
+      "type": "text",
+      "x": 3600,
+      "y": -60,
+      "width": 300,
+      "height": 40,
+      "color": "1",
+      "text": "## Community 3 (19 nodes)"
+    },
+    {
+      "id": "group_c4",
+      "type": "text",
+      "x": 0,
+      "y": 580,
+      "width": 300,
+      "height": 40,
+      "color": "1",
+      "text": "## Community 4 (17 nodes)"
+    },
+    {
+      "id": "group_c5",
+      "type": "text",
+      "x": 1200,
+      "y": 580,
+      "width": 300,
+      "height": 40,
+      "color": "1",
+      "text": "## Community 5 (6 nodes)"
+    },
+    {
+      "id": "group_c6",
+      "type": "text",
+      "x": 2400,
+      "y": 580,
+      "width": 300,
+      "height": 40,
+      "color": "1",
+      "text": "## Community 6 (6 nodes)"
+    },
+    {
+      "id": "group_c7",
+      "type": "text",
+      "x": 3600,
+      "y": 580,
+      "width": 300,
+      "height": 40,
+      "color": "1",
+      "text": "## Community 7 (6 nodes)"
+    },
+    {
+      "id": "group_c8",
+      "type": "text",
+      "x": 0,
+      "y": 1220,
+      "width": 300,
+      "height": 40,
+      "color": "1",
+      "text": "## Community 8 (5 nodes)"
+    },
+    {
+      "id": "group_c9",
+      "type": "text",
+      "x": 1200,
+      "y": 1220,
+      "width": 300,
+      "height": 40,
+      "color": "1",
+      "text": "## Community 9 (4 nodes)"
+    },
+    {
+      "id": "group_c10",
+      "type": "text",
+      "x": 2400,
+      "y": 1220,
+      "width": 300,
+      "height": 40,
+      "color": "1",
+      "text": "## Community 10 (4 nodes)"
+    },
+    {
+      "id": "group_c11",
+      "type": "text",
+      "x": 3600,
+      "y": 1220,
+      "width": 300,
+      "height": 40,
+      "color": "1",
+      "text": "## Community 11 (1 nodes)"
+    },
+    {
+      "id": "group_c12",
+      "type": "text",
+      "x": 0,
+      "y": 1860,
+      "width": 300,
+      "height": 40,
+      "color": "1",
+      "text": "## Community 12 (1 nodes)"
+    },
+    {
+      "id": "group_c13",
+      "type": "text",
+      "x": 1200,
+      "y": 1860,
+      "width": 300,
+      "height": 40,
+      "color": "1",
+      "text": "## Community 13 (1 nodes)"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_0",
+      "fromNode": "n_build_day_manifest",
+      "fromSide": "right",
+      "toNode": "n_build_day_manifest_infer_project",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_1",
+      "fromNode": "n_build_day_manifest",
+      "fromSide": "right",
+      "toNode": "n_build_day_manifest_infer_agent",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_2",
+      "fromNode": "n_build_day_manifest",
+      "fromSide": "right",
+      "toNode": "n_build_day_manifest_infer_title",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_3",
+      "fromNode": "n_build_day_manifest",
+      "fromSide": "right",
+      "toNode": "n_build_day_manifest_main",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_4",
+      "fromNode": "n_build_day_manifest_infer_project",
+      "fromSide": "right",
+      "toNode": "n_build_day_manifest_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_5",
+      "fromNode": "n_build_day_manifest_infer_agent",
+      "fromSide": "right",
+      "toNode": "n_build_day_manifest_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_6",
+      "fromNode": "n_build_day_manifest_infer_title",
+      "fromSide": "right",
+      "toNode": "n_build_day_manifest_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_7",
+      "fromNode": "n_resolve_project_ref",
+      "fromSide": "right",
+      "toNode": "n_resolve_project_ref_parse_frontmatter",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_8",
+      "fromNode": "n_resolve_project_ref",
+      "fromSide": "right",
+      "toNode": "n_resolve_project_ref_build_mapping",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_9",
+      "fromNode": "n_resolve_project_ref",
+      "fromSide": "right",
+      "toNode": "n_resolve_project_ref_main",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_10",
+      "fromNode": "n_resolve_project_ref_parse_frontmatter",
+      "fromSide": "right",
+      "toNode": "n_resolve_project_ref_build_mapping",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_11",
+      "fromNode": "n_resolve_project_ref_parse_frontmatter",
+      "fromSide": "right",
+      "toNode": "n_resolve_project_ref_rationale_28",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_12",
+      "fromNode": "n_resolve_project_ref_build_mapping",
+      "fromSide": "right",
+      "toNode": "n_resolve_project_ref_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_13",
+      "fromNode": "n_resolve_project_ref_build_mapping",
+      "fromSide": "right",
+      "toNode": "n_resolve_project_ref_rationale_58",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_14",
+      "fromNode": "n_speak",
+      "fromSide": "right",
+      "toNode": "n_speak_speak",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_15",
+      "fromNode": "n_speak",
+      "fromSide": "right",
+      "toNode": "n_speak_main",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_16",
+      "fromNode": "n_speak_speak",
+      "fromSide": "right",
+      "toNode": "n_speak_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_17",
+      "fromNode": "n_speak_speak",
+      "fromSide": "right",
+      "toNode": "n_speak_rationale_29",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_18",
+      "fromNode": "n_transcribe",
+      "fromSide": "right",
+      "toNode": "n_transcribe_transcribe",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_19",
+      "fromNode": "n_transcribe",
+      "fromSide": "right",
+      "toNode": "n_transcribe_main",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_20",
+      "fromNode": "n_transcribe_transcribe",
+      "fromSide": "right",
+      "toNode": "n_transcribe_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_21",
+      "fromNode": "n_transcribe_transcribe",
+      "fromSide": "right",
+      "toNode": "n_transcribe_rationale_19",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_22",
+      "fromNode": "n_render_graphs",
+      "fromSide": "right",
+      "toNode": "n_render_graphs_extractdotblocks",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_23",
+      "fromNode": "n_render_graphs",
+      "fromSide": "right",
+      "toNode": "n_render_graphs_extractgraphbody",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_24",
+      "fromNode": "n_render_graphs",
+      "fromSide": "right",
+      "toNode": "n_render_graphs_combinegraphs",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_25",
+      "fromNode": "n_render_graphs",
+      "fromSide": "right",
+      "toNode": "n_render_graphs_rendertosvg",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_26",
+      "fromNode": "n_render_graphs",
+      "fromSide": "right",
+      "toNode": "n_render_graphs_main",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_27",
+      "fromNode": "n_render_graphs_extractdotblocks",
+      "fromSide": "right",
+      "toNode": "n_render_graphs_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_28",
+      "fromNode": "n_render_graphs_combinegraphs",
+      "fromSide": "right",
+      "toNode": "n_render_graphs_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_29",
+      "fromNode": "n_render_graphs_rendertosvg",
+      "fromSide": "right",
+      "toNode": "n_render_graphs_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_30",
+      "fromNode": "n_main",
+      "fromSide": "right",
+      "toNode": "n_cli",
+      "toSide": "left",
+      "color": "1",
+      "label": "imports_from"
+    },
+    {
+      "id": "e_31",
+      "fromNode": "n_cli",
+      "fromSide": "right",
+      "toNode": "n_cli_json_for_html_script",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_32",
+      "fromNode": "n_cli",
+      "fromSide": "right",
+      "toNode": "n_cli_run_export",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_33",
+      "fromNode": "n_cli",
+      "fromSide": "right",
+      "toNode": "n_cli_build_html",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_34",
+      "fromNode": "n_cli",
+      "fromSide": "right",
+      "toNode": "n_cli_main",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_35",
+      "fromNode": "n_cli_json_for_html_script",
+      "fromSide": "right",
+      "toNode": "n_cli_build_html",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_36",
+      "fromNode": "n_cli_run_export",
+      "fromSide": "right",
+      "toNode": "n_cli_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_37",
+      "fromNode": "n_cli_build_html",
+      "fromSide": "right",
+      "toNode": "n_cli_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_38",
+      "fromNode": "n_export_all",
+      "fromSide": "right",
+      "toNode": "n_export_all_load_index",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_39",
+      "fromNode": "n_export_all",
+      "fromSide": "right",
+      "toNode": "n_export_all_save_index",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_40",
+      "fromNode": "n_export_all",
+      "fromSide": "right",
+      "toNode": "n_export_all_get_existing_ids",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_41",
+      "fromNode": "n_export_all",
+      "fromSide": "right",
+      "toNode": "n_export_all_preserve_existing_fields",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_42",
+      "fromNode": "n_export_all",
+      "fromSide": "right",
+      "toNode": "n_export_all_clean_metadata_text",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_43",
+      "fromNode": "n_export_all",
+      "fromSide": "right",
+      "toNode": "n_export_all_normalize_project_metadata",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_44",
+      "fromNode": "n_export_all",
+      "fromSide": "right",
+      "toNode": "n_export_all_sanitize_conversation_metadata",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_45",
+      "fromNode": "n_export_all",
+      "fromSide": "right",
+      "toNode": "n_export_all_sanitize_index_metadata",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_46",
+      "fromNode": "n_export_all",
+      "fromSide": "right",
+      "toNode": "n_export_all_content_hash",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_47",
+      "fromNode": "n_export_all",
+      "fromSide": "right",
+      "toNode": "n_export_all_upsert_conversation",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_48",
+      "fromNode": "n_export_all",
+      "fromSide": "right",
+      "toNode": "n_export_all_find_existing_conversation",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_49",
+      "fromNode": "n_export_all",
+      "fromSide": "right",
+      "toNode": "n_export_all_make_conv_id",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_50",
+      "fromNode": "n_export_all",
+      "fromSide": "right",
+      "toNode": "n_export_all_default_markdown_dir",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_51",
+      "fromNode": "n_export_all",
+      "fromSide": "right",
+      "toNode": "n_export_all_build_transcript_stem",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_52",
+      "fromNode": "n_export_all",
+      "fromSide": "right",
+      "toNode": "n_export_all_materialize_transcripts",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_53",
+      "fromNode": "n_export_all",
+      "fromSide": "right",
+      "toNode": "n_export_all_export_claude",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_54",
+      "fromNode": "n_export_all",
+      "fromSide": "right",
+      "toNode": "n_export_all_export_codex",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_55",
+      "fromNode": "n_export_all",
+      "fromSide": "right",
+      "toNode": "n_export_all_export_antigravity",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_56",
+      "fromNode": "n_export_all",
+      "fromSide": "right",
+      "toNode": "n_export_all_build_search_index",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_57",
+      "fromNode": "n_export_all",
+      "fromSide": "right",
+      "toNode": "n_export_all_main",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_58",
+      "fromNode": "n_export_all_load_index",
+      "fromSide": "right",
+      "toNode": "n_export_all_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_59",
+      "fromNode": "n_export_all_save_index",
+      "fromSide": "right",
+      "toNode": "n_export_all_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_60",
+      "fromNode": "n_export_all_get_existing_ids",
+      "fromSide": "right",
+      "toNode": "n_export_all_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_61",
+      "fromNode": "n_export_all_preserve_existing_fields",
+      "fromSide": "right",
+      "toNode": "n_export_all_upsert_conversation",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_62",
+      "fromNode": "n_export_all_clean_metadata_text",
+      "fromSide": "right",
+      "toNode": "n_export_all_normalize_project_metadata",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_63",
+      "fromNode": "n_export_all_clean_metadata_text",
+      "fromSide": "right",
+      "toNode": "n_export_all_sanitize_conversation_metadata",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_64",
+      "fromNode": "n_export_all_normalize_project_metadata",
+      "fromSide": "right",
+      "toNode": "n_export_all_sanitize_conversation_metadata",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_65",
+      "fromNode": "n_export_all_sanitize_conversation_metadata",
+      "fromSide": "right",
+      "toNode": "n_export_all_sanitize_index_metadata",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_66",
+      "fromNode": "n_export_all_sanitize_conversation_metadata",
+      "fromSide": "right",
+      "toNode": "n_export_all_upsert_conversation",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_67",
+      "fromNode": "n_export_all_sanitize_index_metadata",
+      "fromSide": "right",
+      "toNode": "n_export_all_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_68",
+      "fromNode": "n_export_all_content_hash",
+      "fromSide": "right",
+      "toNode": "n_export_all_upsert_conversation",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_69",
+      "fromNode": "n_export_all_content_hash",
+      "fromSide": "right",
+      "toNode": "n_export_all_rationale_127",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_70",
+      "fromNode": "n_export_all_upsert_conversation",
+      "fromSide": "right",
+      "toNode": "n_export_all_export_claude",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_71",
+      "fromNode": "n_export_all_upsert_conversation",
+      "fromSide": "right",
+      "toNode": "n_export_all_export_codex",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_72",
+      "fromNode": "n_export_all_upsert_conversation",
+      "fromSide": "right",
+      "toNode": "n_export_all_export_antigravity",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_73",
+      "fromNode": "n_export_all_upsert_conversation",
+      "fromSide": "right",
+      "toNode": "n_export_all_rationale_137",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_74",
+      "fromNode": "n_export_all_make_conv_id",
+      "fromSide": "right",
+      "toNode": "n_export_all_export_claude",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_75",
+      "fromNode": "n_export_all_make_conv_id",
+      "fromSide": "right",
+      "toNode": "n_export_all_export_codex",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_76",
+      "fromNode": "n_export_all_make_conv_id",
+      "fromSide": "right",
+      "toNode": "n_export_all_export_antigravity",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_77",
+      "fromNode": "n_export_all_default_markdown_dir",
+      "fromSide": "right",
+      "toNode": "n_export_all_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_78",
+      "fromNode": "n_export_all_build_transcript_stem",
+      "fromSide": "right",
+      "toNode": "n_export_all_materialize_transcripts",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_79",
+      "fromNode": "n_export_all_materialize_transcripts",
+      "fromSide": "right",
+      "toNode": "n_export_all_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_80",
+      "fromNode": "n_export_all_materialize_transcripts",
+      "fromSide": "right",
+      "toNode": "n_export_all_rationale_186",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_81",
+      "fromNode": "n_export_all_export_claude",
+      "fromSide": "right",
+      "toNode": "n_export_all_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_82",
+      "fromNode": "n_export_all_export_codex",
+      "fromSide": "right",
+      "toNode": "n_export_all_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_83",
+      "fromNode": "n_export_all_export_antigravity",
+      "fromSide": "right",
+      "toNode": "n_export_all_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_84",
+      "fromNode": "n_export_all_build_search_index",
+      "fromSide": "right",
+      "toNode": "n_export_all_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_85",
+      "fromNode": "n_export_all_build_search_index",
+      "fromSide": "right",
+      "toNode": "n_export_all_rationale_369",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_86",
+      "fromNode": "n_extract_antigravity",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_decode_value",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_87",
+      "fromNode": "n_extract_antigravity",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_clean_text",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_88",
+      "fromNode": "n_extract_antigravity",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_looks_human_readable",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_89",
+      "fromNode": "n_extract_antigravity",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_extract_title",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_90",
+      "fromNode": "n_extract_antigravity",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_is_poor_title",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_91",
+      "fromNode": "n_extract_antigravity",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_normalize_title_candidate",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_92",
+      "fromNode": "n_extract_antigravity",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_title_from_messages",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_93",
+      "fromNode": "n_extract_antigravity",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_extract_project",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_94",
+      "fromNode": "n_extract_antigravity",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_extract_json_objects",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_95",
+      "fromNode": "n_extract_antigravity",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_append_message",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_96",
+      "fromNode": "n_extract_antigravity",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_extract_messages_from_chunk",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_97",
+      "fromNode": "n_extract_antigravity",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_extract_conversations_from_traj",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_98",
+      "fromNode": "n_extract_antigravity",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_extract_messages_from_jetski",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_99",
+      "fromNode": "n_extract_antigravity",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_safe_read_json",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_100",
+      "fromNode": "n_extract_antigravity",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_extract_artifact_heading",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_101",
+      "fromNode": "n_extract_antigravity",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_artifact_priority",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_102",
+      "fromNode": "n_extract_antigravity",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_collect_brain_artifacts",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_103",
+      "fromNode": "n_extract_antigravity",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_find_sessions",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_104",
+      "fromNode": "n_extract_antigravity_decode_value",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_find_sessions",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_105",
+      "fromNode": "n_extract_antigravity_clean_text",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_extract_title",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_106",
+      "fromNode": "n_extract_antigravity_clean_text",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_normalize_title_candidate",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_107",
+      "fromNode": "n_extract_antigravity_clean_text",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_title_from_messages",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_108",
+      "fromNode": "n_extract_antigravity_clean_text",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_append_message",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_109",
+      "fromNode": "n_extract_antigravity_clean_text",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_extract_messages_from_jetski",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_110",
+      "fromNode": "n_extract_antigravity_clean_text",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_extract_artifact_heading",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_111",
+      "fromNode": "n_extract_antigravity_looks_human_readable",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_extract_title",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_112",
+      "fromNode": "n_extract_antigravity_looks_human_readable",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_title_from_messages",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_113",
+      "fromNode": "n_extract_antigravity_extract_title",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_extract_conversations_from_traj",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_114",
+      "fromNode": "n_extract_antigravity_is_poor_title",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_title_from_messages",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_115",
+      "fromNode": "n_extract_antigravity_is_poor_title",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_extract_conversations_from_traj",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_116",
+      "fromNode": "n_extract_antigravity_normalize_title_candidate",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_title_from_messages",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_117",
+      "fromNode": "n_extract_antigravity_title_from_messages",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_extract_conversations_from_traj",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_118",
+      "fromNode": "n_extract_antigravity_extract_project",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_extract_conversations_from_traj",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_119",
+      "fromNode": "n_extract_antigravity_extract_json_objects",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_extract_messages_from_chunk",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_120",
+      "fromNode": "n_extract_antigravity_append_message",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_extract_messages_from_chunk",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_121",
+      "fromNode": "n_extract_antigravity_append_message",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_find_sessions",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_122",
+      "fromNode": "n_extract_antigravity_extract_messages_from_chunk",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_extract_conversations_from_traj",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_123",
+      "fromNode": "n_extract_antigravity_extract_conversations_from_traj",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_find_sessions",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_124",
+      "fromNode": "n_extract_antigravity_extract_messages_from_jetski",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_find_sessions",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_125",
+      "fromNode": "n_extract_antigravity_extract_messages_from_jetski",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_rationale_203",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_126",
+      "fromNode": "n_extract_antigravity_safe_read_json",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_collect_brain_artifacts",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_127",
+      "fromNode": "n_extract_antigravity_extract_artifact_heading",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_collect_brain_artifacts",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_128",
+      "fromNode": "n_extract_antigravity_collect_brain_artifacts",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_find_sessions",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_129",
+      "fromNode": "n_extract_antigravity_find_sessions",
+      "fromSide": "right",
+      "toNode": "n_extract_antigravity_rationale_309",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_130",
+      "fromNode": "n_extract_claude",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_load_history_index",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_131",
+      "fromNode": "n_extract_claude",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_find_sessions_by_date",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_132",
+      "fromNode": "n_extract_claude",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_is_noise",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_133",
+      "fromNode": "n_extract_claude",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_clean_text",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_134",
+      "fromNode": "n_extract_claude",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_extract_user_text",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_135",
+      "fromNode": "n_extract_claude",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_extract_assistant_text",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_136",
+      "fromNode": "n_extract_claude",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_extract_subagent_summary",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_137",
+      "fromNode": "n_extract_claude",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_extract_conversation",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_138",
+      "fromNode": "n_extract_claude",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_decode_project_name",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_139",
+      "fromNode": "n_extract_claude",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_sanitize_filename",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_140",
+      "fromNode": "n_extract_claude",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_format_conversation",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_141",
+      "fromNode": "n_extract_claude",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_main",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_142",
+      "fromNode": "n_extract_claude_load_history_index",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_143",
+      "fromNode": "n_extract_claude_load_history_index",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_rationale_21",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_144",
+      "fromNode": "n_extract_claude_find_sessions_by_date",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_145",
+      "fromNode": "n_extract_claude_find_sessions_by_date",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_rationale_41",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_146",
+      "fromNode": "n_extract_claude_is_noise",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_extract_conversation",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_147",
+      "fromNode": "n_extract_claude_clean_text",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_extract_user_text",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_148",
+      "fromNode": "n_extract_claude_clean_text",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_extract_assistant_text",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_149",
+      "fromNode": "n_extract_claude_clean_text",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_extract_conversation",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_150",
+      "fromNode": "n_extract_claude_clean_text",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_rationale_130",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_151",
+      "fromNode": "n_extract_claude_extract_user_text",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_extract_conversation",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_152",
+      "fromNode": "n_extract_claude_extract_user_text",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_rationale_157",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_153",
+      "fromNode": "n_extract_claude_extract_assistant_text",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_extract_conversation",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_154",
+      "fromNode": "n_extract_claude_extract_assistant_text",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_rationale_175",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_155",
+      "fromNode": "n_extract_claude_extract_conversation",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_156",
+      "fromNode": "n_extract_claude_extract_conversation",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_rationale_196",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_157",
+      "fromNode": "n_extract_claude_decode_project_name",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_format_conversation",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_158",
+      "fromNode": "n_extract_claude_decode_project_name",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_159",
+      "fromNode": "n_extract_claude_sanitize_filename",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_160",
+      "fromNode": "n_extract_claude_format_conversation",
+      "fromSide": "right",
+      "toNode": "n_extract_claude_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_161",
+      "fromNode": "n_extract_codex",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_load_thread_titles",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_162",
+      "fromNode": "n_extract_codex",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_load_history_for_session",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_163",
+      "fromNode": "n_extract_codex",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_find_sessions_by_date",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_164",
+      "fromNode": "n_extract_codex",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_is_system_noise",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_165",
+      "fromNode": "n_extract_codex",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_clean_text",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_166",
+      "fromNode": "n_extract_codex",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_extract_from_history",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_167",
+      "fromNode": "n_extract_codex",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_extract_conversation",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_168",
+      "fromNode": "n_extract_codex",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_format_conversation",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_169",
+      "fromNode": "n_extract_codex",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_sanitize_filename",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_170",
+      "fromNode": "n_extract_codex",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_main",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_171",
+      "fromNode": "n_extract_codex_load_thread_titles",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_172",
+      "fromNode": "n_extract_codex_load_thread_titles",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_rationale_23",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_173",
+      "fromNode": "n_extract_codex_load_history_for_session",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_extract_conversation",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_174",
+      "fromNode": "n_extract_codex_load_history_for_session",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_rationale_49",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_175",
+      "fromNode": "n_extract_codex_find_sessions_by_date",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_176",
+      "fromNode": "n_extract_codex_find_sessions_by_date",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_rationale_67",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_177",
+      "fromNode": "n_extract_codex_is_system_noise",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_extract_from_history",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_178",
+      "fromNode": "n_extract_codex_is_system_noise",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_extract_conversation",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_179",
+      "fromNode": "n_extract_codex_clean_text",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_extract_from_history",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_180",
+      "fromNode": "n_extract_codex_clean_text",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_extract_conversation",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_181",
+      "fromNode": "n_extract_codex_clean_text",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_rationale_152",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_182",
+      "fromNode": "n_extract_codex_extract_from_history",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_extract_conversation",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_183",
+      "fromNode": "n_extract_codex_extract_from_history",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_rationale_178",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_184",
+      "fromNode": "n_extract_codex_extract_conversation",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_185",
+      "fromNode": "n_extract_codex_extract_conversation",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_rationale_222",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_186",
+      "fromNode": "n_extract_codex_format_conversation",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_187",
+      "fromNode": "n_extract_codex_sanitize_filename",
+      "fromSide": "right",
+      "toNode": "n_extract_codex_main",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_188",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_sanitize_filename",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_189",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_unique_markdown_path",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_190",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_strip_markdown_for_text",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_191",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_clean_project_label",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_192",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_truncate_text",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_193",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_humanize_title_fragment",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_194",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_normalize_path_candidate",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_195",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_push_unique",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_196",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_extract_file_mentions",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_197",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_extract_command_mentions",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_198",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_extract_signal_mentions",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_199",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_pick_final_answer",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_200",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_prompts_match",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_201",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_build_search_entry",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_202",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_is_subagent_conversation",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_203",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_get_subagent_display_name",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_204",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_build_subagent_index",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_205",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_match_subagent_calls",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_206",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_render_frontmatter",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_207",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_append_section",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_208",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_render_quick_summary",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_209",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_render_artifacts",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_210",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_role_heading",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_211",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_append_text_block",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_212",
+      "fromNode": "n_transcript_export",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_render_transcript_markdown",
+      "toSide": "left",
+      "color": "1",
+      "label": "contains"
+    },
+    {
+      "id": "e_213",
+      "fromNode": "n_transcript_export_strip_markdown_for_text",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_truncate_text",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_214",
+      "fromNode": "n_transcript_export_strip_markdown_for_text",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_humanize_title_fragment",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_215",
+      "fromNode": "n_transcript_export_strip_markdown_for_text",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_build_search_entry",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_216",
+      "fromNode": "n_transcript_export_clean_project_label",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_render_quick_summary",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_217",
+      "fromNode": "n_transcript_export_truncate_text",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_humanize_title_fragment",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_218",
+      "fromNode": "n_transcript_export_truncate_text",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_extract_command_mentions",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_219",
+      "fromNode": "n_transcript_export_truncate_text",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_extract_signal_mentions",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_220",
+      "fromNode": "n_transcript_export_truncate_text",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_pick_final_answer",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_221",
+      "fromNode": "n_transcript_export_normalize_path_candidate",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_extract_file_mentions",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_222",
+      "fromNode": "n_transcript_export_push_unique",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_extract_file_mentions",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_223",
+      "fromNode": "n_transcript_export_push_unique",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_extract_command_mentions",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_224",
+      "fromNode": "n_transcript_export_push_unique",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_extract_signal_mentions",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_225",
+      "fromNode": "n_transcript_export_extract_file_mentions",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_build_search_entry",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_226",
+      "fromNode": "n_transcript_export_extract_file_mentions",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_render_quick_summary",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_227",
+      "fromNode": "n_transcript_export_extract_command_mentions",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_build_search_entry",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_228",
+      "fromNode": "n_transcript_export_extract_command_mentions",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_render_quick_summary",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_229",
+      "fromNode": "n_transcript_export_extract_signal_mentions",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_build_search_entry",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_230",
+      "fromNode": "n_transcript_export_extract_signal_mentions",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_render_quick_summary",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_231",
+      "fromNode": "n_transcript_export_pick_final_answer",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_render_quick_summary",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_232",
+      "fromNode": "n_transcript_export_prompts_match",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_match_subagent_calls",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_233",
+      "fromNode": "n_transcript_export_build_search_entry",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_rationale_164",
+      "toSide": "left",
+      "color": "1",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e_234",
+      "fromNode": "n_transcript_export_is_subagent_conversation",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_build_subagent_index",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_235",
+      "fromNode": "n_transcript_export_get_subagent_display_name",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_render_transcript_markdown",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_236",
+      "fromNode": "n_transcript_export_build_subagent_index",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_render_transcript_markdown",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_237",
+      "fromNode": "n_transcript_export_match_subagent_calls",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_render_transcript_markdown",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_238",
+      "fromNode": "n_transcript_export_render_frontmatter",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_render_transcript_markdown",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_239",
+      "fromNode": "n_transcript_export_append_section",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_render_quick_summary",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_240",
+      "fromNode": "n_transcript_export_append_section",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_render_transcript_markdown",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_241",
+      "fromNode": "n_transcript_export_render_quick_summary",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_render_transcript_markdown",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_242",
+      "fromNode": "n_transcript_export_render_artifacts",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_render_transcript_markdown",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_243",
+      "fromNode": "n_transcript_export_role_heading",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_render_transcript_markdown",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    },
+    {
+      "id": "e_244",
+      "fromNode": "n_transcript_export_append_text_block",
+      "fromSide": "right",
+      "toNode": "n_transcript_export_render_transcript_markdown",
+      "toSide": "left",
+      "color": "4",
+      "label": "calls"
+    }
+  ]
+}
