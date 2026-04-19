@@ -26,14 +26,13 @@ status: draft
 
 ## 04:00 Knowledge Amplification
 
-<!-- 由 knowledge-flywheel-amplifier pipeline 填写 -->
-*Pending...*
+**No-op** — 上游两段均无产出：02:00 无新文章，03:00 因外部卷未挂载而降级。无跨源汇合，无深度研究触发。
 
 ---
 
 ## 今日推荐阅读
 
-<!-- 由 04:00 阶段综合判断后填写 -->
+无推荐 — 本轮无新增知识内容。
 
 ---
 
