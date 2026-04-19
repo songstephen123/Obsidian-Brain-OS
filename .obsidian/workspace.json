@@ -259,8 +259,15 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "c23d45a44079f999",
+  "active": "9fa75ef58cc7489a",
   "lastOpenFiles": [
+    "03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/2026-04-20/knowledge-lint-2026-04-20.md",
+    "12-REVIEWS/KNOWLEDGEBASE/lint-2026-04-20.md",
+    "12-REVIEWS/KNOWLEDGEBASE",
+    "12-REVIEWS",
+    "03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-04-20.md",
+    "03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/2026-04-20",
+    "03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports",
     "graphify-out/GRAPH_REPORT.md",
     "graphify-out/graph.html",
     "vault-template/03-KNOWLEDGE/README.md",
@@ -288,13 +295,7 @@
     "scripts/collect.sh",
     "05-PROJECTS/README.md",
     "docs/personal-context-guide.md",
-    "vault-template/00-INBOX/todo-backlog.md",
-    "vault-template/00-INBOX/README.md",
     "05-PROJECTS",
-    "02-TEAM/01-OPERATING-RULES",
-    "02-TEAM",
-    "03-KNOWLEDGE/99-SYSTEM/05-META",
-    "03-KNOWLEDGE/99-SYSTEM/04-JOB-STATE",
-    "03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS"
+    "02-TEAM/01-OPERATING-RULES"
   ]
 }
