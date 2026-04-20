@@ -32,8 +32,7 @@ status: draft
 
 ## 04:00 Knowledge Amplification
 
-<!-- 由 knowledge-flywheel-amplifier pipeline 填写 -->
-*Pending...*
+**无跨源汇合。** Stage A（文章）无新输入，Stage B（对话）因存储卷未挂载而降级运行。两者均无知识产出，因此本次 amplifier 不产生跨源主题、模式候选或研究种子。无需关注。如需补跑对话挖掘，请先挂载 `/Volumes/LIZEYU/Converstions`。
 
 ---
 
