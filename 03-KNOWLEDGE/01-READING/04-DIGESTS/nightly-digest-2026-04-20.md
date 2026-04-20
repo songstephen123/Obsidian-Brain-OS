@@ -20,8 +20,7 @@ status: draft
 
 ## 02:00 Article Integration
 
-<!-- 由 article-notes-integration pipeline 填写 -->
-*Pending...*
+**无新文章待处理。** 收件箱为空，现有文章笔记均为已整合状态。无需关注。
 
 ---
 
