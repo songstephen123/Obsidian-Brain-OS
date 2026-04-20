@@ -26,8 +26,7 @@ status: draft
 
 ## 03:00 Conversation Mining
 
-<!-- 由 conversation-knowledge-mining pipeline 填写 -->
-*Pending...*
+**降级模式运行。** 对话存储卷未挂载（`/Volumes/LIZEYU/Converstions`），无法获取 2026-04-20 的对话记录。QMD 健康检查也未通过。本次无知识产出。如需补跑，请先挂载存储卷后手动触发。
 
 ---
 
