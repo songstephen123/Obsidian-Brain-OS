@@ -3,7 +3,7 @@ title: "Nightly Digest 2026-04-25"
 date: "2026-04-25"
 created: "2026-04-26"
 type: nightly-digest
-status: draft
+status: partial
 ---
 
 # 🌙 Nightly Digest — 2026-04-25
@@ -27,8 +27,14 @@ status: draft
 
 ## 04:00 Knowledge Amplification
 
-<!-- 由 knowledge-flywheel-amplifier pipeline 填写 -->
-*Pending...*
+**No-op（降级模式）。** 今晚没有形成跨源汇合。
+
+- Stage A（文章整合）：已执行但无新文章，无可用信号
+- Stage B（对话挖掘）：**缺失** — 未产出任何报告
+- 无跨源主题、开放问题或模式候选可合并
+- 深度研究未触发：无高价值内部上下文支撑
+
+> 03:00 对话挖掘阶段未产出，建议排查 cron 执行状态。
 
 ---
 
