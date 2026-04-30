@@ -21,8 +21,17 @@ status: draft
 
 ## 03:00 Conversation Mining
 
-<!-- 由 conversation-knowledge-mining pipeline 填写 -->
-*Pending...*
+**状态**: 降级运行（外置硬盘未挂载，回退本地 JSONL）
+
+昨天有一场高质量交互对话，挖出 3 个值得记录的点：
+
+1. **Nexus4CC + Tailscale** — 已成功搭建手机远程控制 Claude Code 的方案（`localhost:59000`，Tailscale IP `100.114.50.12`），已生成 pattern note
+2. **Claude Code 技能安装坑** — GitHub 克隆的技能常嵌套一层目录，需手动移到 `.claude/skills/<name>/SKILL.md` 才能被识别
+3. **codebase-to-course 实测** — 成功用 HyperFrames 项目生成 5 模块交互式课程，效果不错
+
+无 research seed 生成（均为操作性知识，非研究缺口）。
+
+📄 产出：1 篇 pattern note → `02-PATTERN-CANDIDATES/nexus4cc-tailscale-mobile-claude-code.md`
 
 ---
 
