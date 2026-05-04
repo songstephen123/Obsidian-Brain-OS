@@ -1,0 +1,13 @@
+{
+  "task": "conversation-knowledge-mining-nightly",
+  "target_date": "2026-05-04",
+  "run_timestamp": "2026-05-05T03:00:00+08:00",
+  "status": "degraded",
+  "reason": "external_volume_not_mounted",
+  "detail": "/Volumes/LIZEYU/ not accessible, transcript directory /Volumes/LIZEYU/Converstions/2026-05-04 unavailable",
+  "transcripts_found": 0,
+  "transcripts_processed": 0,
+  "knowledge_extracted": 0,
+  "errors": ["volume_mount_missing"],
+  "remediation": "mount /Volumes/LIZEYU/ and re-run manually"
+}
