@@ -1,25 +1,25 @@
 ---
-date: 2026-05-01
-week: W18
-updated: 2026-05-01 07:00
+date: 2026-05-11
+week: W20
+updated: 2026-05-11 07:00
 type: daily-brief
 ---
 
-# 🌅 2026-05-01 每日驾驶舱
+# 🌅 2026-05-11 每日驾驶舱
 
-> 周四 · W18 · 五一劳动节
+> 周一 · W20 · 系统空转第 28 天
 
 ## 一、今天最重要的 3 件事
 
-⚠️ **todo-backlog 已空置超过 10 天** — 四个真相源（backlog / 承诺 / 进度板 / 决策队列）全部为空。
-1. 录入当前真实待办到 `todo-backlog.md`（这是整个系统的燃料）
-2. 挂载 `/Volumes/LIZEYU/Converstions/` — Conversation Mining 长期降级运行
-3. 补充 `当前承诺事项.md` 和 `progress-board.md`（系统无法追踪空数据）
+⚠️ **四大真相源全部空置超过 28 天**（backlog / 承诺 / 进度板 / 决策队列 — 上次更新 2026-04-13）
+1. **录入真实待办** → `00-INBOX/todo-backlog.md` — 这是整个 Personal Ops 系统的燃料，空了就是闭眼开车
+2. **挂载 `/Volumes/LIZEYU/Conversations/`** — Conversation Mining 连续降级，外置硬盘长期离线，知识管道上游断裂
+3. **补充 `当前承诺事项.md` + `progress-board.md`** — 当前没有可追踪的事项，驾驶舱只能报空
 
 ## 二、今天必须推进但不必做完
 
-- [ ] 重新审视 Brain OS cron 全链路产出 — 连续多日 Article Integration 无输入、Knowledge Amplification 无跨源汇合
-- [ ] 检查 decision-queue 是否有待入列事项
+- [ ] 审视 Brain OS cron 全链路 — 连续多日 Article Integration no-op + Conversation Mining degraded + Knowledge Amplification 无信号
+- [ ] 考虑是否要新增信息源或调整 inbox 采集流程，让知识管道有东西可处理
 
 ## 三、今天等待反馈 / 需要催办
 
@@ -27,8 +27,8 @@ type: daily-brief
 
 ## 四、今天需要拍板的事
 
-- 是否调整 nightly pipeline 调度策略（持续空转 = 浪费 token）
-- 是否新增信息源或调整 inbox 采集流程，让知识管道有输入
+- **是否继续空转？** — nightly pipeline 每天消耗 token 但连续数周无产出，需要决定：要么灌入数据让它工作，要么暂停 cron 节省资源
+- **外置硬盘策略** — 长期不挂载导致 Conversation Mining 持续 degraded，是否迁移对话存档到本地 SSD？
 
 ## 五、今天可委派的事
 
@@ -37,33 +37,30 @@ type: daily-brief
 ## 六、低能量时可做的小事
 
 - [ ] 往 `00-INBOX/` 放 1-2 条待处理文章或笔记
-- [ ] 在 `todo-backlog.md` 记录本周目标或待办
-- [ ] 回顾 4 月 Brain OS 运行效果，记录调整想法
+- [ ] 在 `todo-backlog.md` 记录本周目标
+- [ ] 回顾 4–5 月 Brain OS 运行效果，写下调整想法
 
 ## 七、今天明确不做
 
 - 大规模内容迁移
 - 新建额外副本或备份
 - 恢复已关闭的云文档同步
+- 在空待办池上假装系统运转正常
 
 ## 八、今日提醒
 
-- **五一劳动节** — 如果休息为主，低能量小事足够
-- **待办池空置 10+ 天**：上次更新 2026-04-13，驾驶舱上次生成 2026-04-21
-- **知识管道**：Conversation Mining 昨天在降级模式下仍挖出了有用信号（见下方）
+- **周一 W20** — 新工作周开始，适合把本周目标写进系统
+- **待办池空置 28 天**：所有源文件自 2026-04-13 未更新
+- **驾驶舱上次生成**：2026-05-01，距今 10 天
+- **W20 周计划缺失**：未找到本周计划文件
+- **知识管道全线 idle**：Article / Conversation / Amplification 三阶段均无产出
 
 ## 九、🧠 昨日知识信号
 
-📌 **关键发现**
-- **Nexus4CC + Tailscale 手机远程控制 Claude Code** — 已跑通，通过 `localhost:59000` + Tailscale IP `100.114.50.12` 实现，pattern note 已生成
-- **Claude Code 技能安装坑** — GitHub 克隆的技能常嵌套一层目录，需手动移到 `.claude/skills/<name>/SKILL.md`
-- **codebase-to-course 实测有效** — 用 HyperFrames 项目生成 5 模块交互式课程，效果不错
+> 昨日 nightly digest 尚无有效信号 — Article Integration 无新输入，Conversation Mining 降级运行（外置硬盘未挂载），Knowledge Amplification 上游零信号。待数据源恢复后重新生成。
 
-💡 **灵感 / 待跟进**
-- 外置硬盘长期未挂载导致 Conversation Mining 降级 — 值得考虑自动化挂载或迁移对话存档到本地
-
-[[03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-04-30|查看完整 nightly digest →]]
+[[03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-05-10|查看完整 nightly digest →]]
 
 ---
 
-*最后更新：2026-05-01 07:00*
+*最后更新：2026-05-11 07:00*
