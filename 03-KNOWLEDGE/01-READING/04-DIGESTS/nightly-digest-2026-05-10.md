@@ -20,8 +20,7 @@ status: draft
 
 ## 03:00 Conversation Mining
 
-<!-- 由 conversation-knowledge-mining pipeline 填写 -->
-*Pending...*
+**Degraded.** External volume `/Volumes/LIZEYU/Converstions` not mounted — no transcripts available for 2026-05-10. Machine report filed at `run-reports/2026-05-10/`.
 
 ---
 
