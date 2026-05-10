@@ -26,14 +26,13 @@ status: draft
 
 ## 04:00 Knowledge Amplification
 
-<!-- 由 knowledge-flywheel-amplifier pipeline 填写 -->
-*Pending...*
+**No-op.** Both upstream stages produced zero signals — article integration found no new notes, conversation mining was degraded (external volume not mounted). No topics, patterns, open questions, or research seeds to amplify.
 
 ---
 
 ## 今日推荐阅读
 
-<!-- 由 04:00 阶段综合判断后填写 -->
+无新增内容可供推荐。待上游数据源恢复后重新生成。
 
 ---
 
