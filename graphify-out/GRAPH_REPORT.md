@@ -1,7 +1,7 @@
-# Graph Report - /Users/songstephen/my-brain  (2026-05-11)
+# Graph Report - /Users/songstephen/my-brain  (2026-05-15)
 
 ## Corpus Check
-- Large corpus: 281 files · ~170,895 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.
+- Large corpus: 285 files · ~174,195 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.
 
 ## Summary
 - 508 nodes · 641 edges · 72 communities detected
@@ -63,99 +63,99 @@
 
 ## Communities
 
-### Community 0 - "Brain OS Core Docs"
+### Community 0 - "Community 0"
 Cohesion: 0.07
 Nodes (43): Brain OS Agent Config, Brain OS Changelog, Brain OS CLAUDE.md, Obsidian Brain OS Chinese, Obsidian Brain OS, Apple Reminders Integration, brain-to-reminders.sh, Knowledgebase Commit Patrol (+35 more)
 
-### Community 1 - "Agent Architecture"
+### Community 1 - "Community 1"
 Cohesion: 0.08
 Nodes (30): AGENTS.md Three-Layer Classification (Slim/Rotate/Delete), Token Optimization via On-Demand Loading, Workspace File Convention (Root Whitelist), Main Agent (Orchestrator), MVP to Full Agent Progression, Writer Agent (Knowledge Base Writer), Article Note Lifecycle (pending/integrated/archived), Domain Knowledge Card Format (+22 more)
 
-### Community 2 - "Knowledge Templates"
+### Community 2 - "Community 2"
 Cohesion: 0.09
 Nodes (28): Custom Zone — User-Defined Structure, NotesMiner Side Project, PR #47 Context Compression, Article Note Template, Atomic Notes with Rich Metadata, Brain OS 5-Week Review, Context Compression Before Retrieval Pattern, Conversation Mining Degraded (Volume Not Mounted) (+20 more)
 
-### Community 3 - "Transcript Export"
+### Community 3 - "Community 3"
 Cohesion: 0.16
 Nodes (24): _append_section(), _append_text_block(), build_search_entry(), build_subagent_index(), clean_project_label(), extract_command_mentions(), extract_file_mentions(), extract_signal_mentions() (+16 more)
 
-### Community 4 - "Export Pipeline"
+### Community 4 - "Community 4"
 Cohesion: 0.16
 Nodes (23): _build_search_index(), _build_transcript_stem(), _clean_metadata_text(), _content_hash(), _default_markdown_dir(), export_antigravity(), export_claude(), export_codex() (+15 more)
 
-### Community 5 - "Cron Scheduling"
+### Community 5 - "Community 5"
 Cohesion: 0.13
 Nodes (24): Apple Reminders Integration, Article Notes Integration Nightly, Brain to Reminders 0730, Chronicle Agent Every 2h, Conversation Knowledge Flywheel Nightly (deprecated), Conversation Knowledge Mining Nightly, Cron Configuration Examples, Daily Briefing (+16 more)
 
-### Community 6 - "Vault Structure"
+### Community 6 - "Community 6"
 Cohesion: 0.14
 Nodes (22): Inbox Unified Capture Zone, Knowledge Base Three-Layer Architecture, Custom Zone (User-Defined Structure), Project Registry Briefing Layer (yes/ vault), Project Registry Briefing Layer, Work Context Accumulator, Article Note Template, Article Notes Integration Skill (+14 more)
 
-### Community 7 - "Antigravity Extract"
+### Community 7 - "Community 7"
 Cohesion: 0.21
 Nodes (19): _append_message(), _clean_text(), _collect_brain_artifacts(), _decode_value(), _extract_artifact_heading(), _extract_conversations_from_traj(), _extract_json_objects(), _extract_messages_from_chunk() (+11 more)
 
-### Community 8 - "Claude Extract"
+### Community 8 - "Community 8"
 Cohesion: 0.18
 Nodes (17): _clean_text(), decode_project_name(), _extract_assistant_text(), extract_conversation(), _extract_user_text(), find_sessions_by_date(), format_conversation(), _is_noise() (+9 more)
 
-### Community 9 - "Codex Extract"
+### Community 9 - "Community 9"
 Cohesion: 0.2
 Nodes (16): _clean_text(), extract_conversation(), _extract_from_history(), find_sessions_by_date(), format_conversation(), _is_system_noise(), load_history_for_session(), load_thread_titles() (+8 more)
 
-### Community 10 - "Knowledge Flywheel"
+### Community 10 - "Community 10"
 Cohesion: 0.14
 Nodes (17): Brain OS Manager Role, Conversation Knowledge Flywheel, Conversation Knowledge Flywheel Nightly Runbook, NotebookLM Reinforcement Protocol, 05-PROJECTS Project Routing, QMD Hybrid Recall Engine, Surveillance Scan Spec, Writer-Agent Role (+9 more)
 
-### Community 11 - "Design Critique Skills"
+### Community 11 - "Community 11"
 Cohesion: 0.12
 Nodes (16): AI Slop Detection, Holistic Design Critique, Humanizer README, Humanizer WARP.md Developer Guide, 24 AI Writing Patterns, Humanizer: Remove AI Writing Patterns, Adding Personality and Soul to Writing, Wikipedia Signs of AI Writing (+8 more)
 
-### Community 12 - "Daily Briefing Context"
+### Community 12 - "Community 12"
 Cohesion: 0.24
 Nodes (13): Article Notes Integration, Brain OS, Claude Code Skills Installation, codebase-to-course Skill, Conversation Mining, Daily Briefing 2026-05-01, Decision Queue, HyperFrames Project (+5 more)
 
-### Community 13 - "Architecture Principles"
+### Community 13 - "Community 13"
 Cohesion: 0.18
 Nodes (12): Chronicle Agent (Historian), Brain OS Definition (AI-Augmented Personal Context System), Three-Layer Knowledge Architecture, Brain OS Chinese Documentation Index, Brain OS Design Principles, Brain OS System Map (Input/Context/Knowledge/Support/Config), Chronicle Agent (Silent Channel Historian), Physical Separation Solves Knowledge Chaos (+4 more)
 
-### Community 14 - "Personal Ops Model"
+### Community 14 - "Community 14"
 Cohesion: 0.29
 Nodes (12): Brain Methodology Migration Candidates, Brain OS Installer, Socratic Dialogue Installation Method, 00-INBOX / 01-PERSONAL-OPS Layering Scheme, Personal Ops Operating Model v1, Single Source of Truth (todo-backlog.md), Personal Ops Status Model, Personal Ops Driver (+4 more)
 
-### Community 15 - "Nightly Pipeline Reports"
+### Community 15 - "Community 15"
 Cohesion: 0.22
 Nodes (11): Knowledge Flywheel Amplifier Pipeline Stage, Nightly Pipeline Architecture, Article Integration Pipeline Stage, Chronicle Agent (Historian), Conversation Mining Pipeline Stage, Recurring Degraded Mode: External Volume Not Mounted, OpenClaw Cron Configuration, Article Notes Integration Skill (+3 more)
 
-### Community 16 - "Skillshare CLI"
+### Community 16 - "Community 16"
 Cohesion: 0.24
 Nodes (11): Skillshare Security Audit, Skillshare Backup and Restore, Skillshare Extras Management, Skillshare Install/Update/Uninstall/New, Skillshare Operation Log, Skillshare Security Audit System, Skillshare Status and Inspection Commands, Skillshare Sync/Collect/Push/Pull (+3 more)
 
-### Community 17 - "Writing Planning Skills"
+### Community 17 - "Community 17"
 Cohesion: 0.2
 Nodes (10): UX Writing Clarity, Progressive Disclosure, Simplification by Distillation, Bite-Sized Task Granularity, TDD Task Structure, Anthropic Skill Authoring Best Practices, Evaluation-Driven Skill Development, Progressive Disclosure Pattern (+2 more)
 
-### Community 18 - "Deep Research"
+### Community 18 - "Community 18"
 Cohesion: 0.27
 Nodes (10): Context Engineering for AI Agents, Deep Research Skill, Planning with Files Examples, Manus (AI Agent Company), PESTLE Analysis Framework, Planning with Files Skill, Manus Context Engineering Principles, Research Frameworks and Methodologies (+2 more)
 
-### Community 19 - "Design System Skills"
+### Community 19 - "Community 19"
 Cohesion: 0.25
 Nodes (8): Spacing System, Visual Rhythm, Design System Component Extraction, Reusable Pattern Identification, Design System Normalization, Design Tokens, .impeccable.md Design Context File, Teach Impeccable Design Context Setup
 
-### Community 20 - "Project Management"
+### Community 20 - "Community 20"
 Cohesion: 0.29
 Nodes (7): Agora Multi-Agent Governance Framework, Agora Multi-Agent Governance Framework, GitHub Issues/Projects Integration, Lightweight Project Registry (05-PROJECTS), Linear Issue Tracking, Project Brief Format, Brain OS-Agora Integration Pattern
 
-### Community 21 - "Observer & Release"
+### Community 21 - "Community 21"
 Cohesion: 0.33
 Nodes (7): Brain OS Release Skill, Observer Learnings Index Schema, Observer Self-Evolution Skill, PII Scan (check-pii.sh), Observer Daily Iteration Plan Template, Observer Recurrence Map, Semantic Versioning
 
-### Community 22 - "CLI Infrastructure"
+### Community 22 - "Community 22"
 Cohesion: 0.53
 Nodes (4): build_html(), _json_for_html_script(), main(), run_export()
 
-### Community 23 - "Graph Rendering"
+### Community 23 - "Community 23"
 Cohesion: 0.53
 Nodes (4): combineGraphs(), extractDotBlocks(), main(), renderToSvg()
 
@@ -422,17 +422,17 @@ Nodes (1): songstephen
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Stage 1: Article Integration (02:00)` connect `Agent Architecture` to `Architecture Principles`?**
+- **Why does `Stage 1: Article Integration (02:00)` connect `Community 1` to `Community 13`?**
   _High betweenness centrality (0.005) - this node is a cross-community bridge._
-- **Why does `Obsidian Brain OS` connect `Brain OS Core Docs` to `Community 25`?**
+- **Why does `Obsidian Brain OS` connect `Community 0` to `Community 25`?**
   _High betweenness centrality (0.005) - this node is a cross-community bridge._
-- **Are the 10 inferred relationships involving `main()` (e.g. with `_default_markdown_dir()` and `load_index()`) actually correct?**
+- **Are the 10 inferred relationships involving `main()` (e.g. with `load_index()` and `save_index()`) actually correct?**
   _`main()` has 10 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `基于 messages 生成内容哈希，用于判断会话是否有变化`, `插入或更新会话。返回 True 表示内容有变化（需要重新 materialize），False 表示未变化。`, `Materialize transcript markdown files.      Args:         dirty_ids: 如果非 None，只重` to the rest of the system?**
   _178 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Brain OS Core Docs` be split into smaller, more focused modules?**
+- **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.07 - nodes in this community are weakly interconnected._
-- **Should `Agent Architecture` be split into smaller, more focused modules?**
+- **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.08 - nodes in this community are weakly interconnected._
-- **Should `Knowledge Templates` be split into smaller, more focused modules?**
+- **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.09 - nodes in this community are weakly interconnected._
