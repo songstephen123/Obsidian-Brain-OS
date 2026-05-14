@@ -3,7 +3,7 @@ title: "Nightly Digest 2026-05-14"
 date: "2026-05-14"
 created: "2026-05-15"
 type: nightly-digest
-status: draft
+status: complete
 ---
 
 # 🌙 Nightly Digest — 2026-05-14
@@ -30,14 +30,13 @@ status: draft
 
 ## 04:00 Knowledge Amplification
 
-<!-- 由 knowledge-flywheel-amplifier pipeline 填写 -->
-*Pending...*
+**No-op.** 上游 02:00 (Article Integration) 与 03:00 (Conversation Mining) 均无知识产出：02:00 无新增文章，03:00 因外置硬盘未挂载而跳过。无素材可供放大、交叉引用或升维。本次零知识产出。
 
 ---
 
 ## 今日推荐阅读
 
-<!-- 由 04:00 阶段综合判断后填写 -->
+无推荐。2026-05-14 全管线无新增知识素材。
 
 ---
 
