@@ -20,8 +20,11 @@ status: draft
 
 ## 03:00 Conversation Mining
 
-<!-- 由 conversation-knowledge-mining pipeline 填写 -->
-*Pending...*
+**No-op (degraded).** 外置硬盘 `/Volumes/LIZEYU` 未挂载，2026-05-14 无 transcript 可读。Pipeline 在 transcript discovery 阶段中断，后续所有阶段（manifest / QMD / Surveillance / synthesis / knowledge write）均跳过。本次零知识产出。
+
+- 卡点：transcript root 不可用（硬盘未挂载）
+- 产出：0 条知识笔记 / 0 条 research seed
+- 建议下次运行前确认外置硬盘已挂载
 
 ---
 
