@@ -1,25 +1,26 @@
 ---
-date: 2026-05-15
-week: W20
-updated: 2026-05-15 07:00
+date: 2026-05-19
+week: W21
+updated: 2026-05-19 07:00
 type: daily-brief
 ---
 
-# 🌅 2026-05-15 每日驾驶舱
+# 🌅 2026-05-19 每日驾驶舱
 
-> 周五 · W20 · 真相源空置第 32 天
+> 周二 · W21 · 真相源空置第 36 天
 
 ## 一、今天最重要的 3 件事
 
-⚠️ **四大真相源自 2026-04-13 未更新（32 天）**
-1. **往 `todo-backlog.md` 写入至少 3 条真实待办** — 系统已空转一个月，没有待办就没有驾驶舱
-2. **决定外置硬盘 `/Volumes/LIZEYU` 的去留** — Conversation Mining 连续降级，要么挂载要么迁移到本地
-3. **回顾本周实际完成了什么，写入 progress-board** — 如果本周确实空转，也如实记录
+⚠️ **四大真相源自 2026-04-13 未更新（36 天），系统持续空转**
+
+1. **决定 Brain OS 的下一步** — 空转 36 天，是继续投入、暂停 cron 节省 token、还是重新定义用途？今天拍板
+2. **如果继续运行 → 往 `todo-backlog.md` 写入真实待办** — 没有待办就没有驾驶舱，这句话已经重复了 4 期
+3. **处理外置硬盘依赖** — `/Volumes/LIZEYU` 长期未挂载，Conversation Mining 永远 degraded，要么挂载要么迁移
 
 ## 二、今天必须推进但不必做完
 
-- [ ] 审视 Brain OS nightly pipeline 的 ROI — 连续 30+ 天消耗 token 但零产出，考虑暂停 cron 或降低频率
-- [ ] 为下周 W21 设定 1 个可验证目标，写入 todo-backlog
+- [ ] 审视 Brain OS nightly pipeline 是否值得每日运行 — 30+ 天 zero output
+- [ ] 为本周 W21 设定至少 1 个可验证目标，写入 todo-backlog
 
 ## 三、今天等待反馈 / 需要催办
 
@@ -27,8 +28,11 @@ type: daily-brief
 
 ## 四、今天需要拍板的事
 
-- **Nightly pipeline 是否继续每日运行？** — Article / Conversation / Amplification 三阶段全线 no-op 超 30 天，每天消耗 token 但无知识产出
-- **对话存档位置** — 迁移到本地 SSD 还是保持外置硬盘？后者不挂载则 Conversation Mining 永远 degraded
+- **Brain OS 去留** — 每日 cron 消耗 token 但连续 36 天无有效输入，三个选项：
+  - A) 暂停所有 cron，手动按需触发
+  - B) 降低频率（每周 1 次而非每日）
+  - C) 继续但先往系统录入真实待办
+- **对话存档位置** — 迁移到本地 SSD 还是保持外置硬盘？
 
 ## 五、今天可委派的事
 
@@ -36,9 +40,9 @@ type: daily-brief
 
 ## 六、低能量时可做的小事
 
-- [ ] 往 `00-INBOX/` 放 1-2 条待读文章或笔记
-- [ ] 在 `todo-backlog.md` 补充下周目标
-- [ ] 写一段 4–5 月 Brain OS 运行复盘（好的坏的都记）
+- [ ] 往 `00-INBOX/` 放 1-2 条待读文章或笔记，重启知识管道
+- [ ] 在 `todo-backlog.md` 补充本周真实目标
+- [ ] 写一段 4–5 月 Brain OS 运行复盘
 
 ## 七、今天明确不做
 
@@ -49,18 +53,15 @@ type: daily-brief
 
 ## 八、今日提醒
 
-- **周五 W20** — 本周最后一个工作日，适合做周回顾
-- **真相源空置 32 天**：backlog / 承诺 / 进度板 / 决策队列均自 04-13 未更新
-- **驾驶舱上次生成**：2026-05-11，距今 4 天
-- **知识管道全线 idle**：Article / Conversation / Amplification 三阶段连续 30+ 天无产出
-- **W21 周一将至**：如果想让下周不同，今天需要录入真实数据
+- **周二 W21** — 新一周第二天，上周无有效推进记录
+- **真相源空置 36 天**：backlog / 承诺 / 进度板 / 决策队列均自 04-13 未更新
+- **驾驶舱上次生成**：2026-05-15，距今 4 天
+- **知识管道全线 idle**：Article / Conversation / Amplification 三阶段连续 36+ 天无产出
+- **本周如果不录入数据，W21 驾驶舱将持续空转**
 
 ## 九、🧠 昨日知识信号
 
-> 昨日 nightly digest 无有效信号 — Article Integration 无新输入，Conversation Mining 因外置硬盘未挂载降级运行，Knowledge Amplification 上游零信号。三阶段全线 no-op，零知识产出。
-
-[[03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-05-14|查看完整 nightly digest →]]
+> 昨日 nightly digest 尚未生成或无有效信号
 
 ---
-
-*最后更新：2026-05-15 07:00*
+*最后更新：2026-05-19 07:00*
