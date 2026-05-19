@@ -21,8 +21,14 @@ status: draft
 
 ## 03:00 Conversation Mining
 
-<!-- 由 conversation-knowledge-mining pipeline 填写 -->
-*Pending...*
+**Status: NO-OP (degraded)**
+
+- External transcript volume (`/Volumes/LIZEYU/Converstions`) not mounted
+- Export script (`~/.openclaw/workspace/scripts/export-conversations-for-nightly.sh`) not found
+- Local scan: 8 Claude sessions on 2026-05-15, all cron-initiated (knowledge-graph, morning-brief, commit-patrol, todo-reminder) — no user-driven conversations
+- Knowledge writes: 0
+
+*[Run report](file:///Users/songstephen/my-brain/03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/2026-05-15/conversation-mining-report-2026-05-15.md)*
 
 ---
 
