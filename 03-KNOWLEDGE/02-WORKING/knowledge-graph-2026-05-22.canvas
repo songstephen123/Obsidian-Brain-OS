@@ -1,0 +1,500 @@
+{
+  "nodes": [
+    {
+      "id": "stats",
+      "type": "text",
+      "x": -420,
+      "y": 0,
+      "width": 380,
+      "height": 280,
+      "color": "6",
+      "text": "**Knowledge Graph 2026-05-22**\n\n508 nodes · 641 edges · 72 communities · 27 hyperedges\n\nTop relations: references (298), calls (116), contains (105), conceptually_related_to (42), rationale_for (39)\n\nGenerated from graphify-out/graph.json (last rebuild 2026-05-15)\n*No changes since previous canvas — pipeline no-op*"
+    },
+    {
+      "id": "comm_0",
+      "type": "text",
+      "x": 0,
+      "y": 0,
+      "width": 300,
+      "height": 160,
+      "color": "0",
+      "text": "**Brain OS Core Docs**\n43 nodes\n\n- Brain OS Changelog\n- Obsidian Brain OS\n- Obsidian Brain OS Chinese\n- Brain OS Agent Config\n- +39 more"
+    },
+    {
+      "id": "comm_1",
+      "type": "text",
+      "x": 330,
+      "y": 0,
+      "width": 300,
+      "height": 160,
+      "color": "1",
+      "text": "**Agent Architecture**\n30 nodes\n\n- READING Layer (Curated Knowledge)\n- WORKING Layer (AI Workshop)\n- SYSTEM Layer (Pipeline Internals)\n- Article Note Lifecycle (pending/integrated/ar\n- +26 more"
+    },
+    {
+      "id": "comm_2",
+      "type": "text",
+      "x": 660,
+      "y": 0,
+      "width": 300,
+      "height": 160,
+      "color": "2",
+      "text": "**Knowledge Templates**\n28 nodes\n\n- Todo Backlog (SSoT)\n- INBOX — Unified Capture\n- Knowledge 3-Layer Architecture\n- AI-Augmented Personal Knowledge Systems\n- +24 more"
+    },
+    {
+      "id": "comm_3",
+      "type": "text",
+      "x": 990,
+      "y": 0,
+      "width": 300,
+      "height": 160,
+      "color": "3",
+      "text": "**Transcript Export**\n27 nodes\n\n- transcript_export.py\n- sanitize_filename()\n- unique_markdown_path()\n- strip_markdown_for_text()\n- +23 more"
+    },
+    {
+      "id": "comm_4",
+      "type": "text",
+      "x": 1320,
+      "y": 0,
+      "width": 300,
+      "height": 160,
+      "color": "4",
+      "text": "**Export Pipeline**\n25 nodes\n\n- export_all.py\n- load_index()\n- save_index()\n- get_existing_ids()\n- +21 more"
+    },
+    {
+      "id": "comm_5",
+      "type": "text",
+      "x": 0,
+      "y": 190,
+      "width": 300,
+      "height": 160,
+      "color": "5",
+      "text": "**Cron Scheduling**\n24 nodes\n\n- Weekly Plan Prompt\n- Graphify Nightly 0600\n- Brain to Reminders 0730\n- Conversation Knowledge Mining Nightly\n- +20 more"
+    },
+    {
+      "id": "comm_6",
+      "type": "text",
+      "x": 330,
+      "y": 190,
+      "width": 300,
+      "height": 160,
+      "color": "0",
+      "text": "**Vault Structure**\n22 nodes\n\n- NotebookLM Context Pack Template\n- Conversation-Derived Note Template\n- Article Notes Integration Skill\n- Article Notes Integration SKILL Definition\n- +18 more"
+    },
+    {
+      "id": "comm_7",
+      "type": "text",
+      "x": 660,
+      "y": 190,
+      "width": 300,
+      "height": 160,
+      "color": "1",
+      "text": "**Antigravity Extract**\n21 nodes\n\n- extract_antigravity.py\n- _decode_value()\n- _clean_text()\n- _looks_human_readable()\n- +17 more"
+    },
+    {
+      "id": "comm_8",
+      "type": "text",
+      "x": 990,
+      "y": 190,
+      "width": 300,
+      "height": 160,
+      "color": "2",
+      "text": "**Claude Extract**\n19 nodes\n\n- extract_claude.py\n- load_history_index()\n- find_sessions_by_date()\n- _is_noise()\n- +15 more"
+    },
+    {
+      "id": "comm_9",
+      "type": "text",
+      "x": 1320,
+      "y": 190,
+      "width": 300,
+      "height": 160,
+      "color": "3",
+      "text": "**Codex Extract**\n17 nodes\n\n- extract_codex.py\n- load_thread_titles()\n- load_history_for_session()\n- find_sessions_by_date()\n- +13 more"
+    },
+    {
+      "id": "comm_10",
+      "type": "text",
+      "x": 0,
+      "y": 380,
+      "width": 300,
+      "height": 160,
+      "color": "4",
+      "text": "**Knowledge Flywheel**\n17 nodes\n\n- NotebookLM Automation Skill\n- notebooklm-py CLI Tool\n- Knowledge Flywheel Amplifier\n- Knowledge Flywheel Amplifier Nightly Runbook\n- +13 more"
+    },
+    {
+      "id": "comm_11",
+      "type": "text",
+      "x": 330,
+      "y": 380,
+      "width": 300,
+      "height": 160,
+      "color": "5",
+      "text": "**Design Critique Skills**\n16 nodes\n\n- Final Quality Polish Pass\n- Pressure Scenario Testing\n- Rationalization Table Pattern\n- Persuasion Principles for Skill Design\n- +12 more"
+    },
+    {
+      "id": "comm_12",
+      "type": "text",
+      "x": 660,
+      "y": 380,
+      "width": 300,
+      "height": 160,
+      "color": "0",
+      "text": "**Daily Briefing Context**\n13 nodes\n\n- Daily Briefing 2026-05-01\n- Todo Backlog\n- Nightly Pipeline\n- Conversation Mining\n- +9 more"
+    },
+    {
+      "id": "comm_13",
+      "type": "text",
+      "x": 990,
+      "y": 380,
+      "width": 300,
+      "height": 160,
+      "color": "1",
+      "text": "**Architecture Principles**\n12 nodes\n\n- Three-Layer Knowledge Architecture\n- Brain OS Definition (AI-Augmented Personal Co\n- Chronicle Agent (Historian)\n- Three-Layer Context Architecture (KNOWLEDGE/W\n- +8 more"
+    },
+    {
+      "id": "comm_14",
+      "type": "text",
+      "x": 1320,
+      "y": 380,
+      "width": 300,
+      "height": 160,
+      "color": "2",
+      "text": "**Personal Ops Model**\n12 nodes\n\n- Brain OS Installer\n- Socratic Dialogue Installation Method\n- Personal Ops Driver\n- Personal Ops Operating Model v1\n- +8 more"
+    },
+    {
+      "id": "gods_title",
+      "type": "text",
+      "x": 0,
+      "y": 800,
+      "width": 200,
+      "height": 40,
+      "color": "1",
+      "text": "**God Nodes (top connected)**"
+    },
+    {
+      "id": "god_0",
+      "type": "text",
+      "x": 240,
+      "y": 800,
+      "width": 280,
+      "height": 60,
+      "color": "1",
+      "text": "**transcript_export.py**\n25 connections · Transcript Export"
+    },
+    {
+      "id": "god_1",
+      "type": "text",
+      "x": 530,
+      "y": 800,
+      "width": 280,
+      "height": 60,
+      "color": "1",
+      "text": "**export_all.py**\n20 connections · Export Pipeline"
+    },
+    {
+      "id": "god_2",
+      "type": "text",
+      "x": 820,
+      "y": 800,
+      "width": 280,
+      "height": 60,
+      "color": "1",
+      "text": "**extract_antigravity.py**\n18 connections · Antigravity Extract"
+    },
+    {
+      "id": "god_3",
+      "type": "text",
+      "x": 1110,
+      "y": 800,
+      "width": 280,
+      "height": 60,
+      "color": "1",
+      "text": "**extract_claude.py**\n12 connections · Claude Extract"
+    },
+    {
+      "id": "god_4",
+      "type": "text",
+      "x": 240,
+      "y": 870,
+      "width": 280,
+      "height": 60,
+      "color": "1",
+      "text": "**Obsidian Brain OS**\n12 connections · Brain OS Core Docs"
+    },
+    {
+      "id": "god_5",
+      "type": "text",
+      "x": 530,
+      "y": 870,
+      "width": 280,
+      "height": 60,
+      "color": "1",
+      "text": "**Brain OS CLAUDE.md**\n12 connections · Brain OS Core Docs"
+    },
+    {
+      "id": "god_6",
+      "type": "text",
+      "x": 820,
+      "y": 870,
+      "width": 280,
+      "height": 60,
+      "color": "1",
+      "text": "**main()**\n11 connections · Export Pipeline"
+    },
+    {
+      "id": "god_7",
+      "type": "text",
+      "x": 1110,
+      "y": 870,
+      "width": 280,
+      "height": 60,
+      "color": "1",
+      "text": "**Conversation Knowledge Flywheel**\n11 connections · Knowledge Flywheel"
+    },
+    {
+      "id": "god_8",
+      "type": "text",
+      "x": 240,
+      "y": 940,
+      "width": 280,
+      "height": 60,
+      "color": "1",
+      "text": "**Daily Briefing 2026-05-01**\n11 connections · Daily Briefing Context"
+    },
+    {
+      "id": "god_9",
+      "type": "text",
+      "x": 530,
+      "y": 940,
+      "width": 280,
+      "height": 60,
+      "color": "1",
+      "text": "**render_transcript_markdown()**\n10 connections · Transcript Export"
+    },
+    {
+      "id": "god_10",
+      "type": "text",
+      "x": 820,
+      "y": 940,
+      "width": 280,
+      "height": 60,
+      "color": "1",
+      "text": "**extract_codex.py**\n10 connections · Codex Extract"
+    },
+    {
+      "id": "god_11",
+      "type": "text",
+      "x": 1110,
+      "y": 940,
+      "width": 280,
+      "height": 60,
+      "color": "1",
+      "text": "**Brain OS Changelog**\n9 connections · Brain OS Core Docs"
+    },
+    {
+      "id": "he_title",
+      "type": "text",
+      "x": 0,
+      "y": 1000,
+      "width": 200,
+      "height": 40,
+      "color": "5",
+      "text": "**Hyperedges (group relationships)**"
+    },
+    {
+      "id": "he_0",
+      "type": "text",
+      "x": 240,
+      "y": 1050,
+      "width": 380,
+      "height": 60,
+      "color": "5",
+      "text": "**Nightly Pipeline 4-Stage Flow**\n4 nodes · conf: EXTRACTED"
+    },
+    {
+      "id": "he_1",
+      "type": "text",
+      "x": 640,
+      "y": 1050,
+      "width": 380,
+      "height": 60,
+      "color": "5",
+      "text": "**Commit Patrol Path to Working State**\n4 nodes · conf: INFERRED"
+    },
+    {
+      "id": "he_2",
+      "type": "text",
+      "x": 1040,
+      "y": 1050,
+      "width": 380,
+      "height": 60,
+      "color": "5",
+      "text": "**CoPaw Flash 9B LoRA Deployment Ecosystem**\n4 nodes · conf: INFERRED"
+    },
+    {
+      "id": "he_3",
+      "type": "text",
+      "x": 240,
+      "y": 1120,
+      "width": 380,
+      "height": 60,
+      "color": "5",
+      "text": "**Personal Ops Daily Cycle**\n6 nodes · conf: INFERRED"
+    },
+    {
+      "id": "he_4",
+      "type": "text",
+      "x": 640,
+      "y": 1120,
+      "width": 380,
+      "height": 60,
+      "color": "5",
+      "text": "**Brain-Reminders Bidirectional Sync Loop**\n4 nodes · conf: INFERRED"
+    },
+    {
+      "id": "he_5",
+      "type": "text",
+      "x": 1040,
+      "y": 1120,
+      "width": 380,
+      "height": 60,
+      "color": "5",
+      "text": "**Brain OS Four-Agent Team Division**\n4 nodes · conf: INFERRED"
+    },
+    {
+      "id": "agent_title",
+      "type": "text",
+      "x": 0,
+      "y": 1300,
+      "width": 200,
+      "height": 40,
+      "color": "3",
+      "text": "**Agent Semantic Annotations**"
+    },
+    {
+      "id": "agent_0",
+      "type": "text",
+      "x": 240,
+      "y": 1350,
+      "width": 380,
+      "height": 50,
+      "color": "3",
+      "text": "**Nightly Pipeline ↔ Personal Ops**\n[Agent] Both are daily workflow automation systems"
+    },
+    {
+      "id": "agent_1",
+      "type": "text",
+      "x": 640,
+      "y": 1350,
+      "width": 380,
+      "height": 50,
+      "color": "3",
+      "text": "**Knowledge Flywheel ↔ Deep Research**\n[Agent] Both amplify knowledge through iterative processing"
+    },
+    {
+      "id": "agent_2",
+      "type": "text",
+      "x": 1040,
+      "y": 1350,
+      "width": 380,
+      "height": 50,
+      "color": "3",
+      "text": "**Writing Planning ↔ Design Critique**\n[Agent] Both improve output quality through structured review"
+    },
+    {
+      "id": "agent_3",
+      "type": "text",
+      "x": 240,
+      "y": 1410,
+      "width": 380,
+      "height": 50,
+      "color": "3",
+      "text": "**Cron Scheduling ↔ Observer & Release**\n[Agent] Both automate operational lifecycle management"
+    },
+    {
+      "id": "agent_4",
+      "type": "text",
+      "x": 640,
+      "y": 1410,
+      "width": 380,
+      "height": 50,
+      "color": "3",
+      "text": "**Export Pipeline ↔ Knowledge Templates**\n[Agent] Output formats are shaped by template definitions"
+    },
+    {
+      "id": "agent_5",
+      "type": "text",
+      "x": 1040,
+      "y": 1410,
+      "width": 380,
+      "height": 50,
+      "color": "3",
+      "text": "**Vault Structure ↔ Personal Ops Model**\n[Agent] Folder structure mirrors ops workflow stages"
+    },
+    {
+      "id": "gaps",
+      "type": "text",
+      "x": 0,
+      "y": 1500,
+      "width": 600,
+      "height": 100,
+      "color": "4",
+      "text": "**Knowledge Gaps**\n\n- 178 isolated nodes with ≤1 connection\n- 30+ thin communities (≤2 nodes)\n- Communities 0-2 have low cohesion (0.07-0.09) — may need splitting"
+    }
+  ],
+  "edges": [
+    {
+      "id": "stat_edge_0",
+      "fromNode": "stats",
+      "fromSide": "right",
+      "toNode": "comm_0",
+      "toSide": "left",
+      "color": "5",
+      "label": "top community"
+    },
+    {
+      "id": "stat_edge_1",
+      "fromNode": "stats",
+      "fromSide": "right",
+      "toNode": "comm_1",
+      "toSide": "left",
+      "color": "5",
+      "label": "top community"
+    },
+    {
+      "id": "stat_edge_2",
+      "fromNode": "stats",
+      "fromSide": "right",
+      "toNode": "comm_2",
+      "toSide": "left",
+      "color": "5",
+      "label": "top community"
+    },
+    {
+      "id": "agent_edge_0",
+      "fromNode": "agent_0",
+      "fromSide": "right",
+      "toNode": "comm_5",
+      "toSide": "left",
+      "color": "3",
+      "label": "[Agent] Cron ↔ Ops cycle"
+    },
+    {
+      "id": "agent_edge_1",
+      "fromNode": "agent_1",
+      "fromSide": "right",
+      "toNode": "comm_10",
+      "toSide": "left",
+      "color": "3",
+      "label": "[Agent] Flywheel amplification"
+    },
+    {
+      "id": "agent_edge_2",
+      "fromNode": "agent_2",
+      "fromSide": "right",
+      "toNode": "comm_11",
+      "toSide": "left",
+      "color": "3",
+      "label": "[Agent] Quality through review"
+    }
+  ]
+}
