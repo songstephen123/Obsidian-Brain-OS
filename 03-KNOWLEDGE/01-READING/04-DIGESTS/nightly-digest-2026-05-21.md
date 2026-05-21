@@ -22,7 +22,7 @@ status: draft
 ## 03:00 Conversation Mining
 
 <!-- 由 conversation-knowledge-mining pipeline 填写 -->
-*Pending...*
+*No-op run. External transcript volume `/Volumes/LIZEYU/` not mounted. No transcripts available for 2026-05-21.*
 
 ---
 
