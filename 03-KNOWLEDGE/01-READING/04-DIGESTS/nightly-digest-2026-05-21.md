@@ -3,7 +3,7 @@ title: "Nightly Digest 2026-05-21"
 date: "2026-05-21"
 created: "2026-05-22"
 type: nightly-digest
-status: draft
+status: complete
 ---
 
 # 🌙 Nightly Digest — 2026-05-21
@@ -28,8 +28,7 @@ status: draft
 
 ## 04:00 Knowledge Amplification
 
-<!-- 由 knowledge-flywheel-amplifier pipeline 填写 -->
-*Pending...*
+*No-op run.* Stage A (article integration) 和 Stage B (conversation mining) 均无新增输入——无文章笔记、无对话记录。无跨源汇合，未生成 topic / open question / research seed。未触发深度研究。
 
 ---
 
