@@ -20,8 +20,7 @@ status: draft
 
 ## 03:00 Conversation Mining
 
-<!-- 由 conversation-knowledge-mining pipeline 填写 -->
-*Pending...*
+无可用对话记录。转录目录 `/Volumes/LIZEYU/Converstions/` 不存在，preflight 检测 transcript_ok=0, qmd_ok=0。No-op。
 
 ---
 
