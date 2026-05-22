@@ -26,8 +26,7 @@ status: draft
 
 ## 04:00 Knowledge Amplification
 
-<!-- 由 knowledge-flywheel-amplifier pipeline 填写 -->
-*Pending...*
+**No-op.** 上游两阶段（文章整合、对话挖掘）均无新增内容，无法形成跨源汇合。无深度研究触发。
 
 ---
 
