@@ -1,23 +1,23 @@
 ---
-date: 2026-05-22
-week: W21
-updated: 2026-05-22 07:00
+date: 2026-05-25
+week: W22
+updated: 2026-05-25 07:15
 type: daily-brief
 ---
 
-# 2026-05-22 每日驾驶舱
+# 2026-05-25 每日驾驶舱
 
-> 周五 · W21 · 真相源自 2026-04-13 起未更新（第 39 天）
+> 周一 · W22 · 真相源自 2026-04-13 起未更新（第 42 天）
 
 ## 一、今天最重要的 3 件事
 
-1. **决定 Brain OS 本周动作** — 真相源空置 39 天，cron 每日消耗 token 但零产出。三个选项仍有效：暂停 cron / 降频至每周 / 录入真实待办后继续
-2. **往 todo-backlog.md 写入至少 1 条真实待办** — 没有待办就没有驾驶舱，这是连续第 7 期空转
+1. **决定 Brain OS 本周动作** — 真相源空置 42 天，cron 每日消耗 token 但零产出。三个选项：暂停 cron / 降频至每周 / 录入真实待办后继续
+2. **往 todo-backlog.md 写入至少 1 条真实待办** — 没有待办就没有驾驶舱，这是连续空转第 N 期
 3. **处理外置硬盘问题** — `/Volumes/LIZEYU` 未挂载导致 Conversation Mining 永远 degraded，挂载或迁移二选一
 
 ## 二、今天必须推进但不必做完
 
-- [ ] 为 W21 设定至少 1 个可验证目标（哪怕很小）
+- [ ] 为 W22 设定至少 1 个可验证目标
 - [ ] 审视 Brain OS cron 是否值得每日运行
 
 ## 三、今天等待反馈 / 需要催办
@@ -26,7 +26,7 @@ type: daily-brief
 
 ## 四、今天需要拍板的事
 
-- **Brain OS 去留** — 连续 39 天无有效输入，cron 持续消耗 token
+- **Brain OS 去留** — 连续 42 天无有效输入，cron 持续消耗 token
 - **对话存档位置** — 迁移到本地 SSD 还是保持外置硬盘依赖？
 
 ## 五、今天可委派的事
@@ -48,14 +48,14 @@ type: daily-brief
 
 ## 八、今日提醒
 
-- **周五 W21** — 本周最后工作日，真相源已空置 39 天
-- **知识管道全线 idle**：Article / Conversation / Amplification 连续 39+ 天无产出
+- **周一 W22** — 新一周开始，真相源已空置 42 天
+- **知识管道全线 idle**：Article / Conversation / Amplification 连续 42+ 天无产出
 - **外置硬盘未挂载**：Conversation Mining 持续 degraded
-- **驾驶舱上次生成**：2026-05-19，距今 3 天
+- **驾驶舱上次生成**：2026-05-22，距今 3 天
 
 ## 九、🧠 昨日知识信号
 
-> 昨日 nightly digest 无有效信号 — Article Integration、Conversation Mining、Knowledge Amplification 三阶段均为 no-op。外置硬盘未挂载，无对话记录可处理。
+> 昨日 nightly digest 尚未生成或无有效信号。最近一期 (2026-05-23) 三个阶段均为 Pending，无实际产出。
 
 ---
-*最后更新：2026-05-22 07:00*
+*最后更新：2026-05-25 07:15*
