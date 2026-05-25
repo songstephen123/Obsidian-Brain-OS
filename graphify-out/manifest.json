@@ -73,9 +73,11 @@
   "/Users/songstephen/my-brain/03-KNOWLEDGE/02-WORKING/02-PATTERN-CANDIDATES/nexus4cc-tailscale-mobile-claude-code.md": 1777575874.2424817,
   "/Users/songstephen/my-brain/03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-05-08.md": 1778334746.8934743,
   "/Users/songstephen/my-brain/03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-04-19.md": 1776628851.469929,
+  "/Users/songstephen/my-brain/03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-05-23.md": 1779562953.573304,
   "/Users/songstephen/my-brain/03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-05-22.md": 1779480043.2445939,
   "/Users/songstephen/my-brain/03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-05-15.md": 1779177070.0570862,
   "/Users/songstephen/my-brain/03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-05-21.md": 1779393650.2663045,
+  "/Users/songstephen/my-brain/03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-05-25.md": 1779739244.3102093,
   "/Users/songstephen/my-brain/03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-05-11.md": 1778432509.1913512,
   "/Users/songstephen/my-brain/03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-05-10.md": 1778443267.4467905,
   "/Users/songstephen/my-brain/03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-05-14.md": 1778788856.027719,
@@ -99,6 +101,9 @@
   "/Users/songstephen/my-brain/03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/2026-04-20/amplifier-report-2026-04-20.md": 1776715237.7077334,
   "/Users/songstephen/my-brain/03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/2026-04-20/conversation-mining-report-2026-04-20.md": 1776711723.6547356,
   "/Users/songstephen/my-brain/03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/2026-05-15/conversation-mining-report-2026-05-15.md": 1779177059.5511847,
+  "/Users/songstephen/my-brain/03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/2026-05-25/conversation-mining-report-2026-05-25.md": 1779735670.4121125,
+  "/Users/songstephen/my-brain/03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/2026-05-25/amplifier-report-2026-05-25.md": 1779739239.4930596,
+  "/Users/songstephen/my-brain/03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/2026-05-25/article-integration-report-2026-05-25.md": 1779732035.248221,
   "/Users/songstephen/my-brain/03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/2026-05-22/article-integration-report-2026-05-22.md": 1779472862.2850733,
   "/Users/songstephen/my-brain/03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/2026-05-22/amplifier-report-2026-05-22.md": 1779480043.1783743,
   "/Users/songstephen/my-brain/03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/2026-05-22/conversation-mining-report-2026-05-22.md": 1779476497.1297424,
@@ -149,7 +154,7 @@
   "/Users/songstephen/my-brain/docs/zh/guide/03-daily-workflow.md": 1776010217.6933358,
   "/Users/songstephen/my-brain/docs/zh/guide/04-iteration-guide.md": 1776010217.6936316,
   "/Users/songstephen/my-brain/docs/zh/guide/01-agent-setup.md": 1776010217.693873,
-  "/Users/songstephen/my-brain/graphify-out/GRAPH_REPORT.md": 1779400886.4150553,
+  "/Users/songstephen/my-brain/graphify-out/GRAPH_REPORT.md": 1779487234.3070529,
   "/Users/songstephen/my-brain/12-REVIEWS/KNOWLEDGEBASE/lint-2026-05-11.md": 1778432477.2802284,
   "/Users/songstephen/my-brain/12-REVIEWS/KNOWLEDGEBASE/lint-2026-04-20.md": 1776618158.0750618,
   "/Users/songstephen/my-brain/prompts/article-integration.prompt.md": 1776011012.7988591,
@@ -293,5 +298,5 @@
   "/Users/songstephen/my-brain/01-PERSONAL-OPS/02-PLANS-AND-SCHEDULES/\u622a\u6b62\u65e5\u671f\u6c47\u603b.md": 1776030040.1102,
   "/Users/songstephen/my-brain/01-PERSONAL-OPS/04-MONTHLY-MILESTONES/\u6708\u5ea6\u91cc\u7a0b\u7891.md": 1777587641.5409217,
   "/Users/songstephen/my-brain/01-PERSONAL-OPS/01-DAILY-BRIEFS/example-daily-brief.md": 1776013063.7129154,
-  "/Users/songstephen/my-brain/01-PERSONAL-OPS/01-DAILY-BRIEFS/daily-briefing.md": 1779404449.147054
+  "/Users/songstephen/my-brain/01-PERSONAL-OPS/01-DAILY-BRIEFS/daily-briefing.md": 1779664544.0276904
 }
