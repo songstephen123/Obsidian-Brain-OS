@@ -1,0 +1,609 @@
+{
+  "nodes": [
+    {
+      "id": "stats",
+      "type": "text",
+      "x": -420,
+      "y": 0,
+      "width": 380,
+      "height": 280,
+      "color": "6",
+      "text": "**Knowledge Graph 2026-05-26**\n\n143 nodes · 245 edges · 14 communities\n\nTop relations: calls (116), contains (105), rationale_for (23), imports_from (1)\n\nGenerated from graphify-out/graph.json (last rebuild 2026-05-15)\n*No changes since previous canvas — graphify data unchanged*"
+    },
+    {
+      "id": "comm_0",
+      "type": "text",
+      "x": 0,
+      "y": 0,
+      "width": 300,
+      "height": 220,
+      "color": "0",
+      "text": "**Transcript Export**\n27 nodes\n- transcript_export.py\n- sanitize_filename()\n- unique_markdown_path()\n- strip_markdown_for_text()\n- clean_project_label() +22 more"
+    },
+    {
+      "id": "comm_1",
+      "type": "text",
+      "x": 330,
+      "y": 0,
+      "width": 300,
+      "height": 220,
+      "color": "1",
+      "text": "**Export Pipeline**\n25 nodes\n- export_all.py\n- load_index()\n- save_index()\n- get_existing_ids()\n- _preserve_existing_fields() +20 more"
+    },
+    {
+      "id": "comm_2",
+      "type": "text",
+      "x": 660,
+      "y": 0,
+      "width": 300,
+      "height": 220,
+      "color": "2",
+      "text": "**Antigravity Extract**\n21 nodes\n- extract_antigravity.py\n- _decode_value()\n- _clean_text()\n- _looks_human_readable()\n- _extract_title() +16 more"
+    },
+    {
+      "id": "comm_3",
+      "type": "text",
+      "x": 990,
+      "y": 0,
+      "width": 300,
+      "height": 220,
+      "color": "3",
+      "text": "**Claude Extract**\n19 nodes\n- extract_claude.py\n- load_history_index()\n- find_sessions_by_date()\n- _is_noise()\n- _clean_text() +14 more"
+    },
+    {
+      "id": "comm_4",
+      "type": "text",
+      "x": 1320,
+      "y": 0,
+      "width": 300,
+      "height": 220,
+      "color": "4",
+      "text": "**Codex Extract**\n17 nodes\n- extract_codex.py\n- load_thread_titles()\n- load_history_for_session()\n- find_sessions_by_date()\n- _is_system_noise() +12 more"
+    },
+    {
+      "id": "comm_5",
+      "type": "text",
+      "x": 0,
+      "y": 190,
+      "width": 300,
+      "height": 184,
+      "color": "5",
+      "text": "**Project Resolution**\n6 nodes\n- resolve-project-ref.py\n- parse_frontmatter()\n- build_mapping()\n- main()\n- Extract YAML frontmatter fields we care about +1 more"
+    },
+    {
+      "id": "comm_6",
+      "type": "text",
+      "x": 330,
+      "y": 190,
+      "width": 300,
+      "height": 184,
+      "color": "0",
+      "text": "**Graph Rendering**\n6 nodes\n- render-graphs.js\n- extractDotBlocks()\n- extractGraphBody()\n- combineGraphs()\n- renderToSvg() +1 more"
+    },
+    {
+      "id": "comm_7",
+      "type": "text",
+      "x": 660,
+      "y": 190,
+      "width": 300,
+      "height": 184,
+      "color": "1",
+      "text": "**CLI & HTML Export**\n6 nodes\n- __main__.py\n- cli.py\n- _json_for_html_script()\n- run_export()\n- build_html() +1 more"
+    },
+    {
+      "id": "comm_8",
+      "type": "text",
+      "x": 990,
+      "y": 190,
+      "width": 300,
+      "height": 180,
+      "color": "2",
+      "text": "**Day Manifest Builder**\n5 nodes\n- build-day-manifest.py\n- infer_project()\n- infer_agent()\n- infer_title()\n- main()"
+    },
+    {
+      "id": "comm_9",
+      "type": "text",
+      "x": 1320,
+      "y": 190,
+      "width": 300,
+      "height": 176,
+      "color": "3",
+      "text": "**Speech Synthesis**\n4 nodes\n- speak.py\n- speak()\n- main()\n- Generate speech from text using edge-tts."
+    },
+    {
+      "id": "comm_10",
+      "type": "text",
+      "x": 0,
+      "y": 380,
+      "width": 300,
+      "height": 176,
+      "color": "4",
+      "text": "**Transcription**\n4 nodes\n- transcribe.py\n- transcribe()\n- main()\n- Transcribe audio file using faster-whisper."
+    },
+    {
+      "id": "comm_11",
+      "type": "text",
+      "x": 330,
+      "y": 380,
+      "width": 300,
+      "height": 164,
+      "color": "5",
+      "text": "**Writer Package**\n1 nodes\n- render-writer-package.py"
+    },
+    {
+      "id": "comm_12",
+      "type": "text",
+      "x": 660,
+      "y": 380,
+      "width": 300,
+      "height": 164,
+      "color": "0",
+      "text": "**Init Module**\n1 nodes\n- __init__.py"
+    },
+    {
+      "id": "comm_13",
+      "type": "text",
+      "x": 990,
+      "y": 380,
+      "width": 300,
+      "height": 164,
+      "color": "1",
+      "text": "**Conv Manager**\n1 nodes\n- convs.py"
+    },
+    {
+      "id": "gods_title",
+      "type": "text",
+      "x": 0,
+      "y": 660,
+      "width": 200,
+      "height": 40,
+      "color": "1",
+      "text": "**God Nodes (top connected)**"
+    },
+    {
+      "id": "god_0",
+      "type": "text",
+      "x": 240,
+      "y": 660,
+      "width": 280,
+      "height": 55,
+      "color": "1",
+      "text": "**transcript_export.py**\n25 connections · Transcript Export"
+    },
+    {
+      "id": "god_1",
+      "type": "text",
+      "x": 530,
+      "y": 660,
+      "width": 280,
+      "height": 55,
+      "color": "1",
+      "text": "**export_all.py**\n20 connections · Export Pipeline"
+    },
+    {
+      "id": "god_2",
+      "type": "text",
+      "x": 820,
+      "y": 660,
+      "width": 280,
+      "height": 55,
+      "color": "1",
+      "text": "**extract_antigravity.py**\n18 connections · Antigravity Extract"
+    },
+    {
+      "id": "god_3",
+      "type": "text",
+      "x": 1110,
+      "y": 660,
+      "width": 280,
+      "height": 55,
+      "color": "1",
+      "text": "**extract_claude.py**\n12 connections · Claude Extract"
+    },
+    {
+      "id": "god_4",
+      "type": "text",
+      "x": 240,
+      "y": 730,
+      "width": 280,
+      "height": 55,
+      "color": "1",
+      "text": "**main()**\n11 connections · Export Pipeline"
+    },
+    {
+      "id": "god_5",
+      "type": "text",
+      "x": 530,
+      "y": 730,
+      "width": 280,
+      "height": 55,
+      "color": "1",
+      "text": "**extract_codex.py**\n10 connections · Codex Extract"
+    },
+    {
+      "id": "god_6",
+      "type": "text",
+      "x": 820,
+      "y": 730,
+      "width": 280,
+      "height": 55,
+      "color": "1",
+      "text": "**render_transcript_markdown()**\n10 connections · Transcript Export"
+    },
+    {
+      "id": "god_7",
+      "type": "text",
+      "x": 1110,
+      "y": 730,
+      "width": 280,
+      "height": 55,
+      "color": "1",
+      "text": "**upsert_conversation()**\n8 connections · Export Pipeline"
+    },
+    {
+      "id": "god_8",
+      "type": "text",
+      "x": 240,
+      "y": 800,
+      "width": 280,
+      "height": 55,
+      "color": "1",
+      "text": "**_render_quick_summary()**\n8 connections · Transcript Export"
+    },
+    {
+      "id": "god_9",
+      "type": "text",
+      "x": 530,
+      "y": 800,
+      "width": 280,
+      "height": 55,
+      "color": "1",
+      "text": "**_clean_text()**\n7 connections · Antigravity Extract"
+    },
+    {
+      "id": "god_10",
+      "type": "text",
+      "x": 820,
+      "y": 800,
+      "width": 280,
+      "height": 55,
+      "color": "1",
+      "text": "**_extract_conversations_from_traj()**\n7 connections · Antigravity Extract"
+    },
+    {
+      "id": "god_11",
+      "type": "text",
+      "x": 1110,
+      "y": 800,
+      "width": 280,
+      "height": 55,
+      "color": "1",
+      "text": "**find_sessions()**\n7 connections · Antigravity Extract"
+    },
+    {
+      "id": "gaps",
+      "type": "text",
+      "x": 0,
+      "y": 900,
+      "width": 600,
+      "height": 160,
+      "color": "4",
+      "text": "**Knowledge Gaps**\n\n- 30 isolated nodes with ≤1 connection\n- Thin communities: C11 (Writer Package: 1 node(s)), C12 (Init Module: 1 node(s)), C13 (Conv Manager: 1 node(s))\n- 47% edges are INFERRED (avg confidence 0.5) — need verification"
+    },
+    {
+      "id": "agent_title",
+      "type": "text",
+      "x": 0,
+      "y": 1100,
+      "width": 200,
+      "height": 40,
+      "color": "3",
+      "text": "**Agent Semantic Annotations**"
+    },
+    {
+      "id": "agent_0",
+      "type": "text",
+      "x": 240,
+      "y": 1150,
+      "width": 380,
+      "height": 55,
+      "color": "3",
+      "text": "**Transcription ↔ Speech Synthesis**\n[Agent] Audio in → text → audio out: complementary voice pipeline ends"
+    },
+    {
+      "id": "agent_1",
+      "type": "text",
+      "x": 650,
+      "y": 1150,
+      "width": 380,
+      "height": 55,
+      "color": "3",
+      "text": "**Export Pipeline ↔ Transcript Export**\n[Agent] Export orchestration drives transcript rendering as its primary output path"
+    },
+    {
+      "id": "agent_2",
+      "type": "text",
+      "x": 1060,
+      "y": 1150,
+      "width": 380,
+      "height": 55,
+      "color": "3",
+      "text": "**Claude Extract ↔ Codex Extract**\n[Agent] Both implement parallel session extraction from different AI platforms with shared patterns"
+    },
+    {
+      "id": "agent_3",
+      "type": "text",
+      "x": 240,
+      "y": 1220,
+      "width": 380,
+      "height": 55,
+      "color": "3",
+      "text": "**Day Manifest ↔ Project Resolution**\n[Agent] Manifest builder infers project/title while resolver maps projects — both need frontmatter context"
+    },
+    {
+      "id": "agent_4",
+      "type": "text",
+      "x": 650,
+      "y": 1220,
+      "width": 380,
+      "height": 55,
+      "color": "3",
+      "text": "**Antigravity ↔ Claude ↔ Codex Extract**\n[Agent] Three extractors form a unified conversation mining triad with `_clean_text()` shared across all"
+    },
+    {
+      "id": "agent_5",
+      "type": "text",
+      "x": 1060,
+      "y": 1220,
+      "width": 380,
+      "height": 55,
+      "color": "3",
+      "text": "**CLI Export ↔ Graph Rendering**\n[Agent] CLI exports to HTML/JSON while graph renderer produces SVG — complementary visualization outputs"
+    }
+  ],
+  "edges": [
+    {
+      "id": "stat_edge_0",
+      "fromNode": "stats",
+      "fromSide": "right",
+      "toNode": "comm_0",
+      "toSide": "left",
+      "color": "5",
+      "label": "top community"
+    },
+    {
+      "id": "stat_edge_1",
+      "fromNode": "stats",
+      "fromSide": "right",
+      "toNode": "comm_1",
+      "toSide": "left",
+      "color": "5",
+      "label": "top community"
+    },
+    {
+      "id": "stat_edge_2",
+      "fromNode": "stats",
+      "fromSide": "right",
+      "toNode": "comm_2",
+      "toSide": "left",
+      "color": "5",
+      "label": "top community"
+    },
+    {
+      "id": "stat_edge_3",
+      "fromNode": "stats",
+      "fromSide": "right",
+      "toNode": "comm_3",
+      "toSide": "left",
+      "color": "5",
+      "label": "top community"
+    },
+    {
+      "id": "stat_edge_4",
+      "fromNode": "stats",
+      "fromSide": "right",
+      "toNode": "comm_4",
+      "toSide": "left",
+      "color": "5",
+      "label": "top community"
+    },
+    {
+      "id": "stat_edge_5",
+      "fromNode": "stats",
+      "fromSide": "right",
+      "toNode": "comm_5",
+      "toSide": "left",
+      "color": "5",
+      "label": "top community"
+    },
+    {
+      "id": "stat_edge_6",
+      "fromNode": "stats",
+      "fromSide": "right",
+      "toNode": "comm_6",
+      "toSide": "left",
+      "color": "5",
+      "label": "top community"
+    },
+    {
+      "id": "stat_edge_7",
+      "fromNode": "stats",
+      "fromSide": "right",
+      "toNode": "comm_7",
+      "toSide": "left",
+      "color": "5",
+      "label": "top community"
+    },
+    {
+      "id": "stat_edge_8",
+      "fromNode": "stats",
+      "fromSide": "right",
+      "toNode": "comm_8",
+      "toSide": "left",
+      "color": "5",
+      "label": "top community"
+    },
+    {
+      "id": "stat_edge_9",
+      "fromNode": "stats",
+      "fromSide": "right",
+      "toNode": "comm_9",
+      "toSide": "left",
+      "color": "5",
+      "label": "top community"
+    },
+    {
+      "id": "stat_edge_10",
+      "fromNode": "stats",
+      "fromSide": "right",
+      "toNode": "comm_10",
+      "toSide": "left",
+      "color": "5",
+      "label": "top community"
+    },
+    {
+      "id": "stat_edge_11",
+      "fromNode": "stats",
+      "fromSide": "right",
+      "toNode": "comm_11",
+      "toSide": "left",
+      "color": "5",
+      "label": "top community"
+    },
+    {
+      "id": "stat_edge_12",
+      "fromNode": "stats",
+      "fromSide": "right",
+      "toNode": "comm_12",
+      "toSide": "left",
+      "color": "5",
+      "label": "top community"
+    },
+    {
+      "id": "stat_edge_13",
+      "fromNode": "stats",
+      "fromSide": "right",
+      "toNode": "comm_13",
+      "toSide": "left",
+      "color": "5",
+      "label": "top community"
+    },
+    {
+      "id": "agent_edge_0",
+      "fromNode": "agent_0",
+      "fromSide": "bottom",
+      "toNode": "comm_10",
+      "toSide": "top",
+      "color": "3",
+      "label": "[Agent] Voice pipeline"
+    },
+    {
+      "id": "agent_edge_0b",
+      "fromNode": "agent_0",
+      "fromSide": "bottom",
+      "toNode": "comm_9",
+      "toSide": "top",
+      "color": "3",
+      "label": "[Agent] Voice pipeline"
+    },
+    {
+      "id": "agent_edge_1",
+      "fromNode": "agent_1",
+      "fromSide": "bottom",
+      "toNode": "comm_1",
+      "toSide": "top",
+      "color": "3",
+      "label": "[Agent] Export drives transcript"
+    },
+    {
+      "id": "agent_edge_1b",
+      "fromNode": "agent_1",
+      "fromSide": "bottom",
+      "toNode": "comm_0",
+      "toSide": "top",
+      "color": "3",
+      "label": "[Agent] Export drives transcript"
+    },
+    {
+      "id": "agent_edge_2",
+      "fromNode": "agent_2",
+      "fromSide": "bottom",
+      "toNode": "comm_3",
+      "toSide": "top",
+      "color": "3",
+      "label": "[Agent] Shared extraction patterns"
+    },
+    {
+      "id": "agent_edge_2b",
+      "fromNode": "agent_2",
+      "fromSide": "bottom",
+      "toNode": "comm_4",
+      "toSide": "top",
+      "color": "3",
+      "label": "[Agent] Shared extraction patterns"
+    },
+    {
+      "id": "agent_edge_3",
+      "fromNode": "agent_3",
+      "fromSide": "bottom",
+      "toNode": "comm_8",
+      "toSide": "top",
+      "color": "3",
+      "label": "[Agent] Frontmatter context"
+    },
+    {
+      "id": "agent_edge_3b",
+      "fromNode": "agent_3",
+      "fromSide": "bottom",
+      "toNode": "comm_5",
+      "toSide": "top",
+      "color": "3",
+      "label": "[Agent] Frontmatter context"
+    },
+    {
+      "id": "agent_edge_4a",
+      "fromNode": "agent_4",
+      "fromSide": "bottom",
+      "toNode": "comm_2",
+      "toSide": "top",
+      "color": "3",
+      "label": "[Agent] Shared _clean_text()"
+    },
+    {
+      "id": "agent_edge_4b",
+      "fromNode": "agent_4",
+      "fromSide": "bottom",
+      "toNode": "comm_3",
+      "toSide": "top",
+      "color": "3",
+      "label": "[Agent] Shared _clean_text()"
+    },
+    {
+      "id": "agent_edge_4c",
+      "fromNode": "agent_4",
+      "fromSide": "bottom",
+      "toNode": "comm_4",
+      "toSide": "top",
+      "color": "3",
+      "label": "[Agent] Shared _clean_text()"
+    },
+    {
+      "id": "agent_edge_5a",
+      "fromNode": "agent_5",
+      "fromSide": "bottom",
+      "toNode": "comm_7",
+      "toSide": "top",
+      "color": "3",
+      "label": "[Agent] Visualization outputs"
+    },
+    {
+      "id": "agent_edge_5b",
+      "fromNode": "agent_5",
+      "fromSide": "bottom",
+      "toNode": "comm_6",
+      "toSide": "top",
+      "color": "3",
+      "label": "[Agent] Visualization outputs"
+    }
+  ]
+}
