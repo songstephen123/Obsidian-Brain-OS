@@ -20,8 +20,11 @@ status: draft
 
 ## 03:00 Conversation Mining
 
-<!-- 由 conversation-knowledge-mining pipeline 填写 -->
-*Pending...*
+**No-op (降级运行).** 昨日对话未挖出任何内容。
+
+原因：转录目录 `/Volumes/LIZEYU/Converstions/` 不可用（外置卷未挂载），导出脚本和 prompt 文件均缺失。preflight 返回 transcript_ok=0, qmd_ok=0。
+
+无知识产出，无 research seed 生成。
 
 ---
 
