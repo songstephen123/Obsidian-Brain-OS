@@ -20,8 +20,7 @@ status: draft
 
 ## 03:00 Conversation Mining
 
-<!-- 由 conversation-knowledge-mining pipeline 填写 -->
-*Pending...*
+**No-op (degraded).** Transcript volume `/Volumes/LIZEYU/Converstions` not mounted; no conversations available for 2026-05-26. Preflight `transcript_ok=0`. Zero transcript-derived knowledge produced.
 
 ---
 
