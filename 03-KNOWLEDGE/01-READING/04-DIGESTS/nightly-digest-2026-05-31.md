@@ -20,8 +20,14 @@ status: draft
 
 ## 03:00 Conversation Mining
 
-<!-- 由 conversation-knowledge-mining pipeline 填写 -->
-*Pending...*
+**状态：降级运行 — 无对话数据**
+
+- 外置硬盘 `/Volumes/LIZEYU/Converstions` 未挂载
+- 2026-05-31 对话数据不可用
+- QMD 健康检查未通过
+- 无知识提炼，无研究种子生成
+
+**下次运行前需确认：** 外置硬盘已挂载，对话目录可访问。
 
 ---
 
