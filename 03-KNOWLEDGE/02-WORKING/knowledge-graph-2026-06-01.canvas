@@ -1,0 +1,3420 @@
+{
+  "nodes": [
+    {
+      "id": "n0",
+      "type": "text",
+      "x": 0,
+      "y": 0,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**build-day-manifest.py**\ncode | L1\n/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/build-day-manifest.py"
+    },
+    {
+      "id": "n1",
+      "type": "text",
+      "x": 270,
+      "y": 0,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**infer_project()**\ncode | L12\n/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/build-day-manifest.py"
+    },
+    {
+      "id": "n2",
+      "type": "text",
+      "x": 540,
+      "y": 0,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**infer_agent()**\ncode | L19\n/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/build-day-manifest.py"
+    },
+    {
+      "id": "n3",
+      "type": "text",
+      "x": 810,
+      "y": 0,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**infer_title()**\ncode | L26\n/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/build-day-manifest.py"
+    },
+    {
+      "id": "n4",
+      "type": "text",
+      "x": 1080,
+      "y": 0,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**main()**\ncode | L33\n/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/build-day-manifest.py"
+    },
+    {
+      "id": "n5",
+      "type": "text",
+      "x": 1350,
+      "y": 0,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**render-writer-package.py**\ncode | L1\n/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/render-writer-package.py"
+    },
+    {
+      "id": "n6",
+      "type": "text",
+      "x": 1620,
+      "y": 0,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**resolve-project-ref.py**\ncode | L1\n/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/resolve-project-ref.py"
+    },
+    {
+      "id": "n7",
+      "type": "text",
+      "x": 1890,
+      "y": 0,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**parse_frontmatter()**\ncode | L27\n/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/resolve-project-ref.py"
+    },
+    {
+      "id": "n8",
+      "type": "text",
+      "x": 2160,
+      "y": 0,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**build_mapping()**\ncode | L57\n/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/resolve-project-ref.py"
+    },
+    {
+      "id": "n9",
+      "type": "text",
+      "x": 2430,
+      "y": 0,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**main()**\ncode | L74\n/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/resolve-project-ref.py"
+    },
+    {
+      "id": "n10",
+      "type": "text",
+      "x": 0,
+      "y": 110,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**Extract YAML frontmatter fields we care about (project_ref, aliases).**\nrationale | L28\n/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/resolve-project-ref.py"
+    },
+    {
+      "id": "n11",
+      "type": "text",
+      "x": 270,
+      "y": 110,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**Return {alias_lower: (project_ref, brief_path)} for all projects.**\nrationale | L58\n/Users/songstephen/my-brain/skills/conversation-knowledge-flywheel/scripts/resolve-project-ref.py"
+    },
+    {
+      "id": "n12",
+      "type": "text",
+      "x": 540,
+      "y": 110,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**speak.py**\ncode | L1\n/Users/songstephen/my-brain/skills/english-tutor/scripts/speak.py"
+    },
+    {
+      "id": "n13",
+      "type": "text",
+      "x": 810,
+      "y": 110,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**speak()**\ncode | L27\n/Users/songstephen/my-brain/skills/english-tutor/scripts/speak.py"
+    },
+    {
+      "id": "n14",
+      "type": "text",
+      "x": 1080,
+      "y": 110,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**main()**\ncode | L37\n/Users/songstephen/my-brain/skills/english-tutor/scripts/speak.py"
+    },
+    {
+      "id": "n15",
+      "type": "text",
+      "x": 1350,
+      "y": 110,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**Generate speech from text using edge-tts.**\nrationale | L29\n/Users/songstephen/my-brain/skills/english-tutor/scripts/speak.py"
+    },
+    {
+      "id": "n16",
+      "type": "text",
+      "x": 1620,
+      "y": 110,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**transcribe.py**\ncode | L1\n/Users/songstephen/my-brain/skills/english-tutor/scripts/transcribe.py"
+    },
+    {
+      "id": "n17",
+      "type": "text",
+      "x": 1890,
+      "y": 110,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**transcribe()**\ncode | L18\n/Users/songstephen/my-brain/skills/english-tutor/scripts/transcribe.py"
+    },
+    {
+      "id": "n18",
+      "type": "text",
+      "x": 2160,
+      "y": 110,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**main()**\ncode | L56\n/Users/songstephen/my-brain/skills/english-tutor/scripts/transcribe.py"
+    },
+    {
+      "id": "n19",
+      "type": "text",
+      "x": 2430,
+      "y": 110,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**Transcribe audio file using faster-whisper.**\nrationale | L19\n/Users/songstephen/my-brain/skills/english-tutor/scripts/transcribe.py"
+    },
+    {
+      "id": "n20",
+      "type": "text",
+      "x": 0,
+      "y": 220,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**render-graphs.js**\ncode | L1\n/Users/songstephen/my-brain/skills/recommended/writing-skills/render-graphs.js"
+    },
+    {
+      "id": "n21",
+      "type": "text",
+      "x": 270,
+      "y": 220,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**extractDotBlocks()**\ncode | L20\n/Users/songstephen/my-brain/skills/recommended/writing-skills/render-graphs.js"
+    },
+    {
+      "id": "n22",
+      "type": "text",
+      "x": 540,
+      "y": 220,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**extractGraphBody()**\ncode | L38\n/Users/songstephen/my-brain/skills/recommended/writing-skills/render-graphs.js"
+    },
+    {
+      "id": "n23",
+      "type": "text",
+      "x": 810,
+      "y": 220,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**combineGraphs()**\ncode | L51\n/Users/songstephen/my-brain/skills/recommended/writing-skills/render-graphs.js"
+    },
+    {
+      "id": "n24",
+      "type": "text",
+      "x": 1080,
+      "y": 220,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**renderToSvg()**\ncode | L70\n/Users/songstephen/my-brain/skills/recommended/writing-skills/render-graphs.js"
+    },
+    {
+      "id": "n25",
+      "type": "text",
+      "x": 1350,
+      "y": 220,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**main()**\ncode | L84\n/Users/songstephen/my-brain/skills/recommended/writing-skills/render-graphs.js"
+    },
+    {
+      "id": "n26",
+      "type": "text",
+      "x": 1620,
+      "y": 220,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**__init__.py**\ncode | L1\n/Users/songstephen/my-brain/tools/conversation-mining/lib/__init__.py"
+    },
+    {
+      "id": "n27",
+      "type": "text",
+      "x": 1890,
+      "y": 220,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**__main__.py**\ncode | L1\n/Users/songstephen/my-brain/tools/conversation-mining/conversation_mining/__main__.py"
+    },
+    {
+      "id": "n28",
+      "type": "text",
+      "x": 2160,
+      "y": 220,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**cli.py**\ncode | L1\n/Users/songstephen/my-brain/tools/conversation-mining/conversation_mining/cli.py"
+    },
+    {
+      "id": "n29",
+      "type": "text",
+      "x": 2430,
+      "y": 220,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_json_for_html_script()**\ncode | L20\n/Users/songstephen/my-brain/tools/conversation-mining/conversation_mining/cli.py"
+    },
+    {
+      "id": "n30",
+      "type": "text",
+      "x": 0,
+      "y": 330,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**run_export()**\ncode | L25\n/Users/songstephen/my-brain/tools/conversation-mining/conversation_mining/cli.py"
+    },
+    {
+      "id": "n31",
+      "type": "text",
+      "x": 270,
+      "y": 330,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**build_html()**\ncode | L37\n/Users/songstephen/my-brain/tools/conversation-mining/conversation_mining/cli.py"
+    },
+    {
+      "id": "n32",
+      "type": "text",
+      "x": 540,
+      "y": 330,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**main()**\ncode | L73\n/Users/songstephen/my-brain/tools/conversation-mining/conversation_mining/cli.py"
+    },
+    {
+      "id": "n33",
+      "type": "text",
+      "x": 810,
+      "y": 330,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**convs.py**\ncode | L1\n/Users/songstephen/my-brain/tools/conversation-mining/convs.py"
+    },
+    {
+      "id": "n34",
+      "type": "text",
+      "x": 1080,
+      "y": 330,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**export_all.py**\ncode | L1\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n35",
+      "type": "text",
+      "x": 1350,
+      "y": 330,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**load_index()**\ncode | L36\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n36",
+      "type": "text",
+      "x": 1620,
+      "y": 330,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**save_index()**\ncode | L46\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n37",
+      "type": "text",
+      "x": 1890,
+      "y": 330,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**get_existing_ids()**\ncode | L53\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n38",
+      "type": "text",
+      "x": 2160,
+      "y": 330,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_preserve_existing_fields()**\ncode | L57\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n39",
+      "type": "text",
+      "x": 2430,
+      "y": 330,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_clean_metadata_text()**\ncode | L64\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n40",
+      "type": "text",
+      "x": 0,
+      "y": 440,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_normalize_project_metadata()**\ncode | L70\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n41",
+      "type": "text",
+      "x": 270,
+      "y": 440,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_sanitize_conversation_metadata()**\ncode | L81\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n42",
+      "type": "text",
+      "x": 540,
+      "y": 440,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_sanitize_index_metadata()**\ncode | L118\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n43",
+      "type": "text",
+      "x": 810,
+      "y": 440,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_content_hash()**\ncode | L126\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n44",
+      "type": "text",
+      "x": 1080,
+      "y": 440,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**upsert_conversation()**\ncode | L136\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n45",
+      "type": "text",
+      "x": 1350,
+      "y": 440,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**find_existing_conversation()**\ncode | L154\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n46",
+      "type": "text",
+      "x": 1620,
+      "y": 440,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**make_conv_id()**\ncode | L161\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n47",
+      "type": "text",
+      "x": 1890,
+      "y": 440,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_default_markdown_dir()**\ncode | L166\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n48",
+      "type": "text",
+      "x": 2160,
+      "y": 440,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_build_transcript_stem()**\ncode | L172\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n49",
+      "type": "text",
+      "x": 2430,
+      "y": 440,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**materialize_transcripts()**\ncode | L185\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n50",
+      "type": "text",
+      "x": 0,
+      "y": 550,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**export_claude()**\ncode | L232\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n51",
+      "type": "text",
+      "x": 270,
+      "y": 550,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**export_codex()**\ncode | L292\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n52",
+      "type": "text",
+      "x": 540,
+      "y": 550,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**export_antigravity()**\ncode | L331\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n53",
+      "type": "text",
+      "x": 810,
+      "y": 550,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_build_search_index()**\ncode | L368\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n54",
+      "type": "text",
+      "x": 1080,
+      "y": 550,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**main()**\ncode | L388\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n55",
+      "type": "text",
+      "x": 1350,
+      "y": 550,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**\u57fa\u4e8e messages \u751f\u6210\u5185\u5bb9\u54c8\u5e0c\uff0c\u7528\u4e8e\u5224\u65ad\u4f1a\u8bdd\u662f\u5426\u6709\u53d8\u5316**\nrationale | L127\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n56",
+      "type": "text",
+      "x": 1620,
+      "y": 550,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**\u63d2\u5165\u6216\u66f4\u65b0\u4f1a\u8bdd\u3002\u8fd4\u56de True \u8868\u793a\u5185\u5bb9\u6709\u53d8\u5316\uff08\u9700\u8981\u91cd\u65b0 materialize\uff09\uff0cFalse \u8868\u793a\u672a\u53d8\u5316\u3002**\nrationale | L137\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n57",
+      "type": "text",
+      "x": 1890,
+      "y": 550,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**Materialize transcript markdown files.      Args:         dirty_ids: \u5982\u679c\u975e None\uff0c\u53ea\u91cd**\nrationale | L186\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n58",
+      "type": "text",
+      "x": 2160,
+      "y": 550,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**\u5bfc\u51fa\u65f6\u751f\u6210\u8f7b\u91cf\u641c\u7d22\u7d22\u5f15 search_index.json**\nrationale | L369\n/Users/songstephen/my-brain/tools/conversation-mining/export_all.py"
+    },
+    {
+      "id": "n59",
+      "type": "text",
+      "x": 2430,
+      "y": 550,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**extract_antigravity.py**\ncode | L1\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py"
+    },
+    {
+      "id": "n60",
+      "type": "text",
+      "x": 0,
+      "y": 660,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_decode_value()**\ncode | L38\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py"
+    },
+    {
+      "id": "n61",
+      "type": "text",
+      "x": 270,
+      "y": 660,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_clean_text()**\ncode | L45\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py"
+    },
+    {
+      "id": "n62",
+      "type": "text",
+      "x": 540,
+      "y": 660,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_looks_human_readable()**\ncode | L55\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py"
+    },
+    {
+      "id": "n63",
+      "type": "text",
+      "x": 810,
+      "y": 660,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_extract_title()**\ncode | L62\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py"
+    },
+    {
+      "id": "n64",
+      "type": "text",
+      "x": 1080,
+      "y": 660,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_is_poor_title()**\ncode | L79\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py"
+    },
+    {
+      "id": "n65",
+      "type": "text",
+      "x": 1350,
+      "y": 660,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_normalize_title_candidate()**\ncode | L91\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py"
+    },
+    {
+      "id": "n66",
+      "type": "text",
+      "x": 1620,
+      "y": 660,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_title_from_messages()**\ncode | L102\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py"
+    },
+    {
+      "id": "n67",
+      "type": "text",
+      "x": 1890,
+      "y": 660,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_extract_project()**\ncode | L116\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py"
+    },
+    {
+      "id": "n68",
+      "type": "text",
+      "x": 2160,
+      "y": 660,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_extract_json_objects()**\ncode | L123\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py"
+    },
+    {
+      "id": "n69",
+      "type": "text",
+      "x": 2430,
+      "y": 660,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_append_message()**\ncode | L142\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py"
+    },
+    {
+      "id": "n70",
+      "type": "text",
+      "x": 0,
+      "y": 770,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_extract_messages_from_chunk()**\ncode | L151\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py"
+    },
+    {
+      "id": "n71",
+      "type": "text",
+      "x": 270,
+      "y": 770,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_extract_conversations_from_traj()**\ncode | L169\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py"
+    },
+    {
+      "id": "n72",
+      "type": "text",
+      "x": 540,
+      "y": 770,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_extract_messages_from_jetski()**\ncode | L202\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py"
+    },
+    {
+      "id": "n73",
+      "type": "text",
+      "x": 810,
+      "y": 770,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_safe_read_json()**\ncode | L226\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py"
+    },
+    {
+      "id": "n74",
+      "type": "text",
+      "x": 1080,
+      "y": 770,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_extract_artifact_heading()**\ncode | L233\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py"
+    },
+    {
+      "id": "n75",
+      "type": "text",
+      "x": 1350,
+      "y": 770,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_artifact_priority()**\ncode | L255\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py"
+    },
+    {
+      "id": "n76",
+      "type": "text",
+      "x": 1620,
+      "y": 770,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_collect_brain_artifacts()**\ncode | L272\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py"
+    },
+    {
+      "id": "n77",
+      "type": "text",
+      "x": 1890,
+      "y": 770,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**find_sessions()**\ncode | L308\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py"
+    },
+    {
+      "id": "n78",
+      "type": "text",
+      "x": 2160,
+      "y": 770,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**Extract conversation messages from jetski state (most recent conversation).**\nrationale | L203\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py"
+    },
+    {
+      "id": "n79",
+      "type": "text",
+      "x": 2430,
+      "y": 770,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**Extract AntiGravity conversations from state.vscdb.     Returns list of session**\nrationale | L309\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_antigravity.py"
+    },
+    {
+      "id": "n80",
+      "type": "text",
+      "x": 0,
+      "y": 880,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**extract_claude.py**\ncode | L1\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py"
+    },
+    {
+      "id": "n81",
+      "type": "text",
+      "x": 270,
+      "y": 880,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**load_history_index()**\ncode | L20\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py"
+    },
+    {
+      "id": "n82",
+      "type": "text",
+      "x": 540,
+      "y": 880,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**find_sessions_by_date()**\ncode | L40\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py"
+    },
+    {
+      "id": "n83",
+      "type": "text",
+      "x": 810,
+      "y": 880,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_is_noise()**\ncode | L113\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py"
+    },
+    {
+      "id": "n84",
+      "type": "text",
+      "x": 1080,
+      "y": 880,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_clean_text()**\ncode | L129\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py"
+    },
+    {
+      "id": "n85",
+      "type": "text",
+      "x": 1350,
+      "y": 880,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_extract_user_text()**\ncode | L156\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py"
+    },
+    {
+      "id": "n86",
+      "type": "text",
+      "x": 1620,
+      "y": 880,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_extract_assistant_text()**\ncode | L174\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py"
+    },
+    {
+      "id": "n87",
+      "type": "text",
+      "x": 1890,
+      "y": 880,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_extract_subagent_summary()**\ncode | L186\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py"
+    },
+    {
+      "id": "n88",
+      "type": "text",
+      "x": 2160,
+      "y": 880,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**extract_conversation()**\ncode | L195\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py"
+    },
+    {
+      "id": "n89",
+      "type": "text",
+      "x": 2430,
+      "y": 880,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**decode_project_name()**\ncode | L294\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py"
+    },
+    {
+      "id": "n90",
+      "type": "text",
+      "x": 0,
+      "y": 990,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**sanitize_filename()**\ncode | L299\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py"
+    },
+    {
+      "id": "n91",
+      "type": "text",
+      "x": 270,
+      "y": 990,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**format_conversation()**\ncode | L313\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py"
+    },
+    {
+      "id": "n92",
+      "type": "text",
+      "x": 540,
+      "y": 990,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**main()**\ncode | L369\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py"
+    },
+    {
+      "id": "n93",
+      "type": "text",
+      "x": 810,
+      "y": 990,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**\u4ece history.jsonl \u5efa\u7acb sessionId -> \u9996\u6761\u7528\u6237\u8f93\u5165 \u7684\u7d22\u5f15\uff08\u7528\u4e8e\u6807\u9898\uff09**\nrationale | L21\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py"
+    },
+    {
+      "id": "n94",
+      "type": "text",
+      "x": 1080,
+      "y": 990,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**\u627e\u5230\u67d0\u5929\u6d3b\u8dc3\u7684\u6240\u6709 Claude Code \u4f1a\u8bdd\u3002     \u626b\u63cf\u6240\u6709 project \u76ee\u5f55\u4e0b\u7684 .jsonl \u6587\u4ef6\uff0c\u68c0\u67e5\u5176\u4e2d\u6d88\u606f\u7684\u65f6\u95f4\u6233\u3002     \u8fd4\u56de lis**\nrationale | L41\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py"
+    },
+    {
+      "id": "n95",
+      "type": "text",
+      "x": 1350,
+      "y": 990,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**\u6e05\u6d17\u6587\u672c\uff0c\u53bb\u6389\u5404\u79cd\u566a\u97f3\u6807\u7b7e\u548c skill \u52a0\u8f7d\u5185\u5bb9**\nrationale | L130\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py"
+    },
+    {
+      "id": "n96",
+      "type": "text",
+      "x": 1620,
+      "y": 990,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**\u4ece user message content \u63d0\u53d6\u7eaf\u6587\u672c**\nrationale | L157\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py"
+    },
+    {
+      "id": "n97",
+      "type": "text",
+      "x": 1890,
+      "y": 990,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**\u4ece assistant message content \u63d0\u53d6\u7eaf\u6587\u672c**\nrationale | L175\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py"
+    },
+    {
+      "id": "n98",
+      "type": "text",
+      "x": 2160,
+      "y": 990,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**\u4ece Claude Code session JSONL \u63d0\u53d6\u5bf9\u8bdd\u3002      \u5904\u7406\u4e24\u79cd\u60c5\u51b5\uff1a     1. \u666e\u901a session\uff1a\u76f4\u63a5\u4ece user/assist**\nrationale | L196\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_claude.py"
+    },
+    {
+      "id": "n99",
+      "type": "text",
+      "x": 2430,
+      "y": 990,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**extract_codex.py**\ncode | L1\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py"
+    },
+    {
+      "id": "n100",
+      "type": "text",
+      "x": 0,
+      "y": 1100,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**load_thread_titles()**\ncode | L22\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py"
+    },
+    {
+      "id": "n101",
+      "type": "text",
+      "x": 270,
+      "y": 1100,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**load_history_for_session()**\ncode | L48\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py"
+    },
+    {
+      "id": "n102",
+      "type": "text",
+      "x": 540,
+      "y": 1100,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**find_sessions_by_date()**\ncode | L66\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py"
+    },
+    {
+      "id": "n103",
+      "type": "text",
+      "x": 810,
+      "y": 1100,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_is_system_noise()**\ncode | L131\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py"
+    },
+    {
+      "id": "n104",
+      "type": "text",
+      "x": 1080,
+      "y": 1100,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_clean_text()**\ncode | L151\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py"
+    },
+    {
+      "id": "n105",
+      "type": "text",
+      "x": 1350,
+      "y": 1100,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_extract_from_history()**\ncode | L177\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py"
+    },
+    {
+      "id": "n106",
+      "type": "text",
+      "x": 1620,
+      "y": 1100,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**extract_conversation()**\ncode | L221\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py"
+    },
+    {
+      "id": "n107",
+      "type": "text",
+      "x": 1890,
+      "y": 1100,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**format_conversation()**\ncode | L334\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py"
+    },
+    {
+      "id": "n108",
+      "type": "text",
+      "x": 2160,
+      "y": 1100,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**sanitize_filename()**\ncode | L371\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py"
+    },
+    {
+      "id": "n109",
+      "type": "text",
+      "x": 2430,
+      "y": 1100,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**main()**\ncode | L387\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py"
+    },
+    {
+      "id": "n110",
+      "type": "text",
+      "x": 0,
+      "y": 1210,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**\u4ece session_index.jsonl \u548c SQLite \u52a0\u8f7d\u4f1a\u8bdd\u6807\u9898**\nrationale | L23\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py"
+    },
+    {
+      "id": "n111",
+      "type": "text",
+      "x": 270,
+      "y": 1210,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**\u4ece history.jsonl \u52a0\u8f7d\u67d0\u4e2a session \u7684\u7528\u6237\u8f93\u5165**\nrationale | L49\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py"
+    },
+    {
+      "id": "n112",
+      "type": "text",
+      "x": 540,
+      "y": 1210,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**\u627e\u5230\u67d0\u5929\u6d3b\u8dc3\u7684\u6240\u6709\u4f1a\u8bdd\u6587\u4ef6\u3002     target_date \u683c\u5f0f: YYYY-MM-DD      \u7b56\u7565:     1. \u76f4\u63a5\u5339\u914d sessions/YYYY**\nrationale | L67\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py"
+    },
+    {
+      "id": "n113",
+      "type": "text",
+      "x": 810,
+      "y": 1210,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**\u6e05\u6d17\u6587\u672c\uff0c\u53bb\u6389\u5404\u79cd\u566a\u97f3\u6807\u7b7e\u548c skill \u52a0\u8f7d\u5185\u5bb9**\nrationale | L152\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py"
+    },
+    {
+      "id": "n114",
+      "type": "text",
+      "x": 1080,
+      "y": 1210,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**\u4ece replacement_history \u5217\u8868\u63d0\u53d6\u5bf9\u8bdd\u6d88\u606f\u3002     rh: list of {role, content} dicts     \u8fd4\u56de lis**\nrationale | L178\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py"
+    },
+    {
+      "id": "n115",
+      "type": "text",
+      "x": 1350,
+      "y": 1210,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**\u4ece session JSONL \u6587\u4ef6\u63d0\u53d6\u7eaf\u5bf9\u8bdd\u5185\u5bb9\uff08\u7528\u6237\u95ee\u9898 + Codex \u56de\u7b54\uff09\u3002      \u5904\u7406\u4e24\u79cd\u60c5\u51b5\uff1a     1. \u666e\u901a session\uff1a\u4ece eve**\nrationale | L222\n/Users/songstephen/my-brain/tools/conversation-mining/lib/extract_codex.py"
+    },
+    {
+      "id": "n116",
+      "type": "text",
+      "x": 1620,
+      "y": 1210,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**transcript_export.py**\ncode | L1\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n117",
+      "type": "text",
+      "x": 1890,
+      "y": 1210,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**sanitize_filename()**\ncode | L14\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n118",
+      "type": "text",
+      "x": 2160,
+      "y": 1210,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**unique_markdown_path()**\ncode | L30\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n119",
+      "type": "text",
+      "x": 2430,
+      "y": 1210,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**strip_markdown_for_text()**\ncode | L41\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n120",
+      "type": "text",
+      "x": 0,
+      "y": 1320,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**clean_project_label()**\ncode | L52\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n121",
+      "type": "text",
+      "x": 270,
+      "y": 1320,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**truncate_text()**\ncode | L59\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n122",
+      "type": "text",
+      "x": 540,
+      "y": 1320,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**humanize_title_fragment()**\ncode | L66\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n123",
+      "type": "text",
+      "x": 810,
+      "y": 1320,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_normalize_path_candidate()**\ncode | L78\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n124",
+      "type": "text",
+      "x": 1080,
+      "y": 1320,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_push_unique()**\ncode | L90\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n125",
+      "type": "text",
+      "x": 1350,
+      "y": 1320,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**extract_file_mentions()**\ncode | L97\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n126",
+      "type": "text",
+      "x": 1620,
+      "y": 1320,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**extract_command_mentions()**\ncode | L111\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n127",
+      "type": "text",
+      "x": 1890,
+      "y": 1320,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**extract_signal_mentions()**\ncode | L126\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n128",
+      "type": "text",
+      "x": 2160,
+      "y": 1320,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**pick_final_answer()**\ncode | L142\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n129",
+      "type": "text",
+      "x": 2430,
+      "y": 1320,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**prompts_match()**\ncode | L151\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n130",
+      "type": "text",
+      "x": 0,
+      "y": 1430,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**build_search_entry()**\ncode | L163\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n131",
+      "type": "text",
+      "x": 270,
+      "y": 1430,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**is_subagent_conversation()**\ncode | L184\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n132",
+      "type": "text",
+      "x": 540,
+      "y": 1430,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**get_subagent_display_name()**\ncode | L192\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n133",
+      "type": "text",
+      "x": 810,
+      "y": 1430,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**build_subagent_index()**\ncode | L196\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n134",
+      "type": "text",
+      "x": 1080,
+      "y": 1430,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**match_subagent_calls()**\ncode | L210\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n135",
+      "type": "text",
+      "x": 1350,
+      "y": 1430,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_render_frontmatter()**\ncode | L229\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n136",
+      "type": "text",
+      "x": 1620,
+      "y": 1430,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_append_section()**\ncode | L244\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n137",
+      "type": "text",
+      "x": 1890,
+      "y": 1430,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_render_quick_summary()**\ncode | L251\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n138",
+      "type": "text",
+      "x": 2160,
+      "y": 1430,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_render_artifacts()**\ncode | L274\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n139",
+      "type": "text",
+      "x": 2430,
+      "y": 1430,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_role_heading()**\ncode | L290\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n140",
+      "type": "text",
+      "x": 0,
+      "y": 1540,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**_append_text_block()**\ncode | L301\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n141",
+      "type": "text",
+      "x": 270,
+      "y": 1540,
+      "width": 250,
+      "height": 100,
+      "color": "1",
+      "text": "**render_transcript_markdown()**\ncode | L308\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    },
+    {
+      "id": "n142",
+      "type": "text",
+      "x": 540,
+      "y": 1540,
+      "width": 250,
+      "height": 100,
+      "color": "2",
+      "text": "**\u4ece conversation \u4e2d\u63d0\u53d6\u641c\u7d22\u7d22\u5f15\u6761\u76ee\uff0c\u7528\u4e8e\u8f7b\u91cf\u5feb\u901f\u641c\u7d22\u3002**\nrationale | L164\n/Users/songstephen/my-brain/tools/conversation-mining/lib/transcript_export.py"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "n0",
+      "fromSide": "right",
+      "toNode": "n1",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e1",
+      "fromNode": "n0",
+      "fromSide": "right",
+      "toNode": "n2",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e2",
+      "fromNode": "n0",
+      "fromSide": "right",
+      "toNode": "n3",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e3",
+      "fromNode": "n0",
+      "fromSide": "right",
+      "toNode": "n4",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e4",
+      "fromNode": "n1",
+      "fromSide": "right",
+      "toNode": "n4",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e5",
+      "fromNode": "n2",
+      "fromSide": "right",
+      "toNode": "n4",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e6",
+      "fromNode": "n3",
+      "fromSide": "right",
+      "toNode": "n4",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e7",
+      "fromNode": "n6",
+      "fromSide": "right",
+      "toNode": "n7",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e8",
+      "fromNode": "n6",
+      "fromSide": "right",
+      "toNode": "n8",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e9",
+      "fromNode": "n6",
+      "fromSide": "right",
+      "toNode": "n9",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e10",
+      "fromNode": "n7",
+      "fromSide": "right",
+      "toNode": "n8",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e11",
+      "fromNode": "n7",
+      "fromSide": "right",
+      "toNode": "n10",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e12",
+      "fromNode": "n8",
+      "fromSide": "right",
+      "toNode": "n9",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e13",
+      "fromNode": "n8",
+      "fromSide": "right",
+      "toNode": "n11",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e14",
+      "fromNode": "n12",
+      "fromSide": "right",
+      "toNode": "n13",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e15",
+      "fromNode": "n12",
+      "fromSide": "right",
+      "toNode": "n14",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e16",
+      "fromNode": "n13",
+      "fromSide": "right",
+      "toNode": "n14",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e17",
+      "fromNode": "n13",
+      "fromSide": "right",
+      "toNode": "n15",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e18",
+      "fromNode": "n16",
+      "fromSide": "right",
+      "toNode": "n17",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e19",
+      "fromNode": "n16",
+      "fromSide": "right",
+      "toNode": "n18",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e20",
+      "fromNode": "n17",
+      "fromSide": "right",
+      "toNode": "n18",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e21",
+      "fromNode": "n17",
+      "fromSide": "right",
+      "toNode": "n19",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e22",
+      "fromNode": "n20",
+      "fromSide": "right",
+      "toNode": "n21",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e23",
+      "fromNode": "n20",
+      "fromSide": "right",
+      "toNode": "n22",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e24",
+      "fromNode": "n20",
+      "fromSide": "right",
+      "toNode": "n23",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e25",
+      "fromNode": "n20",
+      "fromSide": "right",
+      "toNode": "n24",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e26",
+      "fromNode": "n20",
+      "fromSide": "right",
+      "toNode": "n25",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e27",
+      "fromNode": "n21",
+      "fromSide": "right",
+      "toNode": "n25",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e28",
+      "fromNode": "n23",
+      "fromSide": "right",
+      "toNode": "n25",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e29",
+      "fromNode": "n24",
+      "fromSide": "right",
+      "toNode": "n25",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e30",
+      "fromNode": "n27",
+      "fromSide": "right",
+      "toNode": "n28",
+      "toSide": "left",
+      "label": "imports_from"
+    },
+    {
+      "id": "e31",
+      "fromNode": "n28",
+      "fromSide": "right",
+      "toNode": "n29",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e32",
+      "fromNode": "n28",
+      "fromSide": "right",
+      "toNode": "n30",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e33",
+      "fromNode": "n28",
+      "fromSide": "right",
+      "toNode": "n31",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e34",
+      "fromNode": "n28",
+      "fromSide": "right",
+      "toNode": "n32",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e35",
+      "fromNode": "n29",
+      "fromSide": "right",
+      "toNode": "n31",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e36",
+      "fromNode": "n30",
+      "fromSide": "right",
+      "toNode": "n32",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e37",
+      "fromNode": "n31",
+      "fromSide": "right",
+      "toNode": "n32",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e38",
+      "fromNode": "n34",
+      "fromSide": "right",
+      "toNode": "n35",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e39",
+      "fromNode": "n34",
+      "fromSide": "right",
+      "toNode": "n36",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e40",
+      "fromNode": "n34",
+      "fromSide": "right",
+      "toNode": "n37",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e41",
+      "fromNode": "n34",
+      "fromSide": "right",
+      "toNode": "n38",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e42",
+      "fromNode": "n34",
+      "fromSide": "right",
+      "toNode": "n39",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e43",
+      "fromNode": "n34",
+      "fromSide": "right",
+      "toNode": "n40",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e44",
+      "fromNode": "n34",
+      "fromSide": "right",
+      "toNode": "n41",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e45",
+      "fromNode": "n34",
+      "fromSide": "right",
+      "toNode": "n42",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e46",
+      "fromNode": "n34",
+      "fromSide": "right",
+      "toNode": "n43",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e47",
+      "fromNode": "n34",
+      "fromSide": "right",
+      "toNode": "n44",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e48",
+      "fromNode": "n34",
+      "fromSide": "right",
+      "toNode": "n45",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e49",
+      "fromNode": "n34",
+      "fromSide": "right",
+      "toNode": "n46",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e50",
+      "fromNode": "n34",
+      "fromSide": "right",
+      "toNode": "n47",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e51",
+      "fromNode": "n34",
+      "fromSide": "right",
+      "toNode": "n48",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e52",
+      "fromNode": "n34",
+      "fromSide": "right",
+      "toNode": "n49",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e53",
+      "fromNode": "n34",
+      "fromSide": "right",
+      "toNode": "n50",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e54",
+      "fromNode": "n34",
+      "fromSide": "right",
+      "toNode": "n51",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e55",
+      "fromNode": "n34",
+      "fromSide": "right",
+      "toNode": "n52",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e56",
+      "fromNode": "n34",
+      "fromSide": "right",
+      "toNode": "n53",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e57",
+      "fromNode": "n34",
+      "fromSide": "right",
+      "toNode": "n54",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e58",
+      "fromNode": "n35",
+      "fromSide": "right",
+      "toNode": "n54",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e59",
+      "fromNode": "n36",
+      "fromSide": "right",
+      "toNode": "n54",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e60",
+      "fromNode": "n37",
+      "fromSide": "right",
+      "toNode": "n54",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e61",
+      "fromNode": "n38",
+      "fromSide": "right",
+      "toNode": "n44",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e62",
+      "fromNode": "n39",
+      "fromSide": "right",
+      "toNode": "n40",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e63",
+      "fromNode": "n39",
+      "fromSide": "right",
+      "toNode": "n41",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e64",
+      "fromNode": "n40",
+      "fromSide": "right",
+      "toNode": "n41",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e65",
+      "fromNode": "n41",
+      "fromSide": "right",
+      "toNode": "n42",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e66",
+      "fromNode": "n41",
+      "fromSide": "right",
+      "toNode": "n44",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e67",
+      "fromNode": "n42",
+      "fromSide": "right",
+      "toNode": "n54",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e68",
+      "fromNode": "n43",
+      "fromSide": "right",
+      "toNode": "n44",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e69",
+      "fromNode": "n43",
+      "fromSide": "right",
+      "toNode": "n55",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e70",
+      "fromNode": "n44",
+      "fromSide": "right",
+      "toNode": "n50",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e71",
+      "fromNode": "n44",
+      "fromSide": "right",
+      "toNode": "n51",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e72",
+      "fromNode": "n44",
+      "fromSide": "right",
+      "toNode": "n52",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e73",
+      "fromNode": "n44",
+      "fromSide": "right",
+      "toNode": "n56",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e74",
+      "fromNode": "n46",
+      "fromSide": "right",
+      "toNode": "n50",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e75",
+      "fromNode": "n46",
+      "fromSide": "right",
+      "toNode": "n51",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e76",
+      "fromNode": "n46",
+      "fromSide": "right",
+      "toNode": "n52",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e77",
+      "fromNode": "n47",
+      "fromSide": "right",
+      "toNode": "n54",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e78",
+      "fromNode": "n48",
+      "fromSide": "right",
+      "toNode": "n49",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e79",
+      "fromNode": "n49",
+      "fromSide": "right",
+      "toNode": "n54",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e80",
+      "fromNode": "n49",
+      "fromSide": "right",
+      "toNode": "n57",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e81",
+      "fromNode": "n50",
+      "fromSide": "right",
+      "toNode": "n54",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e82",
+      "fromNode": "n51",
+      "fromSide": "right",
+      "toNode": "n54",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e83",
+      "fromNode": "n52",
+      "fromSide": "right",
+      "toNode": "n54",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e84",
+      "fromNode": "n53",
+      "fromSide": "right",
+      "toNode": "n54",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e85",
+      "fromNode": "n53",
+      "fromSide": "right",
+      "toNode": "n58",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e86",
+      "fromNode": "n59",
+      "fromSide": "right",
+      "toNode": "n60",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e87",
+      "fromNode": "n59",
+      "fromSide": "right",
+      "toNode": "n61",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e88",
+      "fromNode": "n59",
+      "fromSide": "right",
+      "toNode": "n62",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e89",
+      "fromNode": "n59",
+      "fromSide": "right",
+      "toNode": "n63",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e90",
+      "fromNode": "n59",
+      "fromSide": "right",
+      "toNode": "n64",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e91",
+      "fromNode": "n59",
+      "fromSide": "right",
+      "toNode": "n65",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e92",
+      "fromNode": "n59",
+      "fromSide": "right",
+      "toNode": "n66",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e93",
+      "fromNode": "n59",
+      "fromSide": "right",
+      "toNode": "n67",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e94",
+      "fromNode": "n59",
+      "fromSide": "right",
+      "toNode": "n68",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e95",
+      "fromNode": "n59",
+      "fromSide": "right",
+      "toNode": "n69",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e96",
+      "fromNode": "n59",
+      "fromSide": "right",
+      "toNode": "n70",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e97",
+      "fromNode": "n59",
+      "fromSide": "right",
+      "toNode": "n71",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e98",
+      "fromNode": "n59",
+      "fromSide": "right",
+      "toNode": "n72",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e99",
+      "fromNode": "n59",
+      "fromSide": "right",
+      "toNode": "n73",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e100",
+      "fromNode": "n59",
+      "fromSide": "right",
+      "toNode": "n74",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e101",
+      "fromNode": "n59",
+      "fromSide": "right",
+      "toNode": "n75",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e102",
+      "fromNode": "n59",
+      "fromSide": "right",
+      "toNode": "n76",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e103",
+      "fromNode": "n59",
+      "fromSide": "right",
+      "toNode": "n77",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e104",
+      "fromNode": "n60",
+      "fromSide": "right",
+      "toNode": "n77",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e105",
+      "fromNode": "n61",
+      "fromSide": "right",
+      "toNode": "n63",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e106",
+      "fromNode": "n61",
+      "fromSide": "right",
+      "toNode": "n65",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e107",
+      "fromNode": "n61",
+      "fromSide": "right",
+      "toNode": "n66",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e108",
+      "fromNode": "n61",
+      "fromSide": "right",
+      "toNode": "n69",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e109",
+      "fromNode": "n61",
+      "fromSide": "right",
+      "toNode": "n72",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e110",
+      "fromNode": "n61",
+      "fromSide": "right",
+      "toNode": "n74",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e111",
+      "fromNode": "n62",
+      "fromSide": "right",
+      "toNode": "n63",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e112",
+      "fromNode": "n62",
+      "fromSide": "right",
+      "toNode": "n66",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e113",
+      "fromNode": "n63",
+      "fromSide": "right",
+      "toNode": "n71",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e114",
+      "fromNode": "n64",
+      "fromSide": "right",
+      "toNode": "n66",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e115",
+      "fromNode": "n64",
+      "fromSide": "right",
+      "toNode": "n71",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e116",
+      "fromNode": "n65",
+      "fromSide": "right",
+      "toNode": "n66",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e117",
+      "fromNode": "n66",
+      "fromSide": "right",
+      "toNode": "n71",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e118",
+      "fromNode": "n67",
+      "fromSide": "right",
+      "toNode": "n71",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e119",
+      "fromNode": "n68",
+      "fromSide": "right",
+      "toNode": "n70",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e120",
+      "fromNode": "n69",
+      "fromSide": "right",
+      "toNode": "n70",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e121",
+      "fromNode": "n69",
+      "fromSide": "right",
+      "toNode": "n77",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e122",
+      "fromNode": "n70",
+      "fromSide": "right",
+      "toNode": "n71",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e123",
+      "fromNode": "n71",
+      "fromSide": "right",
+      "toNode": "n77",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e124",
+      "fromNode": "n72",
+      "fromSide": "right",
+      "toNode": "n77",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e125",
+      "fromNode": "n72",
+      "fromSide": "right",
+      "toNode": "n78",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e126",
+      "fromNode": "n73",
+      "fromSide": "right",
+      "toNode": "n76",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e127",
+      "fromNode": "n74",
+      "fromSide": "right",
+      "toNode": "n76",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e128",
+      "fromNode": "n76",
+      "fromSide": "right",
+      "toNode": "n77",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e129",
+      "fromNode": "n77",
+      "fromSide": "right",
+      "toNode": "n79",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e130",
+      "fromNode": "n80",
+      "fromSide": "right",
+      "toNode": "n81",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e131",
+      "fromNode": "n80",
+      "fromSide": "right",
+      "toNode": "n82",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e132",
+      "fromNode": "n80",
+      "fromSide": "right",
+      "toNode": "n83",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e133",
+      "fromNode": "n80",
+      "fromSide": "right",
+      "toNode": "n84",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e134",
+      "fromNode": "n80",
+      "fromSide": "right",
+      "toNode": "n85",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e135",
+      "fromNode": "n80",
+      "fromSide": "right",
+      "toNode": "n86",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e136",
+      "fromNode": "n80",
+      "fromSide": "right",
+      "toNode": "n87",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e137",
+      "fromNode": "n80",
+      "fromSide": "right",
+      "toNode": "n88",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e138",
+      "fromNode": "n80",
+      "fromSide": "right",
+      "toNode": "n89",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e139",
+      "fromNode": "n80",
+      "fromSide": "right",
+      "toNode": "n90",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e140",
+      "fromNode": "n80",
+      "fromSide": "right",
+      "toNode": "n91",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e141",
+      "fromNode": "n80",
+      "fromSide": "right",
+      "toNode": "n92",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e142",
+      "fromNode": "n81",
+      "fromSide": "right",
+      "toNode": "n92",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e143",
+      "fromNode": "n81",
+      "fromSide": "right",
+      "toNode": "n93",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e144",
+      "fromNode": "n82",
+      "fromSide": "right",
+      "toNode": "n92",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e145",
+      "fromNode": "n82",
+      "fromSide": "right",
+      "toNode": "n94",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e146",
+      "fromNode": "n83",
+      "fromSide": "right",
+      "toNode": "n88",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e147",
+      "fromNode": "n84",
+      "fromSide": "right",
+      "toNode": "n85",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e148",
+      "fromNode": "n84",
+      "fromSide": "right",
+      "toNode": "n86",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e149",
+      "fromNode": "n84",
+      "fromSide": "right",
+      "toNode": "n88",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e150",
+      "fromNode": "n84",
+      "fromSide": "right",
+      "toNode": "n95",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e151",
+      "fromNode": "n85",
+      "fromSide": "right",
+      "toNode": "n88",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e152",
+      "fromNode": "n85",
+      "fromSide": "right",
+      "toNode": "n96",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e153",
+      "fromNode": "n86",
+      "fromSide": "right",
+      "toNode": "n88",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e154",
+      "fromNode": "n86",
+      "fromSide": "right",
+      "toNode": "n97",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e155",
+      "fromNode": "n88",
+      "fromSide": "right",
+      "toNode": "n92",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e156",
+      "fromNode": "n88",
+      "fromSide": "right",
+      "toNode": "n98",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e157",
+      "fromNode": "n89",
+      "fromSide": "right",
+      "toNode": "n91",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e158",
+      "fromNode": "n89",
+      "fromSide": "right",
+      "toNode": "n92",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e159",
+      "fromNode": "n90",
+      "fromSide": "right",
+      "toNode": "n92",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e160",
+      "fromNode": "n91",
+      "fromSide": "right",
+      "toNode": "n92",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e161",
+      "fromNode": "n99",
+      "fromSide": "right",
+      "toNode": "n100",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e162",
+      "fromNode": "n99",
+      "fromSide": "right",
+      "toNode": "n101",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e163",
+      "fromNode": "n99",
+      "fromSide": "right",
+      "toNode": "n102",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e164",
+      "fromNode": "n99",
+      "fromSide": "right",
+      "toNode": "n103",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e165",
+      "fromNode": "n99",
+      "fromSide": "right",
+      "toNode": "n104",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e166",
+      "fromNode": "n99",
+      "fromSide": "right",
+      "toNode": "n105",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e167",
+      "fromNode": "n99",
+      "fromSide": "right",
+      "toNode": "n106",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e168",
+      "fromNode": "n99",
+      "fromSide": "right",
+      "toNode": "n107",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e169",
+      "fromNode": "n99",
+      "fromSide": "right",
+      "toNode": "n108",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e170",
+      "fromNode": "n99",
+      "fromSide": "right",
+      "toNode": "n109",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e171",
+      "fromNode": "n100",
+      "fromSide": "right",
+      "toNode": "n109",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e172",
+      "fromNode": "n100",
+      "fromSide": "right",
+      "toNode": "n110",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e173",
+      "fromNode": "n101",
+      "fromSide": "right",
+      "toNode": "n106",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e174",
+      "fromNode": "n101",
+      "fromSide": "right",
+      "toNode": "n111",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e175",
+      "fromNode": "n102",
+      "fromSide": "right",
+      "toNode": "n109",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e176",
+      "fromNode": "n102",
+      "fromSide": "right",
+      "toNode": "n112",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e177",
+      "fromNode": "n103",
+      "fromSide": "right",
+      "toNode": "n105",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e178",
+      "fromNode": "n103",
+      "fromSide": "right",
+      "toNode": "n106",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e179",
+      "fromNode": "n104",
+      "fromSide": "right",
+      "toNode": "n105",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e180",
+      "fromNode": "n104",
+      "fromSide": "right",
+      "toNode": "n106",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e181",
+      "fromNode": "n104",
+      "fromSide": "right",
+      "toNode": "n113",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e182",
+      "fromNode": "n105",
+      "fromSide": "right",
+      "toNode": "n106",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e183",
+      "fromNode": "n105",
+      "fromSide": "right",
+      "toNode": "n114",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e184",
+      "fromNode": "n106",
+      "fromSide": "right",
+      "toNode": "n109",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e185",
+      "fromNode": "n106",
+      "fromSide": "right",
+      "toNode": "n115",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e186",
+      "fromNode": "n107",
+      "fromSide": "right",
+      "toNode": "n109",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e187",
+      "fromNode": "n108",
+      "fromSide": "right",
+      "toNode": "n109",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e188",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n117",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e189",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n118",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e190",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n119",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e191",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n120",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e192",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n121",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e193",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n122",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e194",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n123",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e195",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n124",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e196",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n125",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e197",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n126",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e198",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n127",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e199",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n128",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e200",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n129",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e201",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n130",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e202",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n131",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e203",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n132",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e204",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n133",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e205",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n134",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e206",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n135",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e207",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n136",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e208",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n137",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e209",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n138",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e210",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n139",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e211",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n140",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e212",
+      "fromNode": "n116",
+      "fromSide": "right",
+      "toNode": "n141",
+      "toSide": "left",
+      "label": "contains"
+    },
+    {
+      "id": "e213",
+      "fromNode": "n119",
+      "fromSide": "right",
+      "toNode": "n121",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e214",
+      "fromNode": "n119",
+      "fromSide": "right",
+      "toNode": "n122",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e215",
+      "fromNode": "n119",
+      "fromSide": "right",
+      "toNode": "n130",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e216",
+      "fromNode": "n120",
+      "fromSide": "right",
+      "toNode": "n137",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e217",
+      "fromNode": "n121",
+      "fromSide": "right",
+      "toNode": "n122",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e218",
+      "fromNode": "n121",
+      "fromSide": "right",
+      "toNode": "n126",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e219",
+      "fromNode": "n121",
+      "fromSide": "right",
+      "toNode": "n127",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e220",
+      "fromNode": "n121",
+      "fromSide": "right",
+      "toNode": "n128",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e221",
+      "fromNode": "n123",
+      "fromSide": "right",
+      "toNode": "n125",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e222",
+      "fromNode": "n124",
+      "fromSide": "right",
+      "toNode": "n125",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e223",
+      "fromNode": "n124",
+      "fromSide": "right",
+      "toNode": "n126",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e224",
+      "fromNode": "n124",
+      "fromSide": "right",
+      "toNode": "n127",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e225",
+      "fromNode": "n125",
+      "fromSide": "right",
+      "toNode": "n130",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e226",
+      "fromNode": "n125",
+      "fromSide": "right",
+      "toNode": "n137",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e227",
+      "fromNode": "n126",
+      "fromSide": "right",
+      "toNode": "n130",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e228",
+      "fromNode": "n126",
+      "fromSide": "right",
+      "toNode": "n137",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e229",
+      "fromNode": "n127",
+      "fromSide": "right",
+      "toNode": "n130",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e230",
+      "fromNode": "n127",
+      "fromSide": "right",
+      "toNode": "n137",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e231",
+      "fromNode": "n128",
+      "fromSide": "right",
+      "toNode": "n137",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e232",
+      "fromNode": "n129",
+      "fromSide": "right",
+      "toNode": "n134",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e233",
+      "fromNode": "n130",
+      "fromSide": "right",
+      "toNode": "n142",
+      "toSide": "left",
+      "label": "rationale_for"
+    },
+    {
+      "id": "e234",
+      "fromNode": "n131",
+      "fromSide": "right",
+      "toNode": "n133",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e235",
+      "fromNode": "n132",
+      "fromSide": "right",
+      "toNode": "n141",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e236",
+      "fromNode": "n133",
+      "fromSide": "right",
+      "toNode": "n141",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e237",
+      "fromNode": "n134",
+      "fromSide": "right",
+      "toNode": "n141",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e238",
+      "fromNode": "n135",
+      "fromSide": "right",
+      "toNode": "n141",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e239",
+      "fromNode": "n136",
+      "fromSide": "right",
+      "toNode": "n137",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e240",
+      "fromNode": "n136",
+      "fromSide": "right",
+      "toNode": "n141",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e241",
+      "fromNode": "n137",
+      "fromSide": "right",
+      "toNode": "n141",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e242",
+      "fromNode": "n138",
+      "fromSide": "right",
+      "toNode": "n141",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e243",
+      "fromNode": "n139",
+      "fromSide": "right",
+      "toNode": "n141",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e244",
+      "fromNode": "n140",
+      "fromSide": "right",
+      "toNode": "n141",
+      "toSide": "left",
+      "label": "calls"
+    },
+    {
+      "id": "e245",
+      "fromNode": "n4",
+      "fromSide": "right",
+      "toNode": "n142",
+      "toSide": "left",
+      "label": "[Agent] manifest \u2192 transcript export: data flow"
+    },
+    {
+      "id": "e247",
+      "fromNode": "n15",
+      "fromSide": "right",
+      "toNode": "n19",
+      "toSide": "left",
+      "label": "[Agent] speech \u2194 transcription: English tutor pair"
+    },
+    {
+      "id": "e248",
+      "fromNode": "n98",
+      "fromSide": "right",
+      "toNode": "n115",
+      "toSide": "left",
+      "label": "[Agent] Claude \u2194 Codex: parallel extractors"
+    }
+  ]
+}
