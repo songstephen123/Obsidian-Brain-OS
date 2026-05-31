@@ -3,7 +3,7 @@ title: "Nightly Digest 2026-05-31"
 date: "2026-05-31"
 created: "2026-06-01"
 type: nightly-digest
-status: draft
+status: degraded
 ---
 
 # 🌙 Nightly Digest — 2026-05-31
@@ -33,8 +33,17 @@ status: draft
 
 ## 04:00 Knowledge Amplification
 
-<!-- 由 knowledge-flywheel-amplifier pipeline 填写 -->
-*Pending...*
+**状态：降级运行 — 无上游输入**
+
+- 02:00 Article Integration：无新文章，跳过
+- 03:00 Conversation Mining：外置硬盘未挂载，无对话数据
+- 无可用素材进行知识放大，本轮跳过
+
+---
+
+## 今日推荐阅读
+
+无。上游阶段均无产出，无推荐阅读。
 
 ---
 
