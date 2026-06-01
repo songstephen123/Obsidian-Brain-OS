@@ -1,25 +1,25 @@
 ---
-date: 2026-06-01
+date: 2026-06-02
 week: W23
-updated: 2026-06-01 07:00
+updated: 2026-06-02 07:15
 type: daily-brief
 ---
 
-# 2026-06-01 每日驾驶舱
+# 2026-06-02 每日驾驶舱
 
-> 周一 · W23 · 真相源自 2026-04-13 起未更新（第 49 天）
+> 周二 · W23 · 真相源自 2026-04-13 起未更新（第 50 天）
 
 ## 一、今天最重要的 3 件事
 
-1. **决定 Brain OS 系统去留** — 连续 49 天无有效输入，所有源文件（todo-backlog、承诺、进度、决策队列）均为空。选项：① 暂停 cron 节省 token ② 降频至每周 ③ 往系统里写入真实待办后继续
-2. **往 todo-backlog.md 写入真实待办** — 没有输入就没有驾驶舱，系统在空转
-3. **处理外置硬盘挂载问题** — `/Volumes/LIZEYU` 未挂载导致 Conversation Mining 连续 degraded
+1. **决定 Brain OS 系统去留** — 昨天已提出但未拍板。连续 50 天无有效输入，所有源文件为空。今天必须给出结论：① 暂停 cron ② 降频至每周 ③ 写入真实待办后继续
+2. **往 todo-backlog.md 写入至少 3 条真实待办** — 系统空转的根因是零输入。哪怕写"本周想完成什么"都是有效启动
+3. **处理外置硬盘挂载问题** — `/Volumes/LIZEYU` 未挂载导致 Conversation Mining 连续 degraded，已拖两天
 
 ## 二、今天必须推进但不必做完
 
-- [ ] 在 decision-queue.md 记录 Brain OS 去留决策
+- [ ] 在 decision-queue.md 记录 Brain OS 去留决策及结论
 - [ ] 为 W23 设定至少 1 个可验证目标
-- [ ] 审视 cron 每日运行是否值得继续
+- [ ] 审视 cron 每日运行是否值得继续（token 成本 vs 实际收益）
 
 ## 三、今天等待反馈 / 需要催办
 
@@ -27,7 +27,7 @@ type: daily-brief
 
 ## 四、今天需要拍板的事
 
-- **Brain OS cron 去留** — 连续 49 天无有效输入，每日驾驶舱内容重复
+- **Brain OS cron 去留** — 连续 50 天无有效输入，每日驾驶舱内容重复。必须今天决定
 - **对话存档位置** — 迁移到本地 SSD 还是保持外置硬盘？
 
 ## 五、今天可委派的事
@@ -49,16 +49,16 @@ type: daily-brief
 
 ## 八、今日提醒
 
-- **周一 W23** — 真相源空置第 49 天
+- **周二 W23** — 真相源空置第 50 天
 - **知识管道全线 idle**：Article / Conversation / Amplification 连续多日无产出
 - **外置硬盘未挂载**：Conversation Mining 持续 degraded
-- **新月第一天** — 适合做系统层面的决策，而不是继续空转
+- **昨天的决策今天必须落地** — 不要再拖一天
 
 ## 九、🧠 昨日知识信号
 
-> 昨日 nightly digest (2026-05-31) 降级运行：Article Integration 无新增文章，Conversation Mining 因外置硬盘未挂载无数据，Knowledge Amplification 无上游输入。无知识产出，无 research seed。
+> 昨日 nightly digest (2026-06-01) 各模块均处于 pending 或空状态：Article Integration 无新文章，Conversation Mining 无数据，Knowledge Amplification 无上游输入。无知识产出，无 research seed。
 
-[[03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-05-31|查看完整 nightly digest →]]
+[[03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-06-01|查看完整 nightly digest →]]
 
 ---
-*最后更新：2026-06-01 07:00*
+*最后更新：2026-06-02 07:15*
