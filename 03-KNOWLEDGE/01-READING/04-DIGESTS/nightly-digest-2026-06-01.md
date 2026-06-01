@@ -20,8 +20,7 @@ status: draft
 
 ## 02:00 Article Integration
 
-<!-- 由 article-notes-integration pipeline 填写 -->
-*Pending...*
+今日无新文章需要整合。知识库文章笔记状态正常，无待处理项。
 
 ---
 
