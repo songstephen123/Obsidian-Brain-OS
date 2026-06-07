@@ -20,8 +20,12 @@ status: draft
 
 ## 03:00 Conversation Mining
 
-<!-- 由 conversation-knowledge-mining pipeline 填写 -->
-*Pending...*
+**Degraded run — 无对话可挖。**
+
+- 2026-06-07 的对话转录文件不存在（`00-INBOX/ai-conversations/2026-06-07/` 缺失）
+- 原因：外置硬盘未挂载 + 导出脚本需 Python 3.10+（当前 3.9.6）
+- 无 knowledge note、research seed 或 context pack 生成
+- 修复建议：挂载 `/Volumes/LIZEYU/Converstions` 或升级 Python 后手动补跑
 
 ---
 
