@@ -22,8 +22,9 @@ status: draft
 
 ## 02:00 Article Integration
 
-<!-- 由 article-notes-integration pipeline 填写 -->
-*Pending...*
+**No-op.** 扫描 `01-ARTICLE-NOTES/` 目录：仅 1 篇 example note（已 integrated），无新增或待处理文章。无需 index / cross-ref / open-question 更新。
+
+报告：`03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/2026-06-08/article-integration-report-2026-06-08.md`
 
 ---
 
