@@ -30,8 +30,9 @@ status: draft
 
 ## 03:00 Conversation Mining
 
-<!-- 由 conversation-knowledge-mining pipeline 填写 -->
-*Pending...*
+**⚠️ Degraded / No-op.** Preflight 失败：外部卷 `/Volumes/LIZEYU` 未挂载，transcript 目录不可访问，`convs` 工具未安装。0 条会话处理，0 条知识产出。需要挂载外部卷后手动重跑。
+
+报告：`03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/2026-06-08/conversation-mining-report-2026-06-08.md`
 
 ---
 
