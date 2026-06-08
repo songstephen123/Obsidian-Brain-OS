@@ -3,7 +3,7 @@ title: "Nightly Digest 2026-06-08"
 date: "2026-06-08"
 created: "2026-06-08"
 type: nightly-digest
-status: draft
+status: complete
 ---
 
 # 🌙 Nightly Digest — 2026-06-08
@@ -38,14 +38,17 @@ status: draft
 
 ## 04:00 Knowledge Amplification
 
-<!-- 由 knowledge-flywheel-amplifier pipeline 填写 -->
-*Pending...*
+**No-op.** 上游阶段 02:00 (Article Integration) 和 03:00 (Conversation Mining) 均未产出新知识条目：
+- 02:00：0 新文章，无 cross-ref / index / open-question 更新
+- 03:00：Degraded — 外部卷 `/Volumes/LIZEYU` 未挂载，0 条 transcript 处理
+
+两个上游均为空输入，按 pipeline 规则跳过 amplification 合成，不虚构内容。
 
 ---
 
 ## 今日推荐阅读
 
-<!-- 由 04:00 阶段综合判断后填写 -->
+今日无新知识产出，无推荐阅读。待外部卷挂载且/或新文章入库后，下一轮 digest 将恢复完整 pipeline。
 
 ---
 
