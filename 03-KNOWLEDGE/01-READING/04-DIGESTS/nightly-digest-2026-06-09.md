@@ -26,14 +26,13 @@ status: draft
 
 ## 04:00 Knowledge Amplification
 
-<!-- 由 knowledge-flywheel-amplifier pipeline 填写 -->
-*Pending...*
+**No-op** — 02:00 和 03:00 均无新增信号（无新文章，无对话记录），无法进行跨源汇合。未触发图谱/索引更新，未生成研究种子。
 
 ---
 
 ## 今日推荐阅读
 
-<!-- 由 04:00 阶段综合判断后填写 -->
+今日无新增内容，暂无推荐。待上游信号恢复后自动生成。
 
 ---
 
