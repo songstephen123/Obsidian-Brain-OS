@@ -20,8 +20,7 @@ status: draft
 
 ## 03:00 Conversation Mining
 
-<!-- 由 conversation-knowledge-mining pipeline 填写 -->
-*Pending...*
+**No-op (degraded)** — Transcript volume `/Volumes/LIZEYU/Converstions` 未挂载，2026-06-09 无可用对话记录。`convs` export tool 亦未安装，无法 fallback 导出。无可挖掘信号，跳过知识提取与写入。
 
 ---
 
