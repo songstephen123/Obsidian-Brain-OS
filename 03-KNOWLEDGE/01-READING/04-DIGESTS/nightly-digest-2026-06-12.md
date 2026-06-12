@@ -3,7 +3,7 @@ title: "Nightly Digest 2026-06-12"
 date: "2026-06-12"
 created: "2026-06-13"
 type: nightly-digest
-status: draft
+status: complete
 ---
 
 # 🌙 Nightly Digest — 2026-06-12
@@ -27,14 +27,13 @@ status: draft
 
 ## 04:00 Knowledge Amplification
 
-<!-- 由 knowledge-flywheel-amplifier pipeline 填写 -->
-*Pending...*
+**No-op.** 两段上游均无信号可汇合：02:00 文章整合为 no-op（0 新增），03:00 对话挖掘报告缺失。未触发跨源主题识别、开放问题更新或深度研究升级。
 
 ---
 
 ## 今日推荐阅读
 
-<!-- 由 04:00 阶段综合判断后填写 -->
+本日无新增高价值内容，跳过推荐。
 
 ---
 
