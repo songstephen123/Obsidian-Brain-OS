@@ -20,8 +20,9 @@ status: complete
 
 ## 03:00 Conversation Mining
 
-<!-- 由 conversation-knowledge-mining pipeline 填写 -->
-*Pending...*
+**No-op (degraded).** 无可用对话转录。外部转录卷 `/Volumes/LIZEYU/Converstions` 未挂载，本地导出工具 `convs.py` 因 Python 版本不兼容（需 3.10+，当前 3.9.6）无法运行。已导出索引仅含至 2026-04-12 的数据。当日本地 Claude 会话日志仅含 2 条自动巡检任务（commit patrol），无可提取知识信号。
+
+**需修复：** 挂载外部转录卷 或 升级 Python ≥ 3.10 以恢复 `convs.py` 导出能力。
 
 ---
 
