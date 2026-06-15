@@ -1,7 +1,7 @@
-# Graph Report - /Users/songstephen/my-brain  (2026-06-11)
+# Graph Report - /Users/songstephen/my-brain  (2026-06-16)
 
 ## Corpus Check
-- Large corpus: 327 files · ~175,684 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.
+- Large corpus: 337 files · ~177,810 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.
 
 ## Summary
 - 143 nodes · 245 edges · 14 communities detected
