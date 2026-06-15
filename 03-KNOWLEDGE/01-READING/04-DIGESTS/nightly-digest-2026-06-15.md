@@ -26,8 +26,13 @@ status: draft
 
 ## 03:00 Conversation Mining
 
-<!-- 由 conversation-knowledge-mining pipeline 填写 -->
-*Pending...*
+**No-op (degraded)。** 昨天对话无法挖掘，零知识产出。外部转录卷 `/Volumes/LIZEYU/Converstions` 未挂载（`/Volumes/` 下只剩系统盘），preflight `transcript_ok=0`；QMD 召回引擎缺失（`missing:qmd`），`qmd_ok=0`；系统 Python 仍为 3.9.6，导出工具链（`convs.py` 需 3.10+）跑不起来；cron 引用的 `~/.openclaw/...` 导出脚本与 mining prompt 在磁盘上已不存在，导出步骤直接跳过。
+
+**没挖出东西，卡在：** 转录源离线 + QMD 缺失 + 导出工具链路径失效，三重前置同时失败。这不是"没有信号"，而是"没有数据"。
+
+**需修复（按优先级）：** ① 挂载转录卷 ② 装回 QMD（`qmd-healthcheck.sh` 通过）③ Python ≥ 3.10 ④ 恢复 `~/.openclaw` 导出脚本。修复后 `preflight.sh` 双 1 再重跑本阶段。
+
+> 机器报告：`03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/2026-06-15/conversation-mining-report-2026-06-15.md`
 
 ---
 
