@@ -1,36 +1,39 @@
 ---
-date: 2026-06-10
-week: W24
-updated: 2026-06-10 07:00
+date: 2026-06-16
+week: W25
+updated: 2026-06-16 07:00
 type: daily-brief
 ---
 
-# 2026-06-10 每日驾驶舱
+# 2026-06-16 每日驾驶舱
 
-> 周三 · W24 · 真相源自 2026-04-13 起未更新（第 58 天）
+> 周二 · W25 · 真相源自 2026-04-13 起未更新（第 64 天）
 
 ## ⚠️ 输入异常声明
 
-所有真相源文件均为空状态：
-- `todo-backlog.md` — 四级待办全空，最后更新 2026-04-13
+所有真相源文件仍为空状态（最后更新 2026-04-13）：
+- `todo-backlog.md` — 四级待办全空
 - `当前承诺事项.md` — 无任何承诺
 - `progress-board.md` — 无推进事项
 - `decision-queue.md` — 无待决策事项
-- `nightly-digest-2026-06-09` — 全线 no-op，无知识产出
+
+另外两点新变化：
+- **驾驶舱空窗 6 天** — 上一次落盘是 2026-06-10，06-11~06-15 连续 6 天未更新（cron 疑似未触发或提交失败）。
+- **管道阻塞今日复测仍存在** — `/Volumes/LIZEYU` 未挂载（仅系统盘）、系统 Python 仍为 3.9.6（< 3.10）。
 
 以下驾驶舱基于"系统空转"现状给出，不含任何虚构待办。
 
 ## 一、今天最重要的 3 件事
 
-1. **给 Brain OS 一个明确结论** — 58 天零输入，cron 每日消耗 token 却无产出。三选一：① 暂停每日 cron ② 降频至每周一 ③ 写入真实待办重新启动
-2. **往 todo-backlog.md 写入至少 3 条本周真实待办** — 系统空转的唯一解药是有输入
-3. **修复知识管道阻塞** — 外置硬盘 `/Volumes/LIZEYU` 未挂载 + Python 3.9.6 不足 3.10，Conversation Mining 连续 degraded
+1. **给 Brain OS 一个明确结论** — 64 天零输入 + 6 天驾驶舱空窗。三选一：① 暂停每日 cron ② 降频至每周一 ③ 写入真实待办重新启动
+2. **解封知识管道（三前置，06-15 起未动）** — ① 挂载 `/Volumes/LIZEYU` ② 装回 QMD ③ Python ≥ 3.10
+3. **往 `todo-backlog.md` 写入至少 3 条本周真实待办** — 空转的唯一解药是有输入
 
 ## 二、今天必须推进但不必做完
 
 - [ ] 在 `decision-queue.md` 写入 Brain OS 去留决策
-- [ ] 为 W24 设定 1 个可验证周目标
-- [ ] 评估 cron token 成本 vs 实际收益，决定是否关停部分任务
+- [ ] 为 W25 设定 1 个可验证周目标
+- [ ] 排查 06-11~06-15 驾驶舱空窗原因（cron 是否触发 / 是否提交失败）
 
 ## 三、今天等待反馈 / 需要催办
 
@@ -38,9 +41,9 @@ type: daily-brief
 
 ## 四、今天需要拍板的事
 
-- **Brain OS 每日 cron 继续还是暂停** — 已连续 58 天零输入，每日驾驶舱内容重复
-- **对话存档位置** — 继续依赖外置硬盘还是迁到本地 SSD？
-- **Python 环境升级** — 是否值得升级到 3.10+ 以解除 Conversation Mining 限制？
+- **Brain OS 每日 cron 继续还是暂停** — 已连续 64 天零输入
+- **对话存档位置** — 继续依赖外置硬盘还是迁到本地 SSD
+- **Python 环境升级** — 是否升级到 3.10+ 以解除 Conversation Mining 限制
 
 ## 五、今天可委派的事
 
@@ -50,7 +53,7 @@ type: daily-brief
 
 - [ ] 往 `00-INBOX/` 放 1 条待读文章或笔记
 - [ ] 在 `todo-backlog.md` 补充本周目标（任意 1 条即可）
-- [ ] 确认 `/Volumes/LIZEYU` 是否已挂载
+- [ ] 确认 `/Volumes/LIZEYU` 是否已挂载（今日复测：未挂载）
 
 ## 七、今天明确不做
 
@@ -61,16 +64,23 @@ type: daily-brief
 
 ## 八、今日提醒
 
-- **周三 W24** — 连续第三天系统空转提醒
-- **知识管道连续 degraded**：Article / Conversation / Amplification 三条线无产出
-- **外置硬盘未挂载**：Conversation Mining 持续受阻
-- **Knowledge Lint 正常**：0 高优 / 0 中优问题，但 DOMAINS 目录为空
+- **周二 W25** — 驾驶舱时隔 6 天再次落盘
+- **知识管道连续 degraded**：Article / Conversation / Amplification 三条线无产出（06-15 digest 全线 no-op）
+- **外置硬盘仍未挂载**：Conversation Mining 持续受阻
+- **Brain OS 空转已达 64 天**，cron 每日消耗 token 却无实质产出
 
 ## 九、🧠 昨日知识信号
 
-> 昨日 nightly digest 全线 no-op：Article Integration 无新文章（0 篇），Conversation Mining degraded（外置硬盘 `/Volumes/LIZEYU` 未挂载），Knowledge Amplification 无上游输入跳过。阻塞修复：挂载 `/Volumes/LIZEYU/Converstions` 或升级 Python 至 3.10+ 后手动补跑。
+> 昨日 nightly digest（2026-06-15）三层全线 no-op，但根因定位清晰，宜作为今日解封依据。
 
-[[03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-06-09|查看完整 nightly digest →]]
+📌 **关键发现**
+- 管道并非"没信号"而是"没数据"——三前置同时失败：转录卷 `/Volumes/LIZEYU` 未挂载、QMD 召回引擎缺失（`missing:qmd`）、系统 Python 3.9.6 不足 `convs.py` 要求的 3.10+。
+- 06-15 新增失效点：`~/.openclaw` 导出脚本与 mining prompt 在磁盘上已不存在，导出步骤直接跳过。
+
+💡 **解封清单（继承自 03:00，今日复测仍未动）**
+- ① 挂载转录卷 `/Volumes/LIZEYU/Converstions` ② 装回 QMD（`qmd-healthcheck.sh` 跑通）③ Python ≥ 3.10 ④ 恢复 `~/.openclaw` 导出脚本 ⑤ 给 Article 侧投喂新 Note。任一频道恢复，明晚即可做跨源汇合。
+
+[[03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-06-15|查看完整 nightly digest →]]
 
 ---
-*最后更新：2026-06-10 07:00*
+*最后更新：2026-06-16 07:00*
