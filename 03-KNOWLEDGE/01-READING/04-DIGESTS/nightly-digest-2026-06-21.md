@@ -22,8 +22,11 @@ status: draft
 
 ## 03:00 Conversation Mining
 
-<!-- 由 conversation-knowledge-mining pipeline 填写 -->
-*Pending...*
+**无对话可挖（degraded / no-op）。** 昨天的对话无法沉淀：存放 AI 对话转录的外置硬盘 `/Volumes/LIZEYU` 今晨未挂载（`/Volumes/` 下只剩系统盘），QMD 召回引擎也未安装。三重阻断同时发生，连候选集都无法形成，所以没有产出任何知识笔记或 research seed。
+
+> 卡在哪里：① 外置转录盘没挂载 ② qmd 召回层缺失 ③ nightly 导出脚本工具链不存在（`~/.openclaw` 目录已不在）。这与 06-15 起的连续几次状态一致，非本次突发。
+
+> 值得看：否。需先恢复转录源（挂载盘 → 修复 qmd → 还原 export 工具链 → 重跑 preflight 至全绿），这一步才会有真实产出。不会为凑数编造信号。
 
 ---
 
