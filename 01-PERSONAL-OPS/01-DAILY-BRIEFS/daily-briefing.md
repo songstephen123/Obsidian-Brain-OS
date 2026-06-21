@@ -1,39 +1,39 @@
 ---
-date: 2026-06-16
-week: W25
-updated: 2026-06-16 07:00
+date: 2026-06-22
+week: W26
+updated: 2026-06-22 07:00
 type: daily-brief
 ---
 
-# 2026-06-16 每日驾驶舱
+# 2026-06-22 每日驾驶舱
 
-> 周二 · W25 · 真相源自 2026-04-13 起未更新（第 64 天）
+> 周一 · W26 · 真相源自 2026-04-13 起空置 **70 天**（全四源仍为「暂无」）
 
 ## ⚠️ 输入异常声明
 
-所有真相源文件仍为空状态（最后更新 2026-04-13）：
-- `todo-backlog.md` — 四级待办全空
+四份真相源文件仍未写入任何内容（最后更新 2026-04-13，至今 70 天）：
+- `todo-backlog.md` — 四级待办全空（P0/P1/P2/P3 均无）
 - `当前承诺事项.md` — 无任何承诺
 - `progress-board.md` — 无推进事项
-- `decision-queue.md` — 无待决策事项
+- `decision-queue.md` — 无待决策事项（W24 要求的去留决策仍未落地）
 
-另外两点新变化：
-- **驾驶舱空窗 6 天** — 上一次落盘是 2026-06-10，06-11~06-15 连续 6 天未更新（cron 疑似未触发或提交失败）。
-- **管道阻塞今日复测仍存在** — `/Volumes/LIZEYU` 未挂载（仅系统盘）、系统 Python 仍为 3.9.6（< 3.10）。
+两点新变化（相比 06-16 上次落盘）：
+- **驾驶舱空窗 5 天（06-17~06-21）后今日复跑** — 但同期其它 cron 正常：W26 周计划今日 05:10 落盘、知识图谱今日更新、conversation mining / amplifier 报告 06-21 正常产出。**说明不是全局 cron 挂了，是 07:00 驾驶舱这条任务本身间歇性失败。**
+- **W26 周计划已第 4 次提醒 Brain OS 去留决策**，本周排期明确要求落地，今天是周一首日，是天然决策点。
 
-以下驾驶舱基于"系统空转"现状给出，不含任何虚构待办。
+以下驾驶舱基于「系统空转 + 驾驶舱 cron 局部失败」现状给出，不含任何虚构待办。
 
 ## 一、今天最重要的 3 件事
 
-1. **给 Brain OS 一个明确结论** — 64 天零输入 + 6 天驾驶舱空窗。三选一：① 暂停每日 cron ② 降频至每周一 ③ 写入真实待办重新启动
-2. **解封知识管道（三前置，06-15 起未动）** — ① 挂载 `/Volumes/LIZEYU` ② 装回 QMD ③ Python ≥ 3.10
-3. **往 `todo-backlog.md` 写入至少 3 条本周真实待办** — 空转的唯一解药是有输入
+1. **给 Brain OS 一个明确结论并写入 `decision-queue.md`** — 70 天零输入 + W24 决策未落地 + 第 4 次提醒。三选一：① 写入真实待办重新启动 ② 降频至每周一 ③ 关闭每日空转 cron。**今天是 W26 开局，最适合拍板。**
+2. **排查 07:00 驾驶舱 cron 为何 06-17~06-21 连续失败** — 其它 cron 同期正常，根因缩窄到本任务：crontab 条目是否被删 / wrapper 是否报错 / 提交是否静默失败。这是今日唯一可独立完成、不依赖决策的硬动作。
+3. **若选「继续」→ 立刻往 `todo-backlog.md` 写 ≥3 条本周真实待办**；**若选「降频/暂停」→ 改 schedule 或禁用本 cron**。空转的唯一解药是「有输入」或「不跑」，二选一，不留中间态。
 
 ## 二、今天必须推进但不必做完
 
-- [ ] 在 `decision-queue.md` 写入 Brain OS 去留决策
-- [ ] 为 W25 设定 1 个可验证周目标
-- [ ] 排查 06-11~06-15 驾驶舱空窗原因（cron 是否触发 / 是否提交失败）
+- [ ] 在 `decision-queue.md` 写入 Brain OS 去留决策（继续 / 降频 / 暂停），不再留空
+- [ ] 查 `~/.claude/scripts/brain-os-cron-wrapper.sh` 与 crontab 中 07:00 条目，定位驾驶舱空窗根因
+- [ ] 若「继续」：为 W26 设 1 个可验证周目标并写入 `todo-backlog.md`
 
 ## 三、今天等待反馈 / 需要催办
 
@@ -41,9 +41,9 @@ type: daily-brief
 
 ## 四、今天需要拍板的事
 
-- **Brain OS 每日 cron 继续还是暂停** — 已连续 64 天零输入
-- **对话存档位置** — 继续依赖外置硬盘还是迁到本地 SSD
-- **Python 环境升级** — 是否升级到 3.10+ 以解除 Conversation Mining 限制
+- **Brain OS 每日 cron：继续 / 降频（每周一）/ 暂停** — 已连续 70 天零输入，第 4 次提醒，今天必须落地进 `decision-queue.md`
+- **对话存档位置** — 继续依赖外置硬盘 `/Volumes/LIZEYU` 还是迁到本地 SSD（见知识信号：LIZEYU 已连续多周未挂载）
+- **Python 环境是否升级到 3.10+** — Conversation Mining 依赖，已 degraded 多周
 
 ## 五、今天可委派的事
 
@@ -51,36 +51,38 @@ type: daily-brief
 
 ## 六、低能量时可做的小事
 
-- [ ] 往 `00-INBOX/` 放 1 条待读文章或笔记
-- [ ] 在 `todo-backlog.md` 补充本周目标（任意 1 条即可）
-- [ ] 确认 `/Volumes/LIZEYU` 是否已挂载（今日复测：未挂载）
+- [ ] 往 `00-INBOX/web` 或 `01-ARTICLE-NOTES/` 放 1 篇文章（Article 侧已连续 5 天无输入）
+- [ ] 在 `todo-backlog.md` 补充任意 1 条本周真实待办
+- [ ] 确认 `/Volumes/LIZEYU` 是否已挂载（昨日复测：未挂载）
 
 ## 七、今天明确不做
 
 - 大规模内容迁移
-- 新建额外副本或备份
+- 新建额外 cron 任务或副本文件
 - 恢复已关闭的云文档同步
 - 在空待办池上假装系统运转正常
+- 把已完成的 Agora MVP 重新写成当前主任务
 
 ## 八、今日提醒
 
-- **周二 W25** — 驾驶舱时隔 6 天再次落盘
-- **知识管道连续 degraded**：Article / Conversation / Amplification 三条线无产出（06-15 digest 全线 no-op）
-- **外置硬盘仍未挂载**：Conversation Mining 持续受阻
-- **Brain OS 空转已达 64 天**，cron 每日消耗 token 却无实质产出
+- **周一 W26 开局** — 驾驶舱时隔 5 天（06-17~06-21）再次落盘；本周首日是 Brain OS 去留决策的天然拍板点
+- **驾驶舱 cron 局部失败已定位**：不是全局 cron 挂了，只有 07:00 驾驶舱这条 06-17~06-21 失败，其它 cron 正常
+- **知识管道连续 degraded**：Article / Conversation / Amplifier 三条线 06-21 全线 no-op（根因同 06-15：LIZEYU 未挂载 + QMD 缺失 + `~/.openclaw` 导出脚本链不在）
+- **Brain OS 空转已达 70 天**，每日 cron 消耗 token 却无实质输入
 
 ## 九、🧠 昨日知识信号
 
-> 昨日 nightly digest（2026-06-15）三层全线 no-op，但根因定位清晰，宜作为今日解封依据。
+> 昨日 nightly digest（2026-06-21）三条夜间流水线全线 no-op，非工具链新故障，是上游持续空置的结果——根因已完全锁定。
 
 📌 **关键发现**
-- 管道并非"没信号"而是"没数据"——三前置同时失败：转录卷 `/Volumes/LIZEYU` 未挂载、QMD 召回引擎缺失（`missing:qmd`）、系统 Python 3.9.6 不足 `convs.py` 要求的 3.10+。
-- 06-15 新增失效点：`~/.openclaw` 导出脚本与 mining prompt 在磁盘上已不存在，导出步骤直接跳过。
+- **不是「没信号」是「没数据」**：Article 侧第 5 个连续 no-op，且无工具链故障，纯粹是 inbox / `01-ARTICLE-NOTES/` 没有源材料；Conversation 侧三重阻断同时存在——转录卷 `/Volumes/LIZEYU` 未挂载、QMD 召回引擎缺失、`~/.openclaw` 导出脚本链已不在磁盘。
+- amplifier 在候选集为空时**正确地**选择不改图、不编造综合、不自动升级深研——这是设计内的正确状态，不是「漏跑」。
 
-💡 **解封清单（继承自 03:00，今日复测仍未动）**
-- ① 挂载转录卷 `/Volumes/LIZEYU/Converstions` ② 装回 QMD（`qmd-healthcheck.sh` 跑通）③ Python ≥ 3.10 ④ 恢复 `~/.openclaw` 导出脚本 ⑤ 给 Article 侧投喂新 Note。任一频道恢复，明晚即可做跨源汇合。
+💡 **灵感 / 待跟进**
+- 解封杠杆已极清晰且可逐条验证：① 挂载 `/Volumes/LIZEYU` ② 装回 QMD（`qmd-healthcheck.sh` 跑通）③ Python ≥ 3.10 ④ 恢复 `~/.openclaw` 导出脚本 ⑤ 给 Article 侧投喂任意 1 篇 Note。**任一频道恢复，明晚 digest 即有真实产出并可做跨源汇合。**
+- 触发深研：否（无候选达到「高价值主题 + 内部上下文 + 问题足够窄」门槛）。
 
-[[03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-06-15|查看完整 nightly digest →]]
+[[03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-06-21|查看完整 nightly digest →]]
 
 ---
-*最后更新：2026-06-16 07:00*
+*最后更新：2026-06-22 07:00*
