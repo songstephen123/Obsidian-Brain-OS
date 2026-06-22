@@ -121,7 +121,7 @@ if [[ -d "$BRAIN/.git" ]]; then
   ok "Brain OS already cloned at $BRAIN"
   cd "$BRAIN" && git pull --ff-only 2>/dev/null || warn "Could not git pull (dirty tree?)"
 else
-  git clone https://github.com/FairladyZ625/Obsidian-Brain-OS.git "$BRAIN"
+  git clone https://github.com/songstephen123/Obsidian-Brain-OS.git "$BRAIN"
   ok "Cloned to $BRAIN"
 fi
 
