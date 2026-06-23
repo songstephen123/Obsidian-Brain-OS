@@ -1,38 +1,37 @@
 ---
-date: 2026-06-22
+date: 2026-06-23
 week: W26
-updated: 2026-06-22 07:00
+updated: 2026-06-23 07:00
 type: daily-brief
 ---
 
-# 2026-06-22 每日驾驶舱
+# 2026-06-23 每日驾驶舱
 
-> 周一 · W26 · 真相源自 2026-04-13 起空置 **70 天**（全四源仍为「暂无」）
+> 周二 · W26 第 2 天 · 真相源自 2026-04-13 起空置 **71 天**（全四源仍为「暂无」）
 
 ## ⚠️ 输入异常声明
 
-四份真相源文件仍未写入任何内容（最后更新 2026-04-13，至今 70 天）：
+四份真相源文件仍未写入任何内容（最后更新 2026-04-13，至今 71 天）：
 - `todo-backlog.md` — 四级待办全空（P0/P1/P2/P3 均无）
 - `当前承诺事项.md` — 无任何承诺
 - `progress-board.md` — 无推进事项
 - `decision-queue.md` — 无待决策事项（W24 要求的去留决策仍未落地）
 
-两点新变化（相比 06-16 上次落盘）：
-- **驾驶舱空窗 5 天（06-17~06-21）后今日复跑** — 但同期其它 cron 正常：W26 周计划今日 05:10 落盘、知识图谱今日更新、conversation mining / amplifier 报告 06-21 正常产出。**说明不是全局 cron 挂了，是 07:00 驾驶舱这条任务本身间歇性失败。**
-- **W26 周计划已第 4 次提醒 Brain OS 去留决策**，本周排期明确要求落地，今天是周一首日，是天然决策点。
-
-以下驾驶舱基于「系统空转 + 驾驶舱 cron 局部失败」现状给出，不含任何虚构待办。
+**今日新变化（相比 06-22 落盘）**：
+- **机器迁移已落地**：`4c063bd feat: one-shot migration script for new machine setup` + `1f8bdb6 fix: update clone URL to songstephen123`。昨日 06-22 驾驶舱 cron 已恢复（即「空窗 5 天后复跑」）—— **空窗根因自然闭环**，不是手动修复的，是迁移完成后自然恢复。
+- **但夜间知识流水线未自愈**：06-22 nightly digest 中 02:00 Article / 03:00 Conversation / 04:00 Amplifier 三个 section 均为 `*Pending...*` 占位符，只有 01:00 Knowledge Lint 跑通且 0 问题。说明迁移后 cron 基础设施 OK，但三条上游 pipeline 的工具链依赖（LIZEYU / QMD / `~/.openclaw`）仍未恢复。
+- **Brain OS 去留决策仍未写入 `decision-queue.md`** —— 昨日已要求今天落地，**第 5 次提醒**。
 
 ## 一、今天最重要的 3 件事
 
-1. **给 Brain OS 一个明确结论并写入 `decision-queue.md`** — 70 天零输入 + W24 决策未落地 + 第 4 次提醒。三选一：① 写入真实待办重新启动 ② 降频至每周一 ③ 关闭每日空转 cron。**今天是 W26 开局，最适合拍板。**
-2. **排查 07:00 驾驶舱 cron 为何 06-17~06-21 连续失败** — 其它 cron 同期正常，根因缩窄到本任务：crontab 条目是否被删 / wrapper 是否报错 / 提交是否静默失败。这是今日唯一可独立完成、不依赖决策的硬动作。
-3. **若选「继续」→ 立刻往 `todo-backlog.md` 写 ≥3 条本周真实待办**；**若选「降频/暂停」→ 改 schedule 或禁用本 cron**。空转的唯一解药是「有输入」或「不跑」，二选一，不留中间态。
+1. **在 `decision-queue.md` 写入 Brain OS 去留决策** — 71 天零输入 + 第 5 次提醒。三选一：① 继续每日 → 立即填真实待办 ② 降频每周一 ③ 暂停每日 cron。今日必须落进 `decision-queue.md`，不能再推迟。
+2. **复检新机器夜间知识流水线** — 迁移已完成，但 06-22 digest 三 section 仍 `Pending...`。逐条验证：`/Volumes/LIZEYU` 挂载？QMD 是否装回？`~/.openclaw` 导出脚本链是否随迁移过来？Python ≥ 3.10？这是迁移后第一波真实回归测试。
+3. **若选「继续」→ 往 `todo-backlog.md` 写 ≥3 条本周真实待办**；**若选「降频/暂停」→ 改 schedule 或禁用本 cron**。空转的唯一解药是「有输入」或「不跑」，不留中间态。
 
 ## 二、今天必须推进但不必做完
 
 - [ ] 在 `decision-queue.md` 写入 Brain OS 去留决策（继续 / 降频 / 暂停），不再留空
-- [ ] 查 `~/.claude/scripts/brain-os-cron-wrapper.sh` 与 crontab 中 07:00 条目，定位驾驶舱空窗根因
+- [ ] 手动触发一次 `conversation-knowledge-mining` / `article-notes-integration` / `knowledge-flywheel-amplifier`，观察迁移后是否能正常落盘
 - [ ] 若「继续」：为 W26 设 1 个可验证周目标并写入 `todo-backlog.md`
 
 ## 三、今天等待反馈 / 需要催办
@@ -41,8 +40,8 @@ type: daily-brief
 
 ## 四、今天需要拍板的事
 
-- **Brain OS 每日 cron：继续 / 降频（每周一）/ 暂停** — 已连续 70 天零输入，第 4 次提醒，今天必须落地进 `decision-queue.md`
-- **对话存档位置** — 继续依赖外置硬盘 `/Volumes/LIZEYU` 还是迁到本地 SSD（见知识信号：LIZEYU 已连续多周未挂载）
+- **Brain OS 每日 cron：继续 / 降频（每周一）/ 暂停** — 71 天零输入，第 5 次提醒，今日必须落地进 `decision-queue.md`
+- **对话存档位置** — 迁移到新机器后，继续依赖外置 `/Volumes/LIZEYU` 还是迁到本地 SSD（昨日复测：未挂载）
 - **Python 环境是否升级到 3.10+** — Conversation Mining 依赖，已 degraded 多周
 
 ## 五、今天可委派的事
@@ -51,9 +50,9 @@ type: daily-brief
 
 ## 六、低能量时可做的小事
 
-- [ ] 往 `00-INBOX/web` 或 `01-ARTICLE-NOTES/` 放 1 篇文章（Article 侧已连续 5 天无输入）
+- [ ] 往 `00-INBOX/web` 或 `01-ARTICLE-NOTES/` 放 1 篇文章（Article 侧已连续 7+ 天无输入）
 - [ ] 在 `todo-backlog.md` 补充任意 1 条本周真实待办
-- [ ] 确认 `/Volumes/LIZEYU` 是否已挂载（昨日复测：未挂载）
+- [ ] 确认 `/Volumes/LIZEYU` 是否已挂载
 
 ## 七、今天明确不做
 
@@ -65,24 +64,24 @@ type: daily-brief
 
 ## 八、今日提醒
 
-- **周一 W26 开局** — 驾驶舱时隔 5 天（06-17~06-21）再次落盘；本周首日是 Brain OS 去留决策的天然拍板点
-- **驾驶舱 cron 局部失败已定位**：不是全局 cron 挂了，只有 07:00 驾驶舱这条 06-17~06-21 失败，其它 cron 正常
-- **知识管道连续 degraded**：Article / Conversation / Amplifier 三条线 06-21 全线 no-op（根因同 06-15：LIZEYU 未挂载 + QMD 缺失 + `~/.openclaw` 导出脚本链不在）
-- **Brain OS 空转已达 70 天**，每日 cron 消耗 token 却无实质输入
+- **周二 W26 第 2 天** — 驾驶舱昨天（06-22）已恢复，迁移空窗根因自然闭环
+- **迁移已完成但知识流水线未自愈**：06-22 nightly digest 中 02:00/03:00/04:00 全 `*Pending...*`，今日需复检工具链
+- **Brain OS 空转已达 71 天**，每日 cron 消耗 token 却无实质输入
 
 ## 九、🧠 昨日知识信号
 
-> 昨日 nightly digest（2026-06-21）三条夜间流水线全线 no-op，非工具链新故障，是上游持续空置的结果——根因已完全锁定。
+> 昨日 nightly digest（2026-06-22）只有 01:00 Knowledge Lint 跑通且 0 问题，其余三个 section（Article / Conversation / Amplifier）均显示 `*Pending...*` —— 是迁移后工具链未自愈，不是新故障。
 
 📌 **关键发现**
-- **不是「没信号」是「没数据」**：Article 侧第 5 个连续 no-op，且无工具链故障，纯粹是 inbox / `01-ARTICLE-NOTES/` 没有源材料；Conversation 侧三重阻断同时存在——转录卷 `/Volumes/LIZEYU` 未挂载、QMD 召回引擎缺失、`~/.openclaw` 导出脚本链已不在磁盘。
-- amplifier 在候选集为空时**正确地**选择不改图、不编造综合、不自动升级深研——这是设计内的正确状态，不是「漏跑」。
+- **Knowledge Lint 通过且无新问题**：结构健康正常，🔴 0 / 🟡 0 / 🔵 0。仅低优先级提示 `01-DOMAINS` 空、`02-WORKING` 仍是 2 篇，与 06-08 一致 —— 上游 pipeline 未沉淀新内容。
+- **迁移后夜间三阶段未填充**：02:00 Article / 03:00 Conversation / 04:00 Amplifier 在 06-22 digest 中均显示 `*Pending...*`，是注释占位符，说明对应 cron 没跑或跑了没写入。需要今日复检 wrapper / crontab / 工具链。
+- **不再是「全局 cron 挂了」**：01:00 Knowledge Lint 正常落盘 → cron 基础设施在新机器上 OK，问题缩窄到三条夜间 pipeline 自身的工具链依赖。
 
 💡 **灵感 / 待跟进**
-- 解封杠杆已极清晰且可逐条验证：① 挂载 `/Volumes/LIZEYU` ② 装回 QMD（`qmd-healthcheck.sh` 跑通）③ Python ≥ 3.10 ④ 恢复 `~/.openclaw` 导出脚本 ⑤ 给 Article 侧投喂任意 1 篇 Note。**任一频道恢复，明晚 digest 即有真实产出并可做跨源汇合。**
-- 触发深研：否（无候选达到「高价值主题 + 内部上下文 + 问题足够窄」门槛）。
+- 今日可一次性验证迁移后工具链：① `/Volumes/LIZEYU` 挂载状态 ② QMD 健康检查 `qmd-healthcheck.sh` ③ Python 版本 ≥ 3.10 ④ `~/.openclaw` 导出脚本是否随迁移过来 ⑤ Article 侧投喂任意 1 篇 Note 触发 02:00。
+- 触发深研：否（无候选）。
 
-[[03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-06-21|查看完整 nightly digest →]]
+[[03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-06-22|查看完整 nightly digest →]]
 
 ---
-*最后更新：2026-06-22 07:00*
+*最后更新：2026-06-23 07:00*
