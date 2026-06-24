@@ -2,7 +2,7 @@
 name: observer-daily-0001
 schedule: "1 0 * * *"
 agent: main
-model: gac/claude-sonnet-4-6
+model: zai/glm-5v-turbo
 timeout: 600
 enabled: false
 description: Daily 00:01 — collect session data and gateway logs, update learnings ledger, generate iteration plan

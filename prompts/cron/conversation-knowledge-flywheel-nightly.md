@@ -2,7 +2,7 @@
 name: conversation-knowledge-flywheel-nightly
 schedule: "0 3 * * *"
 agent: unknown
-model: openai-codex/gpt-5.4
+model: zai/glm-5v-turbo
 enabled: false
 description: Superseded by split nightly pipeline: 02 article integration, 03 conversation mining, 04 amplifier
 delivery_mode: none
