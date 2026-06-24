@@ -195,7 +195,7 @@ Before marking as done:
 
 - **Use it yourself**: Actually interact with the feature
 - **Test on real devices**: Not just browser DevTools
-- **Ask someone else to review**: Fresh e/Users/songstephen/my-brain catch things
+- **Ask someone else to review**: Fresh eyes catch things
 - **Compare to design**: Match intended design
 - **Check all states**: Don't just test happy path
 

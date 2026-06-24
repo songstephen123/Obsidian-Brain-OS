@@ -23,7 +23,7 @@ Analyze what's weak about the current spatial design:
    - Are related elements grouped tightly, with generous space between groups?
 
 2. **Visual hierarchy**:
-   - Apply the squint test: blur your (metaphorical) e/Users/songstephen/my-brain — can you still identify the most important element, second most important, and clear groupings?
+   - Apply the squint test: blur your (metaphorical) eyes — can you still identify the most important element, second most important, and clear groupings?
    - Is hierarchy achieved effectively? (Space and weight alone can be enough — but is the current approach working?)
    - Does whitespace guide the eye to what matters?
 

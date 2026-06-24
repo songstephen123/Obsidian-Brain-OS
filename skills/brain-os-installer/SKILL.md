@@ -106,7 +106,7 @@ bash setup.sh
 ```bash
 # 非交互式运行示例（AI 代为执行）
 BRAIN_PATH="$HOME/my-brain" \
-USER_NAME="songstephen" \
+USER_NAME="oao" \
 TIMEZONE="Asia/Shanghai" \
 SKILLS_PATH="$HOME/.agents/skills" \
 bash setup.sh --non-interactive 2>&1

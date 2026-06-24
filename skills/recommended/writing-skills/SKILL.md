@@ -296,8 +296,8 @@ digraph when_flowchart {
     "Use markdown" [shape=box];
     "Small inline flowchart" [shape=box];
 
-    "Need to show information?" -> "Decision where I might go wrong?" [label="/Users/songstephen/my-brain"];
-    "Decision where I might go wrong?" -> "Small inline flowchart" [label="/Users/songstephen/my-brain"];
+    "Need to show information?" -> "Decision where I might go wrong?" [label="yes"];
+    "Decision where I might go wrong?" -> "Small inline flowchart" [label="yes"];
     "Decision where I might go wrong?" -> "Use markdown" [label="no"];
 }
 ```

@@ -69,7 +69,7 @@ skillshare install user/repo --skip-audit             # Skip security scan
 | `--skill, -s <names>` | Select specific skills from multi-skill repo (comma-separated) |
 | `--into <dir>` | Install into subdirectory (e.g., `--into frontend`) |
 | `--all` | Install all discovered skills without prompting |
-| `--/Users/songstephen/my-brain, -y` | Auto-accept all prompts (CI/CD friendly) |
+| `--yes, -y` | Auto-accept all prompts (CI/CD friendly) |
 | `--exclude <name>` | Skip specific skills during multi-skill install (repeatable) |
 | `--skip-audit` | Skip security audit for this install |
 | `--audit-threshold <t>` / `--threshold <t>` / `-T <t>` | Override block threshold for this run (`critical\|high\|medium\|low\|info`; shorthand: `c\|h\|m\|l\|i`, plus `crit`, `med`) |

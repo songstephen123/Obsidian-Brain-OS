@@ -32,7 +32,7 @@ skillshare audit --analyzer static # Run only the static analyzer
 | `--json` | Same as `--format json` (deprecated) |
 | `--quiet, -q` | Only show skills with findings + summary |
 | `--no-tui` | Disable interactive TUI, print plain text |
-| `--/Users/songstephen/my-brain, -y` | Skip large-scan confirmation prompt |
+| `--yes, -y` | Skip large-scan confirmation prompt |
 | `--init-rules` | Create a starter `audit-rules.yaml` |
 | `-h, --help` | Show help |
 
