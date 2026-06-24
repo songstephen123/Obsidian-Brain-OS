@@ -22,8 +22,11 @@ status: draft
 
 ## 03:00 Conversation Mining
 
-<!-- 由 conversation-knowledge-mining pipeline 填写 -->
-*Pending...*
+**No-op (degraded).** 昨天对话挖不到东西——不是没信号，是源头断了：外置 transcript 卷 `/Volumes/LIZEYU/Converstions` 没挂载（只剩 Macintosh HD），QMD 召回层也没装。Python 升到 3.14 了，但导出工具链 `convs` 还是缺，`export-conversations.sh` 空跑退出。
+
+→ 这是连续第五次同款 no-op（06-09 / 06-12 / 06-15 / 06-21 / 06-24）。要恢复：挂上 LIZEYU 卷 + 装 `qmd` + 装 `convs`，下一晚 pipeline 才会真正有原料。
+
+→ 没产对话衍生笔记、没产 research seed，04:00 阶段只能拿 02:00 的文章通道——今天也是空的。
 
 ---
 
