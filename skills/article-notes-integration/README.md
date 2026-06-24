@@ -19,7 +19,7 @@ This skill isolates the article side so the nightly system becomes easier to:
 ## Ownership
 
 This skill owns:
-- scanning /Users/songstephen/my-brainterday's new article notes
+- scanning yesterday's new article notes
 - re-checking pending article notes
 - updating article relation / integration metadata
 - updating lightweight topic/index surfaces
@@ -34,11 +34,11 @@ This skill does **not** own:
 ## Inputs
 
 Primary source:
-- `/Users/songstephen/my-brain/03-KNOWLEDGE/01-DOMAINS/Article-Notes/`
+- `/Users/oao/my-brain/03-KNOWLEDGE/01-DOMAINS/Article-Notes/`
 
 Context sources:
-- `/Users/songstephen/my-brain/03-KNOWLEDGE/06-INDEXES/`
-- `/Users/songstephen/my-brain/05-PROJECTS/`
+- `/Users/oao/my-brain/03-KNOWLEDGE/06-INDEXES/`
+- `/Users/oao/my-brain/05-PROJECTS/`
 
 ## Outputs
 

@@ -73,7 +73,7 @@ type: daily-brief
 
 <!-- 今天要看的知识库内容，从 03-KNOWLEDGE/01-READING/04-DIGESTS/ 取 -->
 
-- `03-KNOWLEDGE/01-READING/04-DIGESTS/2026-04-06-nightly-digest.md` — /Users/songstephen/my-brainterday's knowledge pipeline output
+- `03-KNOWLEDGE/01-READING/04-DIGESTS/2026-04-06-nightly-digest.md` — yesterday's knowledge pipeline output
 - `07-WORK-CONTEXT/02-DECISIONS/2026-04-05-api-versioning-strategy.md` — context for PR #47 decision
 
 ---

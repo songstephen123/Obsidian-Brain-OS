@@ -5,7 +5,7 @@
 set -euo pipefail
 
 BRAIN_ROOT="${1:-${BRAIN_PATH:-./vault-template}}"
-TARGET_DATE="${2:-$(date -v-1d +%Y-%m-%d 2>/dev/null || date -d '/Users/oao/my-brainterday' +%Y-%m-%d)}"
+TARGET_DATE="${2:-$(date -v-1d +%Y-%m-%d 2>/dev/null || date -d 'yesterday' +%Y-%m-%d)}"
 CREATED_DATE="$(date +%Y-%m-%d)"
 DIGEST_DIR="$BRAIN_ROOT/03-KNOWLEDGE/01-READING/04-DIGESTS"
 REPORT_DIR="$BRAIN_ROOT/03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/$TARGET_DATE"

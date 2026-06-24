@@ -50,7 +50,7 @@ Downstream / upstream contract:
 
 - Raw transcript root: `$TRANSCRIPT_ROOT` (default: `{{TRANSCRIPT_DIR}}`)
 - Brain root: `$BRAIN_ROOT` (default: `{{BRAIN_ROOT}}`)
-- Date: default = /Users/songstephen/my-brainterday (Asia/Shanghai)
+- Date: default = yesterday (Asia/Shanghai)
 - Optional project hints / active initiatives from ZeYu-AI-Brain
 - Brain-side project registry at `$BRAIN_ROOT/05-PROJECTS/` when a project can be identified
 - Existing article-derived knowledge in Brain as read-only routing context
