@@ -2,7 +2,7 @@
 name: chronicle-every-2h-log
 schedule: "0 */2 * * *"
 agent: chronicle
-model: minimax/MiniMax-M2.7-highspeed
+model: zai/glm-5v-turbo
 enabled: true
 description: 史官每2小时记录人民大会堂、codexmain 与 3 个私频历史，按频道分节写入同日日志并通知 Writer 追加落库
 delivery_mode: webhook

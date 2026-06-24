@@ -2,7 +2,7 @@
 name: knowledgebase-commit-patrol-30m
 schedule: "every"
 agent: review
-model: minimax/MiniMax-M2.7-highspeed
+model: zai/glm-5v-turbo
 enabled: true
 description: 每30分钟巡检 Brain OS，自动补提交未提交改动，确保 Obsidian 可见
 delivery_mode: webhook

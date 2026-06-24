@@ -2,7 +2,7 @@
 name: graphify-nightly-0600
 schedule: "daily"
 agent: review
-model: minimax/MiniMax-M2.7-highspeed
+model: zai/glm-5.1
 enabled: true
 description: 每天 06:00 对 Brain OS 全局运行 Graphify，构建并更新知识图谱
 delivery_mode: webhook

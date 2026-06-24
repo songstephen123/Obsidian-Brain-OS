@@ -2,7 +2,7 @@
 name: personal-ops-todo-reminder-2000
 schedule: "0 20 * * *"
 agent: main
-model: minimax/MiniMax-M2.7-highspeed
+model: zai/glm-5v-turbo
 enabled: true
 description: 每天 20:00 待办晚间跟进提醒
 delivery_mode: webhook
