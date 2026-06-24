@@ -1,4 +1,4 @@
-# Graph Report - /Users/songstephen/my-brain  (2026-06-22)
+# Graph Report - /Users/oao/my-brain  (2026-06-22)
 
 ## Corpus Check
 - Large corpus: 350 files · ~182,372 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.
