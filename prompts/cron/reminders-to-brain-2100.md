@@ -23,15 +23,15 @@ enabled: true
    - `overdue=N`：过期未完成事项数
    - `OVERDUE_ITEMS:` 后面的具体事项列表
 
-3. 如果有过期未完成事项（overdue > 0），在 Discord 频道 `1489420974058246206` 向{{USER_NAME}}追问：
-   > {{USER_NAME}}，以下事项在提醒事项里已过期但未标记完成，请确认：
+3. 如果有过期未完成事项（overdue > 0），在 Discord 频道 `1489420974058246206` 向oao追问：
+   > oao，以下事项在提醒事项里已过期但未标记完成，请确认：
    > - [事项名]
    > 是忘记点完成了，还是确实还没做？
 
 4. 读取今日同步报告：`01-PERSONAL-OPS/05-OPS-LOGS/reminders-sync-YYYY-MM-DD.md`
 
 5. 将已完成事项与 `00-INBOX/todo-backlog.md` 交叉比对：
-   - 如果提醒事项里标记完成，但 Brain 里还是待办状态 → 在 Discord 提示{{USER_NAME}}确认是否可以在 Brain 里也标记完成
+   - 如果提醒事项里标记完成，但 Brain 里还是待办状态 → 在 Discord 提示oao确认是否可以在 Brain 里也标记完成
 
 ## 成功标准
 

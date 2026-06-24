@@ -45,7 +45,7 @@ delivery_mode: webhook
 8. 输出风格：
    - 简洁、能执行、少空话
    - 先讲最关键的硬事
-   - 让{{USER_NAME}}一眼看到今天该盯什么
+   - 让oao一眼看到今天该盯什么
 9. 完成后直接写入目标文件；如果发现输入文件不存在或结构异常，要在文件里明确写出异常，不要假装成功。
 10. 写入完成后，必须到知识库仓库提交本次修改：
    - `git add 01-PERSONAL-OPS/01-DAILY-BRIEFS/daily-briefing.md`
@@ -61,7 +61,7 @@ delivery_mode: webhook
      - 若有 NotebookLM research seed 候选，额外加一行标注 🔬 **Research Seed**
    - 末尾固定一行 wikilink 跳回原文：`[[03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-YYYY-MM-DD|查看完整 nightly digest →]]`
    - 若文件不存在或无有效内容：写一行 `> 昨日 nightly digest 尚未生成或无有效信号`，不要报错或跳过这个模块
-   - 风格要求：精炼，3-5 条，不复制全文，让{{USER_NAME}}一眼看到 AI 系统昨天挖了什么
+   - 风格要求：精炼，3-5 条，不复制全文，让oao一眼看到 AI 系统昨天挖了什么
 
 补充口径：
 - `todo-backlog.md` 是待办真相源。

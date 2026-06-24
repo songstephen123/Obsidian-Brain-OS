@@ -20,7 +20,7 @@ Handoff rules:
 - If there are no new/pending article notes, still write a no-op machine report and a concise digest section.
 
 Digest writing rules:
-- 只写{{USER_NAME}}看得懂的结果，不写技术流水账
+- 只写oao看得懂的结果，不写技术流水账
 - 只回答：处理了什么 / 有没有新增 topic 或 open question / 值不值得看 / 如果 no-op 为什么
 - 不要把机器调试细节塞进 digest
 

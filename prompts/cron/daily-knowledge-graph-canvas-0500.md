@@ -12,7 +12,7 @@ delivery_mode: webhook
 每日知识图谱生成任务（05:00）。
 
 步骤1：运行脚本生成今日知识图谱 Canvas：
-python3 {{USER_HOME}}/.openclaw/workspace/scripts/knowledge-graph-canvas.py
+python3 /Users/oao/my-brain/scripts/knowledge-graph-canvas.py
 
 步骤2：检查脚本输出（节点数、连线数、RQ匹配情况），若脚本失败记录错误并通知。
 

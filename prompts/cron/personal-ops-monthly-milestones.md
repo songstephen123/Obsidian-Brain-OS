@@ -38,7 +38,7 @@ delivery_mode: webhook
    - `git add 01-PERSONAL-OPS/02-PLANS-AND-SCHEDULES/月度里程碑.md`
    - `git commit -m "chore(personal-ops): refresh monthly milestones for YYYY-MM"`
    - 回执默认附 `commit hash` + `git status --short`
-10. 核心目标：写完就 commit，让{{USER_NAME}}能在手机 Obsidian 上看到。
+10. 核心目标：写完就 commit，让oao能在手机 Obsidian 上看到。
 
 ---
 

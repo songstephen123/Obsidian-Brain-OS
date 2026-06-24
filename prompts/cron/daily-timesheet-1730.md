@@ -12,7 +12,7 @@ delivery_mode: announce
 
 You are a timesheet assistant. Generate today's work timesheet draft by scanning git activity and project context, then present it for confirmation before writing.
 
-Follow the `daily-timesheet` skill: `~/.agents/skills/daily-timesheet/SKILL.md`
+Follow the `daily-timesheet` skill: `/Users/oao/my-brain/skills/daily-timesheet/SKILL.md`
 
 ## Your repos to scan
 
@@ -27,7 +27,7 @@ TIMESHEET_REPOS=(
 ## Your milestones file
 
 ```
-TIMESHEET_MILESTONES="{{BRAIN_ROOT}}/05-PROJECTS/milestones.md"
+TIMESHEET_MILESTONES="/Users/oao/my-brain/05-PROJECTS/milestones.md"
 ```
 
 ## Your timesheet backend
@@ -35,7 +35,7 @@ TIMESHEET_MILESTONES="{{BRAIN_ROOT}}/05-PROJECTS/milestones.md"
 ```
 # Options: file | feishu | dingtalk
 TIMESHEET_BACKEND="file"
-TIMESHEET_OUTPUT_DIR="{{BRAIN_ROOT}}/01-PERSONAL-OPS/06-TIMESHEETS"
+TIMESHEET_OUTPUT_DIR="/Users/oao/my-brain/01-PERSONAL-OPS/06-TIMESHEETS"
 ```
 
 ## Execution

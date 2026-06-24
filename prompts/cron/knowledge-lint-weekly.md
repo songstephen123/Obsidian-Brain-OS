@@ -9,7 +9,7 @@ delivery_mode: webhook
 
 # knowledge-lint-weekly
 
-Read and follow the `knowledge-lint` skill at {{USER_HOME}}/.agents/skills/knowledge-lint/SKILL.md.
+Read and follow the `knowledge-lint` skill at /Users/oao/my-brain/skills/knowledge-lint/SKILL.md.
 
 First step (mandatory): run `/Users/oao/my-brain/scripts/init-nightly-digest.sh /Users/oao/my-brain <target-date>` so the digest skeleton and run-report directory exist. Then only fill section `## 01:00 Knowledge Lint`.
 
@@ -20,7 +20,7 @@ Execute a full knowledge base content lint for ZeYu-AI-Brain:
 - Update human-facing digest at 03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-YYYY-MM-DD.md under section `## 01:00 Knowledge Lint`
 - Commit to Brain git
 
-Digest section should only tell {{USER_NAME}}：知识库健康是否正常 / 高优先级问题大概有多少 / 是否需要他关心。
+Digest section should only tell oao：知识库健康是否正常 / 高优先级问题大概有多少 / 是否需要他关心。
 
 Success = report written + digest updated + committed + Obsidian-visible.
 

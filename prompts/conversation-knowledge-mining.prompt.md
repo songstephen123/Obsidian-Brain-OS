@@ -4,7 +4,7 @@ Target date: yesterday in Asia/Shanghai unless explicitly provided.
 
 First step (mandatory):
 - Run `scripts/init-nightly-digest.sh <brain-root> <target-date>` to ensure the daily digest skeleton and run-report directory already exist.
-- Run `scripts/export-conversations-for-nightly.sh 3` so recent AI conversations are exported into `{{TRANSCRIPT_DIR}}` before mining.
+- Run `scripts/export-conversations.sh 3` so recent AI conversations are exported into `{{TRANSCRIPT_DIR}}` before mining.
 - Run `conversation-knowledge-flywheel/scripts/preflight.sh <target-date>` before mining. If `transcript_ok=0` or `qmd_ok=0`, enter degraded mode explicitly.
 - Read the existing digest first, then only fill `## 03:00 Conversation Mining`; do not rewrite the whole file.
 
@@ -29,7 +29,7 @@ Handoff rules:
 
 Digest writing rules:
 - 只回答：昨天对话有没有真正挖出东西 / 如果没有卡在哪里 / 如果有最值得看哪1-3点 / 是否生成 research seed
-- 不要把 transcript 技术细节、QMD 调试日志、长路径堆给{{USER_NAME}}
+- 不要把 transcript 技术细节、QMD 调试日志、长路径堆给oao
 
 Guardrails:
 - Do not dump raw transcripts into Brain.

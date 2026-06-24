@@ -9,7 +9,7 @@ delivery_mode: webhook
 
 # knowledge-flywheel-amplifier-nightly
 
-First run `/Users/oao/my-brain/scripts/init-nightly-digest.sh /Users/oao/my-brain <target-date>` so the digest skeleton and run-report directory exist. Then read and follow {{USER_HOME}}/.openclaw/workspace/knowledge-flywheel-amplifier.prompt.md. Use the knowledge-flywheel-amplifier skill as the governing protocol for the 04:00 amplifier stage. Read the existing digest first, then only fill section `## 04:00 Amplifier` and the final summary block. Target date is $(date -v-1d +%Y-%m-%d) in Asia/Shanghai unless explicitly provided. Read outputs from 02:00 and 03:00 if present; if one is missing, continue in degraded mode; if both are missing, emit a no-op report rather than inventing synthesis. Do not auto-run heavy deep research. Success means Brain write + git commit + post-commit sync + Obsidian visible.
+First run `/Users/oao/my-brain/scripts/init-nightly-digest.sh /Users/oao/my-brain <target-date>` so the digest skeleton and run-report directory exist. Then read and follow /Users/oao/my-brain/prompts/knowledge-flywheel-amplifier.prompt.md. Use the knowledge-flywheel-amplifier skill as the governing protocol for the 04:00 amplifier stage. Read the existing digest first, then only fill section `## 04:00 Amplifier` and the final summary block. Target date is $(date -v-1d +%Y-%m-%d) in Asia/Shanghai unless explicitly provided. Read outputs from 02:00 and 03:00 if present; if one is missing, continue in degraded mode; if both are missing, emit a no-op report rather than inventing synthesis. Do not auto-run heavy deep research. Success means Brain write + git commit + post-commit sync + Obsidian visible.
 
 ---
 

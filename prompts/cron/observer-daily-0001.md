@@ -24,7 +24,7 @@ Before running, set these values for your environment:
 ```
 OPENCLAW_HOME=~/.openclaw          # OpenClaw home directory
 OBSERVER_CHANNEL_ID={{YOUR_CHANNEL_ID}}  # Discord channel to announce to
-LEARNINGS_DIR={{BRAIN_ROOT}}/.learnings  # Where to store learnings
+LEARNINGS_DIR=/Users/oao/my-brain/.learnings  # Where to store learnings
 ```
 
 ## Today's task ({{DATE}})
