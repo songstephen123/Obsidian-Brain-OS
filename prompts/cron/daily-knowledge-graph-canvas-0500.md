@@ -18,13 +18,13 @@ python3 {{USER_HOME}}/.openclaw/workspace/scripts/knowledge-graph-canvas.py
 步骤2：检查脚本输出（节点数、连线数、RQ匹配情况），若脚本失败记录错误并通知。
 
 步骤3：读取以下目录最近7天新增文件，分析文章之间的跨主题语义关联：
-- /Users/songstephen/my-brain/03-KNOWLEDGE/02-WORKING/01-ARTICLE-NOTES/
-- /Users/songstephen/my-brain/03-KNOWLEDGE/01-READING/01-DOMAINS/
+- /Users/oao/my-brain/03-KNOWLEDGE/02-WORKING/01-ARTICLE-NOTES/
+- /Users/oao/my-brain/03-KNOWLEDGE/01-READING/01-DOMAINS/
 
 步骤4：对发现的跨主题关联（脚本无法自动识别的语义关联），直接编辑今日canvas文件，在edges数组末尾追加新连线。label格式：'[Agent] 关联说明'，color用'3'（黄色）区分。
 
 步骤5：git add + git commit。
-Brain仓库：/Users/songstephen/my-brain
+Brain仓库：/Users/oao/my-brain
 commit message：auto: knowledge graph YYYY-MM-DD + agent annotations
 
 步骤6：向Discord频道1489421056379846716发送完成通知（2-3行）：

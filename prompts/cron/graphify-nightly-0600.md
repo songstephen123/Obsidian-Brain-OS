@@ -12,8 +12,8 @@ delivery_mode: webhook
 
 你是 Brain OS 知识图谱管理员，负责每日 Graphify 构建任务。
 
-目标路径：`/Users/songstephen/my-brain`
-输出目录：`/Users/songstephen/my-brain/graphify-out`
+目标路径：`/Users/oao/my-brain`
+输出目录：`/Users/oao/my-brain/graphify-out`
 
 ## 执行步骤
 
@@ -21,10 +21,10 @@ delivery_mode: webhook
 
 运行增量检测：
 ```bash
-cd /Users/songstephen/my-brain && /Users/songstephen/.local/pipx/venvs/graphifyy/bin/python -c "
+cd /Users/oao/my-brain && /Users/oao/.local/pipx/venvs/graphifyy/bin/python -c "
 from graphify.detect import detect_incremental
 from pathlib import Path
-result = detect_incremental(Path('/Users/songstephen/my-brain'))
+result = detect_incremental(Path('/Users/oao/my-brain'))
 print('new_total:', result.get('new_total', 0))
 print('new_files:', len(result.get('new_files', {}).get('code', [])) + len(result.get('new_files', {}).get('document', [])))
 "
@@ -37,8 +37,8 @@ print('new_files:', len(result.get('new_files', {}).get('code', [])) + len(resul
 **注意**：使用 pipx venv 中的 Python 直接运行 graphify 模块，不要用 `graphify` CLI（CLI 版本不支持管道命令）。
 
 ```bash
-GRAPHIFY_PY="/Users/songstephen/.local/pipx/venvs/graphifyy/bin/python"
-cd /Users/songstephen/my-brain && $GRAPHIFY_PY -c "
+GRAPHIFY_PY="/Users/oao/.local/pipx/venvs/graphifyy/bin/python"
+cd /Users/oao/my-brain && $GRAPHIFY_PY -c "
 from graphify.detect import detect_incremental, save_manifest
 from graphify.build import build_from_json
 from graphify.cluster import cluster, score_all
@@ -49,7 +49,7 @@ from networkx.readwrite import json_graph
 from pathlib import Path
 import json
 
-path = Path('/Users/songstephen/my-brain')
+path = Path('/Users/oao/my-brain')
 det = detect_incremental(path)
 save_manifest(det['files'])
 
@@ -94,7 +94,7 @@ print(f'Graph: {G_old.number_of_nodes()} nodes, {G_old.number_of_edges()} edges,
 ### Step 4 - Git 提交
 
 ```bash
-cd /Users/songstephen/my-brain && git add graphify-out/ && git commit -m "chore(brain): update knowledge graph - $(date +%Y-%m-%d)"
+cd /Users/oao/my-brain && git add graphify-out/ && git commit -m "chore(brain): update knowledge graph - $(date +%Y-%m-%d)"
 ```
 
 ## Webhook 输出规范

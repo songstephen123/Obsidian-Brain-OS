@@ -160,17 +160,17 @@ else
 fi
 
 # ── Step 5: Replace all hardcoded paths ─────────────────────────
-step "Step 5: Replacing hardcoded paths (/Users/songstephen → $NEW_HOME)"
+step "Step 5: Replacing hardcoded paths (/Users/oao → $NEW_HOME)"
 
 cd "$BRAIN"
 find scripts prompts -type f \( -name "*.sh" -o -name "*.md" -o -name "*.py" -o -name "*.env" \) \
-  -exec sed -i '' "s|/Users/songstephen|$NEW_HOME|g" {} +
+  -exec sed -i '' "s|/Users/oao|$NEW_HOME|g" {} +
 ok "Replaced paths in ~/my-brain/"
 
 if [[ -d "$SCRIPTS_DIR" ]]; then
   cd "$SCRIPTS_DIR"
   find . -type f \( -name "*.sh" -o -name "*.txt" \) \
-    -exec sed -i '' "s|/Users/songstephen|$NEW_HOME|g" {} +
+    -exec sed -i '' "s|/Users/oao|$NEW_HOME|g" {} +
   ok "Replaced paths in ~/.claude/scripts/"
 else
   warn "~/.claude/scripts/ not found — skipping path replacement there"
@@ -187,7 +187,7 @@ fi
 # ── Step 6: Verify no stale paths remain ────────────────────────
 step "Step 6: Verifying no stale paths remain"
 
-STALE=$(grep -r '/Users/songstephen' "$BRAIN/scripts" "$BRAIN/prompts" "$SCRIPTS_DIR" 2>/dev/null || true)
+STALE=$(grep -r '/Users/oao' "$BRAIN/scripts" "$BRAIN/prompts" "$SCRIPTS_DIR" 2>/dev/null || true)
 if [[ -z "$STALE" ]]; then
   ok "No stale paths — clean!"
 else

@@ -1,6 +1,6 @@
 Read and follow the `conversation-knowledge-flywheel` skill.
 
-Target date: /Users/songstephen/my-brainterday in Asia/Shanghai unless explicitly provided.
+Target date: /Users/oao/my-brainterday in Asia/Shanghai unless explicitly provided.
 
 First step (mandatory):
 - Run `scripts/init-nightly-digest.sh <brain-root> <target-date>` to ensure the daily digest skeleton and run-report directory already exist.

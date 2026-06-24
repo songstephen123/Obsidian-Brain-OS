@@ -3,7 +3,7 @@
 # 使用方式: ./collect.sh file1.docx "https://..." paper.pdf screenshot.png
 
 # 配置
-INBOX="/Users/songstephen/my-brain/00-INBOX"
+INBOX="/Users/oao/my-brain/00-INBOX"
 # Use C locale to avoid leading zero issues with bash arithmetic
 TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
 SEQ=0

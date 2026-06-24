@@ -16,7 +16,7 @@ enabled: true
 
 1. 运行脚本：
    ```
-   bash /Users/songstephen/my-brain/scripts/reminders-to-brain.sh
+   bash /Users/oao/my-brain/scripts/reminders-to-brain.sh
    ```
 
 2. 读取脚本输出，找出：

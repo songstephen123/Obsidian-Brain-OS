@@ -3,7 +3,7 @@
 # 对话挖掘 → 收集 → 转换 → 建图谱 → Nightly Pipeline
 
 # 配置
-BRAIN_OS="/Users/songstephen/my-brain"
+BRAIN_OS="/Users/oao/my-brain"
 INBOX="$BRAIN_OS/00-INBOX"
 CONVERSATION_MINING="$HOME/.claude/skills/conversation-mining"
 

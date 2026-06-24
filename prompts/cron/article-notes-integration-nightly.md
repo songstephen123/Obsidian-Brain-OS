@@ -10,7 +10,7 @@ delivery_mode: webhook
 
 # article-notes-integration-nightly
 
-First run `/Users/songstephen/my-brain/scripts/init-nightly-digest.sh /Users/songstephen/my-brain <target-date>` so the digest skeleton and run-report directory exist. Then read and follow {{USER_HOME}}/.openclaw/workspace/article-notes-integration.prompt.md. Use the article-notes-integration skill as the governing protocol. Only fill section `## 02:00 Article Integration`, do not rewrite the whole digest. Target date is $(date -v-1d +%Y-%m-%d) in Asia/Shanghai unless explicitly provided. Process newly added or still-pending article notes only. Update article metadata, relation fields, and lightweight index/graph surfaces only when justified. Emit a no-op report when there is no signal. Success means Brain write + git commit + post-commit sync + Obsidian visible.
+First run `/Users/oao/my-brain/scripts/init-nightly-digest.sh /Users/oao/my-brain <target-date>` so the digest skeleton and run-report directory exist. Then read and follow {{USER_HOME}}/.openclaw/workspace/article-notes-integration.prompt.md. Use the article-notes-integration skill as the governing protocol. Only fill section `## 02:00 Article Integration`, do not rewrite the whole digest. Target date is $(date -v-1d +%Y-%m-%d) in Asia/Shanghai unless explicitly provided. Process newly added or still-pending article notes only. Update article metadata, relation fields, and lightweight index/graph surfaces only when justified. Emit a no-op report when there is no signal. Success means Brain write + git commit + post-commit sync + Obsidian visible.
 
 ---
 

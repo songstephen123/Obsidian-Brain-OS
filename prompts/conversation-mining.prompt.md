@@ -2,7 +2,7 @@
 
 Read and follow the `conversation-knowledge-flywheel` skill.
 
-Target date: /Users/songstephen/my-brainterday (Asia/Shanghai) unless explicitly provided.
+Target date: /Users/oao/my-brainterday (Asia/Shanghai) unless explicitly provided.
 
 ## First Step (mandatory)
 

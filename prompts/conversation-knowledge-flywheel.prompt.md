@@ -7,7 +7,7 @@ Read and follow the `conversation-knowledge-flywheel` skill.
 > Keep this file only as a legacy reference / ad-hoc manual wrapper.
 
 
-Target date: /Users/songstephen/my-brainterday in Asia/Shanghai unless explicitly provided.
+Target date: /Users/oao/my-brainterday in Asia/Shanghai unless explicitly provided.
 
 Required workflow:
 1. Read raw transcripts from `{{TRANSCRIPT_DIR}}`

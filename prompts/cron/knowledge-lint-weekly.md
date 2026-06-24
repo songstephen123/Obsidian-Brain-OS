@@ -12,10 +12,10 @@ delivery_mode: webhook
 
 Read and follow the `knowledge-lint` skill at {{USER_HOME}}/.agents/skills/knowledge-lint/SKILL.md.
 
-First step (mandatory): run `/Users/songstephen/my-brain/scripts/init-nightly-digest.sh /Users/songstephen/my-brain <target-date>` so the digest skeleton and run-report directory exist. Then only fill section `## 01:00 Knowledge Lint`.
+First step (mandatory): run `/Users/oao/my-brain/scripts/init-nightly-digest.sh /Users/oao/my-brain <target-date>` so the digest skeleton and run-report directory exist. Then only fill section `## 01:00 Knowledge Lint`.
 
 Execute a full knowledge base content lint for ZeYu-AI-Brain:
-- Brain root: /Users/songstephen/my-brain
+- Brain root: /Users/oao/my-brain
 - Run scripts/knowledge-lint.sh (or perform LLM-based equivalent if script is missing)
 - Write machine-facing report to 03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/YYYY-MM-DD/knowledge-lint-YYYY-MM-DD.md
 - Update human-facing digest at 03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-YYYY-MM-DD.md under section `## 01:00 Knowledge Lint`

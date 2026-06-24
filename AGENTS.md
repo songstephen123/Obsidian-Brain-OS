@@ -4,7 +4,7 @@
 
 Brain OS is your personal knowledge management and operations system. It runs on Obsidian vault + Codex as the AI agent.
 
-**Vault path:** `/Users/songstephen/my-brain`
+**Vault path:** `/Users/oao/my-brain`
 
 ## Directory Structure
 
@@ -69,10 +69,10 @@ These run via macOS crontab + Codex CLI:
 bash ~/.Codex/scripts/brain-os-cron-wrapper.sh <task-name> <prompt-file>
 
 # Check cron logs
-ls /Users/songstephen/my-brain/.cron-logs/
+ls /Users/oao/my-brain/.cron-logs/
 
 # Check git status
-cd /Users/songstephen/my-brain && git status
+cd /Users/oao/my-brain && git status
 ```
 
 ## Agent Behavior Rules

@@ -16,7 +16,7 @@ enabled: true
 
 1. 运行脚本：
    ```
-   bash /Users/songstephen/my-brain/scripts/brain-to-reminders.sh
+   bash /Users/oao/my-brain/scripts/brain-to-reminders.sh
    ```
 
 2. 检查输出，确认事项已写入「{{REMINDERS_LIST}}」列表。

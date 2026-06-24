@@ -75,9 +75,9 @@ def generate_canvas(graph_json_path, output_path):
     return len(canvas['nodes']), len(canvas['edges'])
 
 if __name__ == '__main__':
-    graph_json = Path('/Users/songstephen/my-brain/graphify-out/graph.json')
+    graph_json = Path('/Users/oao/my-brain/graphify-out/graph.json')
     today = datetime.now().strftime('%Y-%m-%d')
-    output = Path(f'/Users/songstephen/my-brain/03-KNOWLEDGE/02-WORKING/knowledge-graph-{today}.canvas')
+    output = Path(f'/Users/oao/my-brain/03-KNOWLEDGE/02-WORKING/knowledge-graph-{today}.canvas')
 
     nodes, edges = generate_canvas(graph_json, output)
     print(f"Generated canvas: {nodes} nodes, {edges} edges")
