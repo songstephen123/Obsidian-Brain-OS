@@ -2,7 +2,6 @@
 name: knowledge-flywheel-amplifier-nightly
 schedule: "0 4 * * *"
 agent: main
-model: zai/glm-5v-turbo
 enabled: true
 description: knowledge-flywheel-amplifier-nightly
 delivery_mode: webhook

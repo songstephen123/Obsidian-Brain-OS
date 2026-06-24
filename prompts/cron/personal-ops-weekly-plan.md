@@ -2,7 +2,6 @@
 name: personal-ops-weekly-plan
 schedule: "10 5 * * 1"
 agent: main
-model: zai/glm-5v-turbo
 enabled: true
 description: Generate Personal Ops weekly plan every Monday 05:10 Asia/Shanghai
 delivery_mode: webhook

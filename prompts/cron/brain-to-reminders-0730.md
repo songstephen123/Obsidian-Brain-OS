@@ -2,7 +2,6 @@
 name: brain-to-reminders-0730
 schedule: "30 7 * * *"
 agent: main
-model: zai/glm-5.1
 enabled: true
 ---
 

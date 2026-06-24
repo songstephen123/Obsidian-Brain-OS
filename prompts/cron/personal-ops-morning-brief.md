@@ -2,7 +2,6 @@
 name: personal-ops-morning-brief
 schedule: "0 7 * * *"
 agent: main
-model: zai/glm-5v-turbo
 enabled: true
 description: Generate Personal Ops daily briefing at 07:00 Asia/Shanghai
 delivery_mode: webhook

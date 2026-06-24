@@ -2,7 +2,6 @@
 name: article-notes-integration-nightly
 schedule: "0 2 * * *"
 agent: main
-model: zai/glm-5v-turbo
 enabled: true
 description: article-notes-integration-nightly
 delivery_mode: webhook

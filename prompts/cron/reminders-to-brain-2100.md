@@ -2,7 +2,6 @@
 name: reminders-to-brain-2100
 schedule: "0 21 * * *"
 agent: main
-model: zai/glm-5.1
 enabled: true
 ---
 

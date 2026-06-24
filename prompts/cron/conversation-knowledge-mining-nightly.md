@@ -2,7 +2,6 @@
 name: conversation-knowledge-mining-nightly
 schedule: "0 3 * * *"
 agent: main
-model: zai/glm-5v-turbo
 enabled: true
 description: conversation-knowledge-mining-nightly
 delivery_mode: webhook

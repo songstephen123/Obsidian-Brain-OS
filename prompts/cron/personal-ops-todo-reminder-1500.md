@@ -2,7 +2,6 @@
 name: personal-ops-todo-reminder-1500
 schedule: "0 15 * * *"
 agent: main
-model: zai/glm-5v-turbo
 enabled: true
 description: 每天 15:00 待办跟进提醒
 delivery_mode: webhook

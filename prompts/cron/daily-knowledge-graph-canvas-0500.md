@@ -2,7 +2,6 @@
 name: daily-knowledge-graph-canvas-0500
 schedule: "0 5 * * *"
 agent: main
-model: zai/glm-5v-turbo
 enabled: true
 description: 每天05:00自动生成知识图谱Canvas并发送至知识库文章沉淀频道
 delivery_mode: webhook

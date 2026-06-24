@@ -2,7 +2,6 @@
 name: daily-timesheet-1730
 schedule: "30 17 * * 1-5"
 agent: main
-model: zai/glm-5v-turbo
 timeout: 600
 enabled: false
 description: Weekday 17:30 — scan git commits, align to milestones, generate timesheet draft for confirmation

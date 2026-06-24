@@ -2,7 +2,6 @@
 name: personal-ops-monthly-milestones
 schedule: "20 6 1 * *"
 agent: main
-model: zai/glm-5v-turbo
 enabled: true
 description: Generate Personal Ops monthly milestones at 06:20 on day 1 Asia/Shanghai
 delivery_mode: webhook

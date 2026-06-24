@@ -2,7 +2,6 @@
 name: knowledge-lint-weekly
 schedule: "0 1 * * 1"
 agent: main
-model: zai/glm-5v-turbo
 enabled: true
 description: 每周一 01:00 独立触发知识库内容级 Lint（作为 02:00 article-notes-integration lint pass 的备用独立入口）
 delivery_mode: webhook
