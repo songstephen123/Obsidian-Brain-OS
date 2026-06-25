@@ -22,11 +22,14 @@ status: draft
 
 ## 03:00 Conversation Mining
 
-**No-op (degraded).** 昨天对话挖不到东西——不是没信号，是源头断了：外置 transcript 卷 `/Volumes/LIZEYU/Converstions` 没挂载（只剩 Macintosh HD），QMD 召回层也没装。Python 升到 3.14 了，但导出工具链 `convs` 还是缺，`export-conversations.sh` 空跑退出。
+**Transcript 通道已恢复。** 前 5 次 no-op 的根因（transcript 卷未挂载 + `convs` 工具链缺失）已修复——`export-conversations.sh` 现在指向本地路径 `/Users/oao/brain-transcripts`，昨天成功导出 32 个 transcript。QMD 召回层仍缺，但直接读取足以处理当前量级。
 
-→ 这是连续第五次同款 no-op（06-09 / 06-12 / 06-15 / 06-21 / 06-24）。要恢复：挂上 LIZEYU 卷 + 装 `qmd` + 装 `convs`，下一晚 pipeline 才会真正有原料。
+昨天 3 个真实对话中，1 个有可挖掘信号：
 
-→ 没产对话衍生笔记、没产 research seed，04:00 阶段只能拿 02:00 的文章通道——今天也是空的。
+- **lark-channel-bridge v0.3.1 安装 + 技能全景盘点** → 产出了 `03-KNOWLEDGE/02-WORKING/03-TOPIC-DRAFTS/ai-tooling-ecosystem-2026-06-24.md`（AI 工具生态快照，~119 个技能 / 8 个来源）。lark-channel-bridge 让飞书消息能直接驱动本地 Claude Code，是工具链里一个有意义的补丁。
+- 另外 2 个对话（飞书 bridge 闲聊 + OpenRouter API key 配置）信号太低，跳过。
+
+→ 这是 6 次运行以来第一次产出对话衍生笔记。04:00 放大器现在有东西可读了。
 
 ---
 

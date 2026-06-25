@@ -2,7 +2,7 @@
 title: "Conversation Mining Report 2026-06-24"
 date: "2026-06-24"
 generated: "2026-06-25T03:00"
-status: no-op
+status: partial
 pipeline_stage: "03:00 Conversation Mining"
 skill: conversation-knowledge-flywheel
 target_date: "2026-06-24"
@@ -11,80 +11,73 @@ brain_root: "/Users/oao/my-brain"
 
 # Conversation Mining Report — 2026-06-24
 
-## Status: No-op (Degraded)
+## Status: Partial (degraded — QMD missing, but transcripts available)
 
-No conversation-derived knowledge could be mined. Transcript source offline and recall stack unavailable. No knowledge writes, no research seeds, no manifest produced.
+Transcript export is now functional (local path `/Users/oao/brain-transcripts`), ending a 5-run transcript drought. QMD recall layer remains absent (qmd_ok=0). Mining was performed via direct transcript inspection.
 
-### Findings
-
-- **0 conversations mined**
-- **0 knowledge items extracted**
-- **0 new topics / open questions / index entries**
-- **0 research seeds / context packs**
-
-### Preflight snapshot (captured live this run)
+### Preflight snapshot
 
 ```
 preflight.sh 2026-06-24  →  exit 2 (degraded)
-transcript_root = /Volumes/LIZEYU/Converstions
-transcript_day  = /Volumes/LIZEYU/Converstions/2026-06-24
-transcript_ok   = 0   (day dir missing — volume unmounted)
-qmd_ok          = 0   (qmd binary not on PATH)
+transcript_root = /Users/oao/brain-transcripts
+transcript_day  = /Users/oao/brain-transcripts/2026-06-24
+transcript_ok   = 1   (fixed — local path, no longer depends on LIZEYU volume)
+qmd_ok          = 0   (qmd binary not on PATH — recall layer still missing)
 ```
 
-Export step (`scripts/export-conversations.sh 3`) ran first and reported:
-```
-⚠️  convs not found. Please install convs or ensure tools/conversation-mining/convs.py exists.
-   Skipping conversation export.
-```
+### Findings
 
-### Blockers
+- **32 transcripts** found for 2026-06-24
+- **3 human-driven conversations** with mineable signal
+- **29 automated pipeline conversations** (commit patrols, cron runs, graph updates)
+- **1 knowledge note drafted** (AI tooling ecosystem snapshot)
 
-| Blocker | Detail |
-|---------|--------|
-| External volume unmounted | `/Volumes/LIZEYU/Converstions` not available — only `Macintosh HD` present under `/Volumes/`. Primary transcript source offline. Same as 06-21. |
-| Recall engine absent | `qmd` binary not on PATH (`which qmd` → not found). Hybrid/vector/rerank recall layer unavailable. |
-| Conversation exporter unavailable | `convs` CLI not installed and `tools/conversation-mining/convs.py` not present in repo. `export-conversations.sh` exited cleanly but produced no export. |
-| Export toolchain dir still missing | `~/.openclaw/workspace/scripts/` does not exist (only `~/.openclaw/openclaw.json` present). The legacy `export-conversations-for-nightly.sh` path referenced by older cron definitions still does not resolve. |
-| No stale fallback | With the volume offline and no fresh export, there is no transcript set for 2026-06-24 to mine. Forcing extraction would fabricate signal. |
+### Signal assessment
+
+| Transcript | Signal | Action |
+|-----------|--------|--------|
+| `claude_oao_cod.md` | **Strong.** lark-channel-bridge v0.3.1 installed + comprehensive skill inventory (119 unique skills across 8 sources) | Drafted tooling ecosystem note |
+| `claude_default__bridge context...md` | Low. Casual Lark bridge banter + meeting reminder (06-26 10:00). No durable knowledge. | Skipped |
+| `claude_oao_c550802c...md` | Low. OpenRouter API key setup prompt for reels-af. Too brief. | Skipped |
+
+### Key insight: lark-channel-bridge + skill landscape
+
+The user installed `lark-channel-bridge` v0.3.1 — a Node.js CLI that bridges Lark/飞书 messages to local Claude Code/Codex CLI via launchd. This is a notable tooling addition: it enables mobile-to-agent interaction through 飞书 chat.
+
+The skill inventory revealed the user's AI tooling stack is ~119 unique skills across 8 sources: Gstack (33), Lark/飞书 (19), Matt Pocock (18), mycc (16), 设计/视觉 (15), Superpowers (14), 其他工具 (4), plus OMC plugin workflow skills (not individually counted).
 
 ### Resolved since 06-21
 
-- Python upgrade: system `python3` is now **3.14.6** (was 3.9.6). PEP 604 union syntax no longer a blocker for the export toolchain — but the toolchain itself is still absent, so this no longer matters in practice.
+- **Transcript export fixed.** `scripts/export-conversations.sh` now uses `TRANSCRIPT_ROOT=/Users/oao/brain-transcripts` (local path) instead of the unmounted `/Volumes/LIZEYU/Converstions`. The `convs` toolchain is now functional. This was the primary blocker for the previous 5 consecutive no-ops.
+- Python 3.14.6 upgrade previously noted; still current.
 
-### Why no-op rather than degraded-with-partial
+### Remaining blockers
 
-Both upstream inputs are gone simultaneously: the raw transcript volume (truth layer) AND the QMD recall layer. The Minimal Viable Path requires at least direct transcript access; that precondition fails. Producing zero output here is the correct, honest state — not a forced "no-signal note."
+| Blocker | Detail |
+|---------|--------|
+| QMD recall layer absent | `qmd` binary not on PATH. Vector/hybrid recall unavailable. Mining relies on direct transcript reading, which is practical for low-volume days but won't scale. |
 
-Same degraded shape as 06-09, 06-12, 06-15, and 06-21 (consecutive transcript-offline no-ops in this window). No material environmental change since 06-21.
+### Outputs produced
 
-### Remediation
-
-1. Mount the external transcript volume `/Volumes/LIZEYU/Converstions` before the next nightly run.
-2. Install/repair QMD so `qmd-healthcheck.sh` passes (currently `qmd` not on PATH).
-3. Install `convs` CLI, or restore `tools/conversation-mining/convs.py` inside the repo, so `export-conversations.sh` can refresh the transcript index.
-4. Re-run `preflight.sh <date>` until `transcript_ok=1` and `qmd_ok=1`, then re-run this stage.
+1. Machine run report (this file)
+2. Digest section `## 03:00 Conversation Mining` updated in `nightly-digest-2026-06-24.md`
+3. Knowledge note: `03-KNOWLEDGE/02-WORKING/03-TOPIC-DRAFTS/ai-tooling-ecosystem-2026-06-24.md` — AI tooling landscape snapshot
 
 ### Downstream note (04:00 amplifier)
 
-No conversation-derived notes, daily suggestions, or research seeds were produced. The 04:00 Knowledge Amplification stage should treat the conversation channel as empty for 2026-06-24 and amplify only the 02:00 article channel — which is also a no-op today (0 articles ingested).
-
-### Upstream context consumed
-
-- Shared nightly digest `nightly-digest-2026-06-24.md` read first. 02:00 Article Integration reported no-op (0 articles, only template file present). Nothing to fold in from upstream channels.
-- Did not rely on legacy report paths under `12-REVIEWS/KNOWLEDGEBASE/`.
+Unlike previous runs, the conversation channel now has actual material: 1 tooling-ecosystem note. The 04:00 amplifier should note this and potentially cross-reference with article channel (still empty).
 
 ### Metrics
 
 ```
-transcripts_found: 0
-transcripts_processed: 0
-knowledge_items: 0
+transcripts_found: 32
+transcripts_human: 3
+transcripts_automated: 29
+knowledge_items: 1 (tooling ecosystem note)
 new_topics: 0
 new_open_questions: 0
 research_seeds: 0
-brain_writes: 0
-git_commit: pending (digest + this report only)
-errors: 3 (volume offline, qmd missing, convs/export toolchain absent)
+brain_writes: 2 (report + digest + 1 note)
+errors: 1 (qmd missing — non-blocking this run)
 obsidian_visible_after_commit: true
 ```
