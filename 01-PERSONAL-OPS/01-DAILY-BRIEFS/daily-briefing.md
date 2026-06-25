@@ -1,40 +1,39 @@
 ---
-date: 2026-06-25
+date: 2026-06-26
 week: W26
-updated: 2026-06-25 07:00
+updated: 2026-06-26 07:00
 type: daily-brief
 ---
 
-# 2026-06-25 每日驾驶舱
+# 2026-06-26 每日驾驶舱
 
-> 周四 · W26 第 3 天 · 真相源自 2026-04-13 起空置 **73 天**（四源仍全为「暂无」）
+> 周五 · W26 第 4 天 · **真相源零输入记录被打破**：`todo-backlog.md` 在 06-25 出现 74 天来首条真实待办
 
-## ⚠️ 输入异常声明
+## 📌 今日状态切换
 
-四份真相源文件仍未写入任何内容（最后更新 2026-04-13，至今 73 天）：
-- `todo-backlog.md` — P0/P1/P2/P3 四级全空
-- `当前承诺事项.md` — 无任何承诺
-- `progress-board.md` — 无推进事项
-- `decision-queue.md` — 无待决策（**Brain OS 去留决策第 6 次提醒仍未落地**）
+四份真相源文件状态：
+- `todo-backlog.md` — **✅ 不再全空**：06-25 新增 2 条 P3（搬家 / 公园），最后更新 2026-06-25
+- `当前承诺事项.md` — 仍空（自 2026-04-13 起）
+- `progress-board.md` — 仍空（自 2026-04-13 起）
+- `decision-queue.md` — 仍空（自 2026-04-13 起，**Brain OS 去留决策第 7 次提醒**）
 
-**今日新变化（相比 06-23 落盘）**：
-- **06-24 驾驶舱漏跑一天**：上一份落盘是 06-23，昨日 cron 未触发或未写入。本周 W26 已丢一天。
-- **Cron 流水线已被「解冻」**：commit `4fbac41 fix(prompts): unfreeze cron pipeline — point at real paths, substitute templates` + 一连串修复（`b5308a7` 清理 skill、`185ecb1` 修 personal-ops-driver、`18e04e7` 修 conversation-mining 导出、`f1a8b91` 移除 commit-patrol、`f5af475` 修 graphify 路径）。**迁移后的路径错乱已系统性收尾**。
-- **今晨已有 3 条 no-op digest 落盘**（`5d7ba92` / `419f109` / `c78b9a3`）+ 1 条 knowledge graph 更新（`bbef239`）—— **cron 基础设施完全健康，问题已收敛到「上游无输入」**。
-- **06-24 nightly digest 三段全部 no-op**：02:00 Article 干净空（无人投喂）、03:05 Conversation 第 5 次同款卡住（LIZEYU 未挂 + QMD 缺 + `convs` 缺）、04:00 Amplifier 双源空。
-- **Brain OS 去留决策 W24 起拖到 W26**，今日必须落地，**第 6 次提醒**。
+**昨日系统侧进展（06-25 nightly digest 已落盘）**：
+- **Conversation Mining 5 连 no-op 终结**：commit `1e9f7dc` 修复 TRANSCRIPT_ROOT，MVP 路径（跳过 QMD 直接读 transcript）产出第 1 条真实知识笔记 `02-PATTERN-CANDIDATES/conversation-mining-pipeline-architecture.md`
+- **Article Integration 连续第 2 天空跑**（`01-ARTICLE-NOTES/` 仍只有模板）
+- **Amplifier degraded run**（单源，不强行合并 — 设计正确）
+- **06-25 03:00 cron 窗口 3 次 API 529**（上游限流，非阻塞，需观察是否复发）
 
 ## 一、今天最重要的 3 件事
 
-1. **在 `decision-queue.md` 写入 Brain OS 去留决策** — 73 天零输入 + 第 6 次提醒。三选一：① 继续每日 → 立即填真实待办 ② 降频每周一 ③ 暂停每日 cron。**今日不落地就等于默认选 ③**。
-2. **补跑 06-24 漏掉的驾驶舱复盘**：昨日 cron 漏跑根因是什么？是 unfreeze 期间的副作用、还是 schedule 本身漂移？查 `~/.cron-logs/2026-06-24*` 或 crontab 当前条目，给个结论。
-3. **若选「继续」→ 往 `todo-backlog.md` 写 ≥3 条本周真实待办**；**若选「降频/暂停」→ 改 schedule 或禁用本 cron**。空转的唯一解药是「有输入」或「不跑」，不留中间态。
+1. **🏠 搬家（P0，今日上午 9:00）** — 这是 Brain OS 启动 74 天来第一条真实硬截止待办。**必须先于一切**。前一晚确认：物品 / 搬家公司 / 新址钥匙 / 旧址交接。
+2. **在 `decision-queue.md` 写入 Brain OS 去留决策** — 第 7 次提醒。昨日的「06-25 必须落地」已 slip。三选一：① 继续每日 → 立即填真实待办 ② 降频每周一 ③ 暂停每日 cron。**今日再不落地等于默认选 ③**。
+3. **读 `02-PATTERN-CANDIDATES/conversation-mining-pipeline-architecture.md`** — 昨日 MVP 跑出的真实架构笔记，含 B vs C 判断标准（"MVP 已能用 → 装 QMD 是精度升级，不是功能解锁"）。这条标准以后用于评估所有「是否值得装新工具」决策。
 
 ## 二、今天必须推进但不必做完
 
 - [ ] 在 `decision-queue.md` 写入 Brain OS 去留决策（继续 / 降频 / 暂停），不再留空
-- [ ] 查清 06-24 驾驶舱漏跑根因（cron log / schedule / unfreeze 副作用）
-- [ ] 触发一次对话卷挂载 + 安装 `qmd` + 安装 `convs`，让 03:00 Conversation Mining 下次能跑出真实候选
+- [ ] 评估 06-25 03:00 cron 的 3 次 API 529 是否需要挪时间窗 / 加退避（观察 06-26 03:00 log）
+- [ ] 若选「继续每日」→ 往 `todo-backlog.md` 补 ≥2 条本周真实待办（已有 2 条 P3，但都是生活类，工作侧仍空）
 
 ## 三、今天等待反馈 / 需要催办
 
@@ -42,54 +41,53 @@ type: daily-brief
 
 ## 四、今天需要拍板的事
 
-- **Brain OS 每日 cron：继续 / 降频（每周一）/ 暂停** — 73 天零输入，第 6 次提醒，今日必须落地进 `decision-queue.md`
-- **06-24 漏跑处理**：补写一份 06-24 驾驶舱，还是承认漏跑、继续向前
-- **对话存档位置**：继续依赖外置 `/Volumes/LIZEYU`（已第 5 次同款卡住），还是迁到本地 SSD
-- **`convs` / `qmd` 工具链恢复顺序**：先挂卷、还是先装召回层
+- **Brain OS 每日 cron：继续 / 降频（每周一）/ 暂停** — 74 天第 7 次提醒，今日必须落地进 `decision-queue.md`
+- **搬家时间窗冲突**：9:00 AM 搬家 vs 07:00 AM 本驾驶舱已先跑完。如搬家延误占用全天，下午 15:00 / 20:00 todo 提醒是否暂停一日？
+- **06-25 03:00 API 529 复发处理**：是否提前 30 分钟到 02:30、或加退避
 
 ## 五、今天可委派的事
 
-（暂无）
+（暂无 — `当前承诺事项.md` 与 `progress-board.md` 仍空）
 
 ## 六、低能量时可做的小事
 
-- [ ] 往 `00-INBOX/web` 或 `01-ARTICLE-NOTES/` 放 1 篇文章（Article 侧已连续 7+ 天无输入）
-- [ ] 在 `todo-backlog.md` 补充任意 1 条本周真实待办
-- [ ] 确认 `/Volumes/LIZEYU` 是否已挂载（一行 `ls /Volumes/`）
-- [ ] 跑 `which qmd convs` 确认工具链缺口
+- [ ] 读昨日 conversation-mining 产出的 pattern candidate（1 篇笔记，<5 分钟）
+- [ ] 在 `todo-backlog.md` 把搬家完成后补 1 条「搬家后整理」P2
+- [ ] 确认 06-26 03:00 conversation cron 是否仍触发 API 529（一行 `tail` 看 `.cron-logs/`）
+- [ ] 往 `00-INBOX/web` 或 `01-ARTICLE-NOTES/` 放 1 篇文章（Article 侧已连续 2 天无输入）
 
 ## 七、今天明确不做
 
 - 大规模内容迁移
 - 新建额外 cron 任务或副本文件
 - 恢复已关闭的云文档同步
-- 在空待办池上假装系统运转正常
 - 把已完成的 Agora MVP 重新写成当前主任务
-- 为 06-24 漏跑另起一份补丁文件（要么补写当日驾驶舱、要么跳过）
+- 在搬家日安排任何深度工作块
 
 ## 八、今日提醒
 
-- **周四 W26 第 3 天** — 06-24 驾驶舱漏跑一天，本周还剩 2 天
-- **Cron pipeline 已 unfreeze**：路径修复 6 连击，今晨 3 条 digest + 1 条 graph 正常落盘 → **基础设施层健康**
-- **Brain OS 空转已达 73 天**，每日 cron 消耗 token 却无实质输入，决策不能再拖
-- **对话挖矿第 5 次同款 no-op**：根因清晰（卷 + QMD + convs 三缺），不是工具链漂移问题
+- **周五 W26 第 4 天** — 本周剩 1 个工作日
+- **🏠 搬家日 9:00 AM** — 74 天来第一条真实 P0，今日以它为锚
+- **Conversation Mining 通道恢复**：`1e9f7dc` 修复后第 1 条真实笔记已落盘，证明 MVP 路径成立
+- **Article 通道第 2 天空**：投喂任意 1 篇即可触发 02:00
+- **Brain OS 空转 74 天** — 第 7 次提醒，决策不能再 slip
 
 ## 九、🧠 昨日知识信号
 
-> 昨日 nightly digest（2026-06-24）三段全部 no-op。**不是故障**：cron 已 unfreeze，三段都正常跑过，只是上游零输入。
+> 昨日 nightly digest（2026-06-25）首次产出真实单源笔记 — Article 空 / Conversation 真实产出 / Amplifier 单源 degraded（设计正确）
 
 📌 **关键发现**
-- **Cron 解冻已系统性落地**：commit `4fbac41` 起的路径修复 6 连击把 songstephen 残留路径、模板占位、commit-patrol 全部清掉。今晨 3 条 no-op digest + 1 条 graph 更新正常落盘 → 机器层健康。
-- **Article 通道干净空**：`01-ARTICLE-NOTES/` 仍只有模板，inbox 入口全空。**第 7+ 天无文章输入**，不是工具链问题，是无人投喂。
-- **Conversation 通道第 5 次同款卡住**：`/Volumes/LIZEYU/Converstions` 未挂载 + QMD 未装 + `convs` 缺。Python 已升到 3.14（说明环境活跃），但导出工具链没接回。06-09 / 06-12 / 06-15 / 06-21 / 06-24 五次同款 no-op，根因从模糊已收敛到「**三个具体动作**」。
-- **Amplifier 正确地拒绝编造**：双源空时未强行写 topic-map / research-seed / pattern-candidate。零信号不满足 escalation 门槛 —— **这是设计正确，不是漏跑**。
+- **Conversation Mining 5 连 no-op 终结**：commit `1e9f7dc` 修复 `TRANSCRIPT_ROOT` 后，MVP 路径直接读 transcript 产出首条笔记 `conversation-mining-pipeline-architecture.md`。**装 QMD 不再是功能解锁，而是精度升级** — 这条标准以后用于评估所有"是否装新工具"的决策。
+- **Article 通道干净空第 2 天**：`01-ARTICLE-NOTES/` 仍只有模板，inbox 入口全空。
+- **Amplifier 正确地拒绝跨源合并**：单源时未强行合 topic-map，避免污染 provenance — 设计正确，不是漏跑。
+- **API 529 首次出现在 03:00 cron 窗口**：3 次上游限流，非阻塞，需观察 06-26 是否复发。
 
 💡 **灵感 / 待跟进**
-- 今日一次性验证迁移后工具链：① `ls /Volumes/` 看 LIZEYU 是否挂载 ② `which qmd` / `which convs` 确认召回 + 导出 ③ Python 3.14 已就绪，工具链缺口在二进制层 ④ Article 侧投喂任意 1 篇 Note 触发 02:00。
-- **解冻后的下一阶段信号**：cron 已健康，下一步瓶颈在「输入」与「工具链补齐」，不再在「迁移」。本周若能挂上 LIZEYU + 装 convs，03:00 通道下周即有真实产出。
-- 触发深研：否（零候选）。
+- **MVP 路径已能产出真实笔记** → 装 QMD 优先级降级为「精度优化」而非「关键阻塞」。本周可暂缓。
+- **`02-PATTERN-CANDIDATES/` 已有真实数据点**：06-24 的 tooling-ecosystem 草稿 + 06-25 的 pipeline-architecture，两条同源（对话通道）。**等文章通道 corroborate 即可升级 topic-map**。
+- 触发深研：否（单源 + 数据点不足 2 条以上）。
 
-[[03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-06-24|查看完整 nightly digest →]]
+[[03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-06-25|查看完整 nightly digest →]]
 
 ---
-*最后更新：2026-06-25 07:00*
+*最后更新：2026-06-26 07:00*
