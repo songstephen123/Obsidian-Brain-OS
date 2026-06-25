@@ -20,8 +20,11 @@ status: draft
 
 ## 03:00 Conversation Mining
 
-<!-- 由 conversation-knowledge-mining pipeline 填写 -->
-*Pending...*
+**MVP 模式第 2 天跑通。** 4 个 transcript，1 个有人类信号——oao 让 Claude 完整解释 conversation-mining skill 怎么设计，得到目前最清楚的一版架构说明，已沉淀为 `02-PATTERN-CANDIDATES/conversation-mining-pipeline-architecture.md`。
+
+**最值得看的 1 点**：B vs C 的判断标准——MVP 路径（跳过 QMD，直接读 transcript）已经能产出真正的知识笔记，所以装 QMD 是精度升级而非功能解锁。这条标准以后评估所有"是否值得装新工具"的决策。
+
+**1 个轻警报**：06-25 03:00 cron 窗口自己撞到 API 529 三次（上游限流）。非阻塞，但如果复发就该挪时间窗或加退避。无 research seed。
 
 ---
 
