@@ -130,9 +130,9 @@
     "semantic_hash": "06aa1655eef1e8945c684e7b4b99ce36"
   },
   "/Users/oao/my-brain/00-INBOX/todo-backlog.md": {
-    "mtime": 1782227086.7517257,
-    "ast_hash": "62d2d63cd28fdc89992cb07ca1e760ee",
-    "semantic_hash": "62d2d63cd28fdc89992cb07ca1e760ee"
+    "mtime": 1782390288.977478,
+    "ast_hash": "137079755ed5611e331c371d13efc05d",
+    "semantic_hash": "137079755ed5611e331c371d13efc05d"
   },
   "/Users/oao/my-brain/00-INBOX/office/20260413_021922_\u4f01\u5fae\u8fd0\u8425\u53ca\u6fc0\u52b1\u6a21\u5f0f\u4ecb\u7ecdV3.pptx.md": {
     "mtime": 1782227086.751672,
@@ -1740,22 +1740,22 @@
     "semantic_hash": "b75eec84baf2e4beed420eefe16d17c1"
   },
   "/Users/oao/my-brain/01-PERSONAL-OPS/01-DAILY-BRIEFS/daily-briefing.md": {
-    "mtime": 1782227965.4897559,
-    "ast_hash": "219186927593e397a9cf4cfc797266af",
-    "semantic_hash": "219186927593e397a9cf4cfc797266af"
+    "mtime": 1782342089.5742097,
+    "ast_hash": "73f72c0b8bc2d844fa48f97dfe613ac6",
+    "semantic_hash": "73f72c0b8bc2d844fa48f97dfe613ac6"
   },
   "/Users/oao/my-brain/.obsidian/app.json": {
-    "mtime": 1782274446.8635187,
+    "mtime": 1782368817.6268473,
     "ast_hash": "f373ec8aa03898e2bfcbb6ec14d7055c",
     "semantic_hash": "f373ec8aa03898e2bfcbb6ec14d7055c"
   },
   "/Users/oao/my-brain/.obsidian/appearance.json": {
-    "mtime": 1782274446.8640513,
+    "mtime": 1782368817.627827,
     "ast_hash": "99914b932bd37a50b983c5e7c90ae93b",
     "semantic_hash": "99914b932bd37a50b983c5e7c90ae93b"
   },
   "/Users/oao/my-brain/.obsidian/core-plugins.json": {
-    "mtime": 1782274446.3774357,
+    "mtime": 1782368817.1381793,
     "ast_hash": "7c877bea49eaeabb100563bd157b9051",
     "semantic_hash": "7c877bea49eaeabb100563bd157b9051"
   },
@@ -1840,9 +1840,9 @@
     "semantic_hash": "e70f8e06eabe48f826572d6f1768b7bf"
   },
   "/Users/oao/my-brain/skills/conversation-knowledge-flywheel/scripts/config.sh": {
-    "mtime": 1782320876.7058835,
-    "ast_hash": "b87b2d25d6ab74832770f193e2756c19",
-    "semantic_hash": "b87b2d25d6ab74832770f193e2756c19"
+    "mtime": 1782348505.147928,
+    "ast_hash": "b785cba47173bf04ce621521ae07af6b",
+    "semantic_hash": "b785cba47173bf04ce621521ae07af6b"
   },
   "/Users/oao/my-brain/skills/conversation-knowledge-flywheel/scripts/list-day-transcripts.sh": {
     "mtime": 1782227086.7842073,
@@ -1915,9 +1915,9 @@
     "semantic_hash": "bc89d2a0889be8f6650c12859d50032c"
   },
   "/Users/oao/my-brain/03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-06-24.md": {
-    "mtime": 1782331297.4522603,
-    "ast_hash": "8245038dd1ec17cc9d5e3dedf4d6e1e2",
-    "semantic_hash": "8245038dd1ec17cc9d5e3dedf4d6e1e2"
+    "mtime": 1782360028.2016137,
+    "ast_hash": "dbc470f25975a824f52ebc824c55344a",
+    "semantic_hash": "dbc470f25975a824f52ebc824c55344a"
   },
   "/Users/oao/my-brain/03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/2026-06-24/amplifier-report-2026-06-24.md": {
     "mtime": 1782331284.5131712,
@@ -1930,9 +1930,9 @@
     "semantic_hash": "377349be414ef0607cb0e751cd4ce1b4"
   },
   "/Users/oao/my-brain/03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/2026-06-24/conversation-mining-report-2026-06-24.md": {
-    "mtime": 1782327712.3593302,
-    "ast_hash": "a805a8f06b3e32e9c73a0bf95ee93287",
-    "semantic_hash": "a805a8f06b3e32e9c73a0bf95ee93287"
+    "mtime": 1782360012.3501458,
+    "ast_hash": "12058f0bc050dd759b719528c60a0c53",
+    "semantic_hash": "12058f0bc050dd759b719528c60a0c53"
   },
   "/Users/oao/my-brain/tools/conversation-mining/conversation_mining/viewer.html": {
     "mtime": 1782227086.7911243,
@@ -1948,5 +1948,55 @@
     "mtime": 1782227086.7928483,
     "ast_hash": "068ca13d3097a4305e9616b69a5e2ee4",
     "semantic_hash": "068ca13d3097a4305e9616b69a5e2ee4"
+  },
+  "/Users/oao/my-brain/01-PERSONAL-OPS/06-TIMESHEETS/employees/README.md": {
+    "mtime": 1782374206.9005213,
+    "ast_hash": "fb8b685e210b946daabf8a74a8798dd9",
+    "semantic_hash": "fb8b685e210b946daabf8a74a8798dd9"
+  },
+  "/Users/oao/my-brain/01-PERSONAL-OPS/06-TIMESHEETS/employees/oao.md": {
+    "mtime": 1782374218.013481,
+    "ast_hash": "29eaa9de3da0e239d107dc7e4a0a3074",
+    "semantic_hash": "29eaa9de3da0e239d107dc7e4a0a3074"
+  },
+  "/Users/oao/my-brain/01-PERSONAL-OPS/06-TIMESHEETS/employees/oao/2026-06-25.md": {
+    "mtime": 1782374553.2921944,
+    "ast_hash": "7ab22a8f91c5782cdc88123b6b9a09b8",
+    "semantic_hash": "7ab22a8f91c5782cdc88123b6b9a09b8"
+  },
+  "/Users/oao/my-brain/03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-06-25.md": {
+    "mtime": 1782417745.2955391,
+    "ast_hash": "3631b53c59bf2b2649b1f91fbe5d5be7",
+    "semantic_hash": "3631b53c59bf2b2649b1f91fbe5d5be7"
+  },
+  "/Users/oao/my-brain/03-KNOWLEDGE/02-WORKING/02-PATTERN-CANDIDATES/conversation-mining-pipeline-architecture.md": {
+    "mtime": 1782414346.153167,
+    "ast_hash": "a8ca20f6353a2d27dbf2e7172723d4c8",
+    "semantic_hash": "a8ca20f6353a2d27dbf2e7172723d4c8"
+  },
+  "/Users/oao/my-brain/03-KNOWLEDGE/02-WORKING/03-TOPIC-DRAFTS/ai-tooling-ecosystem-2026-06-24.md": {
+    "mtime": 1782360021.700231,
+    "ast_hash": "f1da031923a4fe8845b2c429a1d50a2d",
+    "semantic_hash": "f1da031923a4fe8845b2c429a1d50a2d"
+  },
+  "/Users/oao/my-brain/03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/2026-06-25/amplifier-report-2026-06-25.md": {
+    "mtime": 1782417738.953893,
+    "ast_hash": "53965b85dc8ec2f2757c4ab14cc6f893",
+    "semantic_hash": "53965b85dc8ec2f2757c4ab14cc6f893"
+  },
+  "/Users/oao/my-brain/03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/2026-06-25/article-integration-report-2026-06-25.md": {
+    "mtime": 1782410533.3915265,
+    "ast_hash": "9479403f7e95d6390cc8baeec83c4531",
+    "semantic_hash": "9479403f7e95d6390cc8baeec83c4531"
+  },
+  "/Users/oao/my-brain/03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/2026-06-25/conversation-mining-report-2026-06-25.md": {
+    "mtime": 1782414380.0982103,
+    "ast_hash": "7be01bbf28f9e0880e6c7e295647807b",
+    "semantic_hash": "7be01bbf28f9e0880e6c7e295647807b"
+  },
+  "/Users/oao/my-brain/prompts/cron/timesheet-monthly-summary.md": {
+    "mtime": 1782374213.5471547,
+    "ast_hash": "6a2ef679a92222200f9292c3ce00b8de",
+    "semantic_hash": "6a2ef679a92222200f9292c3ce00b8de"
   }
 }

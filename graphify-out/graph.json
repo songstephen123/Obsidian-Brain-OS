@@ -9,8 +9,8 @@
       "source_file": "/Users/oao/my-brain/skills/conversation-knowledge-flywheel/scripts/build-day-manifest.py",
       "source_location": "L1",
       "community": 8,
-      "id": "build_day_manifest",
-      "norm_label": "build-day-manifest.py"
+      "norm_label": "build-day-manifest.py",
+      "id": "build_day_manifest"
     },
     {
       "label": "infer_project()",
@@ -18,8 +18,8 @@
       "source_file": "/Users/oao/my-brain/skills/conversation-knowledge-flywheel/scripts/build-day-manifest.py",
       "source_location": "L12",
       "community": 8,
-      "id": "build_day_manifest_infer_project",
-      "norm_label": "infer_project()"
+      "norm_label": "infer_project()",
+      "id": "build_day_manifest_infer_project"
     },
     {
       "label": "infer_agent()",
@@ -27,8 +27,8 @@
       "source_file": "/Users/oao/my-brain/skills/conversation-knowledge-flywheel/scripts/build-day-manifest.py",
       "source_location": "L19",
       "community": 8,
-      "id": "build_day_manifest_infer_agent",
-      "norm_label": "infer_agent()"
+      "norm_label": "infer_agent()",
+      "id": "build_day_manifest_infer_agent"
     },
     {
       "label": "infer_title()",
@@ -36,8 +36,8 @@
       "source_file": "/Users/oao/my-brain/skills/conversation-knowledge-flywheel/scripts/build-day-manifest.py",
       "source_location": "L26",
       "community": 8,
-      "id": "build_day_manifest_infer_title",
-      "norm_label": "infer_title()"
+      "norm_label": "infer_title()",
+      "id": "build_day_manifest_infer_title"
     },
     {
       "label": "main()",
@@ -45,8 +45,8 @@
       "source_file": "/Users/oao/my-brain/skills/conversation-knowledge-flywheel/scripts/build-day-manifest.py",
       "source_location": "L33",
       "community": 8,
-      "id": "build_day_manifest_main",
-      "norm_label": "main()"
+      "norm_label": "main()",
+      "id": "build_day_manifest_main"
     },
     {
       "label": "render-writer-package.py",
@@ -54,8 +54,8 @@
       "source_file": "/Users/oao/my-brain/skills/conversation-knowledge-flywheel/scripts/render-writer-package.py",
       "source_location": "L1",
       "community": 13,
-      "id": "render_writer_package",
-      "norm_label": "render-writer-package.py"
+      "norm_label": "render-writer-package.py",
+      "id": "render_writer_package"
     },
     {
       "label": "resolve-project-ref.py",
@@ -63,8 +63,8 @@
       "source_file": "/Users/oao/my-brain/skills/conversation-knowledge-flywheel/scripts/resolve-project-ref.py",
       "source_location": "L1",
       "community": 7,
-      "id": "resolve_project_ref",
-      "norm_label": "resolve-project-ref.py"
+      "norm_label": "resolve-project-ref.py",
+      "id": "resolve_project_ref"
     },
     {
       "label": "parse_frontmatter()",
@@ -72,8 +72,8 @@
       "source_file": "/Users/oao/my-brain/skills/conversation-knowledge-flywheel/scripts/resolve-project-ref.py",
       "source_location": "L27",
       "community": 7,
-      "id": "resolve_project_ref_parse_frontmatter",
-      "norm_label": "parse_frontmatter()"
+      "norm_label": "parse_frontmatter()",
+      "id": "resolve_project_ref_parse_frontmatter"
     },
     {
       "label": "build_mapping()",
@@ -81,8 +81,8 @@
       "source_file": "/Users/oao/my-brain/skills/conversation-knowledge-flywheel/scripts/resolve-project-ref.py",
       "source_location": "L57",
       "community": 7,
-      "id": "resolve_project_ref_build_mapping",
-      "norm_label": "build_mapping()"
+      "norm_label": "build_mapping()",
+      "id": "resolve_project_ref_build_mapping"
     },
     {
       "label": "main()",
@@ -90,8 +90,8 @@
       "source_file": "/Users/oao/my-brain/skills/conversation-knowledge-flywheel/scripts/resolve-project-ref.py",
       "source_location": "L74",
       "community": 7,
-      "id": "resolve_project_ref_main",
-      "norm_label": "main()"
+      "norm_label": "main()",
+      "id": "resolve_project_ref_main"
     },
     {
       "label": "Extract YAML frontmatter fields we care about (project_ref, aliases).",
@@ -99,8 +99,8 @@
       "source_file": "/Users/oao/my-brain/skills/conversation-knowledge-flywheel/scripts/resolve-project-ref.py",
       "source_location": "L28",
       "community": 7,
-      "id": "resolve_project_ref_rationale_28",
-      "norm_label": "extract yaml frontmatter fields we care about (project_ref, aliases)."
+      "norm_label": "extract yaml frontmatter fields we care about (project_ref, aliases).",
+      "id": "resolve_project_ref_rationale_28"
     },
     {
       "label": "Return {alias_lower: (project_ref, brief_path)} for all projects.",
@@ -108,8 +108,8 @@
       "source_file": "/Users/oao/my-brain/skills/conversation-knowledge-flywheel/scripts/resolve-project-ref.py",
       "source_location": "L58",
       "community": 7,
-      "id": "resolve_project_ref_rationale_58",
-      "norm_label": "return {alias_lower: (project_ref, brief_path)} for all projects."
+      "norm_label": "return {alias_lower: (project_ref, brief_path)} for all projects.",
+      "id": "resolve_project_ref_rationale_58"
     },
     {
       "label": "speak.py",
@@ -117,8 +117,8 @@
       "source_file": "/Users/oao/my-brain/skills/english-tutor/scripts/speak.py",
       "source_location": "L1",
       "community": 9,
-      "id": "speak",
-      "norm_label": "speak.py"
+      "norm_label": "speak.py",
+      "id": "speak"
     },
     {
       "label": "speak()",
@@ -126,8 +126,8 @@
       "source_file": "/Users/oao/my-brain/skills/english-tutor/scripts/speak.py",
       "source_location": "L27",
       "community": 9,
-      "id": "speak_speak",
-      "norm_label": "speak()"
+      "norm_label": "speak()",
+      "id": "speak_speak"
     },
     {
       "label": "main()",
@@ -135,8 +135,8 @@
       "source_file": "/Users/oao/my-brain/skills/english-tutor/scripts/speak.py",
       "source_location": "L37",
       "community": 9,
-      "id": "speak_main",
-      "norm_label": "main()"
+      "norm_label": "main()",
+      "id": "speak_main"
     },
     {
       "label": "Generate speech from text using edge-tts.",
@@ -144,8 +144,8 @@
       "source_file": "/Users/oao/my-brain/skills/english-tutor/scripts/speak.py",
       "source_location": "L29",
       "community": 9,
-      "id": "speak_rationale_29",
-      "norm_label": "generate speech from text using edge-tts."
+      "norm_label": "generate speech from text using edge-tts.",
+      "id": "speak_rationale_29"
     },
     {
       "label": "transcribe.py",
@@ -153,8 +153,8 @@
       "source_file": "/Users/oao/my-brain/skills/english-tutor/scripts/transcribe.py",
       "source_location": "L1",
       "community": 10,
-      "id": "transcribe",
-      "norm_label": "transcribe.py"
+      "norm_label": "transcribe.py",
+      "id": "transcribe"
     },
     {
       "label": "transcribe()",
@@ -162,8 +162,8 @@
       "source_file": "/Users/oao/my-brain/skills/english-tutor/scripts/transcribe.py",
       "source_location": "L18",
       "community": 10,
-      "id": "transcribe_transcribe",
-      "norm_label": "transcribe()"
+      "norm_label": "transcribe()",
+      "id": "transcribe_transcribe"
     },
     {
       "label": "main()",
@@ -171,8 +171,8 @@
       "source_file": "/Users/oao/my-brain/skills/english-tutor/scripts/transcribe.py",
       "source_location": "L56",
       "community": 10,
-      "id": "transcribe_main",
-      "norm_label": "main()"
+      "norm_label": "main()",
+      "id": "transcribe_main"
     },
     {
       "label": "Transcribe audio file using faster-whisper.",
@@ -180,8 +180,8 @@
       "source_file": "/Users/oao/my-brain/skills/english-tutor/scripts/transcribe.py",
       "source_location": "L19",
       "community": 10,
-      "id": "transcribe_rationale_19",
-      "norm_label": "transcribe audio file using faster-whisper."
+      "norm_label": "transcribe audio file using faster-whisper.",
+      "id": "transcribe_rationale_19"
     },
     {
       "label": "render-graphs.js",
@@ -189,8 +189,8 @@
       "source_file": "/Users/oao/my-brain/skills/recommended/writing-skills/render-graphs.js",
       "source_location": "L1",
       "community": 6,
-      "id": "render_graphs",
-      "norm_label": "render-graphs.js"
+      "norm_label": "render-graphs.js",
+      "id": "render_graphs"
     },
     {
       "label": "extractDotBlocks()",
@@ -198,8 +198,8 @@
       "source_file": "/Users/oao/my-brain/skills/recommended/writing-skills/render-graphs.js",
       "source_location": "L20",
       "community": 6,
-      "id": "render_graphs_extractdotblocks",
-      "norm_label": "extractdotblocks()"
+      "norm_label": "extractdotblocks()",
+      "id": "render_graphs_extractdotblocks"
     },
     {
       "label": "extractGraphBody()",
@@ -207,8 +207,8 @@
       "source_file": "/Users/oao/my-brain/skills/recommended/writing-skills/render-graphs.js",
       "source_location": "L38",
       "community": 6,
-      "id": "render_graphs_extractgraphbody",
-      "norm_label": "extractgraphbody()"
+      "norm_label": "extractgraphbody()",
+      "id": "render_graphs_extractgraphbody"
     },
     {
       "label": "combineGraphs()",
@@ -216,8 +216,8 @@
       "source_file": "/Users/oao/my-brain/skills/recommended/writing-skills/render-graphs.js",
       "source_location": "L51",
       "community": 6,
-      "id": "render_graphs_combinegraphs",
-      "norm_label": "combinegraphs()"
+      "norm_label": "combinegraphs()",
+      "id": "render_graphs_combinegraphs"
     },
     {
       "label": "renderToSvg()",
@@ -225,8 +225,8 @@
       "source_file": "/Users/oao/my-brain/skills/recommended/writing-skills/render-graphs.js",
       "source_location": "L70",
       "community": 6,
-      "id": "render_graphs_rendertosvg",
-      "norm_label": "rendertosvg()"
+      "norm_label": "rendertosvg()",
+      "id": "render_graphs_rendertosvg"
     },
     {
       "label": "main()",
@@ -234,8 +234,8 @@
       "source_file": "/Users/oao/my-brain/skills/recommended/writing-skills/render-graphs.js",
       "source_location": "L84",
       "community": 6,
-      "id": "render_graphs_main",
-      "norm_label": "main()"
+      "norm_label": "main()",
+      "id": "render_graphs_main"
     },
     {
       "label": "__init__.py",
@@ -243,8 +243,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/__init__.py",
       "source_location": "L1",
       "community": 12,
-      "id": "init",
-      "norm_label": "__init__.py"
+      "norm_label": "__init__.py",
+      "id": "init"
     },
     {
       "label": "__main__.py",
@@ -252,8 +252,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/conversation_mining/__main__.py",
       "source_location": "L1",
       "community": 5,
-      "id": "main",
-      "norm_label": "__main__.py"
+      "norm_label": "__main__.py",
+      "id": "main"
     },
     {
       "label": "cli.py",
@@ -261,8 +261,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/conversation_mining/cli.py",
       "source_location": "L1",
       "community": 5,
-      "id": "cli",
-      "norm_label": "cli.py"
+      "norm_label": "cli.py",
+      "id": "cli"
     },
     {
       "label": "_json_for_html_script()",
@@ -270,8 +270,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/conversation_mining/cli.py",
       "source_location": "L20",
       "community": 5,
-      "id": "cli_json_for_html_script",
-      "norm_label": "_json_for_html_script()"
+      "norm_label": "_json_for_html_script()",
+      "id": "cli_json_for_html_script"
     },
     {
       "label": "run_export()",
@@ -279,8 +279,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/conversation_mining/cli.py",
       "source_location": "L25",
       "community": 5,
-      "id": "cli_run_export",
-      "norm_label": "run_export()"
+      "norm_label": "run_export()",
+      "id": "cli_run_export"
     },
     {
       "label": "build_html()",
@@ -288,8 +288,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/conversation_mining/cli.py",
       "source_location": "L37",
       "community": 5,
-      "id": "cli_build_html",
-      "norm_label": "build_html()"
+      "norm_label": "build_html()",
+      "id": "cli_build_html"
     },
     {
       "label": "main()",
@@ -297,8 +297,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/conversation_mining/cli.py",
       "source_location": "L73",
       "community": 5,
-      "id": "cli_main",
-      "norm_label": "main()"
+      "norm_label": "main()",
+      "id": "cli_main"
     },
     {
       "label": "convs.py",
@@ -306,8 +306,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/convs.py",
       "source_location": "L1",
       "community": 11,
-      "id": "convs",
-      "norm_label": "convs.py"
+      "norm_label": "convs.py",
+      "id": "convs"
     },
     {
       "label": "export_all.py",
@@ -315,8 +315,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L1",
       "community": 1,
-      "id": "export_all",
-      "norm_label": "export_all.py"
+      "norm_label": "export_all.py",
+      "id": "export_all"
     },
     {
       "label": "load_index()",
@@ -324,8 +324,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L36",
       "community": 1,
-      "id": "export_all_load_index",
-      "norm_label": "load_index()"
+      "norm_label": "load_index()",
+      "id": "export_all_load_index"
     },
     {
       "label": "save_index()",
@@ -333,8 +333,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L46",
       "community": 1,
-      "id": "export_all_save_index",
-      "norm_label": "save_index()"
+      "norm_label": "save_index()",
+      "id": "export_all_save_index"
     },
     {
       "label": "get_existing_ids()",
@@ -342,8 +342,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L53",
       "community": 1,
-      "id": "export_all_get_existing_ids",
-      "norm_label": "get_existing_ids()"
+      "norm_label": "get_existing_ids()",
+      "id": "export_all_get_existing_ids"
     },
     {
       "label": "_preserve_existing_fields()",
@@ -351,8 +351,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L57",
       "community": 1,
-      "id": "export_all_preserve_existing_fields",
-      "norm_label": "_preserve_existing_fields()"
+      "norm_label": "_preserve_existing_fields()",
+      "id": "export_all_preserve_existing_fields"
     },
     {
       "label": "_clean_metadata_text()",
@@ -360,8 +360,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L64",
       "community": 1,
-      "id": "export_all_clean_metadata_text",
-      "norm_label": "_clean_metadata_text()"
+      "norm_label": "_clean_metadata_text()",
+      "id": "export_all_clean_metadata_text"
     },
     {
       "label": "_normalize_project_metadata()",
@@ -369,8 +369,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L70",
       "community": 1,
-      "id": "export_all_normalize_project_metadata",
-      "norm_label": "_normalize_project_metadata()"
+      "norm_label": "_normalize_project_metadata()",
+      "id": "export_all_normalize_project_metadata"
     },
     {
       "label": "_sanitize_conversation_metadata()",
@@ -378,8 +378,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L81",
       "community": 1,
-      "id": "export_all_sanitize_conversation_metadata",
-      "norm_label": "_sanitize_conversation_metadata()"
+      "norm_label": "_sanitize_conversation_metadata()",
+      "id": "export_all_sanitize_conversation_metadata"
     },
     {
       "label": "_sanitize_index_metadata()",
@@ -387,8 +387,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L118",
       "community": 1,
-      "id": "export_all_sanitize_index_metadata",
-      "norm_label": "_sanitize_index_metadata()"
+      "norm_label": "_sanitize_index_metadata()",
+      "id": "export_all_sanitize_index_metadata"
     },
     {
       "label": "_content_hash()",
@@ -396,8 +396,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L126",
       "community": 1,
-      "id": "export_all_content_hash",
-      "norm_label": "_content_hash()"
+      "norm_label": "_content_hash()",
+      "id": "export_all_content_hash"
     },
     {
       "label": "upsert_conversation()",
@@ -405,8 +405,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L136",
       "community": 1,
-      "id": "export_all_upsert_conversation",
-      "norm_label": "upsert_conversation()"
+      "norm_label": "upsert_conversation()",
+      "id": "export_all_upsert_conversation"
     },
     {
       "label": "find_existing_conversation()",
@@ -414,8 +414,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L154",
       "community": 1,
-      "id": "export_all_find_existing_conversation",
-      "norm_label": "find_existing_conversation()"
+      "norm_label": "find_existing_conversation()",
+      "id": "export_all_find_existing_conversation"
     },
     {
       "label": "make_conv_id()",
@@ -423,8 +423,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L161",
       "community": 1,
-      "id": "export_all_make_conv_id",
-      "norm_label": "make_conv_id()"
+      "norm_label": "make_conv_id()",
+      "id": "export_all_make_conv_id"
     },
     {
       "label": "_default_markdown_dir()",
@@ -432,8 +432,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L166",
       "community": 1,
-      "id": "export_all_default_markdown_dir",
-      "norm_label": "_default_markdown_dir()"
+      "norm_label": "_default_markdown_dir()",
+      "id": "export_all_default_markdown_dir"
     },
     {
       "label": "_build_transcript_stem()",
@@ -441,8 +441,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L172",
       "community": 1,
-      "id": "export_all_build_transcript_stem",
-      "norm_label": "_build_transcript_stem()"
+      "norm_label": "_build_transcript_stem()",
+      "id": "export_all_build_transcript_stem"
     },
     {
       "label": "materialize_transcripts()",
@@ -450,8 +450,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L185",
       "community": 1,
-      "id": "export_all_materialize_transcripts",
-      "norm_label": "materialize_transcripts()"
+      "norm_label": "materialize_transcripts()",
+      "id": "export_all_materialize_transcripts"
     },
     {
       "label": "export_claude()",
@@ -459,8 +459,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L232",
       "community": 1,
-      "id": "export_all_export_claude",
-      "norm_label": "export_claude()"
+      "norm_label": "export_claude()",
+      "id": "export_all_export_claude"
     },
     {
       "label": "export_codex()",
@@ -468,8 +468,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L292",
       "community": 1,
-      "id": "export_all_export_codex",
-      "norm_label": "export_codex()"
+      "norm_label": "export_codex()",
+      "id": "export_all_export_codex"
     },
     {
       "label": "export_antigravity()",
@@ -477,8 +477,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L331",
       "community": 1,
-      "id": "export_all_export_antigravity",
-      "norm_label": "export_antigravity()"
+      "norm_label": "export_antigravity()",
+      "id": "export_all_export_antigravity"
     },
     {
       "label": "_build_search_index()",
@@ -486,8 +486,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L368",
       "community": 1,
-      "id": "export_all_build_search_index",
-      "norm_label": "_build_search_index()"
+      "norm_label": "_build_search_index()",
+      "id": "export_all_build_search_index"
     },
     {
       "label": "main()",
@@ -495,8 +495,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L388",
       "community": 1,
-      "id": "export_all_main",
-      "norm_label": "main()"
+      "norm_label": "main()",
+      "id": "export_all_main"
     },
     {
       "label": "\u57fa\u4e8e messages \u751f\u6210\u5185\u5bb9\u54c8\u5e0c\uff0c\u7528\u4e8e\u5224\u65ad\u4f1a\u8bdd\u662f\u5426\u6709\u53d8\u5316",
@@ -504,8 +504,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L127",
       "community": 1,
-      "id": "export_all_rationale_127",
-      "norm_label": "\u57fa\u4e8e messages \u751f\u6210\u5185\u5bb9\u54c8\u5e0c,\u7528\u4e8e\u5224\u65ad\u4f1a\u8bdd\u662f\u5426\u6709\u53d8\u5316"
+      "norm_label": "\u57fa\u4e8e messages \u751f\u6210\u5185\u5bb9\u54c8\u5e0c,\u7528\u4e8e\u5224\u65ad\u4f1a\u8bdd\u662f\u5426\u6709\u53d8\u5316",
+      "id": "export_all_rationale_127"
     },
     {
       "label": "\u63d2\u5165\u6216\u66f4\u65b0\u4f1a\u8bdd\u3002\u8fd4\u56de True \u8868\u793a\u5185\u5bb9\u6709\u53d8\u5316\uff08\u9700\u8981\u91cd\u65b0 materialize\uff09\uff0cFalse \u8868\u793a\u672a\u53d8\u5316\u3002",
@@ -513,8 +513,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L137",
       "community": 1,
-      "id": "export_all_rationale_137",
-      "norm_label": "\u63d2\u5165\u6216\u66f4\u65b0\u4f1a\u8bdd\u3002\u8fd4\u56de true \u8868\u793a\u5185\u5bb9\u6709\u53d8\u5316(\u9700\u8981\u91cd\u65b0 materialize),false \u8868\u793a\u672a\u53d8\u5316\u3002"
+      "norm_label": "\u63d2\u5165\u6216\u66f4\u65b0\u4f1a\u8bdd\u3002\u8fd4\u56de true \u8868\u793a\u5185\u5bb9\u6709\u53d8\u5316(\u9700\u8981\u91cd\u65b0 materialize),false \u8868\u793a\u672a\u53d8\u5316\u3002",
+      "id": "export_all_rationale_137"
     },
     {
       "label": "Materialize transcript markdown files.      Args:         dirty_ids: \u5982\u679c\u975e None\uff0c\u53ea\u91cd",
@@ -522,8 +522,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L186",
       "community": 1,
-      "id": "export_all_rationale_186",
-      "norm_label": "materialize transcript markdown files.      args:         dirty_ids: \u5982\u679c\u975e none,\u53ea\u91cd"
+      "norm_label": "materialize transcript markdown files.      args:         dirty_ids: \u5982\u679c\u975e none,\u53ea\u91cd",
+      "id": "export_all_rationale_186"
     },
     {
       "label": "\u5bfc\u51fa\u65f6\u751f\u6210\u8f7b\u91cf\u641c\u7d22\u7d22\u5f15 search_index.json",
@@ -531,8 +531,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/export_all.py",
       "source_location": "L369",
       "community": 1,
-      "id": "export_all_rationale_369",
-      "norm_label": "\u5bfc\u51fa\u65f6\u751f\u6210\u8f7b\u91cf\u641c\u7d22\u7d22\u5f15 search_index.json"
+      "norm_label": "\u5bfc\u51fa\u65f6\u751f\u6210\u8f7b\u91cf\u641c\u7d22\u7d22\u5f15 search_index.json",
+      "id": "export_all_rationale_369"
     },
     {
       "label": "extract_antigravity.py",
@@ -540,8 +540,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L1",
       "community": 2,
-      "id": "extract_antigravity",
-      "norm_label": "extract_antigravity.py"
+      "norm_label": "extract_antigravity.py",
+      "id": "extract_antigravity"
     },
     {
       "label": "_decode_value()",
@@ -549,8 +549,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L38",
       "community": 2,
-      "id": "extract_antigravity_decode_value",
-      "norm_label": "_decode_value()"
+      "norm_label": "_decode_value()",
+      "id": "extract_antigravity_decode_value"
     },
     {
       "label": "_clean_text()",
@@ -558,8 +558,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L45",
       "community": 2,
-      "id": "extract_antigravity_clean_text",
-      "norm_label": "_clean_text()"
+      "norm_label": "_clean_text()",
+      "id": "extract_antigravity_clean_text"
     },
     {
       "label": "_looks_human_readable()",
@@ -567,8 +567,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L55",
       "community": 2,
-      "id": "extract_antigravity_looks_human_readable",
-      "norm_label": "_looks_human_readable()"
+      "norm_label": "_looks_human_readable()",
+      "id": "extract_antigravity_looks_human_readable"
     },
     {
       "label": "_extract_title()",
@@ -576,8 +576,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L62",
       "community": 2,
-      "id": "extract_antigravity_extract_title",
-      "norm_label": "_extract_title()"
+      "norm_label": "_extract_title()",
+      "id": "extract_antigravity_extract_title"
     },
     {
       "label": "_is_poor_title()",
@@ -585,8 +585,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L79",
       "community": 2,
-      "id": "extract_antigravity_is_poor_title",
-      "norm_label": "_is_poor_title()"
+      "norm_label": "_is_poor_title()",
+      "id": "extract_antigravity_is_poor_title"
     },
     {
       "label": "_normalize_title_candidate()",
@@ -594,8 +594,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L91",
       "community": 2,
-      "id": "extract_antigravity_normalize_title_candidate",
-      "norm_label": "_normalize_title_candidate()"
+      "norm_label": "_normalize_title_candidate()",
+      "id": "extract_antigravity_normalize_title_candidate"
     },
     {
       "label": "_title_from_messages()",
@@ -603,8 +603,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L102",
       "community": 2,
-      "id": "extract_antigravity_title_from_messages",
-      "norm_label": "_title_from_messages()"
+      "norm_label": "_title_from_messages()",
+      "id": "extract_antigravity_title_from_messages"
     },
     {
       "label": "_extract_project()",
@@ -612,8 +612,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L116",
       "community": 2,
-      "id": "extract_antigravity_extract_project",
-      "norm_label": "_extract_project()"
+      "norm_label": "_extract_project()",
+      "id": "extract_antigravity_extract_project"
     },
     {
       "label": "_extract_json_objects()",
@@ -621,8 +621,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L123",
       "community": 2,
-      "id": "extract_antigravity_extract_json_objects",
-      "norm_label": "_extract_json_objects()"
+      "norm_label": "_extract_json_objects()",
+      "id": "extract_antigravity_extract_json_objects"
     },
     {
       "label": "_append_message()",
@@ -630,8 +630,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L142",
       "community": 2,
-      "id": "extract_antigravity_append_message",
-      "norm_label": "_append_message()"
+      "norm_label": "_append_message()",
+      "id": "extract_antigravity_append_message"
     },
     {
       "label": "_extract_messages_from_chunk()",
@@ -639,8 +639,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L151",
       "community": 2,
-      "id": "extract_antigravity_extract_messages_from_chunk",
-      "norm_label": "_extract_messages_from_chunk()"
+      "norm_label": "_extract_messages_from_chunk()",
+      "id": "extract_antigravity_extract_messages_from_chunk"
     },
     {
       "label": "_extract_conversations_from_traj()",
@@ -648,8 +648,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L169",
       "community": 2,
-      "id": "extract_antigravity_extract_conversations_from_traj",
-      "norm_label": "_extract_conversations_from_traj()"
+      "norm_label": "_extract_conversations_from_traj()",
+      "id": "extract_antigravity_extract_conversations_from_traj"
     },
     {
       "label": "_extract_messages_from_jetski()",
@@ -657,8 +657,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L202",
       "community": 2,
-      "id": "extract_antigravity_extract_messages_from_jetski",
-      "norm_label": "_extract_messages_from_jetski()"
+      "norm_label": "_extract_messages_from_jetski()",
+      "id": "extract_antigravity_extract_messages_from_jetski"
     },
     {
       "label": "_safe_read_json()",
@@ -666,8 +666,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L226",
       "community": 2,
-      "id": "extract_antigravity_safe_read_json",
-      "norm_label": "_safe_read_json()"
+      "norm_label": "_safe_read_json()",
+      "id": "extract_antigravity_safe_read_json"
     },
     {
       "label": "_extract_artifact_heading()",
@@ -675,8 +675,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L233",
       "community": 2,
-      "id": "extract_antigravity_extract_artifact_heading",
-      "norm_label": "_extract_artifact_heading()"
+      "norm_label": "_extract_artifact_heading()",
+      "id": "extract_antigravity_extract_artifact_heading"
     },
     {
       "label": "_artifact_priority()",
@@ -684,8 +684,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L255",
       "community": 2,
-      "id": "extract_antigravity_artifact_priority",
-      "norm_label": "_artifact_priority()"
+      "norm_label": "_artifact_priority()",
+      "id": "extract_antigravity_artifact_priority"
     },
     {
       "label": "_collect_brain_artifacts()",
@@ -693,8 +693,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L272",
       "community": 2,
-      "id": "extract_antigravity_collect_brain_artifacts",
-      "norm_label": "_collect_brain_artifacts()"
+      "norm_label": "_collect_brain_artifacts()",
+      "id": "extract_antigravity_collect_brain_artifacts"
     },
     {
       "label": "find_sessions()",
@@ -702,8 +702,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L308",
       "community": 2,
-      "id": "extract_antigravity_find_sessions",
-      "norm_label": "find_sessions()"
+      "norm_label": "find_sessions()",
+      "id": "extract_antigravity_find_sessions"
     },
     {
       "label": "Extract conversation messages from jetski state (most recent conversation).",
@@ -711,8 +711,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L203",
       "community": 2,
-      "id": "extract_antigravity_rationale_203",
-      "norm_label": "extract conversation messages from jetski state (most recent conversation)."
+      "norm_label": "extract conversation messages from jetski state (most recent conversation).",
+      "id": "extract_antigravity_rationale_203"
     },
     {
       "label": "Extract AntiGravity conversations from state.vscdb.     Returns list of session",
@@ -720,8 +720,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_antigravity.py",
       "source_location": "L309",
       "community": 2,
-      "id": "extract_antigravity_rationale_309",
-      "norm_label": "extract antigravity conversations from state.vscdb.     returns list of session"
+      "norm_label": "extract antigravity conversations from state.vscdb.     returns list of session",
+      "id": "extract_antigravity_rationale_309"
     },
     {
       "label": "extract_claude.py",
@@ -729,8 +729,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L1",
       "community": 3,
-      "id": "extract_claude",
-      "norm_label": "extract_claude.py"
+      "norm_label": "extract_claude.py",
+      "id": "extract_claude"
     },
     {
       "label": "load_history_index()",
@@ -738,8 +738,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L20",
       "community": 3,
-      "id": "extract_claude_load_history_index",
-      "norm_label": "load_history_index()"
+      "norm_label": "load_history_index()",
+      "id": "extract_claude_load_history_index"
     },
     {
       "label": "find_sessions_by_date()",
@@ -747,8 +747,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L40",
       "community": 3,
-      "id": "extract_claude_find_sessions_by_date",
-      "norm_label": "find_sessions_by_date()"
+      "norm_label": "find_sessions_by_date()",
+      "id": "extract_claude_find_sessions_by_date"
     },
     {
       "label": "_is_noise()",
@@ -756,8 +756,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L113",
       "community": 3,
-      "id": "extract_claude_is_noise",
-      "norm_label": "_is_noise()"
+      "norm_label": "_is_noise()",
+      "id": "extract_claude_is_noise"
     },
     {
       "label": "_clean_text()",
@@ -765,8 +765,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L129",
       "community": 3,
-      "id": "extract_claude_clean_text",
-      "norm_label": "_clean_text()"
+      "norm_label": "_clean_text()",
+      "id": "extract_claude_clean_text"
     },
     {
       "label": "_extract_user_text()",
@@ -774,8 +774,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L156",
       "community": 3,
-      "id": "extract_claude_extract_user_text",
-      "norm_label": "_extract_user_text()"
+      "norm_label": "_extract_user_text()",
+      "id": "extract_claude_extract_user_text"
     },
     {
       "label": "_extract_assistant_text()",
@@ -783,8 +783,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L174",
       "community": 3,
-      "id": "extract_claude_extract_assistant_text",
-      "norm_label": "_extract_assistant_text()"
+      "norm_label": "_extract_assistant_text()",
+      "id": "extract_claude_extract_assistant_text"
     },
     {
       "label": "_extract_subagent_summary()",
@@ -792,8 +792,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L186",
       "community": 3,
-      "id": "extract_claude_extract_subagent_summary",
-      "norm_label": "_extract_subagent_summary()"
+      "norm_label": "_extract_subagent_summary()",
+      "id": "extract_claude_extract_subagent_summary"
     },
     {
       "label": "extract_conversation()",
@@ -801,8 +801,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L195",
       "community": 3,
-      "id": "extract_claude_extract_conversation",
-      "norm_label": "extract_conversation()"
+      "norm_label": "extract_conversation()",
+      "id": "extract_claude_extract_conversation"
     },
     {
       "label": "decode_project_name()",
@@ -810,8 +810,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L294",
       "community": 3,
-      "id": "extract_claude_decode_project_name",
-      "norm_label": "decode_project_name()"
+      "norm_label": "decode_project_name()",
+      "id": "extract_claude_decode_project_name"
     },
     {
       "label": "sanitize_filename()",
@@ -819,8 +819,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L299",
       "community": 3,
-      "id": "extract_claude_sanitize_filename",
-      "norm_label": "sanitize_filename()"
+      "norm_label": "sanitize_filename()",
+      "id": "extract_claude_sanitize_filename"
     },
     {
       "label": "format_conversation()",
@@ -828,8 +828,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L313",
       "community": 3,
-      "id": "extract_claude_format_conversation",
-      "norm_label": "format_conversation()"
+      "norm_label": "format_conversation()",
+      "id": "extract_claude_format_conversation"
     },
     {
       "label": "main()",
@@ -837,8 +837,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L369",
       "community": 3,
-      "id": "extract_claude_main",
-      "norm_label": "main()"
+      "norm_label": "main()",
+      "id": "extract_claude_main"
     },
     {
       "label": "\u4ece history.jsonl \u5efa\u7acb sessionId -> \u9996\u6761\u7528\u6237\u8f93\u5165 \u7684\u7d22\u5f15\uff08\u7528\u4e8e\u6807\u9898\uff09",
@@ -846,8 +846,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L21",
       "community": 3,
-      "id": "extract_claude_rationale_21",
-      "norm_label": "\u4ece history.jsonl \u5efa\u7acb sessionid -> \u9996\u6761\u7528\u6237\u8f93\u5165 \u7684\u7d22\u5f15(\u7528\u4e8e\u6807\u9898)"
+      "norm_label": "\u4ece history.jsonl \u5efa\u7acb sessionid -> \u9996\u6761\u7528\u6237\u8f93\u5165 \u7684\u7d22\u5f15(\u7528\u4e8e\u6807\u9898)",
+      "id": "extract_claude_rationale_21"
     },
     {
       "label": "\u627e\u5230\u67d0\u5929\u6d3b\u8dc3\u7684\u6240\u6709 Claude Code \u4f1a\u8bdd\u3002     \u626b\u63cf\u6240\u6709 project \u76ee\u5f55\u4e0b\u7684 .jsonl \u6587\u4ef6\uff0c\u68c0\u67e5\u5176\u4e2d\u6d88\u606f\u7684\u65f6\u95f4\u6233\u3002     \u8fd4\u56de lis",
@@ -855,8 +855,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L41",
       "community": 3,
-      "id": "extract_claude_rationale_41",
-      "norm_label": "\u627e\u5230\u67d0\u5929\u6d3b\u8dc3\u7684\u6240\u6709 claude code \u4f1a\u8bdd\u3002     \u626b\u63cf\u6240\u6709 project \u76ee\u5f55\u4e0b\u7684 .jsonl \u6587\u4ef6,\u68c0\u67e5\u5176\u4e2d\u6d88\u606f\u7684\u65f6\u95f4\u6233\u3002     \u8fd4\u56de lis"
+      "norm_label": "\u627e\u5230\u67d0\u5929\u6d3b\u8dc3\u7684\u6240\u6709 claude code \u4f1a\u8bdd\u3002     \u626b\u63cf\u6240\u6709 project \u76ee\u5f55\u4e0b\u7684 .jsonl \u6587\u4ef6,\u68c0\u67e5\u5176\u4e2d\u6d88\u606f\u7684\u65f6\u95f4\u6233\u3002     \u8fd4\u56de lis",
+      "id": "extract_claude_rationale_41"
     },
     {
       "label": "\u6e05\u6d17\u6587\u672c\uff0c\u53bb\u6389\u5404\u79cd\u566a\u97f3\u6807\u7b7e\u548c skill \u52a0\u8f7d\u5185\u5bb9",
@@ -864,8 +864,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L130",
       "community": 3,
-      "id": "extract_claude_rationale_130",
-      "norm_label": "\u6e05\u6d17\u6587\u672c,\u53bb\u6389\u5404\u79cd\u566a\u97f3\u6807\u7b7e\u548c skill \u52a0\u8f7d\u5185\u5bb9"
+      "norm_label": "\u6e05\u6d17\u6587\u672c,\u53bb\u6389\u5404\u79cd\u566a\u97f3\u6807\u7b7e\u548c skill \u52a0\u8f7d\u5185\u5bb9",
+      "id": "extract_claude_rationale_130"
     },
     {
       "label": "\u4ece user message content \u63d0\u53d6\u7eaf\u6587\u672c",
@@ -873,8 +873,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L157",
       "community": 3,
-      "id": "extract_claude_rationale_157",
-      "norm_label": "\u4ece user message content \u63d0\u53d6\u7eaf\u6587\u672c"
+      "norm_label": "\u4ece user message content \u63d0\u53d6\u7eaf\u6587\u672c",
+      "id": "extract_claude_rationale_157"
     },
     {
       "label": "\u4ece assistant message content \u63d0\u53d6\u7eaf\u6587\u672c",
@@ -882,8 +882,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L175",
       "community": 3,
-      "id": "extract_claude_rationale_175",
-      "norm_label": "\u4ece assistant message content \u63d0\u53d6\u7eaf\u6587\u672c"
+      "norm_label": "\u4ece assistant message content \u63d0\u53d6\u7eaf\u6587\u672c",
+      "id": "extract_claude_rationale_175"
     },
     {
       "label": "\u4ece Claude Code session JSONL \u63d0\u53d6\u5bf9\u8bdd\u3002      \u5904\u7406\u4e24\u79cd\u60c5\u51b5\uff1a     1. \u666e\u901a session\uff1a\u76f4\u63a5\u4ece user/assist",
@@ -891,8 +891,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_claude.py",
       "source_location": "L196",
       "community": 3,
-      "id": "extract_claude_rationale_196",
-      "norm_label": "\u4ece claude code session jsonl \u63d0\u53d6\u5bf9\u8bdd\u3002      \u5904\u7406\u4e24\u79cd\u60c5\u51b5:     1. \u666e\u901a session:\u76f4\u63a5\u4ece user/assist"
+      "norm_label": "\u4ece claude code session jsonl \u63d0\u53d6\u5bf9\u8bdd\u3002      \u5904\u7406\u4e24\u79cd\u60c5\u51b5:     1. \u666e\u901a session:\u76f4\u63a5\u4ece user/assist",
+      "id": "extract_claude_rationale_196"
     },
     {
       "label": "extract_codex.py",
@@ -900,8 +900,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L1",
       "community": 4,
-      "id": "extract_codex",
-      "norm_label": "extract_codex.py"
+      "norm_label": "extract_codex.py",
+      "id": "extract_codex"
     },
     {
       "label": "load_thread_titles()",
@@ -909,8 +909,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L22",
       "community": 4,
-      "id": "extract_codex_load_thread_titles",
-      "norm_label": "load_thread_titles()"
+      "norm_label": "load_thread_titles()",
+      "id": "extract_codex_load_thread_titles"
     },
     {
       "label": "load_history_for_session()",
@@ -918,8 +918,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L48",
       "community": 4,
-      "id": "extract_codex_load_history_for_session",
-      "norm_label": "load_history_for_session()"
+      "norm_label": "load_history_for_session()",
+      "id": "extract_codex_load_history_for_session"
     },
     {
       "label": "find_sessions_by_date()",
@@ -927,8 +927,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L66",
       "community": 4,
-      "id": "extract_codex_find_sessions_by_date",
-      "norm_label": "find_sessions_by_date()"
+      "norm_label": "find_sessions_by_date()",
+      "id": "extract_codex_find_sessions_by_date"
     },
     {
       "label": "_is_system_noise()",
@@ -936,8 +936,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L131",
       "community": 4,
-      "id": "extract_codex_is_system_noise",
-      "norm_label": "_is_system_noise()"
+      "norm_label": "_is_system_noise()",
+      "id": "extract_codex_is_system_noise"
     },
     {
       "label": "_clean_text()",
@@ -945,8 +945,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L151",
       "community": 4,
-      "id": "extract_codex_clean_text",
-      "norm_label": "_clean_text()"
+      "norm_label": "_clean_text()",
+      "id": "extract_codex_clean_text"
     },
     {
       "label": "_extract_from_history()",
@@ -954,8 +954,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L177",
       "community": 4,
-      "id": "extract_codex_extract_from_history",
-      "norm_label": "_extract_from_history()"
+      "norm_label": "_extract_from_history()",
+      "id": "extract_codex_extract_from_history"
     },
     {
       "label": "extract_conversation()",
@@ -963,8 +963,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L221",
       "community": 4,
-      "id": "extract_codex_extract_conversation",
-      "norm_label": "extract_conversation()"
+      "norm_label": "extract_conversation()",
+      "id": "extract_codex_extract_conversation"
     },
     {
       "label": "format_conversation()",
@@ -972,8 +972,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L334",
       "community": 4,
-      "id": "extract_codex_format_conversation",
-      "norm_label": "format_conversation()"
+      "norm_label": "format_conversation()",
+      "id": "extract_codex_format_conversation"
     },
     {
       "label": "sanitize_filename()",
@@ -981,8 +981,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L371",
       "community": 4,
-      "id": "extract_codex_sanitize_filename",
-      "norm_label": "sanitize_filename()"
+      "norm_label": "sanitize_filename()",
+      "id": "extract_codex_sanitize_filename"
     },
     {
       "label": "main()",
@@ -990,8 +990,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L387",
       "community": 4,
-      "id": "extract_codex_main",
-      "norm_label": "main()"
+      "norm_label": "main()",
+      "id": "extract_codex_main"
     },
     {
       "label": "\u4ece session_index.jsonl \u548c SQLite \u52a0\u8f7d\u4f1a\u8bdd\u6807\u9898",
@@ -999,8 +999,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L23",
       "community": 4,
-      "id": "extract_codex_rationale_23",
-      "norm_label": "\u4ece session_index.jsonl \u548c sqlite \u52a0\u8f7d\u4f1a\u8bdd\u6807\u9898"
+      "norm_label": "\u4ece session_index.jsonl \u548c sqlite \u52a0\u8f7d\u4f1a\u8bdd\u6807\u9898",
+      "id": "extract_codex_rationale_23"
     },
     {
       "label": "\u4ece history.jsonl \u52a0\u8f7d\u67d0\u4e2a session \u7684\u7528\u6237\u8f93\u5165",
@@ -1008,8 +1008,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L49",
       "community": 4,
-      "id": "extract_codex_rationale_49",
-      "norm_label": "\u4ece history.jsonl \u52a0\u8f7d\u67d0\u4e2a session \u7684\u7528\u6237\u8f93\u5165"
+      "norm_label": "\u4ece history.jsonl \u52a0\u8f7d\u67d0\u4e2a session \u7684\u7528\u6237\u8f93\u5165",
+      "id": "extract_codex_rationale_49"
     },
     {
       "label": "\u627e\u5230\u67d0\u5929\u6d3b\u8dc3\u7684\u6240\u6709\u4f1a\u8bdd\u6587\u4ef6\u3002     target_date \u683c\u5f0f: YYYY-MM-DD      \u7b56\u7565:     1. \u76f4\u63a5\u5339\u914d sessions/YYYY",
@@ -1017,8 +1017,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L67",
       "community": 4,
-      "id": "extract_codex_rationale_67",
-      "norm_label": "\u627e\u5230\u67d0\u5929\u6d3b\u8dc3\u7684\u6240\u6709\u4f1a\u8bdd\u6587\u4ef6\u3002     target_date \u683c\u5f0f: yyyy-mm-dd      \u7b56\u7565:     1. \u76f4\u63a5\u5339\u914d sessions/yyyy"
+      "norm_label": "\u627e\u5230\u67d0\u5929\u6d3b\u8dc3\u7684\u6240\u6709\u4f1a\u8bdd\u6587\u4ef6\u3002     target_date \u683c\u5f0f: yyyy-mm-dd      \u7b56\u7565:     1. \u76f4\u63a5\u5339\u914d sessions/yyyy",
+      "id": "extract_codex_rationale_67"
     },
     {
       "label": "\u6e05\u6d17\u6587\u672c\uff0c\u53bb\u6389\u5404\u79cd\u566a\u97f3\u6807\u7b7e\u548c skill \u52a0\u8f7d\u5185\u5bb9",
@@ -1026,8 +1026,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L152",
       "community": 4,
-      "id": "extract_codex_rationale_152",
-      "norm_label": "\u6e05\u6d17\u6587\u672c,\u53bb\u6389\u5404\u79cd\u566a\u97f3\u6807\u7b7e\u548c skill \u52a0\u8f7d\u5185\u5bb9"
+      "norm_label": "\u6e05\u6d17\u6587\u672c,\u53bb\u6389\u5404\u79cd\u566a\u97f3\u6807\u7b7e\u548c skill \u52a0\u8f7d\u5185\u5bb9",
+      "id": "extract_codex_rationale_152"
     },
     {
       "label": "\u4ece replacement_history \u5217\u8868\u63d0\u53d6\u5bf9\u8bdd\u6d88\u606f\u3002     rh: list of {role, content} dicts     \u8fd4\u56de lis",
@@ -1035,8 +1035,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L178",
       "community": 4,
-      "id": "extract_codex_rationale_178",
-      "norm_label": "\u4ece replacement_history \u5217\u8868\u63d0\u53d6\u5bf9\u8bdd\u6d88\u606f\u3002     rh: list of {role, content} dicts     \u8fd4\u56de lis"
+      "norm_label": "\u4ece replacement_history \u5217\u8868\u63d0\u53d6\u5bf9\u8bdd\u6d88\u606f\u3002     rh: list of {role, content} dicts     \u8fd4\u56de lis",
+      "id": "extract_codex_rationale_178"
     },
     {
       "label": "\u4ece session JSONL \u6587\u4ef6\u63d0\u53d6\u7eaf\u5bf9\u8bdd\u5185\u5bb9\uff08\u7528\u6237\u95ee\u9898 + Codex \u56de\u7b54\uff09\u3002      \u5904\u7406\u4e24\u79cd\u60c5\u51b5\uff1a     1. \u666e\u901a session\uff1a\u4ece eve",
@@ -1044,8 +1044,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/extract_codex.py",
       "source_location": "L222",
       "community": 4,
-      "id": "extract_codex_rationale_222",
-      "norm_label": "\u4ece session jsonl \u6587\u4ef6\u63d0\u53d6\u7eaf\u5bf9\u8bdd\u5185\u5bb9(\u7528\u6237\u95ee\u9898 + codex \u56de\u7b54)\u3002      \u5904\u7406\u4e24\u79cd\u60c5\u51b5:     1. \u666e\u901a session:\u4ece eve"
+      "norm_label": "\u4ece session jsonl \u6587\u4ef6\u63d0\u53d6\u7eaf\u5bf9\u8bdd\u5185\u5bb9(\u7528\u6237\u95ee\u9898 + codex \u56de\u7b54)\u3002      \u5904\u7406\u4e24\u79cd\u60c5\u51b5:     1. \u666e\u901a session:\u4ece eve",
+      "id": "extract_codex_rationale_222"
     },
     {
       "label": "transcript_export.py",
@@ -1053,8 +1053,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L1",
       "community": 0,
-      "id": "transcript_export",
-      "norm_label": "transcript_export.py"
+      "norm_label": "transcript_export.py",
+      "id": "transcript_export"
     },
     {
       "label": "sanitize_filename()",
@@ -1062,8 +1062,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L14",
       "community": 0,
-      "id": "transcript_export_sanitize_filename",
-      "norm_label": "sanitize_filename()"
+      "norm_label": "sanitize_filename()",
+      "id": "transcript_export_sanitize_filename"
     },
     {
       "label": "unique_markdown_path()",
@@ -1071,8 +1071,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L30",
       "community": 0,
-      "id": "transcript_export_unique_markdown_path",
-      "norm_label": "unique_markdown_path()"
+      "norm_label": "unique_markdown_path()",
+      "id": "transcript_export_unique_markdown_path"
     },
     {
       "label": "strip_markdown_for_text()",
@@ -1080,8 +1080,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L41",
       "community": 0,
-      "id": "transcript_export_strip_markdown_for_text",
-      "norm_label": "strip_markdown_for_text()"
+      "norm_label": "strip_markdown_for_text()",
+      "id": "transcript_export_strip_markdown_for_text"
     },
     {
       "label": "clean_project_label()",
@@ -1089,8 +1089,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L52",
       "community": 0,
-      "id": "transcript_export_clean_project_label",
-      "norm_label": "clean_project_label()"
+      "norm_label": "clean_project_label()",
+      "id": "transcript_export_clean_project_label"
     },
     {
       "label": "truncate_text()",
@@ -1098,8 +1098,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L59",
       "community": 0,
-      "id": "transcript_export_truncate_text",
-      "norm_label": "truncate_text()"
+      "norm_label": "truncate_text()",
+      "id": "transcript_export_truncate_text"
     },
     {
       "label": "humanize_title_fragment()",
@@ -1107,8 +1107,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L66",
       "community": 0,
-      "id": "transcript_export_humanize_title_fragment",
-      "norm_label": "humanize_title_fragment()"
+      "norm_label": "humanize_title_fragment()",
+      "id": "transcript_export_humanize_title_fragment"
     },
     {
       "label": "_normalize_path_candidate()",
@@ -1116,8 +1116,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L78",
       "community": 0,
-      "id": "transcript_export_normalize_path_candidate",
-      "norm_label": "_normalize_path_candidate()"
+      "norm_label": "_normalize_path_candidate()",
+      "id": "transcript_export_normalize_path_candidate"
     },
     {
       "label": "_push_unique()",
@@ -1125,8 +1125,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L90",
       "community": 0,
-      "id": "transcript_export_push_unique",
-      "norm_label": "_push_unique()"
+      "norm_label": "_push_unique()",
+      "id": "transcript_export_push_unique"
     },
     {
       "label": "extract_file_mentions()",
@@ -1134,8 +1134,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L97",
       "community": 0,
-      "id": "transcript_export_extract_file_mentions",
-      "norm_label": "extract_file_mentions()"
+      "norm_label": "extract_file_mentions()",
+      "id": "transcript_export_extract_file_mentions"
     },
     {
       "label": "extract_command_mentions()",
@@ -1143,8 +1143,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L111",
       "community": 0,
-      "id": "transcript_export_extract_command_mentions",
-      "norm_label": "extract_command_mentions()"
+      "norm_label": "extract_command_mentions()",
+      "id": "transcript_export_extract_command_mentions"
     },
     {
       "label": "extract_signal_mentions()",
@@ -1152,8 +1152,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L126",
       "community": 0,
-      "id": "transcript_export_extract_signal_mentions",
-      "norm_label": "extract_signal_mentions()"
+      "norm_label": "extract_signal_mentions()",
+      "id": "transcript_export_extract_signal_mentions"
     },
     {
       "label": "pick_final_answer()",
@@ -1161,8 +1161,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L142",
       "community": 0,
-      "id": "transcript_export_pick_final_answer",
-      "norm_label": "pick_final_answer()"
+      "norm_label": "pick_final_answer()",
+      "id": "transcript_export_pick_final_answer"
     },
     {
       "label": "prompts_match()",
@@ -1170,8 +1170,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L151",
       "community": 0,
-      "id": "transcript_export_prompts_match",
-      "norm_label": "prompts_match()"
+      "norm_label": "prompts_match()",
+      "id": "transcript_export_prompts_match"
     },
     {
       "label": "build_search_entry()",
@@ -1179,8 +1179,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L163",
       "community": 0,
-      "id": "transcript_export_build_search_entry",
-      "norm_label": "build_search_entry()"
+      "norm_label": "build_search_entry()",
+      "id": "transcript_export_build_search_entry"
     },
     {
       "label": "is_subagent_conversation()",
@@ -1188,8 +1188,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L184",
       "community": 0,
-      "id": "transcript_export_is_subagent_conversation",
-      "norm_label": "is_subagent_conversation()"
+      "norm_label": "is_subagent_conversation()",
+      "id": "transcript_export_is_subagent_conversation"
     },
     {
       "label": "get_subagent_display_name()",
@@ -1197,8 +1197,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L192",
       "community": 0,
-      "id": "transcript_export_get_subagent_display_name",
-      "norm_label": "get_subagent_display_name()"
+      "norm_label": "get_subagent_display_name()",
+      "id": "transcript_export_get_subagent_display_name"
     },
     {
       "label": "build_subagent_index()",
@@ -1206,8 +1206,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L196",
       "community": 0,
-      "id": "transcript_export_build_subagent_index",
-      "norm_label": "build_subagent_index()"
+      "norm_label": "build_subagent_index()",
+      "id": "transcript_export_build_subagent_index"
     },
     {
       "label": "match_subagent_calls()",
@@ -1215,8 +1215,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L210",
       "community": 0,
-      "id": "transcript_export_match_subagent_calls",
-      "norm_label": "match_subagent_calls()"
+      "norm_label": "match_subagent_calls()",
+      "id": "transcript_export_match_subagent_calls"
     },
     {
       "label": "_render_frontmatter()",
@@ -1224,8 +1224,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L229",
       "community": 0,
-      "id": "transcript_export_render_frontmatter",
-      "norm_label": "_render_frontmatter()"
+      "norm_label": "_render_frontmatter()",
+      "id": "transcript_export_render_frontmatter"
     },
     {
       "label": "_append_section()",
@@ -1233,8 +1233,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L244",
       "community": 0,
-      "id": "transcript_export_append_section",
-      "norm_label": "_append_section()"
+      "norm_label": "_append_section()",
+      "id": "transcript_export_append_section"
     },
     {
       "label": "_render_quick_summary()",
@@ -1242,8 +1242,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L251",
       "community": 0,
-      "id": "transcript_export_render_quick_summary",
-      "norm_label": "_render_quick_summary()"
+      "norm_label": "_render_quick_summary()",
+      "id": "transcript_export_render_quick_summary"
     },
     {
       "label": "_render_artifacts()",
@@ -1251,8 +1251,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L274",
       "community": 0,
-      "id": "transcript_export_render_artifacts",
-      "norm_label": "_render_artifacts()"
+      "norm_label": "_render_artifacts()",
+      "id": "transcript_export_render_artifacts"
     },
     {
       "label": "_role_heading()",
@@ -1260,8 +1260,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L290",
       "community": 0,
-      "id": "transcript_export_role_heading",
-      "norm_label": "_role_heading()"
+      "norm_label": "_role_heading()",
+      "id": "transcript_export_role_heading"
     },
     {
       "label": "_append_text_block()",
@@ -1269,8 +1269,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L301",
       "community": 0,
-      "id": "transcript_export_append_text_block",
-      "norm_label": "_append_text_block()"
+      "norm_label": "_append_text_block()",
+      "id": "transcript_export_append_text_block"
     },
     {
       "label": "render_transcript_markdown()",
@@ -1278,8 +1278,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L308",
       "community": 0,
-      "id": "transcript_export_render_transcript_markdown",
-      "norm_label": "render_transcript_markdown()"
+      "norm_label": "render_transcript_markdown()",
+      "id": "transcript_export_render_transcript_markdown"
     },
     {
       "label": "\u4ece conversation \u4e2d\u63d0\u53d6\u641c\u7d22\u7d22\u5f15\u6761\u76ee\uff0c\u7528\u4e8e\u8f7b\u91cf\u5feb\u901f\u641c\u7d22\u3002",
@@ -1287,8 +1287,8 @@
       "source_file": "/Users/oao/my-brain/tools/conversation-mining/lib/transcript_export.py",
       "source_location": "L164",
       "community": 0,
-      "id": "transcript_export_rationale_164",
-      "norm_label": "\u4ece conversation \u4e2d\u63d0\u53d6\u641c\u7d22\u7d22\u5f15\u6761\u76ee,\u7528\u4e8e\u8f7b\u91cf\u5feb\u901f\u641c\u7d22\u3002"
+      "norm_label": "\u4ece conversation \u4e2d\u63d0\u53d6\u641c\u7d22\u7d22\u5f15\u6761\u76ee,\u7528\u4e8e\u8f7b\u91cf\u5feb\u901f\u641c\u7d22\u3002",
+      "id": "transcript_export_rationale_164"
     }
   ],
   "links": [
@@ -1339,8 +1339,8 @@
       "source_location": "L53",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "build_day_manifest_main",
-      "target": "build_day_manifest_infer_project"
+      "source": "build_day_manifest_infer_project",
+      "target": "build_day_manifest_main"
     },
     {
       "relation": "calls",
@@ -1349,8 +1349,8 @@
       "source_location": "L52",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "build_day_manifest_main",
-      "target": "build_day_manifest_infer_agent"
+      "source": "build_day_manifest_infer_agent",
+      "target": "build_day_manifest_main"
     },
     {
       "relation": "calls",
@@ -1359,8 +1359,8 @@
       "source_location": "L54",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "build_day_manifest_main",
-      "target": "build_day_manifest_infer_title"
+      "source": "build_day_manifest_infer_title",
+      "target": "build_day_manifest_main"
     },
     {
       "relation": "contains",
@@ -1399,8 +1399,8 @@
       "source_location": "L63",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "resolve_project_ref_build_mapping",
-      "target": "resolve_project_ref_parse_frontmatter"
+      "source": "resolve_project_ref_parse_frontmatter",
+      "target": "resolve_project_ref_build_mapping"
     },
     {
       "relation": "rationale_for",
@@ -1409,8 +1409,8 @@
       "source_location": "L28",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "resolve_project_ref_rationale_28",
-      "target": "resolve_project_ref_parse_frontmatter"
+      "source": "resolve_project_ref_parse_frontmatter",
+      "target": "resolve_project_ref_rationale_28"
     },
     {
       "relation": "calls",
@@ -1419,8 +1419,8 @@
       "source_location": "L79",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "resolve_project_ref_main",
-      "target": "resolve_project_ref_build_mapping"
+      "source": "resolve_project_ref_build_mapping",
+      "target": "resolve_project_ref_main"
     },
     {
       "relation": "rationale_for",
@@ -1429,8 +1429,8 @@
       "source_location": "L58",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "resolve_project_ref_rationale_58",
-      "target": "resolve_project_ref_build_mapping"
+      "source": "resolve_project_ref_build_mapping",
+      "target": "resolve_project_ref_rationale_58"
     },
     {
       "relation": "contains",
@@ -1459,8 +1459,8 @@
       "source_location": "L45",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "speak_main",
-      "target": "speak_speak"
+      "source": "speak_speak",
+      "target": "speak_main"
     },
     {
       "relation": "rationale_for",
@@ -1469,8 +1469,8 @@
       "source_location": "L29",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "speak_rationale_29",
-      "target": "speak_speak"
+      "source": "speak_speak",
+      "target": "speak_rationale_29"
     },
     {
       "relation": "contains",
@@ -1499,8 +1499,8 @@
       "source_location": "L66",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcribe_main",
-      "target": "transcribe_transcribe"
+      "source": "transcribe_transcribe",
+      "target": "transcribe_main"
     },
     {
       "relation": "rationale_for",
@@ -1509,8 +1509,8 @@
       "source_location": "L19",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "transcribe_rationale_19",
-      "target": "transcribe_transcribe"
+      "source": "transcribe_transcribe",
+      "target": "transcribe_rationale_19"
     },
     {
       "relation": "contains",
@@ -1569,8 +1569,8 @@
       "source_location": "L121",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "render_graphs_main",
-      "target": "render_graphs_extractdotblocks"
+      "source": "render_graphs_extractdotblocks",
+      "target": "render_graphs_main"
     },
     {
       "relation": "calls",
@@ -1579,8 +1579,8 @@
       "source_location": "L137",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "render_graphs_main",
-      "target": "render_graphs_combinegraphs"
+      "source": "render_graphs_combinegraphs",
+      "target": "render_graphs_main"
     },
     {
       "relation": "calls",
@@ -1589,8 +1589,8 @@
       "source_location": "L138",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "render_graphs_main",
-      "target": "render_graphs_rendertosvg"
+      "source": "render_graphs_rendertosvg",
+      "target": "render_graphs_main"
     },
     {
       "relation": "imports_from",
@@ -1649,8 +1649,8 @@
       "source_location": "L61",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "cli_build_html",
-      "target": "cli_json_for_html_script"
+      "source": "cli_json_for_html_script",
+      "target": "cli_build_html"
     },
     {
       "relation": "calls",
@@ -1659,8 +1659,8 @@
       "source_location": "L89",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "cli_main",
-      "target": "cli_run_export"
+      "source": "cli_run_export",
+      "target": "cli_main"
     },
     {
       "relation": "calls",
@@ -1669,8 +1669,8 @@
       "source_location": "L94",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "cli_main",
-      "target": "cli_build_html"
+      "source": "cli_build_html",
+      "target": "cli_main"
     },
     {
       "relation": "contains",
@@ -1879,8 +1879,8 @@
       "source_location": "L418",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_main",
-      "target": "export_all_load_index"
+      "source": "export_all_load_index",
+      "target": "export_all_main"
     },
     {
       "relation": "calls",
@@ -1889,8 +1889,8 @@
       "source_location": "L452",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_main",
-      "target": "export_all_save_index"
+      "source": "export_all_save_index",
+      "target": "export_all_main"
     },
     {
       "relation": "calls",
@@ -1899,8 +1899,8 @@
       "source_location": "L419",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_main",
-      "target": "export_all_get_existing_ids"
+      "source": "export_all_get_existing_ids",
+      "target": "export_all_main"
     },
     {
       "relation": "calls",
@@ -1909,8 +1909,8 @@
       "source_location": "L147",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_upsert_conversation",
-      "target": "export_all_preserve_existing_fields"
+      "source": "export_all_preserve_existing_fields",
+      "target": "export_all_upsert_conversation"
     },
     {
       "relation": "calls",
@@ -1919,8 +1919,8 @@
       "source_location": "L71",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_normalize_project_metadata",
-      "target": "export_all_clean_metadata_text"
+      "source": "export_all_clean_metadata_text",
+      "target": "export_all_normalize_project_metadata"
     },
     {
       "relation": "calls",
@@ -1929,8 +1929,8 @@
       "source_location": "L103",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_sanitize_conversation_metadata",
-      "target": "export_all_clean_metadata_text"
+      "source": "export_all_clean_metadata_text",
+      "target": "export_all_sanitize_conversation_metadata"
     },
     {
       "relation": "calls",
@@ -1939,8 +1939,8 @@
       "source_location": "L101",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_sanitize_conversation_metadata",
-      "target": "export_all_normalize_project_metadata"
+      "source": "export_all_normalize_project_metadata",
+      "target": "export_all_sanitize_conversation_metadata"
     },
     {
       "relation": "calls",
@@ -1949,8 +1949,8 @@
       "source_location": "L120",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_sanitize_index_metadata",
-      "target": "export_all_sanitize_conversation_metadata"
+      "source": "export_all_sanitize_conversation_metadata",
+      "target": "export_all_sanitize_index_metadata"
     },
     {
       "relation": "calls",
@@ -1959,8 +1959,8 @@
       "source_location": "L139",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_upsert_conversation",
-      "target": "export_all_sanitize_conversation_metadata"
+      "source": "export_all_sanitize_conversation_metadata",
+      "target": "export_all_upsert_conversation"
     },
     {
       "relation": "calls",
@@ -1969,8 +1969,8 @@
       "source_location": "L438",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_main",
-      "target": "export_all_sanitize_index_metadata"
+      "source": "export_all_sanitize_index_metadata",
+      "target": "export_all_main"
     },
     {
       "relation": "calls",
@@ -1979,8 +1979,8 @@
       "source_location": "L140",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_upsert_conversation",
-      "target": "export_all_content_hash"
+      "source": "export_all_content_hash",
+      "target": "export_all_upsert_conversation"
     },
     {
       "relation": "rationale_for",
@@ -1989,8 +1989,8 @@
       "source_location": "L127",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "export_all_rationale_127",
-      "target": "export_all_content_hash"
+      "source": "export_all_content_hash",
+      "target": "export_all_rationale_127"
     },
     {
       "relation": "calls",
@@ -1999,8 +1999,8 @@
       "source_location": "L260",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_export_claude",
-      "target": "export_all_upsert_conversation"
+      "source": "export_all_upsert_conversation",
+      "target": "export_all_export_claude"
     },
     {
       "relation": "calls",
@@ -2009,8 +2009,8 @@
       "source_location": "L313",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_export_codex",
-      "target": "export_all_upsert_conversation"
+      "source": "export_all_upsert_conversation",
+      "target": "export_all_export_codex"
     },
     {
       "relation": "calls",
@@ -2019,8 +2019,8 @@
       "source_location": "L348",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_export_antigravity",
-      "target": "export_all_upsert_conversation"
+      "source": "export_all_upsert_conversation",
+      "target": "export_all_export_antigravity"
     },
     {
       "relation": "rationale_for",
@@ -2029,8 +2029,8 @@
       "source_location": "L137",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "export_all_rationale_137",
-      "target": "export_all_upsert_conversation"
+      "source": "export_all_upsert_conversation",
+      "target": "export_all_rationale_137"
     },
     {
       "relation": "calls",
@@ -2039,8 +2039,8 @@
       "source_location": "L261",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_export_claude",
-      "target": "export_all_make_conv_id"
+      "source": "export_all_make_conv_id",
+      "target": "export_all_export_claude"
     },
     {
       "relation": "calls",
@@ -2049,8 +2049,8 @@
       "source_location": "L314",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_export_codex",
-      "target": "export_all_make_conv_id"
+      "source": "export_all_make_conv_id",
+      "target": "export_all_export_codex"
     },
     {
       "relation": "calls",
@@ -2059,8 +2059,8 @@
       "source_location": "L349",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_export_antigravity",
-      "target": "export_all_make_conv_id"
+      "source": "export_all_make_conv_id",
+      "target": "export_all_export_antigravity"
     },
     {
       "relation": "calls",
@@ -2069,8 +2069,8 @@
       "source_location": "L394",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_main",
-      "target": "export_all_default_markdown_dir"
+      "source": "export_all_default_markdown_dir",
+      "target": "export_all_main"
     },
     {
       "relation": "calls",
@@ -2079,8 +2079,8 @@
       "source_location": "L221",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_materialize_transcripts",
-      "target": "export_all_build_transcript_stem"
+      "source": "export_all_build_transcript_stem",
+      "target": "export_all_materialize_transcripts"
     },
     {
       "relation": "calls",
@@ -2089,8 +2089,8 @@
       "source_location": "L451",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_main",
-      "target": "export_all_materialize_transcripts"
+      "source": "export_all_materialize_transcripts",
+      "target": "export_all_main"
     },
     {
       "relation": "rationale_for",
@@ -2099,8 +2099,8 @@
       "source_location": "L186",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "export_all_rationale_186",
-      "target": "export_all_materialize_transcripts"
+      "source": "export_all_materialize_transcripts",
+      "target": "export_all_rationale_186"
     },
     {
       "relation": "calls",
@@ -2109,8 +2109,8 @@
       "source_location": "L427",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_main",
-      "target": "export_all_export_claude"
+      "source": "export_all_export_claude",
+      "target": "export_all_main"
     },
     {
       "relation": "calls",
@@ -2119,8 +2119,8 @@
       "source_location": "L428",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_main",
-      "target": "export_all_export_codex"
+      "source": "export_all_export_codex",
+      "target": "export_all_main"
     },
     {
       "relation": "calls",
@@ -2129,8 +2129,8 @@
       "source_location": "L430",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_main",
-      "target": "export_all_export_antigravity"
+      "source": "export_all_export_antigravity",
+      "target": "export_all_main"
     },
     {
       "relation": "calls",
@@ -2139,8 +2139,8 @@
       "source_location": "L455",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "export_all_main",
-      "target": "export_all_build_search_index"
+      "source": "export_all_build_search_index",
+      "target": "export_all_main"
     },
     {
       "relation": "rationale_for",
@@ -2149,8 +2149,8 @@
       "source_location": "L369",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "export_all_rationale_369",
-      "target": "export_all_build_search_index"
+      "source": "export_all_build_search_index",
+      "target": "export_all_rationale_369"
     },
     {
       "relation": "contains",
@@ -2339,8 +2339,8 @@
       "source_location": "L333",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_find_sessions",
-      "target": "extract_antigravity_decode_value"
+      "source": "extract_antigravity_decode_value",
+      "target": "extract_antigravity_find_sessions"
     },
     {
       "relation": "calls",
@@ -2349,8 +2349,8 @@
       "source_location": "L71",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_extract_title",
-      "target": "extract_antigravity_clean_text"
+      "source": "extract_antigravity_clean_text",
+      "target": "extract_antigravity_extract_title"
     },
     {
       "relation": "calls",
@@ -2359,8 +2359,8 @@
       "source_location": "L92",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_normalize_title_candidate",
-      "target": "extract_antigravity_clean_text"
+      "source": "extract_antigravity_clean_text",
+      "target": "extract_antigravity_normalize_title_candidate"
     },
     {
       "relation": "calls",
@@ -2369,8 +2369,8 @@
       "source_location": "L104",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_title_from_messages",
-      "target": "extract_antigravity_clean_text"
+      "source": "extract_antigravity_clean_text",
+      "target": "extract_antigravity_title_from_messages"
     },
     {
       "relation": "calls",
@@ -2379,8 +2379,8 @@
       "source_location": "L143",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_append_message",
-      "target": "extract_antigravity_clean_text"
+      "source": "extract_antigravity_clean_text",
+      "target": "extract_antigravity_append_message"
     },
     {
       "relation": "calls",
@@ -2389,8 +2389,8 @@
       "source_location": "L221",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_extract_messages_from_jetski",
-      "target": "extract_antigravity_clean_text"
+      "source": "extract_antigravity_clean_text",
+      "target": "extract_antigravity_extract_messages_from_jetski"
     },
     {
       "relation": "calls",
@@ -2399,8 +2399,8 @@
       "source_location": "L247",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_extract_artifact_heading",
-      "target": "extract_antigravity_clean_text"
+      "source": "extract_antigravity_clean_text",
+      "target": "extract_antigravity_extract_artifact_heading"
     },
     {
       "relation": "calls",
@@ -2409,8 +2409,8 @@
       "source_location": "L74",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_extract_title",
-      "target": "extract_antigravity_looks_human_readable"
+      "source": "extract_antigravity_looks_human_readable",
+      "target": "extract_antigravity_extract_title"
     },
     {
       "relation": "calls",
@@ -2419,8 +2419,8 @@
       "source_location": "L111",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_title_from_messages",
-      "target": "extract_antigravity_looks_human_readable"
+      "source": "extract_antigravity_looks_human_readable",
+      "target": "extract_antigravity_title_from_messages"
     },
     {
       "relation": "calls",
@@ -2429,8 +2429,8 @@
       "source_location": "L188",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_extract_conversations_from_traj",
-      "target": "extract_antigravity_extract_title"
+      "source": "extract_antigravity_extract_title",
+      "target": "extract_antigravity_extract_conversations_from_traj"
     },
     {
       "relation": "calls",
@@ -2439,8 +2439,8 @@
       "source_location": "L109",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_title_from_messages",
-      "target": "extract_antigravity_is_poor_title"
+      "source": "extract_antigravity_is_poor_title",
+      "target": "extract_antigravity_title_from_messages"
     },
     {
       "relation": "calls",
@@ -2449,8 +2449,8 @@
       "source_location": "L190",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_extract_conversations_from_traj",
-      "target": "extract_antigravity_is_poor_title"
+      "source": "extract_antigravity_is_poor_title",
+      "target": "extract_antigravity_extract_conversations_from_traj"
     },
     {
       "relation": "calls",
@@ -2459,8 +2459,8 @@
       "source_location": "L108",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_title_from_messages",
-      "target": "extract_antigravity_normalize_title_candidate"
+      "source": "extract_antigravity_normalize_title_candidate",
+      "target": "extract_antigravity_title_from_messages"
     },
     {
       "relation": "calls",
@@ -2469,8 +2469,8 @@
       "source_location": "L191",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_extract_conversations_from_traj",
-      "target": "extract_antigravity_title_from_messages"
+      "source": "extract_antigravity_title_from_messages",
+      "target": "extract_antigravity_extract_conversations_from_traj"
     },
     {
       "relation": "calls",
@@ -2479,8 +2479,8 @@
       "source_location": "L195",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_extract_conversations_from_traj",
-      "target": "extract_antigravity_extract_project"
+      "source": "extract_antigravity_extract_project",
+      "target": "extract_antigravity_extract_conversations_from_traj"
     },
     {
       "relation": "calls",
@@ -2489,8 +2489,8 @@
       "source_location": "L153",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_extract_messages_from_chunk",
-      "target": "extract_antigravity_extract_json_objects"
+      "source": "extract_antigravity_extract_json_objects",
+      "target": "extract_antigravity_extract_messages_from_chunk"
     },
     {
       "relation": "calls",
@@ -2499,8 +2499,8 @@
       "source_location": "L158",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_extract_messages_from_chunk",
-      "target": "extract_antigravity_append_message"
+      "source": "extract_antigravity_append_message",
+      "target": "extract_antigravity_extract_messages_from_chunk"
     },
     {
       "relation": "calls",
@@ -2509,8 +2509,8 @@
       "source_location": "L351",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_find_sessions",
-      "target": "extract_antigravity_append_message"
+      "source": "extract_antigravity_append_message",
+      "target": "extract_antigravity_find_sessions"
     },
     {
       "relation": "calls",
@@ -2519,8 +2519,8 @@
       "source_location": "L189",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_extract_conversations_from_traj",
-      "target": "extract_antigravity_extract_messages_from_chunk"
+      "source": "extract_antigravity_extract_messages_from_chunk",
+      "target": "extract_antigravity_extract_conversations_from_traj"
     },
     {
       "relation": "calls",
@@ -2529,8 +2529,8 @@
       "source_location": "L334",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_find_sessions",
-      "target": "extract_antigravity_extract_conversations_from_traj"
+      "source": "extract_antigravity_extract_conversations_from_traj",
+      "target": "extract_antigravity_find_sessions"
     },
     {
       "relation": "calls",
@@ -2539,8 +2539,8 @@
       "source_location": "L339",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_find_sessions",
-      "target": "extract_antigravity_extract_messages_from_jetski"
+      "source": "extract_antigravity_extract_messages_from_jetski",
+      "target": "extract_antigravity_find_sessions"
     },
     {
       "relation": "rationale_for",
@@ -2549,8 +2549,8 @@
       "source_location": "L203",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "extract_antigravity_rationale_203",
-      "target": "extract_antigravity_extract_messages_from_jetski"
+      "source": "extract_antigravity_extract_messages_from_jetski",
+      "target": "extract_antigravity_rationale_203"
     },
     {
       "relation": "calls",
@@ -2559,8 +2559,8 @@
       "source_location": "L294",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_collect_brain_artifacts",
-      "target": "extract_antigravity_safe_read_json"
+      "source": "extract_antigravity_safe_read_json",
+      "target": "extract_antigravity_collect_brain_artifacts"
     },
     {
       "relation": "calls",
@@ -2569,8 +2569,8 @@
       "source_location": "L298",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_collect_brain_artifacts",
-      "target": "extract_antigravity_extract_artifact_heading"
+      "source": "extract_antigravity_extract_artifact_heading",
+      "target": "extract_antigravity_collect_brain_artifacts"
     },
     {
       "relation": "calls",
@@ -2579,8 +2579,8 @@
       "source_location": "L348",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_antigravity_find_sessions",
-      "target": "extract_antigravity_collect_brain_artifacts"
+      "source": "extract_antigravity_collect_brain_artifacts",
+      "target": "extract_antigravity_find_sessions"
     },
     {
       "relation": "rationale_for",
@@ -2589,8 +2589,8 @@
       "source_location": "L309",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "extract_antigravity_rationale_309",
-      "target": "extract_antigravity_find_sessions"
+      "source": "extract_antigravity_find_sessions",
+      "target": "extract_antigravity_rationale_309"
     },
     {
       "relation": "contains",
@@ -2719,8 +2719,8 @@
       "source_location": "L377",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_claude_main",
-      "target": "extract_claude_load_history_index"
+      "source": "extract_claude_load_history_index",
+      "target": "extract_claude_main"
     },
     {
       "relation": "rationale_for",
@@ -2729,8 +2729,8 @@
       "source_location": "L21",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "extract_claude_rationale_21",
-      "target": "extract_claude_load_history_index"
+      "source": "extract_claude_load_history_index",
+      "target": "extract_claude_rationale_21"
     },
     {
       "relation": "calls",
@@ -2739,8 +2739,8 @@
       "source_location": "L394",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_claude_main",
-      "target": "extract_claude_find_sessions_by_date"
+      "source": "extract_claude_find_sessions_by_date",
+      "target": "extract_claude_main"
     },
     {
       "relation": "rationale_for",
@@ -2749,8 +2749,8 @@
       "source_location": "L41",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "extract_claude_rationale_41",
-      "target": "extract_claude_find_sessions_by_date"
+      "source": "extract_claude_find_sessions_by_date",
+      "target": "extract_claude_rationale_41"
     },
     {
       "relation": "calls",
@@ -2759,8 +2759,8 @@
       "source_location": "L241",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_claude_extract_conversation",
-      "target": "extract_claude_is_noise"
+      "source": "extract_claude_is_noise",
+      "target": "extract_claude_extract_conversation"
     },
     {
       "relation": "calls",
@@ -2769,8 +2769,8 @@
       "source_location": "L159",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_claude_extract_user_text",
-      "target": "extract_claude_clean_text"
+      "source": "extract_claude_clean_text",
+      "target": "extract_claude_extract_user_text"
     },
     {
       "relation": "calls",
@@ -2779,8 +2779,8 @@
       "source_location": "L180",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_claude_extract_assistant_text",
-      "target": "extract_claude_clean_text"
+      "source": "extract_claude_clean_text",
+      "target": "extract_claude_extract_assistant_text"
     },
     {
       "relation": "calls",
@@ -2789,8 +2789,8 @@
       "source_location": "L271",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_claude_extract_conversation",
-      "target": "extract_claude_clean_text"
+      "source": "extract_claude_clean_text",
+      "target": "extract_claude_extract_conversation"
     },
     {
       "relation": "rationale_for",
@@ -2799,8 +2799,8 @@
       "source_location": "L130",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "extract_claude_rationale_130",
-      "target": "extract_claude_clean_text"
+      "source": "extract_claude_clean_text",
+      "target": "extract_claude_rationale_130"
     },
     {
       "relation": "calls",
@@ -2809,8 +2809,8 @@
       "source_location": "L240",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_claude_extract_conversation",
-      "target": "extract_claude_extract_user_text"
+      "source": "extract_claude_extract_user_text",
+      "target": "extract_claude_extract_conversation"
     },
     {
       "relation": "rationale_for",
@@ -2819,8 +2819,8 @@
       "source_location": "L157",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "extract_claude_rationale_157",
-      "target": "extract_claude_extract_user_text"
+      "source": "extract_claude_extract_user_text",
+      "target": "extract_claude_rationale_157"
     },
     {
       "relation": "calls",
@@ -2829,8 +2829,8 @@
       "source_location": "L287",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_claude_extract_conversation",
-      "target": "extract_claude_extract_assistant_text"
+      "source": "extract_claude_extract_assistant_text",
+      "target": "extract_claude_extract_conversation"
     },
     {
       "relation": "rationale_for",
@@ -2839,8 +2839,8 @@
       "source_location": "L175",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "extract_claude_rationale_175",
-      "target": "extract_claude_extract_assistant_text"
+      "source": "extract_claude_extract_assistant_text",
+      "target": "extract_claude_rationale_175"
     },
     {
       "relation": "calls",
@@ -2849,8 +2849,8 @@
       "source_location": "L416",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_claude_main",
-      "target": "extract_claude_extract_conversation"
+      "source": "extract_claude_extract_conversation",
+      "target": "extract_claude_main"
     },
     {
       "relation": "rationale_for",
@@ -2859,8 +2859,8 @@
       "source_location": "L196",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "extract_claude_rationale_196",
-      "target": "extract_claude_extract_conversation"
+      "source": "extract_claude_extract_conversation",
+      "target": "extract_claude_rationale_196"
     },
     {
       "relation": "calls",
@@ -2869,8 +2869,8 @@
       "source_location": "L315",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_claude_format_conversation",
-      "target": "extract_claude_decode_project_name"
+      "source": "extract_claude_decode_project_name",
+      "target": "extract_claude_format_conversation"
     },
     {
       "relation": "calls",
@@ -2879,8 +2879,8 @@
       "source_location": "L412",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_claude_main",
-      "target": "extract_claude_decode_project_name"
+      "source": "extract_claude_decode_project_name",
+      "target": "extract_claude_main"
     },
     {
       "relation": "calls",
@@ -2889,8 +2889,8 @@
       "source_location": "L432",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_claude_main",
-      "target": "extract_claude_sanitize_filename"
+      "source": "extract_claude_sanitize_filename",
+      "target": "extract_claude_main"
     },
     {
       "relation": "calls",
@@ -2899,8 +2899,8 @@
       "source_location": "L423",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_claude_main",
-      "target": "extract_claude_format_conversation"
+      "source": "extract_claude_format_conversation",
+      "target": "extract_claude_main"
     },
     {
       "relation": "contains",
@@ -3009,8 +3009,8 @@
       "source_location": "L395",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_codex_main",
-      "target": "extract_codex_load_thread_titles"
+      "source": "extract_codex_load_thread_titles",
+      "target": "extract_codex_main"
     },
     {
       "relation": "rationale_for",
@@ -3019,8 +3019,8 @@
       "source_location": "L23",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "extract_codex_rationale_23",
-      "target": "extract_codex_load_thread_titles"
+      "source": "extract_codex_load_thread_titles",
+      "target": "extract_codex_rationale_23"
     },
     {
       "relation": "calls",
@@ -3029,8 +3029,8 @@
       "source_location": "L327",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_codex_extract_conversation",
-      "target": "extract_codex_load_history_for_session"
+      "source": "extract_codex_load_history_for_session",
+      "target": "extract_codex_extract_conversation"
     },
     {
       "relation": "rationale_for",
@@ -3039,8 +3039,8 @@
       "source_location": "L49",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "extract_codex_rationale_49",
-      "target": "extract_codex_load_history_for_session"
+      "source": "extract_codex_load_history_for_session",
+      "target": "extract_codex_rationale_49"
     },
     {
       "relation": "calls",
@@ -3049,8 +3049,8 @@
       "source_location": "L413",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_codex_main",
-      "target": "extract_codex_find_sessions_by_date"
+      "source": "extract_codex_find_sessions_by_date",
+      "target": "extract_codex_main"
     },
     {
       "relation": "rationale_for",
@@ -3059,8 +3059,8 @@
       "source_location": "L67",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "extract_codex_rationale_67",
-      "target": "extract_codex_find_sessions_by_date"
+      "source": "extract_codex_find_sessions_by_date",
+      "target": "extract_codex_rationale_67"
     },
     {
       "relation": "calls",
@@ -3069,8 +3069,8 @@
       "source_location": "L204",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_codex_extract_from_history",
-      "target": "extract_codex_is_system_noise"
+      "source": "extract_codex_is_system_noise",
+      "target": "extract_codex_extract_from_history"
     },
     {
       "relation": "calls",
@@ -3079,8 +3079,8 @@
       "source_location": "L299",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_codex_extract_conversation",
-      "target": "extract_codex_is_system_noise"
+      "source": "extract_codex_is_system_noise",
+      "target": "extract_codex_extract_conversation"
     },
     {
       "relation": "calls",
@@ -3089,8 +3089,8 @@
       "source_location": "L200",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_codex_extract_from_history",
-      "target": "extract_codex_clean_text"
+      "source": "extract_codex_clean_text",
+      "target": "extract_codex_extract_from_history"
     },
     {
       "relation": "calls",
@@ -3099,8 +3099,8 @@
       "source_location": "L269",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_codex_extract_conversation",
-      "target": "extract_codex_clean_text"
+      "source": "extract_codex_clean_text",
+      "target": "extract_codex_extract_conversation"
     },
     {
       "relation": "rationale_for",
@@ -3109,8 +3109,8 @@
       "source_location": "L152",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "extract_codex_rationale_152",
-      "target": "extract_codex_clean_text"
+      "source": "extract_codex_clean_text",
+      "target": "extract_codex_rationale_152"
     },
     {
       "relation": "calls",
@@ -3119,8 +3119,8 @@
       "source_location": "L308",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_codex_extract_conversation",
-      "target": "extract_codex_extract_from_history"
+      "source": "extract_codex_extract_from_history",
+      "target": "extract_codex_extract_conversation"
     },
     {
       "relation": "rationale_for",
@@ -3129,8 +3129,8 @@
       "source_location": "L178",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "extract_codex_rationale_178",
-      "target": "extract_codex_extract_from_history"
+      "source": "extract_codex_extract_from_history",
+      "target": "extract_codex_rationale_178"
     },
     {
       "relation": "calls",
@@ -3139,8 +3139,8 @@
       "source_location": "L433",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_codex_main",
-      "target": "extract_codex_extract_conversation"
+      "source": "extract_codex_extract_conversation",
+      "target": "extract_codex_main"
     },
     {
       "relation": "rationale_for",
@@ -3149,8 +3149,8 @@
       "source_location": "L222",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "extract_codex_rationale_222",
-      "target": "extract_codex_extract_conversation"
+      "source": "extract_codex_extract_conversation",
+      "target": "extract_codex_rationale_222"
     },
     {
       "relation": "calls",
@@ -3159,8 +3159,8 @@
       "source_location": "L440",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_codex_main",
-      "target": "extract_codex_format_conversation"
+      "source": "extract_codex_format_conversation",
+      "target": "extract_codex_main"
     },
     {
       "relation": "calls",
@@ -3169,8 +3169,8 @@
       "source_location": "L443",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "extract_codex_main",
-      "target": "extract_codex_sanitize_filename"
+      "source": "extract_codex_sanitize_filename",
+      "target": "extract_codex_main"
     },
     {
       "relation": "contains",
@@ -3429,8 +3429,8 @@
       "source_location": "L60",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_truncate_text",
-      "target": "transcript_export_strip_markdown_for_text"
+      "source": "transcript_export_strip_markdown_for_text",
+      "target": "transcript_export_truncate_text"
     },
     {
       "relation": "calls",
@@ -3439,8 +3439,8 @@
       "source_location": "L67",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_humanize_title_fragment",
-      "target": "transcript_export_strip_markdown_for_text"
+      "source": "transcript_export_strip_markdown_for_text",
+      "target": "transcript_export_humanize_title_fragment"
     },
     {
       "relation": "calls",
@@ -3449,8 +3449,8 @@
       "source_location": "L167",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_build_search_entry",
-      "target": "transcript_export_strip_markdown_for_text"
+      "source": "transcript_export_strip_markdown_for_text",
+      "target": "transcript_export_build_search_entry"
     },
     {
       "relation": "calls",
@@ -3459,8 +3459,8 @@
       "source_location": "L253",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_render_quick_summary",
-      "target": "transcript_export_clean_project_label"
+      "source": "transcript_export_clean_project_label",
+      "target": "transcript_export_render_quick_summary"
     },
     {
       "relation": "calls",
@@ -3469,8 +3469,8 @@
       "source_location": "L75",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_humanize_title_fragment",
-      "target": "transcript_export_truncate_text"
+      "source": "transcript_export_truncate_text",
+      "target": "transcript_export_humanize_title_fragment"
     },
     {
       "relation": "calls",
@@ -3479,8 +3479,8 @@
       "source_location": "L122",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_extract_command_mentions",
-      "target": "transcript_export_truncate_text"
+      "source": "transcript_export_truncate_text",
+      "target": "transcript_export_extract_command_mentions"
     },
     {
       "relation": "calls",
@@ -3489,8 +3489,8 @@
       "source_location": "L138",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_extract_signal_mentions",
-      "target": "transcript_export_truncate_text"
+      "source": "transcript_export_truncate_text",
+      "target": "transcript_export_extract_signal_mentions"
     },
     {
       "relation": "calls",
@@ -3499,8 +3499,8 @@
       "source_location": "L147",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_pick_final_answer",
-      "target": "transcript_export_truncate_text"
+      "source": "transcript_export_truncate_text",
+      "target": "transcript_export_pick_final_answer"
     },
     {
       "relation": "calls",
@@ -3509,8 +3509,8 @@
       "source_location": "L103",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_extract_file_mentions",
-      "target": "transcript_export_normalize_path_candidate"
+      "source": "transcript_export_normalize_path_candidate",
+      "target": "transcript_export_extract_file_mentions"
     },
     {
       "relation": "calls",
@@ -3519,8 +3519,8 @@
       "source_location": "L103",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_extract_file_mentions",
-      "target": "transcript_export_push_unique"
+      "source": "transcript_export_push_unique",
+      "target": "transcript_export_extract_file_mentions"
     },
     {
       "relation": "calls",
@@ -3529,8 +3529,8 @@
       "source_location": "L122",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_extract_command_mentions",
-      "target": "transcript_export_push_unique"
+      "source": "transcript_export_push_unique",
+      "target": "transcript_export_extract_command_mentions"
     },
     {
       "relation": "calls",
@@ -3539,8 +3539,8 @@
       "source_location": "L138",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_extract_signal_mentions",
-      "target": "transcript_export_push_unique"
+      "source": "transcript_export_push_unique",
+      "target": "transcript_export_extract_signal_mentions"
     },
     {
       "relation": "calls",
@@ -3549,8 +3549,8 @@
       "source_location": "L170",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_build_search_entry",
-      "target": "transcript_export_extract_file_mentions"
+      "source": "transcript_export_extract_file_mentions",
+      "target": "transcript_export_build_search_entry"
     },
     {
       "relation": "calls",
@@ -3559,8 +3559,8 @@
       "source_location": "L255",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_render_quick_summary",
-      "target": "transcript_export_extract_file_mentions"
+      "source": "transcript_export_extract_file_mentions",
+      "target": "transcript_export_render_quick_summary"
     },
     {
       "relation": "calls",
@@ -3569,8 +3569,8 @@
       "source_location": "L171",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_build_search_entry",
-      "target": "transcript_export_extract_command_mentions"
+      "source": "transcript_export_extract_command_mentions",
+      "target": "transcript_export_build_search_entry"
     },
     {
       "relation": "calls",
@@ -3579,8 +3579,8 @@
       "source_location": "L256",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_render_quick_summary",
-      "target": "transcript_export_extract_command_mentions"
+      "source": "transcript_export_extract_command_mentions",
+      "target": "transcript_export_render_quick_summary"
     },
     {
       "relation": "calls",
@@ -3589,8 +3589,8 @@
       "source_location": "L169",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_build_search_entry",
-      "target": "transcript_export_extract_signal_mentions"
+      "source": "transcript_export_extract_signal_mentions",
+      "target": "transcript_export_build_search_entry"
     },
     {
       "relation": "calls",
@@ -3599,8 +3599,8 @@
       "source_location": "L257",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_render_quick_summary",
-      "target": "transcript_export_extract_signal_mentions"
+      "source": "transcript_export_extract_signal_mentions",
+      "target": "transcript_export_render_quick_summary"
     },
     {
       "relation": "calls",
@@ -3609,8 +3609,8 @@
       "source_location": "L254",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_render_quick_summary",
-      "target": "transcript_export_pick_final_answer"
+      "source": "transcript_export_pick_final_answer",
+      "target": "transcript_export_render_quick_summary"
     },
     {
       "relation": "calls",
@@ -3619,8 +3619,8 @@
       "source_location": "L221",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_match_subagent_calls",
-      "target": "transcript_export_prompts_match"
+      "source": "transcript_export_prompts_match",
+      "target": "transcript_export_match_subagent_calls"
     },
     {
       "relation": "rationale_for",
@@ -3629,8 +3629,8 @@
       "source_location": "L164",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "transcript_export_rationale_164",
-      "target": "transcript_export_build_search_entry"
+      "source": "transcript_export_build_search_entry",
+      "target": "transcript_export_rationale_164"
     },
     {
       "relation": "calls",
@@ -3639,8 +3639,8 @@
       "source_location": "L199",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_build_subagent_index",
-      "target": "transcript_export_is_subagent_conversation"
+      "source": "transcript_export_is_subagent_conversation",
+      "target": "transcript_export_build_subagent_index"
     },
     {
       "relation": "calls",
@@ -3649,8 +3649,8 @@
       "source_location": "L343",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_render_transcript_markdown",
-      "target": "transcript_export_get_subagent_display_name"
+      "source": "transcript_export_get_subagent_display_name",
+      "target": "transcript_export_render_transcript_markdown"
     },
     {
       "relation": "calls",
@@ -3659,8 +3659,8 @@
       "source_location": "L322",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_render_transcript_markdown",
-      "target": "transcript_export_build_subagent_index"
+      "source": "transcript_export_build_subagent_index",
+      "target": "transcript_export_render_transcript_markdown"
     },
     {
       "relation": "calls",
@@ -3669,8 +3669,8 @@
       "source_location": "L323",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_render_transcript_markdown",
-      "target": "transcript_export_match_subagent_calls"
+      "source": "transcript_export_match_subagent_calls",
+      "target": "transcript_export_render_transcript_markdown"
     },
     {
       "relation": "calls",
@@ -3679,8 +3679,8 @@
       "source_location": "L310",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_render_transcript_markdown",
-      "target": "transcript_export_render_frontmatter"
+      "source": "transcript_export_render_frontmatter",
+      "target": "transcript_export_render_transcript_markdown"
     },
     {
       "relation": "calls",
@@ -3689,8 +3689,8 @@
       "source_location": "L259",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_render_quick_summary",
-      "target": "transcript_export_append_section"
+      "source": "transcript_export_append_section",
+      "target": "transcript_export_render_quick_summary"
     },
     {
       "relation": "calls",
@@ -3699,8 +3699,8 @@
       "source_location": "L317",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_render_transcript_markdown",
-      "target": "transcript_export_append_section"
+      "source": "transcript_export_append_section",
+      "target": "transcript_export_render_transcript_markdown"
     },
     {
       "relation": "calls",
@@ -3709,8 +3709,8 @@
       "source_location": "L313",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_render_transcript_markdown",
-      "target": "transcript_export_render_quick_summary"
+      "source": "transcript_export_render_quick_summary",
+      "target": "transcript_export_render_transcript_markdown"
     },
     {
       "relation": "calls",
@@ -3719,8 +3719,8 @@
       "source_location": "L315",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_render_transcript_markdown",
-      "target": "transcript_export_render_artifacts"
+      "source": "transcript_export_render_artifacts",
+      "target": "transcript_export_render_transcript_markdown"
     },
     {
       "relation": "calls",
@@ -3729,8 +3729,8 @@
       "source_location": "L348",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_render_transcript_markdown",
-      "target": "transcript_export_role_heading"
+      "source": "transcript_export_role_heading",
+      "target": "transcript_export_render_transcript_markdown"
     },
     {
       "relation": "calls",
@@ -3739,10 +3739,10 @@
       "source_location": "L348",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "transcript_export_render_transcript_markdown",
-      "target": "transcript_export_append_text_block"
+      "source": "transcript_export_append_text_block",
+      "target": "transcript_export_render_transcript_markdown"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "87abc47996dfd571e5f16e03a050757ca76d7b32"
+  "built_at_commit": "3e4d0e8d2426def1bce39881dc9a8f2119e11e87"
 }

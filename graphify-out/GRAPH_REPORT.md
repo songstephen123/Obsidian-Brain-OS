@@ -1,7 +1,7 @@
-# Graph Report - /Users/oao/my-brain  (2026-06-25)
+# Graph Report - /Users/oao/my-brain  (2026-06-26)
 
 ## Corpus Check
-- 389 files · ~325,161 words
+- 399 files · ~328,020 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
