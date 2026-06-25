@@ -3,7 +3,7 @@
 # Source this file at the top of each script:
 #   source "$(dirname "$0")/config.sh"
 
-TRANSCRIPT_ROOT="${TRANSCRIPT_ROOT:-/Volumes/LIZEYU/Converstions}"
+TRANSCRIPT_ROOT="${TRANSCRIPT_ROOT:-/Users/oao/brain-transcripts}"
 BRAIN_ROOT="${BRAIN_ROOT:-/Users/oao/my-brain}"
 OUTPUT_ROOT="${OUTPUT_ROOT:-/tmp}"
 SCRIPT_DIR_REAL="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
