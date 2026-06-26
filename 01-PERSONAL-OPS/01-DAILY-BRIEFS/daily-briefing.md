@@ -1,49 +1,58 @@
 ---
-date: 2026-06-26
+date: 2026-06-27
 week: W26
-updated: 2026-06-26 07:00
+updated: 2026-06-27 07:00
 type: daily-brief
 ---
 
-# 2026-06-26 每日驾驶舱
+# 2026-06-27 每日驾驶舱
 
-> 周五 · W26 第 4 天 · **真相源零输入记录被打破**：`todo-backlog.md` 在 06-25 出现 74 天来首条真实待办
+> 周六 · W26 第 6 天 · **真相源连续 2 天有真实流量**：06-26 一日打入 4 条已完成 + 1 条 P1，Brain OS 长达 74 天的空转判断自然消解
 
 ## 📌 今日状态切换
 
 四份真相源文件状态：
-- `todo-backlog.md` — **✅ 不再全空**：06-25 新增 2 条 P3（搬家 / 公园），最后更新 2026-06-25
+- `todo-backlog.md` — **✅ 持续活跃**：06-26 单日 4 条已完成 + 1 条 P1 新增（佣金政策跟进）。最后更新 2026-06-26
 - `当前承诺事项.md` — 仍空（自 2026-04-13 起）
 - `progress-board.md` — 仍空（自 2026-04-13 起）
-- `decision-queue.md` — 仍空（自 2026-04-13 起，**Brain OS 去留决策第 7 次提醒**）
+- `decision-queue.md` — 仍空（自 2026-04-13 起）
 
-**昨日系统侧进展（06-25 nightly digest 已落盘）**：
-- **Conversation Mining 5 连 no-op 终结**：commit `1e9f7dc` 修复 TRANSCRIPT_ROOT，MVP 路径（跳过 QMD 直接读 transcript）产出第 1 条真实知识笔记 `02-PATTERN-CANDIDATES/conversation-mining-pipeline-architecture.md`
-- **Article Integration 连续第 2 天空跑**（`01-ARTICLE-NOTES/` 仍只有模板）
-- **Amplifier degraded run**（单源，不强行合并 — 设计正确）
-- **06-25 03:00 cron 窗口 3 次 API 529**（上游限流，非阻塞，需观察是否复发）
+**昨日（06-26）真实落地事项**：
+- ✅ 万号引流电信到家商机功能完成测试，正式启动试运营
+- ✅ 本周电信到家重点任务撰写
+- ✅ 响应部门 AI 应用专项行动指引，设立「公域引流运营提质 AI 应用」项目并提报
+- ✅ 线上宽带下半年佣金政策完成修改（**但财务部驳回 → 06-29 周一重新提交**）
+
+**昨日（06-26）系统侧（nightly digest 已落盘）**：
+- Article Integration：**连续第 3 天空**（`01-ARTICLE-NOTES/` 仍只有模板）
+- Conversation Mining：**degraded**（target date 2026-06-26 无 transcript，`convs` 工具缺失）
+- Amplifier：**no-op**（两通道同时空，按设计正确拒绝合并）— **警告：06-27 若仍两通道空，升级为 pipeline health alert**
+
+**🚨 数据完整性异常（今日必须处理）**：
+- 搬家事项在 `todo-backlog.md` 第 49 行仍为 `- [ ]` 未勾选，但日期标的是 `2026-06-26 上午9:00`（昨日 P0）。**昨日驾驶舱把它列为 Top 1，今日状态不明**。需 oao 一句话确认：完成了打勾 / 没完成改期。
 
 ## 一、今天最重要的 3 件事
 
-1. **🏠 搬家（P0，今日上午 9:00）** — 这是 Brain OS 启动 74 天来第一条真实硬截止待办。**必须先于一切**。前一晚确认：物品 / 搬家公司 / 新址钥匙 / 旧址交接。
-2. **在 `decision-queue.md` 写入 Brain OS 去留决策** — 第 7 次提醒。昨日的「06-25 必须落地」已 slip。三选一：① 继续每日 → 立即填真实待办 ② 降频每周一 ③ 暂停每日 cron。**今日再不落地等于默认选 ③**。
-3. **读 `02-PATTERN-CANDIDATES/conversation-mining-pipeline-architecture.md`** — 昨日 MVP 跑出的真实架构笔记，含 B vs C 判断标准（"MVP 已能用 → 装 QMD 是精度升级，不是功能解锁"）。这条标准以后用于评估所有「是否值得装新工具」决策。
+1. **🔧 Pipeline Health Alert 临界日（06-27 是 amplifier 设定的告警日）** — 昨日 nightly digest 明确警告："如果 06-27 两通道仍同时为 0，会升级为 pipeline health alert"。今日二选一即可破局：① 装回 `convs` 恢复 transcript 桥 ② 主动喂 1 篇 article note 进 `01-ARTICLE-NOTES/` 或 `00-INBOX/web|papers|wechat/`。**最低成本：丢 1 篇文章**。
+2. **勾选或改期「搬家」事项** — 昨日 P0 仍未在 todo-backlog 中打勾，状态不一致。一句话处理：完成 → `- [x]`；未完成 → 改期并写明原因。
+3. **下周一（06-29）佣金政策重新提交准备** — 财务部驳回「线上宽带下半年佣金政策」，下周一需重新提交。今日把**财务部异议点**列清楚，避免周一临时梳理。
 
 ## 二、今天必须推进但不必做完
 
-- [ ] 在 `decision-queue.md` 写入 Brain OS 去留决策（继续 / 降频 / 暂停），不再留空
-- [ ] 评估 06-25 03:00 cron 的 3 次 API 529 是否需要挪时间窗 / 加退避（观察 06-26 03:00 log）
-- [ ] 若选「继续每日」→ 往 `todo-backlog.md` 补 ≥2 条本周真实待办（已有 2 条 P3，但都是生活类，工作侧仍空）
+- [ ] 在 `todo-backlog.md` 处理昨日「搬家」未勾选状态（打勾 / 改期 + 原因）
+- [ ] 给 article 通道喂 1 篇文章（任意 web/paper/wechat），破连续 3 天空转
+- [ ] 梳理佣金政策财务部异议点（为 06-29 周一重新提交做准备）
+- [ ] 周日公园出行准备（路线 / 装备 / 天气确认）
 
 ## 三、今天等待反馈 / 需要催办
 
-（暂无 — 无活跃承诺事项）
+（暂无 — `当前承诺事项.md` 仍空，无对外承诺在追）
 
 ## 四、今天需要拍板的事
 
-- **Brain OS 每日 cron：继续 / 降频（每周一）/ 暂停** — 74 天第 7 次提醒，今日必须落地进 `decision-queue.md`
-- **搬家时间窗冲突**：9:00 AM 搬家 vs 07:00 AM 本驾驶舱已先跑完。如搬家延误占用全天，下午 15:00 / 20:00 todo 提醒是否暂停一日？
-- **06-25 03:00 API 529 复发处理**：是否提前 30 分钟到 02:30、或加退避
+- **Pipeline 是否进入 health alert**：今日是否补料（article 或 transcript），决定 nightly pipeline 是否首次正式告警
+- **`convs` 工具是否今日装回**：若不装，conversation 通道会持续 degraded，长期看会拖累 pattern candidate 升级
+- **Brain OS 决策（原第 7 次提醒 → 今日自然消解）**：06-26 单日 4 条已完成 + 1 条 P1 已证明系统在被真实使用。建议**今日正式关闭此项决策**，不再作为"待决策"挂着；如同意，我下一轮可以代写入 `decision-queue.md` 的"已关闭"区。
 
 ## 五、今天可委派的事
 
@@ -51,10 +60,10 @@ type: daily-brief
 
 ## 六、低能量时可做的小事
 
-- [ ] 读昨日 conversation-mining 产出的 pattern candidate（1 篇笔记，<5 分钟）
-- [ ] 在 `todo-backlog.md` 把搬家完成后补 1 条「搬家后整理」P2
-- [ ] 确认 06-26 03:00 conversation cron 是否仍触发 API 529（一行 `tail` 看 `.cron-logs/`）
-- [ ] 往 `00-INBOX/web` 或 `01-ARTICLE-NOTES/` 放 1 篇文章（Article 侧已连续 2 天无输入）
+- [ ] 丢 1 篇文章进 `00-INBOX/web/`（<2 分钟，破 article 3 天空转）
+- [ ] 打开 `01-PERSONAL-OPS/03-TODOS-AND-FOLLOWUPS/decision-queue.md` 写入"Brain OS 决策已关闭 - 原因 06-26 单日 4 条真实完成"（<2 分钟）
+- [ ] 查周日杭州天气（公园事项，<1 分钟）
+- [ ] 在 `todo-backlog.md` 末尾把 4 条已完成事项归档到"本月已完成"区（<3 分钟）
 
 ## 七、今天明确不做
 
@@ -62,32 +71,33 @@ type: daily-brief
 - 新建额外 cron 任务或副本文件
 - 恢复已关闭的云文档同步
 - 把已完成的 Agora MVP 重新写成当前主任务
-- 在搬家日安排任何深度工作块
+- 在周六安排深度工作块（周末节奏为主）
 
 ## 八、今日提醒
 
-- **周五 W26 第 4 天** — 本周剩 1 个工作日
-- **🏠 搬家日 9:00 AM** — 74 天来第一条真实 P0，今日以它为锚
-- **Conversation Mining 通道恢复**：`1e9f7dc` 修复后第 1 条真实笔记已落盘，证明 MVP 路径成立
-- **Article 通道第 2 天空**：投喂任意 1 篇即可触发 02:00
-- **Brain OS 空转 74 天** — 第 7 次提醒，决策不能再 slip
+- **周六 W26 第 6 天** — 本周仅剩 1 天（周日为公园日，非工作日）
+- **📅 周日 06-28 15:00 公园**（todo-backlog P3，明日执行）
+- **📅 周一 06-29 佣金政策重新提交**（财务部驳回后跟进）
+- **🚨 Pipeline health alert 临界日** — 今日补料即解除
+- **✅ Brain OS 空转期自然结束** — 06-26 单日 4 条真实完成，原"去留决策"可正式关闭
+- **🚨 搬家事项状态不一致** — 昨日 P0 未勾选，今日必须澄清
 
 ## 九、🧠 昨日知识信号
 
-> 昨日 nightly digest（2026-06-25）首次产出真实单源笔记 — Article 空 / Conversation 真实产出 / Amplifier 单源 degraded（设计正确）
+> 昨日 nightly digest（2026-06-26）三条夜间通道全部空转 / degraded — Article 连续 3 天 / Conversation 首次 target-date 缺 transcript / Amplifier 设计正确地拒绝跨源合并
 
 📌 **关键发现**
-- **Conversation Mining 5 连 no-op 终结**：commit `1e9f7dc` 修复 `TRANSCRIPT_ROOT` 后，MVP 路径直接读 transcript 产出首条笔记 `conversation-mining-pipeline-architecture.md`。**装 QMD 不再是功能解锁，而是精度升级** — 这条标准以后用于评估所有"是否装新工具"的决策。
-- **Article 通道干净空第 2 天**：`01-ARTICLE-NOTES/` 仍只有模板，inbox 入口全空。
-- **Amplifier 正确地拒绝跨源合并**：单源时未强行合 topic-map，避免污染 provenance — 设计正确，不是漏跑。
-- **API 529 首次出现在 03:00 cron 窗口**：3 次上游限流，非阻塞，需观察 06-26 是否复发。
+- **Conversation Mining degraded**：target date `2026-06-26/` 不存在，`convs` 工具缺失导致 export 桥无法回填。最近可用 transcript 停在 06-25 — 与 06-25 刚修复的 5 连 no-op 形成**第二次 transcript 缺口**。
+- **Article 通道连续第 3 天空**：`01-ARTICLE-NOTES/` 仍只有 template，inbox 三类入口（web/papers/wechat）全空。这是 06-25 第 2 天 → 06-26 第 3 天，**今日再空即触发 amplifier health alert**。
+- **Amplifier 诚实空转**：单源时未强行合 topic-map，未生成 research seed，未触发深度研究 — 失败契约执行正确，不是漏跑。
+- **跨源汇合 0 次 / Pattern candidate 升级 0 条**：06-25 的 `conversation-mining-pipeline-architecture.md` 仍保持候选态，缺第二源 corroborate。
 
 💡 **灵感 / 待跟进**
-- **MVP 路径已能产出真实笔记** → 装 QMD 优先级降级为「精度优化」而非「关键阻塞」。本周可暂缓。
-- **`02-PATTERN-CANDIDATES/` 已有真实数据点**：06-24 的 tooling-ecosystem 草稿 + 06-25 的 pipeline-architecture，两条同源（对话通道）。**等文章通道 corroborate 即可升级 topic-map**。
-- 触发深研：否（单源 + 数据点不足 2 条以上）。
+- **今日是 pipeline 健康度临界日**：amplifier 自己设定的"06-27 仍空 → 升级 health alert"今日到期。最低成本破局 = 丢 1 篇 article。
+- **`convs` 工具缺失是新出现的根因**：06-25 才修了 `TRANSCRIPT_ROOT`，06-26 又出现 `convs` 缺失 — 桥的稳定性本身需要列入观察。
+- **触发深研**：否（无新数据点，单日全空）。
 
-[[03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-06-25|查看完整 nightly digest →]]
+[[03-KNOWLEDGE/01-READING/04-DIGESTS/nightly-digest-2026-06-26|查看完整 nightly digest →]]
 
 ---
-*最后更新：2026-06-26 07:00*
+*最后更新：2026-06-27 07:00*
