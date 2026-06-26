@@ -26,8 +26,13 @@ status: draft
 
 ## 03:00 Conversation Mining
 
-<!-- 由 conversation-knowledge-mining pipeline 填写 -->
-*Pending...*
+**Degraded — 无 transcript 可挖。** 目标日期 `/Users/oao/brain-transcripts/2026-06-26/` 不存在，export-conversations 也因 `convs` 工具缺失无法回填。最近一份可用 transcript 停在 06-25。
+
+- 处理对话：0（target date 完全无文件）
+- 新增 knowledge note：0
+- 值不值得看：不值得，本节跳过即可
+
+> 触发条件：安装 `convs` 或确认 export 桥正常 → transcript 目录恢复后，下一次 03:00 会自动干活。机器报告见 `99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/2026-06-26/conversation-mining-report-2026-06-26.md`。
 
 ---
 
