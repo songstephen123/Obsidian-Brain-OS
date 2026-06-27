@@ -131,49 +131,6 @@ docs/zh/               ← 中文文档（完整翻译）
 
 ---
 
-## 🍎 Apple 提醒事项集成
-
-Brain OS 内置了 Brain 待办与 Apple 提醒事项的**双向同步**——让你的知识库与原生任务管理器保持连通。
-
-### 工作原理
-
-```
-07:30 → brain-to-reminders.sh
-         从 daily-briefing.md 提取今日优先事项
-         推送到 Apple 提醒事项（「Brain今日」列表）
-         → iPhone / Apple Watch 上可直接看到 Brain 待办
-
-21:00 → reminders-to-brain.sh
-         从 Apple 提醒事项读取完成状态
-         将同步报告写回 Brain
-         → 已完成事项在晚间复盘中得到反映
-```
-
-### 配置方法
-
-1. 安装 [`remindctl`](https://github.com/nicholasgasior/remindctl) — Apple 提醒事项的命令行工具
-2. 在 `config.env` 中配置列表名：
-   ```bash
-   REMINDERS_LIST="Brain今日"   # 或任意列表名
-   ```
-3. 添加两个 cron 任务：`prompts/cron/brain-to-reminders-0730.md` 和 `prompts/cron/reminders-to-brain-2100.md`
-4. 手动测试：
-   ```bash
-   bash scripts/brain-to-reminders.sh
-   bash scripts/reminders-to-brain.sh
-   ```
-
-### 同步内容
-
-- **早上（07:30）**：从 `daily-briefing.md` 提取今日优先事项 → 推送到提醒事项（带截止时间）
-- **晚上（21:00）**：回写完成状态 → 同步报告写入 `01-PERSONAL-OPS/05-OPS-LOGS/`
-- **去重**：已存在的提醒事项自动跳过
-- **过期跟踪**：未完成的过期事项在晚间报告中标记
-
-> **仅支持 macOS。** 需要 `remindctl` 和 Apple 提醒事项 App。
-
----
-
 ## 设计理念
 
 > **上下文是基础设施。知识是复利。**

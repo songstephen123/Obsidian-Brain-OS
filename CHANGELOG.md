@@ -4,6 +4,19 @@ All notable changes to Obsidian Brain OS are documented here.
 
 ---
 
+## [Unreleased]
+
+### Removed
+
+- **`scripts/brain-to-reminders.sh`** + **`scripts/reminders-to-brain.sh`** — Apple Reminders 双向同步。用户不用 iPhone，整体移除。
+- **`prompts/cron/brain-to-reminders-0730.md`** + **`prompts/cron/reminders-to-brain-2100.md`** — 上面两个脚本的 cron 入口。
+- **`prompts/cron/observer-daily-0001.md`** + **`skills/observer/`** — OpenClaw 旧系统的自我进化观察员，从未启用。
+- **`prompts/cron/chronicle-every-2h-log.md`** — Discord 频道史官。用户在飞书，不用 Discord。
+- **`prompts/cron/conversation-knowledge-flywheel-nightly.md`** — 已被拆分为 02/03/04 三步管道。
+- **`prompts/cron/daily-timesheet-1730.md`** + **`skills/daily-timesheet/`** — 旧工时系统（扫 git 提交）。被 `scripts/kb-worklog.sh`（员工主动报工时）替代。
+
+---
+
 ## [0.4.0] — 2026-04-12
 
 ### Added
