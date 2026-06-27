@@ -88,7 +88,7 @@ Runs `scripts/knowledge-lint.sh` to check knowledge base health:
 - Stale entries (active but not updated in 30+ days)
 - Tag consistency
 
-Output: `12-REVIEWS/KNOWLEDGEBASE/lint-YYYY-MM-DD.md`
+Output: `03-KNOWLEDGE/99-SYSTEM/lint-reports/lint-YYYY-MM-DD.md`
 
 ### Daily Knowledge Canvas (05:00)
 

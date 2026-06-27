@@ -9,7 +9,7 @@ set -euo pipefail
 # 优先用命令行参数，其次用环境变量，最后用默认值
 BRAIN_ROOT="${1:-${BRAIN_PATH:-./vault-template}}"
 DOMAINS_DIR="$BRAIN_ROOT/03-KNOWLEDGE/01-READING/01-DOMAINS"
-REVIEWS_DIR="$BRAIN_ROOT/12-REVIEWS/KNOWLEDGEBASE"
+REVIEWS_DIR="$BRAIN_ROOT/03-KNOWLEDGE/99-SYSTEM/lint-reports"
 DATE=$(date +%Y-%m-%d)
 REPORT="$REVIEWS_DIR/lint-$DATE.md"
 

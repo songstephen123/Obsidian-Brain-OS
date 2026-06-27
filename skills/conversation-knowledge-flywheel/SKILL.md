@@ -36,7 +36,6 @@ Downstream / upstream contract:
 - this stage may read article-derived knowledge as context, but does not normalize article notes
 - 04:00 amplifier may read this stage's notes, daily suggestions block, and candidate research seeds
 - Preferred upstream read order for 03:00: shared nightly digest → `03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/YYYY-MM-DD/` → stable indexes only if needed
-- Do **not** rely on legacy article report paths under `12-REVIEWS/KNOWLEDGEBASE/` for this split pipeline
 
 ## Out of Scope (for now)
 

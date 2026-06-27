@@ -140,7 +140,7 @@ Nightly Pipeline 静默运行：
 ```
 1. 每周一 01:00 AI 自动运行 knowledge-lint
 2. 检查：缺失字段、断链、孤立页面、过期内容
-3. 生成报告到 `12-REVIEWS/KNOWLEDGEBASE/`
+3. 生成报告到 `03-KNOWLEDGE/99-SYSTEM/lint-reports/`
 4. 你看一下报告，决定要不要清理
 ```
 

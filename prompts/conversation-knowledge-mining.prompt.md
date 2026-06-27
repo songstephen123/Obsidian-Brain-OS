@@ -24,7 +24,6 @@ Handoff rules:
 - If detailed debugging is needed, read machine-facing reports from `03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/YYYY-MM-DD/`.
 - If 02:00 outputs are missing, continue in degraded mode and say so explicitly.
 - Upstream read order is fixed: shared nightly digest → `03-KNOWLEDGE/99-SYSTEM/03-INTEGRATION-REPORTS/run-reports/YYYY-MM-DD/` → stable indexes only if needed.
-- Do not rely on legacy report paths under `12-REVIEWS/KNOWLEDGEBASE/`.
 - Even on no-op / degraded / transcript-missing / QMD-unhealthy runs, you MUST still write both the machine-facing run report and the digest section.
 
 Digest writing rules:

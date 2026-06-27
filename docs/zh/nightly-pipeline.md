@@ -90,7 +90,7 @@
 - 停滞条目（活跃但 30 天以上未更新）
 - 标签一致性
 
-输出：`12-REVIEWS/KNOWLEDGEBASE/lint-YYYY-MM-DD.md`
+输出：`03-KNOWLEDGE/99-SYSTEM/lint-reports/lint-YYYY-MM-DD.md`
 
 ### 每日知识画布（05:00）
 

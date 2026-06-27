@@ -86,7 +86,7 @@ A successful run should produce some or all of:
 - 若文章无明显 open questions，skip 此步骤
 
 ### Step 4：Consume latest lint report（不再重复执行）
-- 若 `12-REVIEWS/KNOWLEDGEBASE/` 下存在最近 24 小时内的 lint 报告，可读取其摘要作为 integration 的参考上下文
+- 若 `03-KNOWLEDGE/99-SYSTEM/lint-reports/` 下存在最近 24 小时内的 lint 报告，可读取其摘要作为 integration 的参考上下文
 - 若最新 lint 报告含 🔴 级问题，在 integration report 中单独标注
 - 本 skill **不再主动执行 lint**；知识库 lint 由独立的 `knowledge-lint-weekly` job 负责，避免重复运行
 
