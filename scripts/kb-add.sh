@@ -3,6 +3,7 @@
 #
 # Usage:
 #   kb-add file <文件路径> [分类]        # 文件入库（自动 markitdown）
+#   kb-add url  <URL> [分类]             # URL 入库（markitdown 抓取 + 转换）
 #   kb-add text <分类> "<标题>" "<内容>"  # 文字入库
 #
 # 分类可选: 业务知识 / 数据 / PPT / 文档（默认按文件类型或"业务知识"）
@@ -114,8 +115,55 @@ case "$1" in
         echo "✓ 已入库：$CATEGORY/$DATE-$SLUG.md"
         ;;
 
+    url)
+        URL="$2"
+        CATEGORY="${3:-文档}"
+        if [[ -z "$URL" ]]; then
+            echo "❌ 缺少 URL" >&2
+            exit 1
+        fi
+        if [[ ! "$URL" =~ ^https?:// ]]; then
+            echo "❌ URL 必须以 http:// 或 https:// 开头" >&2
+            exit 1
+        fi
+
+        # 用 markitdown 抓取并转换
+        BODY=$(markitdown "$URL" 2>/dev/null)
+        if [[ -z "$BODY" || "$BODY" == *"ERROR"* ]]; then
+            echo "❌ markitdown 抓取失败：$URL" >&2
+            exit 1
+        fi
+
+        # 从 URL 推断标题（取最后一截 path，去掉 .html / 查询参数）
+        SLUG=$(echo "$URL" | sed -E 's|^[^:]+://||' | sed -E 's|/+$||' | sed -E 's|.*/||' | sed -E 's|\.[a-z]+$||' | sed -E 's|[^a-zA-Z0-9_-]+|_|g' | head -c 60)
+        [[ -z "$SLUG" ]] && SLUG="web-page"
+        TITLE="$SLUG"
+
+        # 简化分类：URL 默认进"业务知识"（外部文章通常是业务/行业内容）
+        # 但用户可以传第 3 个参数指定分类
+        OUT_FILE="$BASE/$CATEGORY/$DATE-$SLUG.md"
+        mkdir -p "$BASE/$CATEGORY"
+
+        {
+            echo "---"
+            echo "title: \"$TITLE\""
+            echo "type: web"
+            echo "source_url: $URL"
+            echo "author: \"$(whoami)\""
+            echo "date: $DATE"
+            echo "tags: []"
+            echo "---"
+            echo ""
+            echo "$BODY"
+        } > "$OUT_FILE"
+
+        echo "✓ 已入库：$CATEGORY/$DATE-$SLUG.md"
+        echo "  来源：$URL"
+        ;;
+
     *)
         echo "Usage: kb-add file <文件路径> [分类]"
+        echo "       kb-add url <URL> [分类]"
         echo "       kb-add text <分类> \"<标题>\" \"<内容>\""
         exit 1
         ;;
