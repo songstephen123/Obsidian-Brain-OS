@@ -252,16 +252,20 @@ if ask_yn "Install core skills to $SKILLS_PATH?" "y"; then
   fi
 
   if ask_yn "Also install recommended skills?" "y"; then
-    for skill_dir in "$REPO_DIR/skills/recommended"/*/; do
-      skill_name="$(basename "$skill_dir")"
-      target="$SKILLS_PATH/$skill_name"
-      if [[ -d "$target" ]]; then
-        print_warn "Skill '$skill_name' already exists — skipping"
-      else
-        cp -r "$skill_dir" "$target"
-        print_ok "Installed: $skill_name"
-      fi
-    done
+    if [[ -d "$REPO_DIR/skills/recommended" ]]; then
+      for skill_dir in "$REPO_DIR/skills/recommended"/*/; do
+        skill_name="$(basename "$skill_dir")"
+        target="$SKILLS_PATH/$skill_name"
+        if [[ -d "$target" ]]; then
+          print_warn "Skill '$skill_name' already exists — skipping"
+        else
+          cp -r "$skill_dir" "$target"
+          print_ok "Installed: $skill_name"
+        fi
+      done
+    else
+      print_warn "skills/recommended/ not found — skipping"
+    fi
   fi
 fi
 

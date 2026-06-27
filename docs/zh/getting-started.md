@@ -79,8 +79,6 @@ TRANSCRIPT_DIR="$HOME/transcripts"    # AI 对话导出位置
 安装以下 skills：
 - `skills/article-notes-integration/`
 - `skills/deep-research/`
-- `skills/recommended/planning-with-files/`
-- `skills/recommended/brainstorming/`
 
 设置以下 cron job（来自 `cron-examples/nightly-pipeline.json`）：
 - `article-notes-integration-nightly` (02:00)
@@ -114,7 +112,6 @@ cp -r skills/article-notes-integration/ ~/.agents/skills/
 cp -r skills/personal-ops-driver/ ~/.agents/skills/
 
 # 或安装所有推荐的 skills
-cp -r skills/recommended/*/ ~/.agents/skills/
 ```
 
 然后更新每个 `SKILL.md` 中的占位符值：

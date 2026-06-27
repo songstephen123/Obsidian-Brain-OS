@@ -77,8 +77,6 @@ Best for: building a personal knowledge base, organizing research
 Install these skills:
 - `skills/article-notes-integration/`
 - `skills/deep-research/`
-- `skills/recommended/planning-with-files/`
-- `skills/recommended/brainstorming/`
 
 Set up these cron jobs (from `cron-examples/nightly-pipeline.json`):
 - `article-notes-integration-nightly` (02:00)
@@ -112,7 +110,6 @@ cp -r skills/article-notes-integration/ ~/.agents/skills/
 cp -r skills/personal-ops-driver/ ~/.agents/skills/
 
 # Or install all recommended skills
-cp -r skills/recommended/*/ ~/.agents/skills/
 ```
 
 Then update the placeholder values in each `SKILL.md`:
