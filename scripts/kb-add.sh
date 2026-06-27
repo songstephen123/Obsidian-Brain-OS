@@ -71,12 +71,16 @@ case "$1" in
         BODY=$(markitdown -p "$FILE_PATH" 2>/dev/null || echo "（markitdown 转换失败，请手动检查原文件）")
 
         # 写入 markdown（frontmatter + body）
+        # source/topic/process 留 auto 占位，由 Claude 在调用后用 Edit 回填
         {
             echo "---"
             echo "title: \"${FILENAME%.*}\""
             echo "type: $TYPE"
             echo "author: \"$(whoami)\""
             echo "date: $DATE"
+            echo "source: auto              # internal | external | auto（待 Claude 回填）"
+            echo "topic: []                 # 待 Claude 回填，如 [客户A, 销售复盘]"
+            echo "process: auto             # yes | no | auto（是否进提炼管道，待 Claude 回填）"
             echo "tags: []"
             echo "source_file: _originals/$(basename "$ORIG_FILE")"
             echo "---"
@@ -86,6 +90,8 @@ case "$1" in
 
         echo "✓ 已入库：$CATEGORY/$DATE-$SLUG.md"
         echo "  原文件：_originals/$(basename "$ORIG_FILE")"
+        echo "  ⚠ frontmatter 的 source/topic/process 字段是 auto 占位"
+        echo "    Claude 调用时应继续用 Edit 工具回填（读内容 → 推断标签 → 改 frontmatter）"
         ;;
 
     text)
@@ -106,6 +112,9 @@ case "$1" in
             echo "type: text"
             echo "author: \"$(whoami)\""
             echo "date: $DATE"
+            echo "source: auto              # internal | external | auto（待 Claude 回填）"
+            echo "topic: []                 # 待 Claude 回填"
+            echo "process: auto             # yes | no | auto（待 Claude 回填）"
             echo "tags: []"
             echo "---"
             echo ""
@@ -113,6 +122,7 @@ case "$1" in
         } > "$OUT_FILE"
 
         echo "✓ 已入库：$CATEGORY/$DATE-$SLUG.md"
+        echo "  ⚠ frontmatter 的 source/topic/process 字段是 auto 占位，Claude 应继续用 Edit 回填"
         ;;
 
     url)
@@ -139,8 +149,8 @@ case "$1" in
         [[ -z "$SLUG" ]] && SLUG="web-page"
         TITLE="$SLUG"
 
-        # 简化分类：URL 默认进"业务知识"（外部文章通常是业务/行业内容）
-        # 但用户可以传第 3 个参数指定分类
+        # URL 默认进"业务知识"（外部文章通常是业务/行业内容）
+        # 用户可传第 3 个参数指定分类
         OUT_FILE="$BASE/$CATEGORY/$DATE-$SLUG.md"
         mkdir -p "$BASE/$CATEGORY"
 
@@ -151,6 +161,9 @@ case "$1" in
             echo "source_url: $URL"
             echo "author: \"$(whoami)\""
             echo "date: $DATE"
+            echo "source: external          # URL 入库默认 external"
+            echo "topic: []                 # 待 Claude 回填"
+            echo "process: auto             # yes | no | auto（待 Claude 回填）"
             echo "tags: []"
             echo "---"
             echo ""
@@ -159,6 +172,7 @@ case "$1" in
 
         echo "✓ 已入库：$CATEGORY/$DATE-$SLUG.md"
         echo "  来源：$URL"
+        echo "  ⚠ frontmatter 的 topic/process 字段是占位，Claude 应继续用 Edit 回填"
         ;;
 
     *)
