@@ -10,20 +10,23 @@ Brain OS is your personal knowledge management and operations system. It runs on
 
 ```
 my-brain/
-├── 00-INBOX/           # Input collection point
-│   ├── todo-backlog.md  # Master todo list
-│   ├── ai-conversations/
-│   ├── web/
-│   ├── office/
-│   └── ...
-├── 01-PERSONAL-OPS/    # Personal operations
+├── 00-INBOX/                       # Input collection point
+│   └── todo-backlog.md             # Master todo list
+├── 01-PERSONAL-OPS/                # Personal operations
 │   ├── 01-DAILY-BRIEFS/daily-briefing.md
 │   ├── 02-PLANS-AND-SCHEDULES/
 │   ├── 03-TODOS-AND-FOLLOWUPS/
-│   └── 04-MONTHLY-MILESTONES/
-├── 04-SYSTEM/          # System prompts & skills
-├── prompts/cron/       # Cron task definitions
-└── graphify-out/       # Knowledge graph output
+│   ├── 04-MONTHLY-MILESTONES/
+│   └── 06-TIMESHEETS/              # Employee work-record intake (Lark bridge)
+├── 02-TEAM/                        # Team collaboration
+├── 03-KNOWLEDGE/
+│   ├── 01-READING/                 # Polished knowledge notes
+│   ├── 02-WORKING/                 # AI workshop + canvases/
+│   ├── 99-SYSTEM/                  # Pipeline internals (lint-reports, run-reports, ...)
+│   └── TEAM-ASSETS/                # Team knowledge base (markitdown intake)
+├── 05-PROJECTS/                    # Project registry
+├── prompts/cron/                   # Cron task definitions
+└── graphify-out/                   # Knowledge graph output
 ```
 
 ## Core Skills (use these directly)
