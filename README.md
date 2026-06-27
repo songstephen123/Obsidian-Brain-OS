@@ -133,7 +133,6 @@ docs/zh/               ← 中文文档（Chinese translations）
 | `prompts/` | Nightly pipeline prompt templates (8 files) |
 | `skills/` | 9 core + 18 recommended agent skills |
 | `tools/conversation-mining/` | Conversation mining tool (embedded) |
-| `cron-examples/` | OpenClaw cron configs (7 jobs) |
 | `docs/` | Full English documentation |
 | `docs/zh/` | Full Chinese documentation |
 

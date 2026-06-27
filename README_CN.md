@@ -125,7 +125,6 @@ docs/zh/               ← 中文文档（完整翻译）
 | `prompts/` | Nightly Pipeline 提示词模板（8 个，覆盖率 100%） |
 | `skills/` | 9 个核心 + 18 个推荐 Agent Skills |
 | `tools/conversation-mining/` | 对话挖掘工具（内嵌，无需额外安装） |
-| `cron-examples/` | OpenClaw Cron 配置（7 个 job） |
 | `docs/` | 完整英文文档（14 篇） |
 | `docs/zh/` | 完整中文文档（16 篇，含 agents/chronicle/qmd 等） |
 

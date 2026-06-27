@@ -139,7 +139,7 @@ fi
 # =============================================================================
 print_step "Step 2: User Info"
 
-ask "Your name (used in templates and daily briefs)" "songstephen"
+ask "Your name (used in templates and daily briefs)" "$USER"
 USER_NAME="$REPLY"
 
 ask "Your timezone (e.g., Asia/Shanghai, America/New_York)" "$(date +%Z)"
@@ -153,9 +153,9 @@ LANGUAGE="$REPLY"
 # =============================================================================
 print_step "Step 3: Path Configuration"
 
-DEFAULT_WORKSPACE="$HOME/.openclaw/workspace"
+DEFAULT_WORKSPACE="$HOME/.brain-workspace"
 if $TEST_MODE; then DEFAULT_WORKSPACE="$TEST_BASE/workspace"; fi
-ask "Your OpenClaw workspace path" "$DEFAULT_WORKSPACE"
+ask "Your workspace path" "$DEFAULT_WORKSPACE"
 WORKSPACE_PATH="$REPLY"
 
 DEFAULT_SKILLS="$HOME/.agents/skills"
@@ -273,12 +273,12 @@ fi
 # Step 7: Replace placeholders in cron examples
 # =============================================================================
 print_step "Step 7: Prepare Cron Templates (Optional)"
-echo "If you use OpenClaw, you can import cron jobs for the nightly pipeline."
+echo "If you use a cron-based nightly pipeline, you can import these job templates."
 
-CRON_OUT_DIR="$REPO_DIR/cron-examples/generated"
+CRON_OUT_DIR="$REPO_DIR/docs/legacy-cron/generated"
 mkdir -p "$CRON_OUT_DIR"
 
-for template in "$REPO_DIR/cron-examples"/*.json; do
+for template in "$REPO_DIR/docs/legacy-cron"/*.json; do
   filename="$(basename "$template")"
   output="$CRON_OUT_DIR/$filename"
   sed \
@@ -290,13 +290,13 @@ for template in "$REPO_DIR/cron-examples"/*.json; do
     -e "s|Asia/Shanghai|$TIMEZONE|g" \
     -e "s|{{DISCORD_WEBHOOK_URL}}||g" \
     "$template" > "$output"
-  print_ok "Generated: cron-examples/generated/$filename"
+  print_ok "Generated: docs/legacy-cron/generated/$filename"
 done
 
 echo ""
-echo -e "${YELLOW}To import cron jobs into OpenClaw:${NC}"
-echo "  openclaw cron import $CRON_OUT_DIR/nightly-pipeline.json"
-echo "  openclaw cron import $CRON_OUT_DIR/personal-ops.json"
+echo -e "${YELLOW}To import these cron jobs:${NC}"
+echo "  crontab $CRON_OUT_DIR/nightly-pipeline.json"
+echo "  crontab $CRON_OUT_DIR/personal-ops.json"
 echo ""
 echo -e "${YELLOW}Remember to set DISCORD_WEBHOOK_URL in the generated files if you use webhooks.${NC}"
 
